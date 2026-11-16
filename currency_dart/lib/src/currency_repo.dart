@@ -17,7 +17,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "AFN": {
@@ -35,7 +34,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ALL": {
@@ -53,7 +51,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "AMD": {
@@ -71,7 +68,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ANG": {
@@ -91,7 +87,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2025-03",
     },
     "AOA": {
@@ -109,7 +104,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ARS": {
@@ -127,7 +121,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "AUD": {
@@ -153,7 +146,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "AWG": {
@@ -171,7 +163,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "AZN": {
@@ -189,7 +180,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BAM": {
@@ -207,7 +197,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BBD": {
@@ -225,7 +214,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BDT": {
@@ -243,7 +231,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BGN": {
@@ -261,7 +248,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2026-01",
     },
     "BHD": {
@@ -279,7 +265,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BIF": {
@@ -297,7 +282,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BMD": {
@@ -317,7 +301,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BND": {
@@ -335,7 +318,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BOB": {
@@ -353,27 +335,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "BOV": {
-      "isoCode": "BOV",
-      "currencyName": "Bolivian Mvdol",
-      "officialName": "Mvdol",
-      "aliases": [
-        "Bolivian Mvdol (funds code)",
-      ],
-      "numericCode": 984,
-      "currencySymbol": "Bs.",
-      "territory": "BOLIVIA (PLURINATIONAL STATE OF)",
-      "fractionalUnit": "Centavo",
-      "flag": null,
-      "territories": [
-        "BOLIVIA (PLURINATIONAL STATE OF)",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "BRL": {
@@ -391,7 +352,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BSD": {
@@ -409,7 +369,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BTN": {
@@ -427,7 +386,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BWP": {
@@ -445,7 +403,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BYN": {
@@ -463,7 +420,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "BYR": {
@@ -481,7 +437,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2017-01",
     },
     "BZD": {
@@ -499,7 +454,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CAD": {
@@ -517,7 +471,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CDF": {
@@ -535,27 +488,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "CHE": {
-      "isoCode": "CHE",
-      "currencyName": "WIR Euro",
-      "officialName": "WIR Euro",
-      "aliases": [
-        "WIR Euro (complementary currency)",
-      ],
-      "numericCode": 947,
-      "currencySymbol": "CHE",
-      "territory": "SWITZERLAND",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "SWITZERLAND",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "CHF": {
@@ -574,47 +506,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "CHW": {
-      "isoCode": "CHW",
-      "currencyName": "WIR Franc",
-      "officialName": "WIR Franc",
-      "aliases": [
-        "WIR Franc (complementary currency)",
-      ],
-      "numericCode": 948,
-      "currencySymbol": "CHW",
-      "territory": "SWITZERLAND",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "SWITZERLAND",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "CLF": {
-      "isoCode": "CLF",
-      "currencyName": "Unidad de Fomento",
-      "officialName": "Unidad de Fomento",
-      "aliases": [
-        "Unidad de Fomento (funds code)",
-      ],
-      "numericCode": 990,
-      "currencySymbol": "CLF",
-      "territory": "CHILE",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "CHILE",
-      ],
-      "minorUnit": 4,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "CLP": {
@@ -632,7 +523,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CNY": {
@@ -650,7 +540,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "COP": {
@@ -668,25 +557,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "COU": {
-      "isoCode": "COU",
-      "currencyName": "Unidad de Valor Real",
-      "officialName": "Unidad de Valor Real",
-      "aliases": [],
-      "numericCode": 970,
-      "currencySymbol": "COU",
-      "territory": "COLOMBIA",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "COLOMBIA",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "CRC": {
@@ -704,7 +574,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CUC": {
@@ -722,7 +591,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2021-06",
     },
     "CUP": {
@@ -740,7 +608,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CVE": {
@@ -758,7 +625,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "CZK": {
@@ -776,7 +642,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "DJF": {
@@ -794,7 +659,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "DKK": {
@@ -814,7 +678,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "DOP": {
@@ -832,7 +695,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "DZD": {
@@ -850,7 +712,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "EGP": {
@@ -868,7 +729,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ERN": {
@@ -886,7 +746,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ETB": {
@@ -904,7 +763,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "EUR": {
@@ -959,7 +817,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "FJD": {
@@ -977,7 +834,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "FKP": {
@@ -995,7 +851,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GBP": {
@@ -1017,7 +872,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GEL": {
@@ -1035,7 +889,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GHS": {
@@ -1053,7 +906,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GIP": {
@@ -1071,7 +923,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GMD": {
@@ -1089,7 +940,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GNF": {
@@ -1107,7 +957,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GTQ": {
@@ -1125,7 +974,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "GYD": {
@@ -1143,7 +991,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "HKD": {
@@ -1161,7 +1008,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "HNL": {
@@ -1179,7 +1025,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "HRK": {
@@ -1197,7 +1042,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2023-01",
     },
     "HTG": {
@@ -1215,7 +1059,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "HUF": {
@@ -1233,7 +1076,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "IDR": {
@@ -1251,7 +1093,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ILS": {
@@ -1269,7 +1110,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "INR": {
@@ -1288,7 +1128,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "IQD": {
@@ -1306,7 +1145,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "IRR": {
@@ -1324,7 +1162,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ISK": {
@@ -1342,7 +1179,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "JMD": {
@@ -1360,7 +1196,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "JOD": {
@@ -1378,7 +1213,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "JPY": {
@@ -1396,7 +1230,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KES": {
@@ -1414,7 +1247,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KGS": {
@@ -1432,7 +1264,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KHR": {
@@ -1450,7 +1281,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KMF": {
@@ -1468,7 +1298,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KPW": {
@@ -1486,7 +1315,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KRW": {
@@ -1504,7 +1332,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KWD": {
@@ -1522,7 +1349,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KYD": {
@@ -1540,7 +1366,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "KZT": {
@@ -1558,7 +1383,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LAK": {
@@ -1576,7 +1400,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LBP": {
@@ -1594,7 +1417,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LKR": {
@@ -1612,7 +1434,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LRD": {
@@ -1630,7 +1451,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LSL": {
@@ -1648,7 +1468,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "LTL": {
@@ -1666,7 +1485,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2014-12",
     },
     "LVL": {
@@ -1684,7 +1502,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2014-01",
     },
     "LYD": {
@@ -1702,7 +1519,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MAD": {
@@ -1721,7 +1537,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MDL": {
@@ -1739,7 +1554,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MGA": {
@@ -1757,7 +1571,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MKD": {
@@ -1775,7 +1588,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MMK": {
@@ -1793,7 +1605,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MNT": {
@@ -1811,7 +1622,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MOP": {
@@ -1829,7 +1639,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MRO": {
@@ -1847,7 +1656,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2017-12",
     },
     "MRU": {
@@ -1865,7 +1673,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MUR": {
@@ -1883,7 +1690,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MVR": {
@@ -1901,7 +1707,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MWK": {
@@ -1919,7 +1724,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MXN": {
@@ -1937,27 +1741,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "MXV": {
-      "isoCode": "MXV",
-      "currencyName": "Mexican Unidad de Inversion",
-      "officialName": "Mexican Unidad de Inversion (UDI)",
-      "aliases": [
-        "Mexican Unidad de Inversion (UDI) (funds code)",
-      ],
-      "numericCode": 979,
-      "currencySymbol": "UDI",
-      "territory": "MEXICO",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "MEXICO",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "MYR": {
@@ -1975,7 +1758,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "MZN": {
@@ -1993,7 +1775,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NAD": {
@@ -2011,7 +1792,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NGN": {
@@ -2029,7 +1809,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NIO": {
@@ -2047,7 +1826,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NOK": {
@@ -2067,7 +1845,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NPR": {
@@ -2085,7 +1862,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "NZD": {
@@ -2107,7 +1883,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "OMR": {
@@ -2125,7 +1900,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PAB": {
@@ -2143,7 +1917,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PEN": {
@@ -2163,7 +1936,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PGK": {
@@ -2181,7 +1953,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PHP": {
@@ -2199,7 +1970,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PKR": {
@@ -2217,7 +1987,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PLN": {
@@ -2235,7 +2004,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "PYG": {
@@ -2253,7 +2021,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "QAR": {
@@ -2271,7 +2038,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "RON": {
@@ -2289,7 +2055,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "RSD": {
@@ -2307,7 +2072,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "RUB": {
@@ -2325,7 +2089,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "RWF": {
@@ -2343,7 +2106,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SAR": {
@@ -2361,7 +2123,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SBD": {
@@ -2379,7 +2140,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SCR": {
@@ -2397,7 +2157,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SDG": {
@@ -2415,7 +2174,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SEK": {
@@ -2433,7 +2191,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SGD": {
@@ -2451,7 +2208,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SHP": {
@@ -2469,7 +2225,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SLE": {
@@ -2487,7 +2242,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SLL": {
@@ -2505,7 +2259,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2023-12",
     },
     "SOS": {
@@ -2523,7 +2276,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SRD": {
@@ -2541,7 +2293,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SSP": {
@@ -2559,7 +2310,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "STD": {
@@ -2577,7 +2327,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2017-12",
     },
     "STN": {
@@ -2595,7 +2344,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SVC": {
@@ -2613,7 +2361,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SYP": {
@@ -2631,7 +2378,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "SZL": {
@@ -2649,7 +2395,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "THB": {
@@ -2667,7 +2412,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TJS": {
@@ -2685,7 +2429,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TMT": {
@@ -2703,7 +2446,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TND": {
@@ -2721,7 +2463,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 3,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TOP": {
@@ -2739,7 +2480,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TRY": {
@@ -2757,7 +2497,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TTD": {
@@ -2775,7 +2514,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TWD": {
@@ -2793,7 +2531,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "TZS": {
@@ -2811,7 +2548,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "UAH": {
@@ -2829,7 +2565,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "UGX": {
@@ -2847,7 +2582,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "USD": {
@@ -2884,67 +2618,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "USN": {
-      "isoCode": "USN",
-      "currencyName": "United States dollar (next day)",
-      "officialName": "US Dollar (Next day)",
-      "aliases": [
-        "United States dollar (next day) (funds code)",
-      ],
-      "numericCode": 997,
-      "currencySymbol": "USN",
-      "territory": "UNITED STATES OF AMERICA (THE)",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "UNITED STATES OF AMERICA (THE)",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "USS": {
-      "isoCode": "USS",
-      "currencyName": "United States dollar (same day)",
-      "officialName": "US Dollar (Same day)",
-      "aliases": [
-        "United States dollar (same day) (funds code)",
-      ],
-      "numericCode": 998,
-      "currencySymbol": "USS",
-      "territory": "UNITED STATES",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "UNITED STATES",
-      ],
-      "minorUnit": null,
-      "status": "historical",
-      "category": "fund",
-      "withdrawalDate": "2014-03",
-    },
-    "UYI": {
-      "isoCode": "UYI",
-      "currencyName": "Uruguay Peso en Unidades Indexadas",
-      "officialName": "Uruguay Peso en Unidades Indexadas (UI)",
-      "aliases": [
-        "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
-      ],
-      "numericCode": 940,
-      "currencySymbol": "UYI",
-      "territory": "URUGUAY",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "URUGUAY",
-      ],
-      "minorUnit": 0,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "UYU": {
@@ -2962,25 +2635,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "UYW": {
-      "isoCode": "UYW",
-      "currencyName": "Unidad Previsional",
-      "officialName": "Unidad Previsional",
-      "aliases": [],
-      "numericCode": 927,
-      "currencySymbol": null,
-      "territory": "URUGUAY",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "URUGUAY",
-      ],
-      "minorUnit": 4,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "UZS": {
@@ -2998,7 +2652,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "VED": {
@@ -3016,7 +2669,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "VEF": {
@@ -3035,7 +2687,6 @@ class CurrencyRepo {
       ],
       "minorUnit": null,
       "status": "historical",
-      "category": "currency",
       "withdrawalDate": "2018-08",
     },
     "VES": {
@@ -3053,7 +2704,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "VND": {
@@ -3071,7 +2721,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "VUV": {
@@ -3089,7 +2738,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "WST": {
@@ -3107,25 +2755,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "XAD": {
-      "isoCode": "XAD",
-      "currencyName": "Arab Accounting Dinar",
-      "officialName": "Arab Accounting Dinar",
-      "aliases": [],
-      "numericCode": 396,
-      "currencySymbol": null,
-      "territory": "ARAB MONETARY FUND",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "ARAB MONETARY FUND",
-      ],
-      "minorUnit": 2,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "XAF": {
@@ -3149,116 +2778,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "XAG": {
-      "isoCode": "XAG",
-      "currencyName": "Silver",
-      "officialName": "Silver",
-      "aliases": [
-        "Silver (one troy ounce)",
-      ],
-      "numericCode": 961,
-      "currencySymbol": "oz t",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "preciousMetal",
-      "withdrawalDate": null,
-    },
-    "XAU": {
-      "isoCode": "XAU",
-      "currencyName": "Gold",
-      "officialName": "Gold",
-      "aliases": [
-        "Gold (one troy ounce)",
-      ],
-      "numericCode": 959,
-      "currencySymbol": "oz t",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "preciousMetal",
-      "withdrawalDate": null,
-    },
-    "XBA": {
-      "isoCode": "XBA",
-      "currencyName": "European Composite Unit",
-      "officialName": "Bond Markets Unit European Composite Unit (EURCO)",
-      "aliases": [
-        "European Composite Unit (EURCO) (bond market unit)",
-      ],
-      "numericCode": 955,
-      "currencySymbol": "XBA",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XBB": {
-      "isoCode": "XBB",
-      "currencyName": "European Monetary Unit",
-      "officialName": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
-      "aliases": [
-        "European Monetary Unit (E.M.U.-6) (bond market unit)",
-      ],
-      "numericCode": 956,
-      "currencySymbol": "XBB",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XBC": {
-      "isoCode": "XBC",
-      "currencyName": "European Unit of Account 9",
-      "officialName": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
-      "aliases": [
-        "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
-      ],
-      "numericCode": 957,
-      "currencySymbol": "XBC",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XBD": {
-      "isoCode": "XBD",
-      "currencyName": "European Unit of Account 17",
-      "officialName":
-          "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
-      "aliases": [
-        "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
-      ],
-      "numericCode": 958,
-      "currencySymbol": "XBD",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
       "withdrawalDate": null,
     },
     "XCD": {
@@ -3284,7 +2803,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "XCG": {
@@ -3303,42 +2821,7 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
-    },
-    "XDR": {
-      "isoCode": "XDR",
-      "currencyName": "Special drawing rights",
-      "officialName": "SDR (Special Drawing Right)",
-      "aliases": [],
-      "numericCode": 960,
-      "currencySymbol": "XDR",
-      "territory": "INTERNATIONAL MONETARY FUND (IMF)",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "INTERNATIONAL MONETARY FUND (IMF)",
-      ],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XFU": {
-      "isoCode": "XFU",
-      "currencyName": "UIC franc (special settlement currency)",
-      "officialName": "UIC-Franc",
-      "aliases": [],
-      "numericCode": null,
-      "currencySymbol": "XFU",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "historical",
-      "category": "fund",
-      "withdrawalDate": "2013-11",
     },
     "XOF": {
       "isoCode": "XOF",
@@ -3363,25 +2846,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "XPD": {
-      "isoCode": "XPD",
-      "currencyName": "Palladium",
-      "officialName": "Palladium",
-      "aliases": [
-        "Palladium (one troy ounce)",
-      ],
-      "numericCode": 964,
-      "currencySymbol": "oz t",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "preciousMetal",
       "withdrawalDate": null,
     },
     "XPF": {
@@ -3401,95 +2865,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 0,
       "status": "current",
-      "category": "currency",
-      "withdrawalDate": null,
-    },
-    "XPT": {
-      "isoCode": "XPT",
-      "currencyName": "Platinum",
-      "officialName": "Platinum",
-      "aliases": [
-        "Platinum (one troy ounce)",
-      ],
-      "numericCode": 962,
-      "currencySymbol": "oz t",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "preciousMetal",
-      "withdrawalDate": null,
-    },
-    "XSU": {
-      "isoCode": "XSU",
-      "currencyName": "Sucre",
-      "officialName": "Sucre",
-      "aliases": [],
-      "numericCode": 994,
-      "currencySymbol": null,
-      "territory":
-          "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\"",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\"",
-      ],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XTS": {
-      "isoCode": "XTS",
-      "currencyName": "Code reserved for testing purposes",
-      "officialName": "Codes specifically reserved for testing purposes",
-      "aliases": [],
-      "numericCode": 963,
-      "currencySymbol": "XTS",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "special",
-      "withdrawalDate": null,
-    },
-    "XUA": {
-      "isoCode": "XUA",
-      "currencyName": "ADB Unit of Account",
-      "officialName": "ADB Unit of Account",
-      "aliases": [],
-      "numericCode": 965,
-      "currencySymbol": null,
-      "territory": "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP",
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [
-        "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP",
-      ],
-      "minorUnit": null,
-      "status": "current",
-      "category": "fund",
-      "withdrawalDate": null,
-    },
-    "XXX": {
-      "isoCode": "XXX",
-      "currencyName": "No currency",
-      "officialName":
-          "The codes assigned for transactions where no currency is involved",
-      "aliases": [],
-      "numericCode": 999,
-      "currencySymbol": "XXX",
-      "territory": null,
-      "fractionalUnit": null,
-      "flag": null,
-      "territories": [],
-      "minorUnit": null,
-      "status": "current",
-      "category": "special",
       "withdrawalDate": null,
     },
     "YER": {
@@ -3507,7 +2882,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ZAR": {
@@ -3527,7 +2901,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ZMW": {
@@ -3545,7 +2918,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
     "ZWG": {
@@ -3563,7 +2935,6 @@ class CurrencyRepo {
       ],
       "minorUnit": 2,
       "status": "current",
-      "category": "currency",
       "withdrawalDate": null,
     },
   };

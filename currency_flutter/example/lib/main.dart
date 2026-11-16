@@ -24,9 +24,7 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   final _currency = Currency();
   final _query = TextEditingController();
-  late final _currencies = _currency.getAllCurrencies(
-    category: CurrencyCategory.currency,
-  );
+  late final _currencies = _currency.getAllCurrencies();
 
   @override
   void dispose() {

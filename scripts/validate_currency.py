@@ -5,6 +5,8 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+from refresh_data import EXCLUDED_CODES
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -27,6 +29,8 @@ def validate(data, annotations, schema):
     }
     Draft202012Validator(annotation_schema, format_checker=FormatChecker()).validate(annotations)
     for code, row in data.items():
+        if code in EXCLUDED_CODES:
+            raise ValueError(f"{code}: non-currency code is excluded")
         if code != row["isoCode"]:
             raise ValueError(f"{code}: key does not match isoCode")
         if row["territory"] != (", ".join(row["territories"]) or None):

@@ -1,7 +1,7 @@
 import 'currency_model.dart';
 import 'currency_repo.dart';
 
-/// Offline lookups of ISO 4217 currencies, funds, and special-purpose codes.
+/// Offline lookups of ISO 4217 current and historical currencies.
 class Currency {
   static final List<CurrencyModel> _all = List.unmodifiable(
     CurrencyRepo.currencies.values.map(CurrencyModel.fromJson),
@@ -16,12 +16,8 @@ class Currency {
   /// Returns an immutable list, optionally including historical codes.
   List<CurrencyModel> getAllCurrencies({
     bool includeHistorical = false,
-    CurrencyCategory? category,
   }) {
-    final currencies = includeHistorical ? _all : _current;
-    return category == null
-        ? currencies
-        : List.unmodifiable(currencies.where((c) => c.category == category));
+    return includeHistorical ? _all : _current;
   }
 
   /// Ignores surrounding whitespace and case. Unknown/excluded codes return null.

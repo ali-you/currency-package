@@ -12,7 +12,7 @@ and hashes across Windows and Linux checkouts.
 Preserve upstream source attribution when updating or redistributing this data.
 
 To refresh, download both registers to these paths, run
-`python tool/refresh_data.py`, then run `dart run tool/generate.dart` from
+`python scripts/refresh_data.py`, then run `dart run tool/generate.dart` from
 `currency_dart`. Review the resulting data diff. `--check` on either command
 validates the checked-in data without downloading anything.
 
@@ -32,9 +32,13 @@ name; `aliases` preserves replaced display names for compatible searches.
 `fractionalUnit` is an optional subdivision name; never calculate precision or a
 conversion factor from it. Missing or questionable annotations stay null.
 
-Install validator dependencies with `python -m pip install -r tool/requirements.txt`.
-Run `python tool/validate_currency.py` and
-`python -m unittest discover -s tool -p 'test_*.py'` after editing annotations.
+Install validator dependencies with `python -m pip install -r scripts/requirements.txt`.
+Run `python scripts/validate_currency.py` and
+`python -m unittest discover -s scripts -p 'test_*.py'` after editing annotations.
 The external `currency.schema.json` validates the data without adding metadata
 keys to the currency-code map; the validator additionally checks cross-field
 consistency and annotation provenance. CI runs these checks.
+
+The refresh script includes only ordinary currencies. Explicit exclusion codes
+and the register fund marker prevent metals, funds, accounting units and special
+codes from being reintroduced. Shared currencies with an X prefix are retained.

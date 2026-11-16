@@ -17,9 +17,6 @@ void main() {
     expect(currency.byCurrencyName(' Peruvian NUEVO sol '), pen);
     expect(currency.byCurrencyName('Sol'), pen);
     expect(currency.byIsoCode('XCG')!.currencySymbol, 'Cg');
-    expect(currency.byIsoCode('USN')!.fractionalUnit, isNull);
-    expect(currency.byIsoCode('USS', includeHistorical: true)!.fractionalUnit,
-        isNull);
     expect(
         currency
             .getAllCurrencies(includeHistorical: true)
@@ -71,37 +68,42 @@ void main() {
       'SLE',
       'STN',
       'SVC',
-      'UYW',
       'VED',
       'VES',
-      'XAD',
       'XCG',
-      'XSU',
-      'XUA',
       'ZWG',
     ]) {
       expect(currency.byIsoCode(code), isNotNull, reason: code);
     }
     expect(currency.byIsoCode('ZWG')!.numericCode, 924);
     expect(currency.byIsoCode('XCG')!.numericCode, 532);
-    expect(currency.byIsoCode('XPD')!.numericCode, 964);
-    expect(currency.byIsoCode('XPT')!.numericCode, 962);
-    expect(currency.byIsoCode('XTS')!.numericCode, 963);
-    expect(currency.byIsoCode('XXX')!.numericCode, 999);
     expect(currency.byIsoCode('JPY')!.minorUnit, 0);
     expect(currency.byIsoCode('KWD')!.minorUnit, 3);
     expect(currency.byIsoCode('EUR')!.territories, contains('BULGARIA'));
   });
 
-  test('filters separate currency, fund, metal and special-purpose codes', () {
-    expect(currency.byIsoCode('XAU')!.category, CurrencyCategory.preciousMetal);
-    expect(currency.byIsoCode('XDR')!.category, CurrencyCategory.fund);
-    expect(currency.byIsoCode('XXX')!.category, CurrencyCategory.special);
-    final currencies =
-        currency.getAllCurrencies(category: CurrencyCategory.currency);
-    expect(currencies, isNotEmpty);
-    expect(currencies.every((c) => c.category == CurrencyCategory.currency),
-        isTrue);
+  test('only currencies are exposed, including shared X-prefixed currencies',
+      () {
+    for (final code in [
+      'XAU',
+      'XAG',
+      'XPD',
+      'XPT',
+      'XDR',
+      'XTS',
+      'XXX',
+      'USN',
+      'USS',
+      'XFU',
+      'UYW'
+    ]) {
+      expect(currency.byIsoCode(code, includeHistorical: true), isNull);
+    }
+    for (final code in ['EUR', 'XAF', 'XOF', 'XCD', 'XPF', 'XCG']) {
+      expect(currency.byIsoCode(code), isNotNull);
+    }
+    expect(currency.getAllCurrencies(), hasLength(155));
+    expect(currency.getAllCurrencies(includeHistorical: true), hasLength(166));
   });
 
   test('public lists and nested repository data cannot be mutated', () {

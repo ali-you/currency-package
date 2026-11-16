@@ -1,3 +1,8 @@
+## 0.2.0
+
+* Include only current and selected historical currencies; exclude funds, metals and special codes.
+* Remove category metadata and filtering from the shared currency API.
+
 ## Unreleased
 
 * Correct PEN and XCG display metadata; normalize missing subdivision names.

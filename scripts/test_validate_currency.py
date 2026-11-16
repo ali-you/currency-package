@@ -7,6 +7,13 @@ from validate_currency import ROOT, load, validate
 
 
 class CurrencyValidationTests(unittest.TestCase):
+    def test_refresh_excludes_non_currencies_and_preserves_shared_currencies(self):
+        from refresh_data import build, EXCLUDED_CODES
+        data = build()['currency.json']
+        self.assertFalse(set(data) & EXCLUDED_CODES)
+        self.assertTrue({'EUR', 'XAF', 'XOF', 'XCD', 'XPF', 'XCG'} <= set(data))
+        self.assertTrue(all('category' not in row for row in data.values()))
+
     def setUp(self):
         self.data = load(ROOT / "currency.json")
         self.annotations = load(ROOT / "currency.annotations.json")

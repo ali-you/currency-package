@@ -1,3 +1,8 @@
+## 0.4.0
+
+* Include only current and selected historical currencies; exclude funds, metals and special codes.
+* Remove category metadata and filtering from the shared currency API.
+
 ## 0.3.0
 
 * Compact locale JSON to ISO-code/name maps with separate provenance.

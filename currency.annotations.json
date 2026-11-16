@@ -546,31 +546,6 @@
     },
     "aliases": []
   },
-  "BOV": {
-    "fields": {
-      "currencyName": {
-        "value": "Bolivian Mvdol",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "Bs.",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "fractionalUnit": {
-        "value": "Centavo",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Bolivian Mvdol (funds code)"
-    ]
-  },
   "BRL": {
     "fields": {
       "currencyName": {
@@ -802,25 +777,6 @@
     },
     "aliases": []
   },
-  "CHE": {
-    "fields": {
-      "currencyName": {
-        "value": "WIR Euro",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "CHE",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "WIR Euro (complementary currency)"
-    ]
-  },
   "CHF": {
     "fields": {
       "currencyName": {
@@ -849,44 +805,6 @@
       }
     },
     "aliases": []
-  },
-  "CHW": {
-    "fields": {
-      "currencyName": {
-        "value": "WIR Franc",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "CHW",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "WIR Franc (complementary currency)"
-    ]
-  },
-  "CLF": {
-    "fields": {
-      "currencyName": {
-        "value": "Unidad de Fomento",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "CLF",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Unidad de Fomento (funds code)"
-    ]
   },
   "CLP": {
     "fields": {
@@ -956,23 +874,6 @@
       },
       "flag": {
         "value": "🇨🇴",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "COU": {
-    "fields": {
-      "currencyName": {
-        "value": "Unidad de Valor Real",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "COU",
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
@@ -2599,25 +2500,6 @@
     },
     "aliases": []
   },
-  "MXV": {
-    "fields": {
-      "currencyName": {
-        "value": "Mexican Unidad de Inversion",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "UDI",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Mexican Unidad de Inversion (UDI) (funds code)"
-    ]
-  },
   "MYR": {
     "fields": {
       "currencyName": {
@@ -3804,63 +3686,6 @@
     },
     "aliases": []
   },
-  "USN": {
-    "fields": {
-      "currencyName": {
-        "value": "United States dollar (next day)",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "USN",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "United States dollar (next day) (funds code)"
-    ]
-  },
-  "USS": {
-    "fields": {
-      "currencyName": {
-        "value": "United States dollar (same day)",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "USS",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "United States dollar (same day) (funds code)"
-    ]
-  },
-  "UYI": {
-    "fields": {
-      "currencyName": {
-        "value": "Uruguay Peso en Unidades Indexadas",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "UYI",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)"
-    ]
-  },
   "UYU": {
     "fields": {
       "currencyName": {
@@ -3883,17 +3708,6 @@
       },
       "flag": {
         "value": "🇺🇾",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "UYW": {
-    "fields": {
-      "currencyName": {
-        "value": "Unidad Previsional",
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
@@ -4062,17 +3876,6 @@
     },
     "aliases": []
   },
-  "XAD": {
-    "fields": {
-      "currencyName": {
-        "value": "Arab Accounting Dinar",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
   "XAF": {
     "fields": {
       "currencyName": {
@@ -4101,120 +3904,6 @@
       }
     },
     "aliases": []
-  },
-  "XAG": {
-    "fields": {
-      "currencyName": {
-        "value": "Silver",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "oz t",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Silver (one troy ounce)"
-    ]
-  },
-  "XAU": {
-    "fields": {
-      "currencyName": {
-        "value": "Gold",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "oz t",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Gold (one troy ounce)"
-    ]
-  },
-  "XBA": {
-    "fields": {
-      "currencyName": {
-        "value": "European Composite Unit",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XBA",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "European Composite Unit (EURCO) (bond market unit)"
-    ]
-  },
-  "XBB": {
-    "fields": {
-      "currencyName": {
-        "value": "European Monetary Unit",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XBB",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "European Monetary Unit (E.M.U.-6) (bond market unit)"
-    ]
-  },
-  "XBC": {
-    "fields": {
-      "currencyName": {
-        "value": "European Unit of Account 9",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XBC",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "European Unit of Account 9 (E.U.A.-9) (bond market unit)"
-    ]
-  },
-  "XBD": {
-    "fields": {
-      "currencyName": {
-        "value": "European Unit of Account 17",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XBD",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "European Unit of Account 17 (E.U.A.-17) (bond market unit)"
-    ]
   },
   "XCD": {
     "fields": {
@@ -4266,40 +3955,6 @@
     },
     "aliases": []
   },
-  "XDR": {
-    "fields": {
-      "currencyName": {
-        "value": "Special drawing rights",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XDR",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "XFU": {
-    "fields": {
-      "currencyName": {
-        "value": "UIC franc (special settlement currency)",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XFU",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
   "XOF": {
     "fields": {
       "currencyName": {
@@ -4323,25 +3978,6 @@
     },
     "aliases": []
   },
-  "XPD": {
-    "fields": {
-      "currencyName": {
-        "value": "Palladium",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "oz t",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Palladium (one troy ounce)"
-    ]
-  },
   "XPF": {
     "fields": {
       "currencyName": {
@@ -4358,81 +3994,6 @@
       },
       "flag": {
         "value": "🇵🇫",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "XPT": {
-    "fields": {
-      "currencyName": {
-        "value": "Platinum",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "oz t",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": [
-      "Platinum (one troy ounce)"
-    ]
-  },
-  "XSU": {
-    "fields": {
-      "currencyName": {
-        "value": "Sucre",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "XTS": {
-    "fields": {
-      "currencyName": {
-        "value": "Code reserved for testing purposes",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XTS",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "XUA": {
-    "fields": {
-      "currencyName": {
-        "value": "ADB Unit of Account",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      }
-    },
-    "aliases": []
-  },
-  "XXX": {
-    "fields": {
-      "currencyName": {
-        "value": "No currency",
-        "verification": "legacyUnverified",
-        "sources": [],
-        "verifiedAt": null
-      },
-      "currencySymbol": {
-        "value": "XXX",
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null

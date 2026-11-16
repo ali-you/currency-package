@@ -1,12 +1,12 @@
 # currency_dart
 
 Pure Dart, offline ISO 4217 metadata with normalized lookups, immutable records,
-current/historical status, categories, structured territories and minor units.
+current/historical status, structured territories and minor units.
 No Flutter SDK or runtime dependencies are required.
 
 ```yaml
 dependencies:
-  currency_dart: ^0.1.0
+  currency_dart: ^0.2.0
 ```
 
 ```dart
@@ -18,7 +18,7 @@ print(usd.currencyName); // United States dollar
 print(usd.minorUnit); // 2
 print(currencies.byCurrencyName('unknown')); // null
 print(currencies.byIsoCode('ALL')!.numericCodeString); // 008
-final current = currencies.getAllCurrencies(category: CurrencyCategory.currency);
+final current = currencies.getAllCurrencies();
 final oldLev = currencies.byIsoCode('BGN', includeHistorical: true);
 ```
 
@@ -28,9 +28,8 @@ Lists and their territory lists are immutable. `toJson`/`fromJson` round trip,
 models compare by value, and invalid JSON produces field-specific
 `FormatException`s. A missing/null name defaults to `Not defined`.
 
-The dataset has all 178 current codes from SIX's 17 September 2026 register and
-13 selected historical entries. Codes include ordinary currencies, funds, metals
-and special-purpose instruments; use `CurrencyCategory` to filter them.
+The dataset has 155 current and 11 selected historical currencies.
+Funds, metals, accounting units and special-purpose codes are excluded.
 `CurrencyStatus` marks historical entries, and `withdrawalDate` preserves ISO's
 source precision. `territories` contains complete entity strings from the register;
 `territory` is the joined display label. `numericCode` remains an integer while
@@ -65,3 +64,9 @@ that name and `Sol` both find PEN, whose display name is now `Peruvian sol`.
 Subdivision names are independent of ISO precision. Historical null minor units
 mean precision is unavailable from the historical register. Display verification
 and sources are maintained in the repository's `currency.annotations.json`.
+
+## Migrating to 0.2.0
+
+`CurrencyCategory`, `CurrencyModel.category` and the category lookup parameter
+have been removed. `getAllCurrencies()` returns only ordinary currencies.
+Historical currencies still require `includeHistorical: true`.

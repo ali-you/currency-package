@@ -11,8 +11,8 @@
       "sha256": "98fde2423cdb916dd59dcf5fe96222edad8fa198d865c1c83dbc464b9cc52387"
     }
   ],
-  "coverage": "All current ISO 4217 codes plus selected historical codes retained from the original dataset.",
-  "currentCount": 178,
-  "historicalCount": 13,
-  "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive. Categories are package-defined groupings."
+  "coverage": "Ordinary currencies from the current ISO register plus selected historical currencies. Funds, metals and special-purpose codes are excluded.",
+  "currentCount": 155,
+  "historicalCount": 11,
+  "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive."
 }

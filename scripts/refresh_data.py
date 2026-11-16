@@ -29,21 +29,21 @@ def group_entries(root, table, tag):
     return groups
 
 
-def category(code, entries):
-    if code in METALS:
-        return "preciousMetal"
-    if code in {"XTS", "XXX"}:
-        return "special"
-    if code in FUNDS or any(e.find("CcyNm").get("IsFund") == "true" for e in entries):
-        return "fund"
-    return "currency"
+EXCLUDED_CODES = METALS | FUNDS | {"XTS", "XXX"}
+
+
+def is_currency(code, entries):
+    # Shared currencies such as XAF/XOF/XCD are intentionally retained.
+    return code not in EXCLUDED_CODES and not any(
+        e.find("CcyNm").get("IsFund") == "true" for e in entries
+    )
 
 
 def build():
     previous = json.loads((ROOT / "currency.json").read_text(encoding="utf-8"))
     annotations = json.loads((ROOT / "currency.annotations.json").read_text(encoding="utf-8"))
-    current_path = ROOT / "tool/data/list-one.xml"
-    historical_path = ROOT / "tool/data/list-three.xml"
+    current_path = ROOT / "data/sources/currencies/list-one.xml"
+    historical_path = ROOT / "data/sources/currencies/list-three.xml"
     current = ET.parse(current_path).getroot()
     historical = ET.parse(historical_path).getroot()
     current_groups = group_entries(current, "CcyTbl", "CcyNtry")
@@ -57,6 +57,8 @@ def build():
         entries = current_groups.get(code) or historical_groups.get(code)
         if not entries:
             raise ValueError(f"{code} is absent from both ISO registers")
+        if not is_currency(code, entries):
+            continue
         if not is_current:
             # A code may have multiple historical assignments. Preserve the
             # numeric assignment already represented by the package.
@@ -69,7 +71,6 @@ def build():
             raise ValueError(f"Ambiguous numeric assignment for {code}: {numbers}")
         entities = sorted({e.findtext("CtryNm").strip() for e in entries
                            if not e.findtext("CtryNm").startswith("ZZ")})
-        kind = category(code, entries)
         minor_units = {e.findtext("CcyMnrUnts") for e in entries}
         if is_current and len(minor_units) != 1:
             raise ValueError(f"Ambiguous minor unit for {code}")
@@ -84,11 +85,10 @@ def build():
             "currencySymbol": fields.get("currencySymbol"),
             "territory": ", ".join(entities) or None,
             "fractionalUnit": fields.get("fractionalUnit"),
-            "flag": fields.get("flag") if kind == "currency" else None,
+            "flag": fields.get("flag"),
             "territories": entities,
             "minorUnit": int(minor_unit) if minor_unit and minor_unit.isdigit() else None,
             "status": "current" if is_current else "historical",
-            "category": kind,
             "withdrawalDate": None if is_current else max(
                 e.findtext("WthdrwlDt") for e in entries
             ),
@@ -100,10 +100,10 @@ def build():
     ]
     metadata = {
         "sources": sources,
-        "coverage": "All current ISO 4217 codes plus selected historical codes retained from the original dataset.",
-        "currentCount": len(current_groups),
-        "historicalCount": len(result) - len(current_groups),
-        "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive. Categories are package-defined groupings.",
+        "coverage": "Ordinary currencies from the current ISO register plus selected historical currencies. Funds, metals and special-purpose codes are excluded.",
+        "currentCount": sum(row["status"] == "current" for row in result.values()),
+        "historicalCount": sum(row["status"] == "historical" for row in result.values()),
+        "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive.",
     }
     return {"currency.json": result, "currency.metadata.json": metadata}
 
@@ -117,7 +117,7 @@ def main():
         path = ROOT / name
         if args.check:
             if path.read_text(encoding="utf-8") != content:
-                raise SystemExit(f"{name} is stale; run python tool/refresh_data.py")
+                raise SystemExit(f"{name} is stale; run python scripts/refresh_data.py")
         else:
             path.write_text(content, encoding="utf-8", newline="\n")
 

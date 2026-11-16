@@ -26,7 +26,6 @@
         "territories",
         "minorUnit",
         "status",
-        "category",
         "withdrawalDate"
       ],
       "properties": {
@@ -151,14 +150,6 @@
           "enum": [
             "current",
             "historical"
-          ]
-        },
-        "category": {
-          "enum": [
-            "currency",
-            "fund",
-            "preciousMetal",
-            "special"
           ]
         },
         "withdrawalDate": {

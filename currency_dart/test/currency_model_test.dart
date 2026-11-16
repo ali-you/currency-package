@@ -28,7 +28,7 @@ void main() {
       'minorUnit': -1,
       'territories': ['USA', 2],
       'status': 'inactive',
-      'category': 'unknown',
+      'aliases': 'invalid',
       'flag': true,
     }.entries) {
       expect(

@@ -15,10 +15,10 @@ void main() {
   });
 
   test('explicit script parents prevent falling into the wrong script', () {
-    expect(names.lookup('UYW', locale: 'zh'), isNotNull);
-    expect(names.lookup('UYW', locale: 'zh-Hant'), isNull);
+    expect(names.lookup('VED', locale: 'zh'), isNotNull);
+    expect(names.lookup('VED', locale: 'zh-Hant'), isNull);
     expect(
-        names.name('UYW', locale: 'zh-Hant'), names.name('UYW', locale: 'en'));
+        names.name('VED', locale: 'zh-Hant'), names.name('VED', locale: 'en'));
   });
 
   test('returns localized display names in English, Persian and Arabic', () {
@@ -46,8 +46,8 @@ void main() {
 
   test('missing names fall back per currency rather than just per locale', () {
     expect(names.supportsLocale('fa'), isTrue);
-    expect(names.lookup('XDR', locale: 'fa'), isNull);
-    expect(names.name('XDR', locale: 'fa'), names.lookup('XDR', locale: 'en'));
+    expect(names.lookup('SVC', locale: 'fa'), isNull);
+    expect(names.name('SVC', locale: 'fa'), names.lookup('SVC', locale: 'en'));
   });
 
   test('configured fallback precedes English but follows requested locale', () {
@@ -62,8 +62,8 @@ void main() {
 
   test('unknown and untranslated codes fall back to their normalized code', () {
     expect(names.name(' zzz ', locale: 'fa'), 'ZZZ');
-    // XAD is in the ISO snapshot but absent from the translation maps.
-    expect(names.supportedCurrencyCodes, contains('XAD'));
+    // Removed fund codes are not supported currencies.
+    expect(names.supportedCurrencyCodes, isNot(contains('XAD')));
     expect(names.lookup('XAD', locale: 'en'), isNull);
     expect(names.name('XAD', locale: 'fa'), 'XAD');
     expect(names.name('  ', locale: 'fa'), '');

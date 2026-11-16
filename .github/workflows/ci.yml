@@ -21,10 +21,10 @@ jobs:
         working-directory: currency_dart
       - run: dart test
         working-directory: currency_dart
-      - run: python3 tool/refresh_data.py --check
-      - run: python3 -m pip install -r tool/requirements.txt
-      - run: python3 tool/validate_currency.py
-      - run: python3 -m unittest discover -s tool -p 'test_*.py'
+      - run: python3 scripts/refresh_data.py --check
+      - run: python3 -m pip install -r scripts/requirements.txt
+      - run: python3 scripts/validate_currency.py
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - if: matrix.sdk == '3.13.5'
         run: dart run tool/generate.dart --check
         working-directory: currency_dart

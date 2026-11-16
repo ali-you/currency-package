@@ -41,7 +41,7 @@ dart test
 
 To add a locale, add its JSON file and regenerate. Runtime uses generated const
 maps and performs no file reads. CI validates generated output against project
-data. The maps cover 191 codes from root `currency.json`: 178 current and 13
+data. The maps cover 166 codes from root `currency.json`: 155 current and 11
 selected historical codes. Translation coverage varies; unsupported or missing
 names fall back rather than being invented.
 

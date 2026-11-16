@@ -1,9 +1,6 @@
 /// Whether a code is current or retained for historical lookups.
 enum CurrencyStatus { current, historical }
 
-/// The kind of instrument represented by an ISO code.
-enum CurrencyCategory { currency, fund, preciousMetal, special }
-
 /// Immutable currency metadata. Null means unknown or not applicable.
 class CurrencyModel {
   final String currencyName;
@@ -32,7 +29,6 @@ class CurrencyModel {
   /// ISO minor-unit exponent; null if unspecified or not applicable.
   final int? minorUnit;
   final CurrencyStatus status;
-  final CurrencyCategory category;
 
   /// ISO withdrawal date, preserving the source's year/month precision.
   final String? withdrawalDate;
@@ -50,7 +46,6 @@ class CurrencyModel {
     List<String> territories = const [],
     this.minorUnit,
     this.status = CurrencyStatus.current,
-    this.category = CurrencyCategory.currency,
     this.withdrawalDate,
   })  : territories = List.unmodifiable(territories),
         aliases = List.unmodifiable(aliases);
@@ -111,11 +106,6 @@ class CurrencyModel {
       minorUnit: integer('minorUnit', 9),
       status:
           enumeration('status', CurrencyStatus.values, CurrencyStatus.current),
-      category: enumeration(
-        'category',
-        CurrencyCategory.values,
-        CurrencyCategory.currency,
-      ),
       withdrawalDate: string('withdrawalDate'),
     );
   }
@@ -133,7 +123,6 @@ class CurrencyModel {
         'territories': territories,
         'minorUnit': minorUnit,
         'status': status.name,
-        'category': category.name,
         'withdrawalDate': withdrawalDate,
       };
 
@@ -154,7 +143,6 @@ class CurrencyModel {
           flag == other.flag &&
           minorUnit == other.minorUnit &&
           status == other.status &&
-          category == other.category &&
           withdrawalDate == other.withdrawalDate &&
           territories.length == other.territories.length &&
           Iterable<int>.generate(territories.length)
@@ -173,7 +161,6 @@ class CurrencyModel {
         flag,
         minorUnit,
         status,
-        category,
         withdrawalDate,
         Object.hashAll(territories),
       );
