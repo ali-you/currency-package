@@ -33,7 +33,7 @@ class Currency {
         : null;
   }
 
-  /// Exact display-name lookup, ignoring surrounding whitespace and case.
+  /// Exact display, official-name or alias lookup, ignoring whitespace and case.
   /// Missing or ambiguous names return null; prefer ISO codes for ambiguity.
   CurrencyModel? byCurrencyName(
     String currencyName, {
@@ -42,7 +42,12 @@ class Currency {
     final name = currencyName.trim().toLowerCase();
     CurrencyModel? match;
     for (final currency in includeHistorical ? _all : _current) {
-      if (currency.currencyName.toLowerCase() == name) {
+      final names = [
+        currency.currencyName,
+        currency.officialName,
+        ...currency.aliases
+      ];
+      if (names.any((candidate) => candidate?.toLowerCase() == name)) {
         if (match != null) return null;
         match = currency;
       }

@@ -22,7 +22,7 @@ final current = currencies.getAllCurrencies(category: CurrencyCategory.currency)
 final oldLev = currencies.byIsoCode('BGN', includeHistorical: true);
 ```
 
-Names match exactly after trimming and ignoring case; missing or ambiguous names
+Display names, official names and aliases match exactly after trimming and ignoring case; missing or ambiguous names
 return null. Prefer ISO codes for identifiers. Historical entries require opt-in.
 Lists and their territory lists are immutable. `toJson`/`fromJson` round trip,
 models compare by value, and invalid JSON produces field-specific
@@ -58,3 +58,10 @@ Current-only results are now the default. Pass `includeHistorical: true` to acce
 obsolete codes. Code and name inputs now trim whitespace; names ignore case and
 return null for missing or ambiguous matches. Returned collections are immutable.
 Territory labels and numeric codes have been reconciled with the official source.
+
+`officialName` preserves the register name separately from the display name.
+`aliases` is immutable and preserves former labels such as `Peruvian nuevo sol`;
+that name and `Sol` both find PEN, whose display name is now `Peruvian sol`.
+Subdivision names are independent of ISO precision. Historical null minor units
+mean precision is unavailable from the historical register. Display verification
+and sources are maintained in the repository's `currency.annotations.json`.

@@ -1,0 +1,4541 @@
+{
+  "AED": {
+    "fields": {
+      "currencyName": {
+        "value": "United Arab Emirates dirham",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.إ",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Fils",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AFN": {
+    "fields": {
+      "currencyName": {
+        "value": "Afghan afghani",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "؋",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Pul",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇫",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ALL": {
+    "fields": {
+      "currencyName": {
+        "value": "Albanian lek",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Qindarka",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AMD": {
+    "fields": {
+      "currencyName": {
+        "value": "Armenian dram",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "֏",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Luma",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ANG": {
+    "fields": {
+      "currencyName": {
+        "value": "Netherlands Antillean guilder",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ƒ",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AOA": {
+    "fields": {
+      "currencyName": {
+        "value": "Angolan kwanza",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Kz",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cêntimo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ARS": {
+    "fields": {
+      "currencyName": {
+        "value": "Argentine peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AUD": {
+    "fields": {
+      "currencyName": {
+        "value": "Australian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AWG": {
+    "fields": {
+      "currencyName": {
+        "value": "Aruban florin",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ƒ",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "AZN": {
+    "fields": {
+      "currencyName": {
+        "value": "Azerbaijani manat",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Qəpik",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BAM": {
+    "fields": {
+      "currencyName": {
+        "value": "Bosnia and Herzegovina convertible mark",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "КМ",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Fening",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BBD": {
+    "fields": {
+      "currencyName": {
+        "value": "Barbados dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇧",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BDT": {
+    "fields": {
+      "currencyName": {
+        "value": "Bangladeshi taka",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "৳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Poisha",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BGN": {
+    "fields": {
+      "currencyName": {
+        "value": "Bulgarian lev",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "лв.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Stotinka",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BHD": {
+    "fields": {
+      "currencyName": {
+        "value": "Bahraini dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ب.د",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Fils",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BIF": {
+    "fields": {
+      "currencyName": {
+        "value": "Burundian franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FBu",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇮",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BMD": {
+    "fields": {
+      "currencyName": {
+        "value": "Bermudian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Bermudian dollar (customarily known as Bermuda dollar)"
+    ]
+  },
+  "BND": {
+    "fields": {
+      "currencyName": {
+        "value": "Brunei dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Sen",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BOB": {
+    "fields": {
+      "currencyName": {
+        "value": "Boliviano",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Bs.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BOV": {
+    "fields": {
+      "currencyName": {
+        "value": "Bolivian Mvdol",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Bs.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Bolivian Mvdol (funds code)"
+    ]
+  },
+  "BRL": {
+    "fields": {
+      "currencyName": {
+        "value": "Brazilian real",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "R$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BSD": {
+    "fields": {
+      "currencyName": {
+        "value": "Bahamian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BTN": {
+    "fields": {
+      "currencyName": {
+        "value": "Bhutanese ngultrum",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Nu.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Chertrum",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BWP": {
+    "fields": {
+      "currencyName": {
+        "value": "Botswana pula",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "P",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Thebe",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BYN": {
+    "fields": {
+      "currencyName": {
+        "value": "Belarusian Ruble",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BYR": {
+    "fields": {
+      "currencyName": {
+        "value": "Belarusian ruble",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Br",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "BZD": {
+    "fields": {
+      "currencyName": {
+        "value": "Belize dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "BZ$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CAD": {
+    "fields": {
+      "currencyName": {
+        "value": "Canadian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CDF": {
+    "fields": {
+      "currencyName": {
+        "value": "Congolese franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FC",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centime",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CHE": {
+    "fields": {
+      "currencyName": {
+        "value": "WIR Euro",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CHE",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "WIR Euro (complementary currency)"
+    ]
+  },
+  "CHF": {
+    "fields": {
+      "currencyName": {
+        "value": "Swiss franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CHF",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Rappen",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CHW": {
+    "fields": {
+      "currencyName": {
+        "value": "WIR Franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CHW",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "WIR Franc (complementary currency)"
+    ]
+  },
+  "CLF": {
+    "fields": {
+      "currencyName": {
+        "value": "Unidad de Fomento",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CLF",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Unidad de Fomento (funds code)"
+    ]
+  },
+  "CLP": {
+    "fields": {
+      "currencyName": {
+        "value": "Chilean peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CNY": {
+    "fields": {
+      "currencyName": {
+        "value": "Chinese yuan",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "¥",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Jiao",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "COP": {
+    "fields": {
+      "currencyName": {
+        "value": "Colombian peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "COU": {
+    "fields": {
+      "currencyName": {
+        "value": "Unidad de Valor Real",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "COU",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CRC": {
+    "fields": {
+      "currencyName": {
+        "value": "Costa Rican colon",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₡",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CUC": {
+    "fields": {
+      "currencyName": {
+        "value": "Cuban convertible peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CUC",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CUP": {
+    "fields": {
+      "currencyName": {
+        "value": "Cuban peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CUP",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CVE": {
+    "fields": {
+      "currencyName": {
+        "value": "Cape Verde escudo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Esc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇻",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "CZK": {
+    "fields": {
+      "currencyName": {
+        "value": "Czech koruna",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Kč",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "DJF": {
+    "fields": {
+      "currencyName": {
+        "value": "Djiboutian franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Fdj",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇩🇯",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "DKK": {
+    "fields": {
+      "currencyName": {
+        "value": "Danish krone",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "kr",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇩🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "DOP": {
+    "fields": {
+      "currencyName": {
+        "value": "Dominican peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "RD$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇩🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "DZD": {
+    "fields": {
+      "currencyName": {
+        "value": "Algerian dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.ج",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇩🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "EGP": {
+    "fields": {
+      "currencyName": {
+        "value": "Egyptian pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "E£",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇪🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ERN": {
+    "fields": {
+      "currencyName": {
+        "value": "Eritrean nakfa",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Nfk",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇪🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ETB": {
+    "fields": {
+      "currencyName": {
+        "value": "Ethiopian birr",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Br",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇪🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "EUR": {
+    "fields": {
+      "currencyName": {
+        "value": "Euro",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "€",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇪🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "FJD": {
+    "fields": {
+      "currencyName": {
+        "value": "Fiji dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FJ$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇫🇯",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "FKP": {
+    "fields": {
+      "currencyName": {
+        "value": "Falkland Islands pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FK£",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇫🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GBP": {
+    "fields": {
+      "currencyName": {
+        "value": "Pound sterling",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "£",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Penny",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇧",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GEL": {
+    "fields": {
+      "currencyName": {
+        "value": "Georgian lari",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Tetri",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GHS": {
+    "fields": {
+      "currencyName": {
+        "value": "Ghanaian cedi",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₵",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Pesewa",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GIP": {
+    "fields": {
+      "currencyName": {
+        "value": "Gibraltar pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "£",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Penny",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇮",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GMD": {
+    "fields": {
+      "currencyName": {
+        "value": "Gambian dalasi",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "D",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Butut",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GNF": {
+    "fields": {
+      "currencyName": {
+        "value": "Guinean franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FG",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GTQ": {
+    "fields": {
+      "currencyName": {
+        "value": "Guatemalan quetzal",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Q",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "GYD": {
+    "fields": {
+      "currencyName": {
+        "value": "Guyanese dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "G$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇬🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "HKD": {
+    "fields": {
+      "currencyName": {
+        "value": "Hong Kong dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "HK$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇭🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "HNL": {
+    "fields": {
+      "currencyName": {
+        "value": "Honduran lempira",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centavo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇭🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "HRK": {
+    "fields": {
+      "currencyName": {
+        "value": "Croatian kuna",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "kn",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇭🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "HTG": {
+    "fields": {
+      "currencyName": {
+        "value": "Haitian gourde",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "G",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇭🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "HUF": {
+    "fields": {
+      "currencyName": {
+        "value": "Hungarian forint",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Ft",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇭🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "IDR": {
+    "fields": {
+      "currencyName": {
+        "value": "Indonesian rupiah",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Rp",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ILS": {
+    "fields": {
+      "currencyName": {
+        "value": "Israeli new shekel",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Agora",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "INR": {
+    "fields": {
+      "currencyName": {
+        "value": "Indian rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Paisa",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "IQD": {
+    "fields": {
+      "currencyName": {
+        "value": "Iraqi dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.ع",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇶",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "IRR": {
+    "fields": {
+      "currencyName": {
+        "value": "Iranian rial",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "﷼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ISK": {
+    "fields": {
+      "currencyName": {
+        "value": "Icelandic króna",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "kr",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇮🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "JMD": {
+    "fields": {
+      "currencyName": {
+        "value": "Jamaican dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "J$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇯🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "JOD": {
+    "fields": {
+      "currencyName": {
+        "value": "Jordanian dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.ا",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇯🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "JPY": {
+    "fields": {
+      "currencyName": {
+        "value": "Japanese yen",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "¥",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇯🇵",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KES": {
+    "fields": {
+      "currencyName": {
+        "value": "Kenyan shilling",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "KSh",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KGS": {
+    "fields": {
+      "currencyName": {
+        "value": "Kyrgyzstani som",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "с",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KHR": {
+    "fields": {
+      "currencyName": {
+        "value": "Cambodian riel",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "៛",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KMF": {
+    "fields": {
+      "currencyName": {
+        "value": "Comoro franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CF",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KPW": {
+    "fields": {
+      "currencyName": {
+        "value": "North Korean won",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇵",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KRW": {
+    "fields": {
+      "currencyName": {
+        "value": "South Korean won",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KWD": {
+    "fields": {
+      "currencyName": {
+        "value": "Kuwaiti dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.ك",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KYD": {
+    "fields": {
+      "currencyName": {
+        "value": "Cayman Islands dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CI$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "KZT": {
+    "fields": {
+      "currencyName": {
+        "value": "Kazakhstani tenge",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇰🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LAK": {
+    "fields": {
+      "currencyName": {
+        "value": "Lao kip",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LBP": {
+    "fields": {
+      "currencyName": {
+        "value": "Lebanese pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ل.ل",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇧",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LKR": {
+    "fields": {
+      "currencyName": {
+        "value": "Sri Lankan rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "රු",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LRD": {
+    "fields": {
+      "currencyName": {
+        "value": "Liberian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LSL": {
+    "fields": {
+      "currencyName": {
+        "value": "Lesotho loti",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Sente",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LTL": {
+    "fields": {
+      "currencyName": {
+        "value": "Lithuanian litas",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Lt",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centas",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LVL": {
+    "fields": {
+      "currencyName": {
+        "value": "Latvian lats",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Ls",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Santims",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇻",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "LYD": {
+    "fields": {
+      "currencyName": {
+        "value": "Libyan dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ل.د",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇱🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MAD": {
+    "fields": {
+      "currencyName": {
+        "value": "Moroccan dirham",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.م.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MDL": {
+    "fields": {
+      "currencyName": {
+        "value": "Moldovan leu",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Ban",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MGA": {
+    "fields": {
+      "currencyName": {
+        "value": "Malagasy ariary",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Ar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MKD": {
+    "fields": {
+      "currencyName": {
+        "value": "Macedonian denar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ден",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MMK": {
+    "fields": {
+      "currencyName": {
+        "value": "Myanma kyat",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Ks",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MNT": {
+    "fields": {
+      "currencyName": {
+        "value": "Mongolian tugrik",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₮",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MOP": {
+    "fields": {
+      "currencyName": {
+        "value": "Macanese pataca",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "MOP$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MRO": {
+    "fields": {
+      "currencyName": {
+        "value": "Mauritanian ouguiya",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "UM",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MRU": {
+    "fields": {
+      "currencyName": {
+        "value": "Ouguiya",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MUR": {
+    "fields": {
+      "currencyName": {
+        "value": "Mauritian rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₨",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MVR": {
+    "fields": {
+      "currencyName": {
+        "value": "Maldivian rufiyaa",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ރ.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇻",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MWK": {
+    "fields": {
+      "currencyName": {
+        "value": "Malawian kwacha",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "MK",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MXN": {
+    "fields": {
+      "currencyName": {
+        "value": "Mexican peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Mex$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇽",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MXV": {
+    "fields": {
+      "currencyName": {
+        "value": "Mexican Unidad de Inversion",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "UDI",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Mexican Unidad de Inversion (UDI) (funds code)"
+    ]
+  },
+  "MYR": {
+    "fields": {
+      "currencyName": {
+        "value": "Malaysian ringgit",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "RM",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "MZN": {
+    "fields": {
+      "currencyName": {
+        "value": "Mozambican metical",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "MT",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇲🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NAD": {
+    "fields": {
+      "currencyName": {
+        "value": "Namibian dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "N$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NGN": {
+    "fields": {
+      "currencyName": {
+        "value": "Nigerian naira",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NIO": {
+    "fields": {
+      "currencyName": {
+        "value": "Nicaraguan córdoba",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "C$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇮",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NOK": {
+    "fields": {
+      "currencyName": {
+        "value": "Norwegian krone",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "kr",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NPR": {
+    "fields": {
+      "currencyName": {
+        "value": "Nepalese rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "रू",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇵",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "NZD": {
+    "fields": {
+      "currencyName": {
+        "value": "New Zealand dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "NZ$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇳🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "OMR": {
+    "fields": {
+      "currencyName": {
+        "value": "Omani rial",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ر.ع.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇴🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PAB": {
+    "fields": {
+      "currencyName": {
+        "value": "Panamanian balboa",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "B/.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PEN": {
+    "fields": {
+      "currencyName": {
+        "value": "Peruvian sol",
+        "verification": "verified",
+        "sources": [
+          "https://www.bcrp.gob.pe/docs/Transparencia/Normas-Legales/Circulares/2015/circular-047-2015-bcrp.pdf"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      "currencySymbol": {
+        "value": "S/",
+        "verification": "verified",
+        "sources": [
+          "https://www.bcrp.gob.pe/docs/Transparencia/Normas-Legales/Circulares/2015/circular-047-2015-bcrp.pdf"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      "flag": {
+        "value": "🇵🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Peruvian nuevo sol"
+    ]
+  },
+  "PGK": {
+    "fields": {
+      "currencyName": {
+        "value": "Papua New Guinean kina",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "K",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PHP": {
+    "fields": {
+      "currencyName": {
+        "value": "Philippine peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PKR": {
+    "fields": {
+      "currencyName": {
+        "value": "Pakistani rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₨",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇰",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PLN": {
+    "fields": {
+      "currencyName": {
+        "value": "Polish złoty",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "zł",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "PYG": {
+    "fields": {
+      "currencyName": {
+        "value": "Paraguayan guaraní",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "QAR": {
+    "fields": {
+      "currencyName": {
+        "value": "Qatari riyal",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ر.ق",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇶🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "RON": {
+    "fields": {
+      "currencyName": {
+        "value": "Romanian new leu",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "lei",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇷🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "RSD": {
+    "fields": {
+      "currencyName": {
+        "value": "Serbian dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "дин",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇷🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "RUB": {
+    "fields": {
+      "currencyName": {
+        "value": "Russian rouble",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₽",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇷🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "RWF": {
+    "fields": {
+      "currencyName": {
+        "value": "Rwandan franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FRw",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇷🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SAR": {
+    "fields": {
+      "currencyName": {
+        "value": "Saudi riyal",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ر.س",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SBD": {
+    "fields": {
+      "currencyName": {
+        "value": "Solomon Islands dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "SI$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇧",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SCR": {
+    "fields": {
+      "currencyName": {
+        "value": "Seychelles rupee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₨",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇨",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SDG": {
+    "fields": {
+      "currencyName": {
+        "value": "Sudanese pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ج.س",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇩",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SEK": {
+    "fields": {
+      "currencyName": {
+        "value": "Swedish krona/kronor",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "kr",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SGD": {
+    "fields": {
+      "currencyName": {
+        "value": "Singapore dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "S$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SHP": {
+    "fields": {
+      "currencyName": {
+        "value": "Saint Helena pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "£",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SLE": {
+    "fields": {
+      "currencyName": {
+        "value": "Leone",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SLL": {
+    "fields": {
+      "currencyName": {
+        "value": "Sierra Leonean leone",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Le",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇱",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SOS": {
+    "fields": {
+      "currencyName": {
+        "value": "Somali shilling",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Sh.So.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SRD": {
+    "fields": {
+      "currencyName": {
+        "value": "Surinamese dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "SRD",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SSP": {
+    "fields": {
+      "currencyName": {
+        "value": "South Sudanese pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "SSP",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "STD": {
+    "fields": {
+      "currencyName": {
+        "value": "São Tomé and Príncipe dobra",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Db",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "STN": {
+    "fields": {
+      "currencyName": {
+        "value": "Dobra",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SVC": {
+    "fields": {
+      "currencyName": {
+        "value": "El Salvador Colon",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SYP": {
+    "fields": {
+      "currencyName": {
+        "value": "Syrian pound",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "£S",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "SZL": {
+    "fields": {
+      "currencyName": {
+        "value": "Swazi lilangeni",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "L",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇸🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "THB": {
+    "fields": {
+      "currencyName": {
+        "value": "Thai baht",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "฿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇭",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TJS": {
+    "fields": {
+      "currencyName": {
+        "value": "Tajikistani somoni",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ЅМ",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Diram",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇯",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TMT": {
+    "fields": {
+      "currencyName": {
+        "value": "Turkmenistani manat",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "T",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Tenge",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TND": {
+    "fields": {
+      "currencyName": {
+        "value": "Tunisian dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "د.ت",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Millime",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TOP": {
+    "fields": {
+      "currencyName": {
+        "value": "Tongan paʻanga",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "T$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Seniti",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TRY": {
+    "fields": {
+      "currencyName": {
+        "value": "Turkish lira",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Kuruş",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇷",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TTD": {
+    "fields": {
+      "currencyName": {
+        "value": "Trinidad and Tobago dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "TT$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇹",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TWD": {
+    "fields": {
+      "currencyName": {
+        "value": "New Taiwan dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "NT$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "TZS": {
+    "fields": {
+      "currencyName": {
+        "value": "Tanzanian shilling",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Sh",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Senti",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇹🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "UAH": {
+    "fields": {
+      "currencyName": {
+        "value": "Ukrainian hryvnia",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₴",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Kopiyka",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇺🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "UGX": {
+    "fields": {
+      "currencyName": {
+        "value": "Ugandan shilling",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "USh",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇺🇬",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "USD": {
+    "fields": {
+      "currencyName": {
+        "value": "United States dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇺🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "USN": {
+    "fields": {
+      "currencyName": {
+        "value": "United States dollar (next day)",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "USN",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "United States dollar (next day) (funds code)"
+    ]
+  },
+  "USS": {
+    "fields": {
+      "currencyName": {
+        "value": "United States dollar (same day)",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "USS",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "United States dollar (same day) (funds code)"
+    ]
+  },
+  "UYI": {
+    "fields": {
+      "currencyName": {
+        "value": "Uruguay Peso en Unidades Indexadas",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "UYI",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)"
+    ]
+  },
+  "UYU": {
+    "fields": {
+      "currencyName": {
+        "value": "Uruguayan peso",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centésimo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇺🇾",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "UYW": {
+    "fields": {
+      "currencyName": {
+        "value": "Unidad Previsional",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "UZS": {
+    "fields": {
+      "currencyName": {
+        "value": "Uzbekistan som",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "so'm",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Tiyin",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇺🇿",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "VED": {
+    "fields": {
+      "currencyName": {
+        "value": "Bolívar Soberano",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "VEF": {
+    "fields": {
+      "currencyName": {
+        "value": "Venezuelan bolívar fuerte",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Bs.S.",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Céntimo",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇻🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "VES": {
+    "fields": {
+      "currencyName": {
+        "value": "Bolívar Soberano",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "VND": {
+    "fields": {
+      "currencyName": {
+        "value": "Vietnamese dong",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₫",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Hào",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇻🇳",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "VUV": {
+    "fields": {
+      "currencyName": {
+        "value": "Vanuatu vatu",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "VT",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇻🇺",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "WST": {
+    "fields": {
+      "currencyName": {
+        "value": "Samoan tala",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "WS$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Sene",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇼🇸",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XAD": {
+    "fields": {
+      "currencyName": {
+        "value": "Arab Accounting Dinar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XAF": {
+    "fields": {
+      "currencyName": {
+        "value": "CFA franc BEAC",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "FCFA",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Centime",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇨🇫",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XAG": {
+    "fields": {
+      "currencyName": {
+        "value": "Silver",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "oz t",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Silver (one troy ounce)"
+    ]
+  },
+  "XAU": {
+    "fields": {
+      "currencyName": {
+        "value": "Gold",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "oz t",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Gold (one troy ounce)"
+    ]
+  },
+  "XBA": {
+    "fields": {
+      "currencyName": {
+        "value": "European Composite Unit",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XBA",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "European Composite Unit (EURCO) (bond market unit)"
+    ]
+  },
+  "XBB": {
+    "fields": {
+      "currencyName": {
+        "value": "European Monetary Unit",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XBB",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "European Monetary Unit (E.M.U.-6) (bond market unit)"
+    ]
+  },
+  "XBC": {
+    "fields": {
+      "currencyName": {
+        "value": "European Unit of Account 9",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XBC",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "European Unit of Account 9 (E.U.A.-9) (bond market unit)"
+    ]
+  },
+  "XBD": {
+    "fields": {
+      "currencyName": {
+        "value": "European Unit of Account 17",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XBD",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "European Unit of Account 17 (E.U.A.-17) (bond market unit)"
+    ]
+  },
+  "XCD": {
+    "fields": {
+      "currencyName": {
+        "value": "East Caribbean dollar",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "$",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇦🇮",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XCG": {
+    "fields": {
+      "currencyName": {
+        "value": "Caribbean Guilder",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Cg",
+        "verification": "verified",
+        "sources": [
+          "https://www.centralbank.cw/index.php/functions/banknotes-coins/caribbean-guilder/frequently-asked-questions"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "verified",
+        "sources": [
+          "https://www.centralbank.cw/index.php/functions/banknotes-coins/caribbean-guilder/frequently-asked-questions"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    },
+    "aliases": []
+  },
+  "XDR": {
+    "fields": {
+      "currencyName": {
+        "value": "Special drawing rights",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XDR",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XFU": {
+    "fields": {
+      "currencyName": {
+        "value": "UIC franc (special settlement currency)",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XFU",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XOF": {
+    "fields": {
+      "currencyName": {
+        "value": "CFA franc BCEAO",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "CFA",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇧🇯",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XPD": {
+    "fields": {
+      "currencyName": {
+        "value": "Palladium",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "oz t",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Palladium (one troy ounce)"
+    ]
+  },
+  "XPF": {
+    "fields": {
+      "currencyName": {
+        "value": "CFP franc",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "F",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇵🇫",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XPT": {
+    "fields": {
+      "currencyName": {
+        "value": "Platinum",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "oz t",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": [
+      "Platinum (one troy ounce)"
+    ]
+  },
+  "XSU": {
+    "fields": {
+      "currencyName": {
+        "value": "Sucre",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XTS": {
+    "fields": {
+      "currencyName": {
+        "value": "Code reserved for testing purposes",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XTS",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XUA": {
+    "fields": {
+      "currencyName": {
+        "value": "ADB Unit of Account",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "XXX": {
+    "fields": {
+      "currencyName": {
+        "value": "No currency",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "XXX",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "YER": {
+    "fields": {
+      "currencyName": {
+        "value": "Yemeni rial",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "﷼",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Fils",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇾🇪",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ZAR": {
+    "fields": {
+      "currencyName": {
+        "value": "South African rand",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "R",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Cent",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇿🇦",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ZMW": {
+    "fields": {
+      "currencyName": {
+        "value": "Zambian kwacha",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ZK",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "fractionalUnit": {
+        "value": "Ngwee",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      },
+      "flag": {
+        "value": "🇿🇲",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  },
+  "ZWG": {
+    "fields": {
+      "currencyName": {
+        "value": "Zimbabwe Gold",
+        "verification": "legacyUnverified",
+        "sources": [],
+        "verifiedAt": null
+      }
+    },
+    "aliases": []
+  }
+}

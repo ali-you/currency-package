@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Currency metadata",
+  "type": "object",
+  "minProperties": 1,
+  "additionalProperties": false,
+  "patternProperties": {
+    "^[A-Z]{3}$": {
+      "$ref": "#/$defs/currency"
+    }
+  },
+  "$defs": {
+    "currency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "currencySymbol",
+        "territory",
+        "fractionalUnit",
+        "flag",
+        "isoCode",
+        "currencyName",
+        "officialName",
+        "aliases",
+        "numericCode",
+        "territories",
+        "minorUnit",
+        "status",
+        "category",
+        "withdrawalDate"
+      ],
+      "properties": {
+        "currencySymbol": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "const": "None"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional representative display flag; never a complete territory mapping."
+        },
+        "territory": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "const": "None"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional representative display flag; never a complete territory mapping."
+        },
+        "fractionalUnit": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "const": "None"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional representative display flag; never a complete territory mapping."
+        },
+        "flag": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "const": "None"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional representative display flag; never a complete territory mapping."
+        },
+        "isoCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "currencyName": {
+          "type": "string",
+          "minLength": 1,
+          "not": {
+            "const": "None"
+          }
+        },
+        "officialName": {
+          "type": "string",
+          "minLength": 1,
+          "not": {
+            "const": "None"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "const": "None"
+            }
+          }
+        },
+        "numericCode": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 999
+        },
+        "territories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "not": {
+              "const": "None"
+            }
+          }
+        },
+        "minorUnit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 9,
+          "description": "ISO decimal exponent, independent of the named subdivision. Historical nulls mean unavailable from List Three."
+        },
+        "status": {
+          "enum": [
+            "current",
+            "historical"
+          ]
+        },
+        "category": {
+          "enum": [
+            "currency",
+            "fund",
+            "preciousMetal",
+            "special"
+          ]
+        },
+        "withdrawalDate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "current"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "withdrawalDate": {
+                "type": "null"
+              },
+              "numericCode": {
+                "type": "integer"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "withdrawalDate": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "annotationField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "verification",
+        "sources",
+        "verifiedAt"
+      ],
+      "properties": {
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "not": {
+            "const": "None"
+          }
+        },
+        "verification": {
+          "enum": [
+            "verified",
+            "legacyUnverified"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        },
+        "verifiedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "verification": {
+                "const": "verified"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "sources": {
+                "minItems": 1
+              },
+              "verifiedAt": {
+                "type": "string"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "verifiedAt": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "annotations": {
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[A-Z]{3}$": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "fields",
+            "aliases"
+          ],
+          "properties": {
+            "fields": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "currencyName": {
+                  "$ref": "#/$defs/annotationField"
+                },
+                "currencySymbol": {
+                  "$ref": "#/$defs/annotationField"
+                },
+                "fractionalUnit": {
+                  "$ref": "#/$defs/annotationField"
+                },
+                "flag": {
+                  "$ref": "#/$defs/annotationField"
+                }
+              }
+            },
+            "aliases": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "not": {
+                  "const": "None"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

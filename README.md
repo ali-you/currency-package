@@ -8,8 +8,12 @@ when building a currency picker.
 
 - `currency_dart`: pure Dart lookups and immutable metadata, with no Flutter dependency.
 - `currency_flutter`: the same public API plus the `CurrencyLabel` widget.
+- `currency_localization`: offline CLDR names in English, Persian and Arabic,
+  keyed by ISO code, with locale fallback and no Flutter dependency.
 - `currency.json`: canonical metadata used to generate the Dart repository.
 - `currency.metadata.json`: source URLs, publication dates, hashes and coverage.
+- `currency.annotations.json`: curated display values and field-level verification.
+- `currency.schema.json`: external JSON Schema for data and annotation validation.
 
 ## Usage
 
@@ -24,12 +28,25 @@ final current = currencies.getAllCurrencies(category: CurrencyCategory.currency)
 final historical = currencies.byIsoCode('BGN', includeHistorical: true);
 ```
 
-Lookups trim surrounding whitespace and ignore case. Name matching is otherwise
-exact; ambiguous names return null. ISO codes are the reliable identifiers.
+Lookups trim surrounding whitespace and ignore case. Display names, official names and aliases match exactly after normalization;
+ambiguous names return null. ISO codes are the reliable identifiers.
 Historical codes require `includeHistorical: true` in lookups and lists.
 Returned lists and territory lists are immutable.
 
 ## Data fields and provenance
+
+For localized labels, keep currency metadata unchanged and resolve by ISO code:
+
+```dart
+import 'package:currency_localization/currency_localization.dart';
+
+const names = CurrencyLocalization();
+final label = names.name('USD', locale: 'fa_IR'); // دلار آمریکا
+```
+
+See [currency_localization](currency_localization/README.md) for coverage,
+fallback behavior and generation instructions. Its translations come from a
+separately pinned CLDR release and include the Unicode license notice.
 
 The [SIX ISO 4217 registers](https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html)
 provide ISO codes, numeric codes, entity names, minor-unit exponents and historical
@@ -40,7 +57,9 @@ classifications. The historical subset is not a complete historical archive.
 | Field | Meaning |
 |---|---|
 | `isoCode` | Three-letter ISO code |
-| `currencyName` | Display name; existing package names are preserved |
+| `currencyName` | Curated display name |
+| `officialName` | Name from the ISO register |
+| `aliases` | Previous display labels retained for compatible searches |
 | `numericCode` | Integer ISO number; use `numericCodeString` for padded values such as `008` |
 | `territories` | Structured entity names from ISO; names can contain commas |
 | `territory` | Joined display label for compatibility |
@@ -85,5 +104,12 @@ See `tool/data/README.md` for the source and annotation policy.
 Package code is distributed under the existing [MIT License](LICENSE). Existing
 Wen Du and CFUG Team notices have been preserved; their inclusion does not claim
 those authors verified the currency data. SIX is the upstream register source.
-Supplemental annotations predate this refresh and have no record-level citations;
-verify them before relying on display conventions in a particular jurisdiction.
+Legacy annotations remain marked `legacyUnverified`. Verified corrections have
+field-level source URLs and dates in `currency.annotations.json`. Null values are
+retained where reliable annotations are unavailable.
+
+Validate data edits with `python -m pip install -r tool/requirements.txt`,
+`python tool/validate_currency.py` and `python -m unittest discover -s tool -p
+'test_*.py'`. Edit supplemental values in `currency.annotations.json`, then
+refresh the JSON and generated Dart as described above. ISO current status means
+membership in the current register, not a claim about legal tender everywhere.

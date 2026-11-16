@@ -22,12 +22,36 @@ jobs:
       - run: dart test
         working-directory: currency_dart
       - run: python3 tool/refresh_data.py --check
+      - run: python3 -m pip install -r tool/requirements.txt
+      - run: python3 tool/validate_currency.py
+      - run: python3 -m unittest discover -s tool -p 'test_*.py'
       - if: matrix.sdk == '3.13.5'
         run: dart run tool/generate.dart --check
         working-directory: currency_dart
       - if: matrix.sdk == '3.13.5'
         run: dart format --output=none --set-exit-if-changed lib test tool
         working-directory: currency_dart
+
+  localization:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        sdk: ['3.4.4', '3.13.5']
+    defaults:
+      run:
+        working-directory: currency_localization
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: ${{ matrix.sdk }}
+      - run: dart pub get --no-example
+      - run: dart analyze --fatal-infos
+      - run: dart test
+      - if: matrix.sdk == '3.13.5'
+        run: dart run tool/generate.dart --check
+      - if: matrix.sdk == '3.13.5'
+        run: dart format --output=none --set-exit-if-changed lib test tool example
 
   flutter:
     runs-on: ubuntu-latest

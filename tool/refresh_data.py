@@ -1,7 +1,7 @@
 """Merge pinned SIX registers into currency.json; no network access required.
 
-ISO facts come from XML. Existing display names, symbols, fractional-unit names,
-and representative flags are supplemental annotations, not ISO-verified facts.
+ISO facts come from XML. Display metadata comes from currency.annotations.json,
+which distinguishes verified annotations from inherited, unverified values.
 Historical coverage intentionally retains only codes already in currency.json.
 """
 
@@ -41,6 +41,7 @@ def category(code, entries):
 
 def build():
     previous = json.loads((ROOT / "currency.json").read_text(encoding="utf-8"))
+    annotations = json.loads((ROOT / "currency.annotations.json").read_text(encoding="utf-8"))
     current_path = ROOT / "tool/data/list-one.xml"
     historical_path = ROOT / "tool/data/list-three.xml"
     current = ET.parse(current_path).getroot()
@@ -50,6 +51,8 @@ def build():
     result = {}
     for code in sorted(set(current_groups) | set(previous)):
         old = previous.get(code, {})
+        annotation = annotations.get(code, {"fields": {}, "aliases": []})
+        fields = {key: item["value"] for key, item in annotation["fields"].items()}
         is_current = code in current_groups
         entries = current_groups.get(code) or historical_groups.get(code)
         if not entries:
@@ -74,12 +77,14 @@ def build():
         number = next(iter(numbers))
         result[code] = {
             "isoCode": code,
-            "currencyName": old.get("currencyName") or entries[0].findtext("CcyNm"),
+            "currencyName": fields.get("currencyName") or entries[0].findtext("CcyNm"),
+            "officialName": entries[0].findtext("CcyNm"),
+            "aliases": annotation["aliases"],
             "numericCode": int(number) if number else None,
-            "currencySymbol": old.get("currencySymbol"),
+            "currencySymbol": fields.get("currencySymbol"),
             "territory": ", ".join(entities) or None,
-            "fractionalUnit": old.get("fractionalUnit"),
-            "flag": old.get("flag") if kind == "currency" else None,
+            "fractionalUnit": fields.get("fractionalUnit"),
+            "flag": fields.get("flag") if kind == "currency" else None,
             "territories": entities,
             "minorUnit": int(minor_unit) if minor_unit and minor_unit.isdigit() else None,
             "status": "current" if is_current else "historical",
@@ -98,7 +103,7 @@ def build():
         "coverage": "All current ISO 4217 codes plus selected historical codes retained from the original dataset.",
         "currentCount": len(current_groups),
         "historicalCount": len(result) - len(current_groups),
-        "annotations": "Display names, symbols, fractional-unit names and representative flags are supplemental; null means unknown or not applicable. Categories are package-defined groupings.",
+        "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive. Categories are package-defined groupings.",
     }
     return {"currency.json": result, "currency.metadata.json": metadata}
 

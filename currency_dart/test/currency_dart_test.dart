@@ -8,6 +8,26 @@ import 'package:test/test.dart';
 void main() {
   final currency = Currency();
 
+  test('corrected display data preserves legacy and official-name searches',
+      () {
+    final pen = currency.byIsoCode('PEN')!;
+    expect(pen.currencyName, 'Peruvian sol');
+    expect(pen.currencySymbol, 'S/');
+    expect(pen.officialName, 'Sol');
+    expect(currency.byCurrencyName(' Peruvian NUEVO sol '), pen);
+    expect(currency.byCurrencyName('Sol'), pen);
+    expect(currency.byIsoCode('XCG')!.currencySymbol, 'Cg');
+    expect(currency.byIsoCode('USN')!.fractionalUnit, isNull);
+    expect(currency.byIsoCode('USS', includeHistorical: true)!.fractionalUnit,
+        isNull);
+    expect(
+        currency
+            .getAllCurrencies(includeHistorical: true)
+            .any((c) => c.fractionalUnit == 'None'),
+        isFalse);
+    expect(() => pen.aliases.clear(), throwsUnsupportedError);
+  });
+
   test('code lookups normalize input and return null for missing codes', () {
     expect(currency.byIsoCode(' usd ')!.isoCode, 'USD');
     expect(currency.byIsoCode('UNKNOWN'), isNull);

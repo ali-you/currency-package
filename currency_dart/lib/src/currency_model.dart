@@ -7,6 +7,12 @@ enum CurrencyCategory { currency, fund, preciousMetal, special }
 /// Immutable currency metadata. Null means unknown or not applicable.
 class CurrencyModel {
   final String currencyName;
+
+  /// Name from the ISO register, separate from the curated display name.
+  final String? officialName;
+
+  /// Alternative display names retained for compatible name searches.
+  final List<String> aliases;
   final String? currencySymbol;
   final String isoCode;
   final int? numericCode;
@@ -33,6 +39,8 @@ class CurrencyModel {
 
   CurrencyModel({
     this.currencyName = 'Not defined',
+    this.officialName,
+    List<String> aliases = const [],
     required this.isoCode,
     this.currencySymbol,
     this.numericCode,
@@ -44,7 +52,8 @@ class CurrencyModel {
     this.status = CurrencyStatus.current,
     this.category = CurrencyCategory.currency,
     this.withdrawalDate,
-  }) : territories = List.unmodifiable(territories);
+  })  : territories = List.unmodifiable(territories),
+        aliases = List.unmodifiable(aliases);
 
   /// Three-digit ISO representation, including leading zeroes, e.g. 008.
   String? get numericCodeString => numericCode?.toString().padLeft(3, '0');
@@ -83,8 +92,15 @@ class CurrencyModel {
         (entities is! List || entities.any((entity) => entity is! String))) {
       throw const FormatException('territories must be a list of strings');
     }
+    final aliases = json['aliases'];
+    if (aliases != null &&
+        (aliases is! List || aliases.any((alias) => alias is! String))) {
+      throw const FormatException('aliases must be a list of strings');
+    }
     return CurrencyModel(
       isoCode: code,
+      officialName: string('officialName'),
+      aliases: aliases == null ? const [] : List<String>.from(aliases),
       currencyName: string('currencyName') ?? 'Not defined',
       currencySymbol: string('currencySymbol'),
       numericCode: integer('numericCode', 999),
@@ -107,6 +123,8 @@ class CurrencyModel {
   Map<String, dynamic> toJson() => {
         'isoCode': isoCode,
         'currencyName': currencyName,
+        'officialName': officialName,
+        'aliases': aliases,
         'numericCode': numericCode,
         'currencySymbol': currencySymbol,
         'territory': territory,
@@ -124,6 +142,10 @@ class CurrencyModel {
       identical(this, other) ||
       other is CurrencyModel &&
           currencyName == other.currencyName &&
+          officialName == other.officialName &&
+          aliases.length == other.aliases.length &&
+          Iterable<int>.generate(aliases.length)
+              .every((i) => aliases[i] == other.aliases[i]) &&
           isoCode == other.isoCode &&
           currencySymbol == other.currencySymbol &&
           numericCode == other.numericCode &&
@@ -141,6 +163,8 @@ class CurrencyModel {
   @override
   int get hashCode => Object.hash(
         currencyName,
+        officialName,
+        Object.hashAll(aliases),
         isoCode,
         currencySymbol,
         numericCode,

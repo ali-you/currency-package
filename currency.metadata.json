@@ -14,5 +14,5 @@
   "coverage": "All current ISO 4217 codes plus selected historical codes retained from the original dataset.",
   "currentCount": 178,
   "historicalCount": 13,
-  "annotations": "Display names, symbols, fractional-unit names and representative flags are supplemental; null means unknown or not applicable. Categories are package-defined groupings."
+  "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive. Categories are package-defined groupings."
 }

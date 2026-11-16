@@ -1,3 +1,9 @@
+## Unreleased
+
+* Correct PEN and XCG display metadata; normalize missing subdivision names.
+* Add official names and compatible search aliases to shared metadata.
+* Track display annotation provenance and validate JSON schema and invariants.
+
 ## 0.1.0
 
 * Make the core independent of Flutter.

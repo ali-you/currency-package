@@ -1,0 +1,65 @@
+{
+  "cldrVersion": "49.0.0",
+  "license": "Unicode-3.0",
+  "licenseUrl": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/LICENSE",
+  "licenseSha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b",
+  "currencyCount": 191,
+  "coverage": "Current and selected historical codes from the repository currency.json. Display names only; no plural amount forms.",
+  "sources": [
+    {
+      "locale": "ar",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-numbers-full/main/ar/currencies.json",
+      "sha256": "4ee77b95a18cc1a90fd25b61e1e8b27bcf0ee3c26bbd1c5cf296d27237847982",
+      "translatedCount": 180,
+      "missingCodes": [
+        "CHE",
+        "CHW",
+        "CLF",
+        "COU",
+        "MXV",
+        "UYI",
+        "UYW",
+        "VED",
+        "XAD",
+        "XSU",
+        "XUA"
+      ]
+    },
+    {
+      "locale": "en",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-numbers-full/main/en/currencies.json",
+      "sha256": "50c29c39b6d54444e2e0e72245c22e75ff567d85060da9a531e3590aa4064f66",
+      "translatedCount": 190,
+      "missingCodes": [
+        "XAD"
+      ]
+    },
+    {
+      "locale": "fa",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-numbers-full/main/fa/currencies.json",
+      "sha256": "c428af1bfdc36dbed18c1d098b80c1fbffe016d1e42e436341612927ff366790",
+      "translatedCount": 172,
+      "missingCodes": [
+        "BOV",
+        "CHE",
+        "CHW",
+        "CLF",
+        "COU",
+        "MXV",
+        "SVC",
+        "UYI",
+        "UYW",
+        "VED",
+        "XAD",
+        "XBA",
+        "XBB",
+        "XBC",
+        "XBD",
+        "XDR",
+        "XFU",
+        "XSU",
+        "XUA"
+      ]
+    }
+  ]
+}

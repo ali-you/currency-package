@@ -1,0 +1,13 @@
+name: currency_localization
+description: Offline CLDR currency names for English, Persian and Arabic with locale fallback.
+version: 0.1.0
+repository: https://github.com/ali-you/currency-package
+issue_tracker: https://github.com/ali-you/currency-package/issues
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dev_dependencies:
+  crypto: ^3.0.3
+  lints: ^4.0.0
+  test: ^1.25.8
