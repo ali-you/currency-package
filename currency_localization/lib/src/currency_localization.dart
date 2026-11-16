@@ -16,9 +16,6 @@ class CurrencyLocalization {
   /// Codes covered by the package's pinned currency metadata snapshot.
   Set<String> get supportedCurrencyCodes => currencyNameCodes;
 
-  /// Version of the Unicode CLDR source data.
-  String get cldrVersion => currencyNameDataVersion;
-
   /// Whether this locale or one of its parent tags has a bundled dataset.
   /// Does not count the configured fallback or English as locale support.
   bool supportsLocale(String locale) =>

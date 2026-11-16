@@ -21,7 +21,7 @@ void main() {
         names.name('UYW', locale: 'zh-Hant'), names.name('UYW', locale: 'en'));
   });
 
-  test('returns CLDR display names in English, Persian and Arabic', () {
+  test('returns localized display names in English, Persian and Arabic', () {
     expect(names.name('USD'), 'US Dollar');
     expect(names.name('USD', locale: 'fa'), 'دلار آمریکا');
     expect(names.name('USD', locale: 'ar'), 'دولار أمريكي');
@@ -62,7 +62,7 @@ void main() {
 
   test('unknown and untranslated codes fall back to their normalized code', () {
     expect(names.name(' zzz ', locale: 'fa'), 'ZZZ');
-    // XAD is in the ISO snapshot but absent from these CLDR datasets.
+    // XAD is in the ISO snapshot but absent from the translation maps.
     expect(names.supportedCurrencyCodes, contains('XAD'));
     expect(names.lookup('XAD', locale: 'en'), isNull);
     expect(names.name('XAD', locale: 'fa'), 'XAD');
@@ -76,7 +76,6 @@ void main() {
     expect(names.supportsLocale('FA_IR'), isTrue);
     expect(names.supportsLocale('zz'), isFalse);
     expect(names.supportsLocale(''), isFalse);
-    expect(names.cldrVersion, '49.0.0');
   });
 
   test('collections are immutable and names maps normalize and deduplicate',

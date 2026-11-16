@@ -1,115 +1,92 @@
 # currency_localization
 
-Offline currency display names for **all 657 locale datasets in CLDR 49**, including language, script and regional variants, generated from Unicode CLDR 49. Pure Dart, with no Flutter requirement,
-runtime dependencies, network requests or asset initialization.
-
-```yaml
-dependencies:
-  currency_localization: ^0.2.0
-```
+Offline currency names for 657 language, script and regional locales.
+Pure Dart with no runtime dependencies, Flutter requirement or network access.
 
 ```dart
 import 'package:currency_localization/currency_localization.dart';
 
 const names = CurrencyLocalization();
-
 names.name('USD', locale: 'fa'); // دلار آمریکا
-names.name('EUR', locale: 'ar'); // يورو
-names.name(' usd ', locale: 'FA_ir'); // دلار آمریکا
 names.name('USD', locale: 'de'); // US-Dollar
-names.name('ZZZ', locale: 'fa'); // ZZZ (unknown code)
-names.name('XAD', locale: 'fa'); // XAD (no bundled CLDR translation)
+names.name('USD', locale: 'ja'); // 米ドル
+names.name(' usd ', locale: 'FA_ir'); // دلار آمریکا
 ```
 
-## Use with the other packages
+## Data layout
 
-Map by **ISO code**, rather than translating the English `currencyName` string:
+Project translation files live directly in `data/localizations/<locale>.json`:
 
-```dart
-// With Currency/ CurrencyModel from currency_dart or currency_flutter:
-final usd = Currency().byIsoCode('USD')!;
-final localizedName = const CurrencyLocalization().name(usd.isoCode, locale: 'fa');
+```json
+{
+  "EUR": "Euro",
+  "USD": "US Dollar"
+}
 ```
 
-`currency_dart` and `currency_flutter` are optional consumers; this package does
-not depend on them and does not modify `CurrencyModel.currencyName`.
+There is no external data-version directory or upstream-specific import process.
+Edit translations directly in these maps. Missing names are omitted and use
+fallback. Parent-locale overrides live separately in `data/locale_parents.json`.
+The generated `data_coverage.json` records file checksums and missing codes.
 
-In Flutter, pass the application's locale as a string:
+From the package directory after editing data:
 
-```dart
-final locale = Localizations.localeOf(context).toLanguageTag();
-final label = const CurrencyLocalization().name(currency.isoCode, locale: locale);
+```sh
+dart pub get --no-example
+dart run tool/generate.dart
+dart run tool/generate.dart --check
+dart analyze --fatal-infos
+dart test
 ```
 
-The app supplies `Localizations` through Flutter; this package itself imports no
-Flutter libraries. Rendering direction and fonts remain the application's job.
+To add a locale, add its JSON file and regenerate. Runtime uses generated const
+maps and performs no file reads. CI validates generated output against project
+data. The maps cover 191 codes from root `currency.json`: 178 current and 13
+selected historical codes. Translation coverage varies; unsupported or missing
+names fall back rather than being invented.
 
-## Fallback and coverage
+## Lookup and fallback
 
-`name` searches the requested locale, its CLDR parent chain, the configured
-`fallbackLocale` and its parents, English, then the normalized code. Regional
-and script-specific names are preserved. Explicit CLDR parents take precedence
-over truncation, including `root` boundaries that prevent falling into the wrong
-script. Unknown tags use progressive truncation. Locale tags ignore case, accept
-`_` or `-`, and ignore extension/private-use suffixes. This does not implement
-language negotiation or canonicalization of deprecated locale aliases.
+Names are keyed by ISO code. To use a CurrencyModel from currency_dart or
+currency_flutter, call `names.name(currency.isoCode, locale: 'fa')`.
+The existing model's `currencyName` stays unchanged.
+
+Resolution is requested locale, its parents, configured fallback and its parents,
+English, then the trimmed uppercase code. Parent overrides take precedence over
+truncation and preserve script boundaries. Tags ignore case, accept underscores
+or hyphens, and ignore extension/private-use suffixes. This is tag fallback,
+not language negotiation or canonicalization of deprecated aliases.
 
 ```dart
 const names = CurrencyLocalization(fallbackLocale: 'ar');
 names.name('USD', locale: 'zz'); // دولار أمريكي
-names.lookup('USD', locale: 'zz'); // null: no configured or English fallback
-names.supportsLocale('fa_IR'); // true (base fa is bundled)
-names.supportsLocale('zz'); // false, even though name() can return English
-names.supportedLocales; // immutable set of 657 normalized lowercase locale tags
-names.supportedCurrencyCodes; // immutable set of 191 snapshot codes
-names.names(['USD', 'EUR'], locale: 'fa'); // immutable ISO-code → name map
+names.lookup('USD', locale: 'zz'); // null (no fallback locale applied)
+names.supportsLocale('fa_IR'); // true
+names.supportedLocales; // immutable lowercase locale tags
+names.supportedCurrencyCodes; // immutable ISO code set
+names.names(['USD', 'EUR'], locale: 'fa'); // immutable normalized code/name map
 ```
 
-Codes are trimmed and uppercased. Empty input returns an empty string; unknown
-input returns the normalized input. Bulk lookup deduplicates normalized codes.
-`lookup` searches the requested locale and parents only and returns null when a
-translation is absent. `supportsLocale` reports language dataset availability,
-not complete translation coverage for every code.
+Unknown input returns its trimmed uppercase form; empty input returns empty.
+`lookup` searches the requested locale and parents only. `supportsLocale`
+describes dataset availability, not complete currency coverage. Bulk lookup
+collapses duplicate normalized codes. Historical labels do not change a
+currency's historical status.
 
-The 191 codes match the repository currency snapshot: 178 current codes and
-13 selected historical codes. Historical names can include dates to distinguish
-them. They remain historical even though this package can display their names.
+In Flutter, use `Localizations.localeOf(context).toLanguageTag()` as the locale.
+Directionality and fonts are handled by the app. Names are display labels;
+this package does not format amounts, select grammatical plurals, translate
+symbols or provide exchange rates.
 
-All locales distributed in the pinned `cldr-numbers-full` package are bundled.
-This covers CLDR languages, not every language spoken worldwide. Translation
-coverage varies by locale and currency; missing names use the documented fallback
-rather than fabricated translations.
+## Resources and licensing
 
-`data_provenance.json` lists source URLs, SHA-256 hashes and every missing code.
-Names are the CLDR `displayName` values for labels/pickers. This release does
-not choose grammatical plural forms, translate symbols, format amounts, or
-provide exchange rates. All lookups work offline.
+[Unicode CLDR](https://cldr.unicode.org/) was the initial resource for currency
+names and parent-locale mappings. Project maps are now maintained independently;
+the implementation has no CLDR-specific API, release version or import dependency.
+Code is MIT licensed. Derived translation data retains the Unicode License V3
+notice in `third_party/UNICODE_LICENSE.txt`; preserve both notices when redistributing.
 
-## Data generation and maintenance
+## Migration to 0.3.0
 
-Unmodified CLDR JSON snapshots live in the repository under
-`tool/data/cldr/49.0.0/<locale>.json`. Runtime code contains generated const
-maps and does not read those files. To check a repository checkout:
-
-```sh
-cd currency_localization
-dart pub get --no-example
-dart run tool/generate.dart --check
-dart analyze --fatal-infos
-dart test
-dart run example/currency_localization_example.dart
-```
-
-The generator discovers every currency snapshot in the version directory. To
-update CLDR, download the pinned `cldr-numbers-full` npm archive, extract every
-`main/<locale>/currencies.json` to that directory, and also download matching
-`cldr-core/supplemental/parentLocales.json` and the Unicode license. Regenerate
-with `dart run tool/generate.dart` and review locale coverage and provenance.
-CI checks the generated data, source hashes, analysis, formatting and tests.
-
-## License
-
-Code is MIT licensed. Translation data is from
-[Unicode CLDR](https://cldr.unicode.org/) and is distributed under the Unicode
-License V3; its unmodified notice is included in
-`third_party/UNICODE_LICENSE.txt`. Preserve both notices on redistribution.
+The source-specific `cldrVersion` getter has been removed. Read the package
+version for release identification. Generated coverage is now `data_coverage.json`.

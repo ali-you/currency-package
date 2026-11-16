@@ -8,35 +8,38 @@ import 'package:currency_localization/src/currency_names.dart';
 
 void main() {
   const names = CurrencyLocalization();
-  final hasRepository = File('../tool/data/cldr/49.0.0/en.json').existsSync();
+  final hasRepository = File('../data/localizations/en.json').existsSync();
 
-  test('generated translations exactly match pinned CLDR and provenance', () {
+  test(
+      'generated translations exactly match project translation maps and coverage',
+      () {
     final provenance =
-        jsonDecode(File('data_provenance.json').readAsStringSync()) as Map;
+        jsonDecode(File('data_coverage.json').readAsStringSync()) as Map;
     expect(provenance['localeCount'], names.supportedLocales.length);
-    final files = Directory('../tool/data/cldr/49.0.0')
+    final files = Directory('../data/localizations')
         .listSync()
         .whereType<File>()
         .map((file) => file.uri.pathSegments.last)
-        .where((name) => name.endsWith('.json') && name != 'parentLocales.json')
+        .where((name) => name.endsWith('.json'))
         .map((name) => name.substring(0, name.length - 5).toLowerCase())
         .toSet();
     expect(names.supportedLocales, files);
-    final parents =
-        File('../tool/data/cldr/49.0.0/parentLocales.json').readAsBytesSync();
+    final parents = File('../data/locale_parents.json').readAsBytesSync();
     expect(
         sha256.convert(parents).toString(), provenance['parentLocalesSha256']);
     for (final source in provenance['sources'] as List) {
       final locale = source['locale'] as String;
       final bytes =
-          File('../tool/data/cldr/49.0.0/$locale.json').readAsBytesSync();
+          File('../data/localizations/$locale.json').readAsBytesSync();
       expect(sha256.convert(bytes).toString(), source['sha256']);
       final raw = jsonDecode(utf8.decode(bytes)) as Map;
-      final rows = raw['main'][locale]['numbers']['currencies'] as Map;
+      final rows = raw;
+      expect(rows.keys.every(names.supportedCurrencyCodes.contains), isTrue);
+      expect(rows.values.every((value) => value is String), isTrue);
       var count = 0;
       final missing = <String>[];
       for (final code in names.supportedCurrencyCodes) {
-        final value = (rows[code] as Map?)?['displayName'];
+        final value = rows[code];
         final expected = value == code ? null : value;
         expect(localizedCurrencyNames[locale.toLowerCase()]?[code], expected,
             reason: '$locale/$code');
@@ -57,7 +60,7 @@ void main() {
 
   test('bundled Unicode license matches the recorded source hash', () {
     final provenance =
-        jsonDecode(File('data_provenance.json').readAsStringSync()) as Map;
+        jsonDecode(File('data_coverage.json').readAsStringSync()) as Map;
     final bytes = File('third_party/UNICODE_LICENSE.txt').readAsBytesSync();
     expect(sha256.convert(bytes).toString(), provenance['licenseSha256']);
     expect(utf8.decode(bytes), contains('UNICODE LICENSE V3'));

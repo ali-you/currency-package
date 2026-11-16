@@ -4,6 +4,7 @@ tool/data/*.xml -text
 # Generated Dart is compared byte-for-byte by the generator check.
 currency_dart/lib/src/currency_repo.dart text eol=lf
 currency_localization/lib/src/currency_names.dart text eol=lf
-currency_localization/data_provenance.json text eol=lf
-tool/data/cldr/*/*.json -text
+currency_localization/data_coverage.json text eol=lf
+data/localizations/*.json -text
+data/locale_parents.json -text
 currency_localization/third_party/UNICODE_LICENSE.txt -text

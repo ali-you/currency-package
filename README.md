@@ -8,12 +8,13 @@ when building a currency picker.
 
 - `currency_dart`: pure Dart lookups and immutable metadata, with no Flutter dependency.
 - `currency_flutter`: the same public API plus the `CurrencyLabel` widget.
-- `currency_localization`: offline currency names for all 657 CLDR locales,
+- `currency_localization`: offline currency names for 657 locales,
   keyed by ISO code, with locale fallback and no Flutter dependency.
 - `currency.json`: canonical metadata used to generate the Dart repository.
 - `currency.metadata.json`: source URLs, publication dates, hashes and coverage.
 - `currency.annotations.json`: curated display values and field-level verification.
 - `currency.schema.json`: external JSON Schema for data and annotation validation.
+- `data/localizations/`: compact per-locale currency-name maps and source provenance.
 
 ## Usage
 
@@ -45,8 +46,8 @@ final label = names.name('USD', locale: 'fa_IR'); // دلار آمریکا
 ```
 
 See [currency_localization](currency_localization/README.md) for coverage,
-fallback behavior and generation instructions. Its translations come from a
-separately pinned CLDR release and include the Unicode license notice.
+fallback behavior and generation instructions. Its project-maintained translation maps live directly in `data/localizations`.
+Unicode CLDR is documented as an initial resource; its data license is preserved.
 
 The [SIX ISO 4217 registers](https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html)
 provide ISO codes, numeric codes, entity names, minor-unit exponents and historical
