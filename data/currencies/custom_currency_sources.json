@@ -1,56 +1,116 @@
 {
-  "TOMAN": {
-    "sources": [
-      "https://tribunalsdecisions.service.gov.uk/utiac/ia-12922-2021"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "SOMALILAND_SHILLING": {
-    "sources": [
-      "https://www.govsomaliland.org/uploads/files/2025/10/2025-10-15-07-03-50-2050-1760511830.pdf"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "TRANSNISTRIAN_RUBLE": {
-    "sources": [
-      "https://www.unicode.org/L2/L2023/23022-transnistrian%20ruble.pdf"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "MANX_POUND": {
-    "sources": [
-      "https://www.legislation.gov.im/cms/images/LEGISLATION/PRINCIPAL/1992/1992-0014/1992-0014.pdf"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "JERSEY_POUND": {
-    "sources": [
-      "https://www.gov.je/LifeEvents/MovingToJersey/LivingInJersey/pages/moneytax.aspx"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "GUERNSEY_POUND": {
-    "sources": [
-      "https://www.visitguernsey.com/planning/useful-information/things-to-know-on-island/"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "FAROESE_KRONA": {
-    "sources": [
-      "https://www.nationalbanken.dk/en/what-we-do/notes-and-coins/faroese-banknote-series"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "EUSKO": {
-    "sources": [
-      "https://www.euskalmoneta.org/faq-items/comment-ca-marche/"
-    ],
-    "reviewedAt": "2026-11-16"
-  },
-  "CHIEMGAUER": {
+  "CHI": {
     "sources": [
       "https://www.chiemgauer.info/service/fragen-und-antworten"
     ],
-    "reviewedAt": "2026-11-16"
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Display fallback using the unit name/code; not a claim of a unique official glyph.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code.",
+      "fractionalUnit": "Unknown, not applicable or deliberately unspecified; never derive a conversion ratio from this field."
+    }
+  },
+  "EUS": {
+    "sources": [
+      "https://www.euskalmoneta.org/faq-items/comment-ca-marche/"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "France country flag used as a representative display flag, not the Basque flag.",
+      "currencySymbol": "Display fallback using the unit name/code; not a claim of a unique official glyph.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code.",
+      "fractionalUnit": "Unknown, not applicable or deliberately unspecified; never derive a conversion ratio from this field."
+    }
+  },
+  "FOK": {
+    "sources": [
+      "https://www.nationalbanken.dk/en/what-we-do/notes-and-coins/faroese-banknote-series"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Conventional display abbreviation or symbol.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code.",
+      "fractionalUnit": "Unknown, not applicable or deliberately unspecified; never derive a conversion ratio from this field."
+    }
+  },
+  "GGP": {
+    "sources": [
+      "https://www.visitguernsey.com/planning/useful-information/things-to-know-on-island/"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Conventional display abbreviation or symbol.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code."
+    }
+  },
+  "IMP": {
+    "sources": [
+      "https://www.legislation.gov.im/cms/images/LEGISLATION/PRINCIPAL/1992/1992-0014/1992-0014.pdf"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Conventional display abbreviation or symbol.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code."
+    }
+  },
+  "IRT": {
+    "sources": [
+      "https://tribunalsdecisions.service.gov.uk/utiac/ia-12922-2021"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Display fallback using the unit name/code; not a claim of a unique official glyph.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code.",
+      "fractionalUnit": "Unknown, not applicable or deliberately unspecified; never derive a conversion ratio from this field."
+    }
+  },
+  "JEP": {
+    "sources": [
+      "https://www.gov.je/LifeEvents/MovingToJersey/LivingInJersey/pages/moneytax.aspx"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Representative country/territory emoji.",
+      "currencySymbol": "Conventional display abbreviation or symbol.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code."
+    }
+  },
+  "RUP": {
+    "sources": [
+      "https://www.unicode.org/L2/L2023/23022-transnistrian%20ruble.pdf"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Generic white flag placeholder; no dedicated standard territory flag emoji is used.",
+      "currencySymbol": "Display fallback using the unit name/code; not a claim of a unique official glyph.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code."
+    }
+  },
+  "SLS": {
+    "sources": [
+      "https://www.govsomaliland.org/uploads/files/2025/10/2025-10-15-07-03-50-2050-1760511830.pdf",
+      "https://www.airuniversity.af.edu/Portals/10/AFCLC/04.%20Ready%20Airman/Field%20Guides/AFRICOM/Rev3/ECFG%20Somalia%202025-3r.pdf"
+    ],
+    "reviewedAt": "2026-11-16",
+    "fieldNotes": {
+      "flag": "Generic white flag placeholder; no dedicated standard territory flag emoji is used.",
+      "currencySymbol": "Conventional display abbreviation or symbol.",
+      "minorUnit": "Null: no registered ISO minor-unit exponent.",
+      "numericCode": "Null: no registered ISO numeric code.",
+      "fractionalUnit": "Unknown, not applicable or deliberately unspecified; never derive a conversion ratio from this field."
+    }
   }
 }

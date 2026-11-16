@@ -1,6 +1,6 @@
 name: currency_flutter
 description: Flutter currency labels backed by shared offline ISO 4217 metadata.
-version: 0.3.0
+version: 0.4.0
 repository: https://github.com/ali-you/currency-package
 issue_tracker: https://github.com/ali-you/currency-package/issues
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  currency_dart: ^0.3.0
+  currency_dart: ^0.4.0
 
 dev_dependencies:
   flutter_test:

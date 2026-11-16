@@ -56,7 +56,7 @@ All nine custom entries have status `nonIso`. Their `isoCode` field contains a
 three-letter project code, such as `IRT` for toman; these are not registered
 ISO 4217 codes. Check status before treating any code as an ISO identifier.
 `byIsoCode('IRT')` and `byCode('IRT')` resolve the same record as
-`byCode('TOMAN')`. Descriptive `code` identifiers remain stable.
+`byCode('TOMAN')`. JSON keys match isoCode. The Dart code getter is a compatibility alias for isoCode.
 
 Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
 `تومان ایران`. `supportedCurrencyCodes` lists canonical descriptive identifiers;
@@ -78,3 +78,7 @@ The same flags apply to `byCode`, `byIsoCode` and `byCurrencyName`. The existing
 `includeHistorical` argument remains a compatibility alias and takes precedence
 when supplied. Both browser examples expose matching switches; searches respect
 the selected visibility options.
+
+Currency JSON stores only `isoCode`; each record key has the same value.
+The Dart `code` getter is computed from `isoCode` for compatibility. Project
+short codes remain marked `nonIso`. Localizations use the same short keys.

@@ -36,10 +36,8 @@ def validate(data, annotations, schema):
         short_codes.add(short)
         if code in EXCLUDED_CODES:
             raise ValueError(f"{code}: non-currency code is excluded")
-        if row["status"] != "nonIso" and row["isoCode"] != code:
+        if row["isoCode"] != code:
             raise ValueError(f"{code}: ISO identifier must match code")
-        if code != row["code"]:
-            raise ValueError(f"{code}: key does not match code")
         if row["territory"] != (", ".join(row["territories"]) or None):
             raise ValueError(f"{code}: territory must match territories")
         if row["fractionalUnit"] == row["currencyName"]:

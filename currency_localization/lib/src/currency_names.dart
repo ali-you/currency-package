@@ -86748,11 +86748,11 @@ const currencyShortCodeAliases = <String, String>{
   "EUSKO": "EUS",
   "FAROESE_KRONA": "FOK",
   "GUERNSEY_POUND": "GGP",
-  "JERSEY_POUND": "JEP",
   "MANX_POUND": "IMP",
-  "SOMALILAND_SHILLING": "SLS",
   "TOMAN": "IRT",
+  "JERSEY_POUND": "JEP",
   "TRANSNISTRIAN_RUBLE": "RUP",
+  "SOMALILAND_SHILLING": "SLS",
 };
 const currencyLocaleParents = <String, String>{
   "az-arab": "und",

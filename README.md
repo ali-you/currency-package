@@ -55,7 +55,6 @@ publication dates differ and are recorded separately. The historical subset is n
 
 | Field | Meaning |
 |---|---|
-| `code` | Stable lookup identifier, including descriptive custom codes |
 | `isoCode` | Three-letter ISO code, or a project short code when status is nonIso |
 | `currencyName` | Curated display name |
 | `officialName` | Name from the ISO register |
@@ -117,8 +116,7 @@ membership in the current register, not a claim about legal tender everywhere.
 
 All nine entries have status `nonIso`. The `isoCode` field contains a project
 short code; it does not claim ISO 4217 registration. ISO numeric codes and minor
-unit exponents remain null. Descriptive record keys and `code` fields remain
-stable for compatibility.
+unit exponents remain null. Record keys match isoCode; JSON contains no duplicate code field.
 
 | Name | Project short code | Canonical identifier |
 |---|---|---|
@@ -155,3 +153,7 @@ The same flags apply to `byCode`, `byIsoCode` and `byCurrencyName`. The existing
 `includeHistorical` argument remains a compatibility alias and takes precedence
 when supplied. Both browser examples expose matching switches; searches respect
 the selected visibility options.
+
+Currency JSON stores only `isoCode`; each record key has the same value.
+The Dart `code` getter is computed from `isoCode` for compatibility. Project
+short codes remain marked `nonIso`. Localizations use the same short keys.

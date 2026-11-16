@@ -13,7 +13,7 @@ class CurrencyModel {
   final String? currencySymbol;
 
   /// Stable project identifier; custom identifiers are not ISO codes.
-  final String code;
+  String get code => isoCode!;
 
   /// ISO code for current/historical entries; project short code for nonIso.
   /// Always check status before treating this value as ISO 4217 registered.
@@ -44,7 +44,7 @@ class CurrencyModel {
     this.officialName,
     List<String> aliases = const [],
     String? code,
-    this.isoCode,
+    String? isoCode,
     this.currencySymbol,
     this.numericCode,
     this.territory,
@@ -54,9 +54,8 @@ class CurrencyModel {
     this.minorUnit,
     this.status = CurrencyStatus.current,
     this.withdrawalDate,
-  })  : code = code ??
-            isoCode ??
-            (throw ArgumentError('code or isoCode is required')),
+  })  : isoCode =
+            isoCode ?? code ?? (throw ArgumentError("isoCode is required")),
         territories = List.unmodifiable(territories),
         aliases = List.unmodifiable(aliases);
 
@@ -122,7 +121,6 @@ class CurrencyModel {
       throw const FormatException('aliases must be a list of strings');
     }
     return CurrencyModel(
-      code: code,
       isoCode: isoCode,
       officialName: string('officialName'),
       aliases: aliases == null ? const [] : List<String>.from(aliases),
@@ -140,7 +138,6 @@ class CurrencyModel {
   }
 
   Map<String, dynamic> toJson() => {
-        'code': code,
         'isoCode': isoCode,
         'currencyName': currencyName,
         'officialName': officialName,

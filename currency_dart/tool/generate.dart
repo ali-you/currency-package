@@ -23,7 +23,7 @@ void main(List<String> arguments) {
 
   for (final code in keys) {
     final fields = decoded[code] as Map<String, dynamic>;
-    if (fields['code'] != code) throw StateError('Mismatched code: $code');
+    if (fields['isoCode'] != code) throw StateError('Mismatched code: $code');
     output.writeln('    ${literal(code)}: {');
     for (final entry in fields.entries) {
       output.writeln('      ${literal(entry.key)}: ${literal(entry.value)},');

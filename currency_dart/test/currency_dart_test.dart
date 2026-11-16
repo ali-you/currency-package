@@ -16,7 +16,7 @@ void main() {
             currency.getAllCurrencies(historical: historical, nonIso: nonIso);
         expect(results.length, 155 + (historical ? 11 : 0) + (nonIso ? 9 : 0));
         expect(results.any((c) => c.code == 'BGN'), historical);
-        expect(results.any((c) => c.code == 'TOMAN'), nonIso);
+        expect(results.any((c) => c.code == 'IRT'), nonIso);
         expect(results.any((c) => c.code == 'USD'), isTrue);
         expect(
             currency.byCode('IRT', historical: historical, nonIso: nonIso) !=
@@ -59,6 +59,10 @@ void main() {
       expect(currency.byCode(model.isoCode!), model);
       expect(model.numericCode, isNull);
       expect(currency.byIsoCode(entry.key), isNull);
+      expect(currency.byIsoCode(model.code), model);
+      expect(model.code, model.isoCode);
+      expect(model.flag, isNotNull);
+      expect(model.currencySymbol, isNotNull);
       expect(currency.byCurrencyName(model.currencyName), model);
     }
     expect(currency.byCode('USD'), currency.byIsoCode('USD'));
@@ -174,7 +178,8 @@ void main() {
 
   test('all generated records match canonical JSON and provenance counts', () {
     final source =
-        jsonDecode(File('../data/currencies/currency.json').readAsStringSync()) as Map;
+        jsonDecode(File('../data/currencies/currency.json').readAsStringSync())
+            as Map;
     final metadata = jsonDecode(
       File('../data/currencies/currency.metadata.json').readAsStringSync(),
     ) as Map;

@@ -1,6 +1,6 @@
 name: currency_dart
 description: Offline ISO 4217 currency metadata and normalized lookups for Dart.
-version: 0.3.0
+version: 0.4.0
 repository: https://github.com/ali-you/currency-package
 issue_tracker: https://github.com/ali-you/currency-package/issues
 

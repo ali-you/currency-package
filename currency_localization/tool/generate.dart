@@ -11,7 +11,7 @@ void main(List<String> arguments) {
     File('${root.path}/data/currencies/currency.json').readAsStringSync(),
   ) as Map<String, dynamic>;
   final codes = currencies.values
-      .map((value) => ((value as Map)['isoCode'] ?? value['code']) as String)
+      .map((value) => (value as Map)['isoCode'] as String)
       .toList()
     ..sort();
   if (codes.toSet().length != codes.length) {
@@ -77,9 +77,16 @@ void main(List<String> arguments) {
   output.writeln('};');
   output.writeln('const currencyShortCodeAliases = <String, String>{');
   for (final entry in currencies.entries) {
-    final short = (entry.value as Map)['isoCode'] as String?;
-    if (short != null && short != entry.key) {
-      output.writeln('  ${literal(entry.key)}: ${literal(short)},');
+    final row = entry.value as Map;
+    final short = row['isoCode'] as String?;
+    if (short != null) {
+      for (final alias in row['aliases'] as List) {
+        if (alias is String &&
+            RegExp(r'^[A-Z][A-Z0-9_]{2,63}$').hasMatch(alias) &&
+            alias != short) {
+          output.writeln('  ${literal(alias)}: ${literal(short)},');
+        }
+      }
     }
   }
   output.writeln('};');

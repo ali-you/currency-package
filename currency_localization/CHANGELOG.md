@@ -1,3 +1,10 @@
+## 0.6.0
+
+* Use short currency codes as record keys and isoCode as the single stored identifier.
+* Keep the Dart code getter and descriptive lookup aliases for compatibility.
+* Fill non-ISO display metadata and document neutral flag placeholders.
+* Synchronize currency and localization generation with the simplified schema.
+
 ## 0.5.0
 
 * Add nine non-ISO units, local variants and community currencies with explicit statuses.

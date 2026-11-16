@@ -1,144 +1,35 @@
 {
-  "TOMAN": {
-    "code": "TOMAN",
-    "isoCode": "IRT",
-    "currencyName": "Iranian toman",
-    "officialName": null,
+  "CHI": {
+    "isoCode": "CHI",
+    "currencyName": "Chiemgauer",
+    "officialName": "Chiemgauer",
     "aliases": [
-      "Toman",
-      "تومان"
+      "CHIEMGAUER"
     ],
     "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Iran",
+    "currencySymbol": "Chiemgauer",
+    "territory": "Chiemgau, Germany",
     "fractionalUnit": null,
-    "flag": null,
+    "flag": "🇩🇪",
     "territories": [
-      "Iran"
+      "Chiemgau, Germany"
     ],
     "minorUnit": null,
     "status": "nonIso",
     "withdrawalDate": null
   },
-  "SOMALILAND_SHILLING": {
-    "code": "SOMALILAND_SHILLING",
-    "isoCode": "SLS",
-    "currencyName": "Somaliland shilling",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Somaliland",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Somaliland"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "TRANSNISTRIAN_RUBLE": {
-    "code": "TRANSNISTRIAN_RUBLE",
-    "isoCode": "RUP",
-    "currencyName": "Transnistrian ruble",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Transnistria",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Transnistria"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "MANX_POUND": {
-    "code": "MANX_POUND",
-    "isoCode": "IMP",
-    "currencyName": "Manx pound",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Isle of Man",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Isle of Man"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "JERSEY_POUND": {
-    "code": "JERSEY_POUND",
-    "isoCode": "JEP",
-    "currencyName": "Jersey pound",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Jersey",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Jersey"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "GUERNSEY_POUND": {
-    "code": "GUERNSEY_POUND",
-    "isoCode": "GGP",
-    "currencyName": "Guernsey pound",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Guernsey",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Guernsey"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "FAROESE_KRONA": {
-    "code": "FAROESE_KRONA",
-    "isoCode": "FOK",
-    "currencyName": "Faroese króna",
-    "officialName": null,
-    "aliases": [],
-    "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Faroe Islands",
-    "fractionalUnit": null,
-    "flag": null,
-    "territories": [
-      "Faroe Islands"
-    ],
-    "minorUnit": null,
-    "status": "nonIso",
-    "withdrawalDate": null
-  },
-  "EUSKO": {
-    "code": "EUSKO",
+  "EUS": {
     "isoCode": "EUS",
     "currencyName": "Eusko",
-    "officialName": null,
-    "aliases": [],
+    "officialName": "Eusko",
+    "aliases": [
+      "EUSKO"
+    ],
     "numericCode": null,
-    "currencySymbol": null,
+    "currencySymbol": "eusko",
     "territory": "French Basque Country",
     "fractionalUnit": null,
-    "flag": null,
+    "flag": "🇫🇷",
     "territories": [
       "French Basque Country"
     ],
@@ -146,19 +37,135 @@
     "status": "nonIso",
     "withdrawalDate": null
   },
-  "CHIEMGAUER": {
-    "code": "CHIEMGAUER",
-    "isoCode": "CHI",
-    "currencyName": "Chiemgauer",
-    "officialName": null,
-    "aliases": [],
+  "FOK": {
+    "isoCode": "FOK",
+    "currencyName": "Faroese króna",
+    "officialName": "króna",
+    "aliases": [
+      "FAROESE_KRONA"
+    ],
     "numericCode": null,
-    "currencySymbol": null,
-    "territory": "Chiemgau, Germany",
+    "currencySymbol": "kr.",
+    "territory": "Faroe Islands",
     "fractionalUnit": null,
-    "flag": null,
+    "flag": "🇫🇴",
     "territories": [
-      "Chiemgau, Germany"
+      "Faroe Islands"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "GGP": {
+    "isoCode": "GGP",
+    "currencyName": "Guernsey pound",
+    "officialName": null,
+    "aliases": [
+      "GUERNSEY_POUND"
+    ],
+    "numericCode": null,
+    "currencySymbol": "£",
+    "territory": "Guernsey",
+    "fractionalUnit": "Penny",
+    "flag": "🇬🇬",
+    "territories": [
+      "Guernsey"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "IMP": {
+    "isoCode": "IMP",
+    "currencyName": "Manx pound",
+    "officialName": "Manx pound",
+    "aliases": [
+      "MANX_POUND"
+    ],
+    "numericCode": null,
+    "currencySymbol": "£",
+    "territory": "Isle of Man",
+    "fractionalUnit": "Penny",
+    "flag": "🇮🇲",
+    "territories": [
+      "Isle of Man"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "IRT": {
+    "isoCode": "IRT",
+    "currencyName": "Iranian toman",
+    "officialName": null,
+    "aliases": [
+      "TOMAN",
+      "تومان"
+    ],
+    "numericCode": null,
+    "currencySymbol": "تومان",
+    "territory": "Iran",
+    "fractionalUnit": null,
+    "flag": "🇮🇷",
+    "territories": [
+      "Iran"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "JEP": {
+    "isoCode": "JEP",
+    "currencyName": "Jersey pound",
+    "officialName": null,
+    "aliases": [
+      "JERSEY_POUND"
+    ],
+    "numericCode": null,
+    "currencySymbol": "£",
+    "territory": "Jersey",
+    "fractionalUnit": "Penny",
+    "flag": "🇯🇪",
+    "territories": [
+      "Jersey"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "RUP": {
+    "isoCode": "RUP",
+    "currencyName": "Transnistrian ruble",
+    "officialName": "Transnistrian ruble",
+    "aliases": [
+      "TRANSNISTRIAN_RUBLE"
+    ],
+    "numericCode": null,
+    "currencySymbol": "RUP",
+    "territory": "Transnistria",
+    "fractionalUnit": "Kopeck",
+    "flag": "🏳️",
+    "territories": [
+      "Transnistria"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "SLS": {
+    "isoCode": "SLS",
+    "currencyName": "Somaliland shilling",
+    "officialName": "Somaliland Shilling",
+    "aliases": [
+      "SOMALILAND_SHILLING"
+    ],
+    "numericCode": null,
+    "currencySymbol": "Sl.Sh.",
+    "territory": "Somaliland",
+    "fractionalUnit": null,
+    "flag": "🏳️",
+    "territories": [
+      "Somaliland"
     ],
     "minorUnit": null,
     "status": "nonIso",

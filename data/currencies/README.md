@@ -13,3 +13,7 @@ Validate with `python scripts/validate_currency.py`, then regenerate each packag
 with `dart run tool/generate.dart` from its package directory. Translation maps
 remain in `data/localizations`; original ISO snapshots are in
 `data/sources/currencies`.
+
+Currency JSON stores only `isoCode`; each record key has the same value.
+The Dart `code` getter is computed from `isoCode` for compatibility. Project
+short codes remain marked `nonIso`. Localizations use the same short keys.

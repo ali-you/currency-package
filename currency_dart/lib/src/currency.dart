@@ -10,6 +10,9 @@ class Currency {
     for (final currency in _all) currency.code: currency,
     for (final currency in _all)
       if (currency.isoCode != null) currency.isoCode!: currency,
+    for (final currency in _all)
+      for (final alias in currency.aliases)
+        if (RegExp(r'^[A-Z][A-Z0-9_]{2,63}$').hasMatch(alias)) alias: currency,
   });
   static final List<CurrencyModel> _current = List.unmodifiable(
     _all.where((currency) => currency.status != CurrencyStatus.historical),

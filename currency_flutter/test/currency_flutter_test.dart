@@ -11,7 +11,7 @@ void main() {
       textDirection: TextDirection.ltr,
       child: CurrencyLabel(currency: toman),
     ));
-    expect(find.text('TOMAN — Iranian toman'), findsOneWidget);
+    expect(find.text('🇮🇷 IRT — Iranian toman'), findsOneWidget);
   });
   test('public library exports the shared metadata API', () {
     expect(Currency().byIsoCode(' xcg ')!.status, CurrencyStatus.current);

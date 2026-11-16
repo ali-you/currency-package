@@ -1,6 +1,6 @@
 name: currency_localization
 description: Offline localized currency names for 657 locales with regional and script fallback.
-version: 0.5.0
+version: 0.6.0
 repository: https://github.com/ali-you/currency-package
 issue_tracker: https://github.com/ali-you/currency-package/issues
 

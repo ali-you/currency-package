@@ -80,7 +80,6 @@ def build():
         minor_unit = entries[0].findtext("CcyMnrUnts")
         number = next(iter(numbers))
         result[code] = {
-            "code": code,
             "isoCode": code,
             "currencyName": fields.get("currencyName") or entries[0].findtext("CcyNm"),
             "officialName": entries[0].findtext("CcyNm"),

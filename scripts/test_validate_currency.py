@@ -8,7 +8,7 @@ from validate_currency import ROOT, load, validate
 
 class CurrencyValidationTests(unittest.TestCase):
     def test_non_iso_short_codes_cannot_collide_with_iso_codes(self):
-        self.data['TOMAN']['isoCode'] = 'IRR'
+        self.data['IRT']['isoCode'] = 'IRR'
         with self.assertRaisesRegex(ValueError, 'short code'):
             self.check()
 
@@ -18,8 +18,8 @@ class CurrencyValidationTests(unittest.TestCase):
         self.assertFalse(set(data) & EXCLUDED_CODES)
         self.assertTrue({'EUR', 'XAF', 'XOF', 'XCD', 'XPF', 'XCG'} <= set(data))
         self.assertTrue(all('category' not in row for row in data.values()))
-        self.assertEqual(data['TOMAN']['status'], 'nonIso')
-        self.assertEqual(data['TOMAN']['isoCode'], 'IRT')
+        self.assertEqual(data['IRT']['status'], 'nonIso')
+        self.assertEqual(data['IRT']['isoCode'], 'IRT')
         self.assertEqual(len([row for row in data.values() if row['status'] == 'nonIso']), 9)
 
     def setUp(self):
@@ -48,10 +48,10 @@ class CurrencyValidationTests(unittest.TestCase):
                     self.check()
 
     def test_rejects_mismatched_code_and_joined_territory(self):
-        self.data["USD"]["code"] = "EUR"
+        self.data["USD"]["isoCode"] = "EUR"
         with self.assertRaisesRegex(ValueError, "code"):
             self.check()
-        self.data["USD"]["code"] = "USD"
+        self.data["USD"]["isoCode"] = "USD"
         self.data["USD"]["territory"] = "Incorrect"
         with self.assertRaisesRegex(ValueError, "territory"):
             self.check()
