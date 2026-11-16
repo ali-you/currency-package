@@ -53,8 +53,9 @@ void main() {
       expect(missing, source['missingCodes']);
     }
     final canonical =
-        jsonDecode(File('../currency.json').readAsStringSync()) as Map;
-    expect(names.supportedCurrencyCodes, canonical.keys.toSet());
+        jsonDecode(File('../data/currencies/currency.json').readAsStringSync()) as Map;
+    expect(names.supportedCurrencyCodes,
+        canonical.values.map((row) => row['isoCode'] ?? row['code']).toSet());
     expect(names.supportedCurrencyCodes.length, provenance['currencyCount']);
   }, skip: !hasRepository);
 

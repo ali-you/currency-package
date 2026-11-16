@@ -1,6 +1,6 @@
 # Currency name translations
 
-Each `<locale>.json` is a project-maintained ISO-code-to-localized-name map.
+Each `<locale>.json` is a project-maintained code-to-localized-name map.
 Edit these files directly; no source version directory or external import is
 required. Missing names are omitted to enable runtime fallback.
 
@@ -14,9 +14,16 @@ dart test
 
 Locale parent overrides are stored in `data/locale_parents.json`. Generated
 checksums and coverage are in `currency_localization/data_coverage.json`.
-Root `currency.json` defines which currency codes the maps may contain.
+Root `data/currencies/currency.json` defines which currency codes the maps may contain.
 
 Resource: [Unicode CLDR](https://cldr.unicode.org/) supplied the initial currency
 names and parent mappings. The project maintains the compact maps independently.
 The derived data's Unicode License V3 notice remains in
 `currency_localization/third_party/UNICODE_LICENSE.txt`.
+
+Custom codes use the same map structure. Nine curated entries have English,
+Persian and Arabic project translations; other languages use fallback.
+
+Locale maps use the three-letter isoCode field as their key, including project
+codes such as IRT for nonIso records. Descriptive identifiers are resolved as
+compatibility aliases by the package and are not duplicated in JSON.

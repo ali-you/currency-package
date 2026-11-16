@@ -1,3 +1,9 @@
+## 0.5.0
+
+* Add nine non-ISO units, local variants and community currencies with explicit statuses.
+* Add general code identifiers; ISO codes are nullable for custom entries.
+* Provide English, Persian and Arabic custom names with fallback elsewhere.
+
 ## 0.4.0
 
 * Include only current and selected historical currencies; exclude funds, metals and special codes.

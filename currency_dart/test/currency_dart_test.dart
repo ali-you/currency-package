@@ -8,6 +8,62 @@ import 'package:test/test.dart';
 void main() {
   final currency = Currency();
 
+  test('history and non-ISO flags independently control lists and searches',
+      () {
+    for (final historical in [false, true]) {
+      for (final nonIso in [false, true]) {
+        final results =
+            currency.getAllCurrencies(historical: historical, nonIso: nonIso);
+        expect(results.length, 155 + (historical ? 11 : 0) + (nonIso ? 9 : 0));
+        expect(results.any((c) => c.code == 'BGN'), historical);
+        expect(results.any((c) => c.code == 'TOMAN'), nonIso);
+        expect(results.any((c) => c.code == 'USD'), isTrue);
+        expect(
+            currency.byCode('IRT', historical: historical, nonIso: nonIso) !=
+                null,
+            nonIso);
+        expect(
+            currency.byIsoCode('BGN', historical: historical, nonIso: nonIso) !=
+                null,
+            historical);
+        expect(
+            currency.byCurrencyName('Iranian toman',
+                    historical: historical, nonIso: nonIso) !=
+                null,
+            nonIso);
+        expect(() => results.clear(), throwsUnsupportedError);
+      }
+    }
+    expect(currency.getAllCurrencies(includeHistorical: true),
+        currency.getAllCurrencies(historical: true));
+  });
+
+  test('custom entries use explicit status and never impersonate ISO codes',
+      () {
+    final statuses = {
+      'TOMAN': CurrencyStatus.nonIso,
+      'SOMALILAND_SHILLING': CurrencyStatus.nonIso,
+      'TRANSNISTRIAN_RUBLE': CurrencyStatus.nonIso,
+      'MANX_POUND': CurrencyStatus.nonIso,
+      'JERSEY_POUND': CurrencyStatus.nonIso,
+      'GUERNSEY_POUND': CurrencyStatus.nonIso,
+      'FAROESE_KRONA': CurrencyStatus.nonIso,
+      'EUSKO': CurrencyStatus.nonIso,
+      'CHIEMGAUER': CurrencyStatus.nonIso,
+    };
+    for (final entry in statuses.entries) {
+      final model = currency.byCode(' ${entry.key.toLowerCase()} ')!;
+      expect(model.status, entry.value);
+      expect(model.isoCode, matches(RegExp(r"^[A-Z]{3}$")));
+      expect(currency.byIsoCode(model.isoCode!), model);
+      expect(currency.byCode(model.isoCode!), model);
+      expect(model.numericCode, isNull);
+      expect(currency.byIsoCode(entry.key), isNull);
+      expect(currency.byCurrencyName(model.currencyName), model);
+    }
+    expect(currency.byCode('USD'), currency.byIsoCode('USD'));
+  });
+
   test('corrected display data preserves legacy and official-name searches',
       () {
     final pen = currency.byIsoCode('PEN')!;
@@ -102,8 +158,8 @@ void main() {
     for (final code in ['EUR', 'XAF', 'XOF', 'XCD', 'XPF', 'XCG']) {
       expect(currency.byIsoCode(code), isNotNull);
     }
-    expect(currency.getAllCurrencies(), hasLength(155));
-    expect(currency.getAllCurrencies(includeHistorical: true), hasLength(166));
+    expect(currency.getAllCurrencies(), hasLength(164));
+    expect(currency.getAllCurrencies(includeHistorical: true), hasLength(175));
   });
 
   test('public lists and nested repository data cannot be mutated', () {
@@ -118,21 +174,22 @@ void main() {
 
   test('all generated records match canonical JSON and provenance counts', () {
     final source =
-        jsonDecode(File('../currency.json').readAsStringSync()) as Map;
+        jsonDecode(File('../data/currencies/currency.json').readAsStringSync()) as Map;
     final metadata = jsonDecode(
-      File('../currency.metadata.json').readAsStringSync(),
+      File('../data/currencies/currency.metadata.json').readAsStringSync(),
     ) as Map;
     final all = currency.getAllCurrencies(includeHistorical: true);
     expect(all.length, source.length);
-    expect(currency.getAllCurrencies().length, metadata['currentCount']);
+    expect(currency.getAllCurrencies().length,
+        metadata['currentCount'] + metadata['customCount']);
     expect(all.length - currency.getAllCurrencies().length,
         metadata['historicalCount']);
-    expect(all.map((c) => c.isoCode).toSet().length, all.length);
+    expect(all.map((c) => c.code).toSet().length, all.length);
     for (final entry in source.entries) {
       final actual =
-          currency.byIsoCode(entry.key as String, includeHistorical: true)!;
+          currency.byCode(entry.key as String, includeHistorical: true)!;
       expect(actual.toJson(), entry.value, reason: entry.key as String);
-      expect(actual.isoCode, entry.key);
+      expect(actual.code, entry.key);
       if (actual.status == CurrencyStatus.current) {
         expect(actual.numericCode, isNotNull);
       }
@@ -140,5 +197,5 @@ void main() {
   },
       // Canonical input is a repository-level development artifact, not part of
       // the published core package. Unit tests still run outside a checkout.
-      skip: !File('../currency.json').existsSync());
+      skip: !File('../data/currencies/currency.json').existsSync());
 }

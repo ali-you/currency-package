@@ -2,6 +2,18 @@ import 'package:currency_dart/currency_dart.dart';
 import 'package:test/test.dart';
 
 void main() {
+  test('custom records cannot claim ISO identity or numeric identifiers', () {
+    expect(() => CurrencyModel.fromJson({'code': 'TOMAN', 'status': 'current'}),
+        throwsFormatException);
+    expect(
+        () => CurrencyModel.fromJson(
+            {'code': 'TOMAN', 'isoCode': 'IRR', 'status': 'current'}),
+        throwsFormatException);
+    expect(
+        () => CurrencyModel.fromJson(
+            {'code': 'TOMAN', 'status': 'nonIso', 'numericCode': 364}),
+        throwsFormatException);
+  });
   test('minimal JSON uses the documented optional-field defaults', () {
     final currency = CurrencyModel.fromJson({'isoCode': 'USD'});
     expect(currency.currencyName, 'Not defined');

@@ -19,10 +19,10 @@ class CurrencyLabel extends StatelessWidget {
     final flag = currency.flag;
     final prefix = showFlag && flag != null && flag.isNotEmpty ? '$flag ' : '';
     return Text(
-      '$prefix${currency.isoCode} — ${currency.currencyName}',
+      '$prefix${currency.code} — ${currency.currencyName}',
       style: style,
       softWrap: true,
-      semanticsLabel: '${currency.isoCode}, ${currency.currencyName}',
+      semanticsLabel: '${currency.code}, ${currency.currencyName}',
     );
   }
 }

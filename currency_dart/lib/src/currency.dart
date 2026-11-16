@@ -1,43 +1,82 @@
 import 'currency_model.dart';
 import 'currency_repo.dart';
 
-/// Offline lookups of ISO 4217 current and historical currencies.
+/// Offline lookups of ISO currencies and curated non-ISO entries.
 class Currency {
   static final List<CurrencyModel> _all = List.unmodifiable(
     CurrencyRepo.currencies.values.map(CurrencyModel.fromJson),
   );
   static final Map<String, CurrencyModel> _byCode = Map.unmodifiable({
-    for (final currency in _all) currency.isoCode: currency,
+    for (final currency in _all) currency.code: currency,
+    for (final currency in _all)
+      if (currency.isoCode != null) currency.isoCode!: currency,
   });
   static final List<CurrencyModel> _current = List.unmodifiable(
-    _all.where((currency) => currency.status == CurrencyStatus.current),
+    _all.where((currency) => currency.status != CurrencyStatus.historical),
   );
 
-  /// Returns an immutable list, optionally including historical codes.
+  /// Returns an immutable list with independent history and non-ISO controls.
+  /// Current ISO currencies are always included. [includeHistorical] is the
+  /// legacy alias for [historical] and takes precedence when provided.
   List<CurrencyModel> getAllCurrencies({
-    bool includeHistorical = false,
+    bool historical = false,
+    bool nonIso = true,
+    bool? includeHistorical,
   }) {
-    return includeHistorical ? _all : _current;
+    final history = includeHistorical ?? historical;
+    final source = history ? _all : _current;
+    return nonIso
+        ? source
+        : List.unmodifiable(
+            source
+                .where((currency) => currency.status != CurrencyStatus.nonIso),
+          );
   }
 
-  /// Ignores surrounding whitespace and case. Unknown/excluded codes return null.
-  CurrencyModel? byIsoCode(String isoCode, {bool includeHistorical = false}) {
-    final currency = _byCode[isoCode.trim().toUpperCase()];
+  /// Looks up a descriptive or short code using the same visibility controls.
+  CurrencyModel? byCode(
+    String code, {
+    bool historical = false,
+    bool nonIso = true,
+    bool? includeHistorical,
+  }) {
+    final currency = _byCode[code.trim().toUpperCase()];
     return currency != null &&
-            (includeHistorical || currency.status == CurrencyStatus.current)
+            ((includeHistorical ?? historical) ||
+                currency.status != CurrencyStatus.historical) &&
+            (nonIso || currency.status != CurrencyStatus.nonIso)
         ? currency
         : null;
+  }
+
+  /// Looks up an ISO or project short code; check status for nonIso records.
+  CurrencyModel? byIsoCode(
+    String isoCode, {
+    bool historical = false,
+    bool nonIso = true,
+    bool? includeHistorical,
+  }) {
+    final currency = byCode(isoCode,
+        historical: historical,
+        nonIso: nonIso,
+        includeHistorical: includeHistorical);
+    return currency?.isoCode == isoCode.trim().toUpperCase() ? currency : null;
   }
 
   /// Exact display, official-name or alias lookup, ignoring whitespace and case.
   /// Missing or ambiguous names return null; prefer ISO codes for ambiguity.
   CurrencyModel? byCurrencyName(
     String currencyName, {
-    bool includeHistorical = false,
+    bool historical = false,
+    bool nonIso = true,
+    bool? includeHistorical,
   }) {
     final name = currencyName.trim().toLowerCase();
     CurrencyModel? match;
-    for (final currency in includeHistorical ? _all : _current) {
+    for (final currency in getAllCurrencies(
+        historical: historical,
+        nonIso: nonIso,
+        includeHistorical: includeHistorical)) {
       final names = [
         currency.currencyName,
         currency.officialName,

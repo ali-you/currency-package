@@ -8,9 +8,15 @@ void main(List<String> arguments) {
   final package = File.fromUri(Platform.script).parent.parent;
   final root = package.parent;
   final currencies = jsonDecode(
-    File('${root.path}/currency.json').readAsStringSync(),
+    File('${root.path}/data/currencies/currency.json').readAsStringSync(),
   ) as Map<String, dynamic>;
-  final codes = currencies.keys.toList()..sort();
+  final codes = currencies.values
+      .map((value) => ((value as Map)['isoCode'] ?? value['code']) as String)
+      .toList()
+    ..sort();
+  if (codes.toSet().length != codes.length) {
+    throw StateError('Currency short codes must be unique');
+  }
   final directory = Directory('${root.path}/data/localizations');
   final locales = directory
       .listSync()
@@ -69,6 +75,14 @@ void main(List<String> arguments) {
     });
   }
   output.writeln('};');
+  output.writeln('const currencyShortCodeAliases = <String, String>{');
+  for (final entry in currencies.entries) {
+    final short = (entry.value as Map)['isoCode'] as String?;
+    if (short != null && short != entry.key) {
+      output.writeln('  ${literal(entry.key)}: ${literal(short)},');
+    }
+  }
+  output.writeln('};');
   output.writeln('const currencyLocaleParents = <String, String>{');
   for (final key in (parents.keys.cast<String>().toList()..sort())) {
     output.writeln(
@@ -100,7 +114,7 @@ void main(List<String> arguments) {
     'licenseSha256': sha256.convert(license.readAsBytesSync()).toString(),
     'currencyCount': codes.length,
     'coverage':
-        'Current and selected historical codes from the repository currency.json. Display names only; no plural amount forms.',
+        'Current and selected historical codes from the repository data/currencies/currency.json. Display names only; no plural amount forms.',
     'sources': sources,
   };
   write(

@@ -1,5 +1,5 @@
-/// Whether a code is current or retained for historical lookups.
-enum CurrencyStatus { current, historical }
+/// ISO lifecycle or the declared role of an active non-ISO entry.
+enum CurrencyStatus { current, historical, nonIso }
 
 /// Immutable currency metadata. Null means unknown or not applicable.
 class CurrencyModel {
@@ -11,7 +11,13 @@ class CurrencyModel {
   /// Alternative display names retained for compatible name searches.
   final List<String> aliases;
   final String? currencySymbol;
-  final String isoCode;
+
+  /// Stable project identifier; custom identifiers are not ISO codes.
+  final String code;
+
+  /// ISO code for current/historical entries; project short code for nonIso.
+  /// Always check status before treating this value as ISO 4217 registered.
+  final String? isoCode;
   final int? numericCode;
 
   /// Display label retained for compatibility. Use [territories] for lists.
@@ -23,7 +29,7 @@ class CurrencyModel {
   /// Representative flag, not an exhaustive territory mapping.
   final String? flag;
 
-  /// Entity names from the ISO register, without comma-based splitting.
+  /// Entity labels from the ISO register or curated custom entry.
   final List<String> territories;
 
   /// ISO minor-unit exponent; null if unspecified or not applicable.
@@ -37,7 +43,8 @@ class CurrencyModel {
     this.currencyName = 'Not defined',
     this.officialName,
     List<String> aliases = const [],
-    required this.isoCode,
+    String? code,
+    this.isoCode,
     this.currencySymbol,
     this.numericCode,
     this.territory,
@@ -47,7 +54,10 @@ class CurrencyModel {
     this.minorUnit,
     this.status = CurrencyStatus.current,
     this.withdrawalDate,
-  })  : territories = List.unmodifiable(territories),
+  })  : code = code ??
+            isoCode ??
+            (throw ArgumentError('code or isoCode is required')),
+        territories = List.unmodifiable(territories),
         aliases = List.unmodifiable(aliases);
 
   /// Three-digit ISO representation, including leading zeroes, e.g. 008.
@@ -78,11 +88,30 @@ class CurrencyModel {
       throw FormatException('Unknown $key: $name');
     }
 
-    final code = string('isoCode');
-    if (code == null || !RegExp(r'^[A-Z]{3}$').hasMatch(code)) {
+    final isoCode = string('isoCode');
+    if (isoCode != null && !RegExp(r'^[A-Z]{3}$').hasMatch(isoCode)) {
       throw const FormatException('isoCode must be three uppercase letters');
     }
+    final code = string('code') ?? isoCode;
+    if (code == null || !RegExp(r'^[A-Z][A-Z0-9_]{2,63}$').hasMatch(code)) {
+      throw const FormatException('code or isoCode must be a valid identifier');
+    }
+    final status =
+        enumeration('status', CurrencyStatus.values, CurrencyStatus.current);
+    if (isoCode == null &&
+        (status == CurrencyStatus.current ||
+            status == CurrencyStatus.historical)) {
+      throw const FormatException(
+          'isoCode is required for current/historical currencies');
+    }
+    if (isoCode != null && code != isoCode && status != CurrencyStatus.nonIso) {
+      throw const FormatException('isoCode must match code for ISO records');
+    }
     final entities = json['territories'];
+    if (status == CurrencyStatus.nonIso && json['numericCode'] != null) {
+      throw const FormatException(
+          'numericCode must be null for a non-ISO entry');
+    }
     if (entities != null &&
         (entities is! List || entities.any((entity) => entity is! String))) {
       throw const FormatException('territories must be a list of strings');
@@ -93,7 +122,8 @@ class CurrencyModel {
       throw const FormatException('aliases must be a list of strings');
     }
     return CurrencyModel(
-      isoCode: code,
+      code: code,
+      isoCode: isoCode,
       officialName: string('officialName'),
       aliases: aliases == null ? const [] : List<String>.from(aliases),
       currencyName: string('currencyName') ?? 'Not defined',
@@ -104,13 +134,13 @@ class CurrencyModel {
       flag: string('flag'),
       territories: entities == null ? const [] : List<String>.from(entities),
       minorUnit: integer('minorUnit', 9),
-      status:
-          enumeration('status', CurrencyStatus.values, CurrencyStatus.current),
+      status: status,
       withdrawalDate: string('withdrawalDate'),
     );
   }
 
   Map<String, dynamic> toJson() => {
+        'code': code,
         'isoCode': isoCode,
         'currencyName': currencyName,
         'officialName': officialName,
@@ -135,6 +165,7 @@ class CurrencyModel {
           aliases.length == other.aliases.length &&
           Iterable<int>.generate(aliases.length)
               .every((i) => aliases[i] == other.aliases[i]) &&
+          code == other.code &&
           isoCode == other.isoCode &&
           currencySymbol == other.currencySymbol &&
           numericCode == other.numericCode &&
@@ -153,6 +184,7 @@ class CurrencyModel {
         currencyName,
         officialName,
         Object.hashAll(aliases),
+        code,
         isoCode,
         currencySymbol,
         numericCode,
@@ -166,5 +198,5 @@ class CurrencyModel {
       );
 
   @override
-  String toString() => 'CurrencyModel($isoCode, $currencyName, ${status.name})';
+  String toString() => 'CurrencyModel($code, $currencyName, ${status.name})';
 }

@@ -5,7 +5,7 @@
   "minProperties": 1,
   "additionalProperties": false,
   "patternProperties": {
-    "^[A-Z]{3}$": {
+    "^[A-Z][A-Z0-9_]{2,63}$": {
       "$ref": "#/$defs/currency"
     }
   },
@@ -14,6 +14,7 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
+        "code",
         "currencySymbol",
         "territory",
         "fractionalUnit",
@@ -90,7 +91,10 @@
           "description": "Optional representative display flag; never a complete territory mapping."
         },
         "isoCode": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^[A-Z]{3}$"
         },
         "currencyName": {
@@ -101,7 +105,10 @@
           }
         },
         "officialName": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "minLength": 1,
           "not": {
             "const": "None"
@@ -149,7 +156,8 @@
         "status": {
           "enum": [
             "current",
-            "historical"
+            "historical",
+            "nonIso"
           ]
         },
         "withdrawalDate": {
@@ -158,6 +166,10 @@
             "null"
           ],
           "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+        },
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{2,63}$"
         }
       },
       "allOf": [
@@ -165,14 +177,17 @@
           "if": {
             "properties": {
               "status": {
-                "const": "current"
+                "enum": [
+                  "current",
+                  "historical"
+                ]
               }
             }
           },
           "then": {
             "properties": {
-              "withdrawalDate": {
-                "type": "null"
+              "isoCode": {
+                "type": "string"
               },
               "numericCode": {
                 "type": "integer"
@@ -181,8 +196,37 @@
           },
           "else": {
             "properties": {
+              "isoCode": {
+                "type": "string"
+              },
+              "numericCode": {
+                "type": "null"
+              },
+              "minorUnit": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "historical"
+              }
+            }
+          },
+          "then": {
+            "properties": {
               "withdrawalDate": {
                 "type": "string"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "withdrawalDate": {
+                "type": "null"
               }
             }
           }

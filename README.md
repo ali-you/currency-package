@@ -1,17 +1,18 @@
 # World Currency Information
 
-Offline metadata for 155 current and 11 selected historical currencies.
-Funds, accounting units, metals and special-purpose codes are excluded. Shared
+Offline metadata for 155 current ISO currencies, 11 historical currencies, and
+9 curated non-ISO entries.
+Funds, accounting units, metals and reserved ISO codes are excluded. Shared
 currencies such as EUR, XAF, XOF and XCD are included.
 
 - `currency_dart`: pure Dart lookups and immutable metadata, with no Flutter dependency.
 - `currency_flutter`: the same public API plus the `CurrencyLabel` widget.
 - `currency_localization`: offline currency names for 657 locales,
   keyed by ISO code, with locale fallback and no Flutter dependency.
-- `currency.json`: canonical metadata used to generate the Dart repository.
-- `currency.metadata.json`: source URLs, publication dates, hashes and coverage.
-- `currency.annotations.json`: curated display values and field-level verification.
-- `currency.schema.json`: external JSON Schema for data and annotation validation.
+- `data/currencies/currency.json`: canonical metadata used to generate the Dart repository.
+- `data/currencies/currency.metadata.json`: source URLs, publication dates, hashes and coverage.
+- `data/currencies/currency.annotations.json`: curated display values and field-level verification.
+- `data/currencies/currency.schema.json`: external JSON Schema for data and annotation validation.
 - `data/localizations/`: compact per-locale currency-name maps and source provenance.
 
 ## Usage
@@ -54,7 +55,8 @@ publication dates differ and are recorded separately. The historical subset is n
 
 | Field | Meaning |
 |---|---|
-| `isoCode` | Three-letter ISO code |
+| `code` | Stable lookup identifier, including descriptive custom codes |
+| `isoCode` | Three-letter ISO code, or a project short code when status is nonIso |
 | `currencyName` | Curated display name |
 | `officialName` | Name from the ISO register |
 | `aliases` | Previous display labels retained for compatible searches |
@@ -62,7 +64,7 @@ publication dates differ and are recorded separately. The historical subset is n
 | `territories` | Structured entity names from ISO; names can contain commas |
 | `territory` | Joined display label for compatibility |
 | `minorUnit` | Decimal exponent, for example JPY 0, USD 2, KWD 3 |
-| `status` | `current` or `historical` |
+| `status` | `current`, `historical`, or `nonIso` |
 | `withdrawalDate` | Source withdrawal date, preserving year/month precision |
 | `currencySymbol`, `fractionalUnit`, `flag` | Optional supplemental display annotations |
 
@@ -87,7 +89,7 @@ The `--no-example` flag keeps core development independent of Flutter. For the
 Flutter package or either example, run `flutter pub get`, `flutter analyze` and
 `flutter test` in its directory. Checked-in `pubspec_overrides.yaml` files resolve
 the sibling Dart package locally; the release manifest uses a hosted dependency.
-Publish `currency_dart` 0.2.0 before publishing `currency_flutter` 0.2.0. Published
+Publish `currency_dart` 0.3.0 before publishing `currency_flutter` 0.3.0. Published
 artifacts exclude dependency overrides.
 
 Update the pinned SIX XML snapshots, run `python scripts/refresh_data.py` from the
@@ -102,11 +104,54 @@ Package code is distributed under the existing [MIT License](LICENSE). Existing
 Wen Du and CFUG Team notices have been preserved; their inclusion does not claim
 those authors verified the currency data. SIX is the upstream register source.
 Legacy annotations remain marked `legacyUnverified`. Verified corrections have
-field-level source URLs and dates in `currency.annotations.json`. Null values are
+field-level source URLs and dates in `data/currencies/currency.annotations.json`. Null values are
 retained where reliable annotations are unavailable.
 
 Validate data edits with `python -m pip install -r scripts/requirements.txt`,
 `python scripts/validate_currency.py` and `python -m unittest discover -s scripts -p
-'test_*.py'`. Edit supplemental values in `currency.annotations.json`, then
+'test_*.py'`. Edit supplemental values in `data/currencies/currency.annotations.json`, then
 refresh the JSON and generated Dart as described above. ISO current status means
 membership in the current register, not a claim about legal tender everywhere.
+
+## Curated non-ISO entries
+
+All nine entries have status `nonIso`. The `isoCode` field contains a project
+short code; it does not claim ISO 4217 registration. ISO numeric codes and minor
+unit exponents remain null. Descriptive record keys and `code` fields remain
+stable for compatibility.
+
+| Name | Project short code | Canonical identifier |
+|---|---|---|
+| Iranian toman | IRT | TOMAN |
+| Somaliland shilling | SLS | SOMALILAND_SHILLING |
+| Transnistrian ruble | RUP | TRANSNISTRIAN_RUBLE |
+| Manx pound | IMP | MANX_POUND |
+| Jersey pound | JEP | JERSEY_POUND |
+| Guernsey pound | GGP | GUERNSEY_POUND |
+| Faroese króna | FOK | FAROESE_KRONA |
+| Eusko | EUS | EUSKO |
+| Chiemgauer | CHI | CHIEMGAUER |
+
+`Currency().byIsoCode('IRT')`, `byCode('IRT')` and `byCode('TOMAN')` resolve the
+same record. Localization accepts either identifier. All active entries appear
+in default lists; historical records remain opt-in. Custom records and review
+sources are maintained in `data/currencies/custom_currencies.json` and
+`data/currencies/custom_currency_sources.json` and survive ISO refreshes. Local issuer
+status does not imply international recognition. No conversion or
+redenomination rules are supplied. English, Persian and Arabic names are
+project translations; other locales use normal fallback.
+
+## Currency visibility
+
+```dart
+final currencies = Currency();
+final officialCurrent = currencies.getAllCurrencies(historical: false, nonIso: false);
+final allEntries = currencies.getAllCurrencies(historical: true, nonIso: true);
+```
+
+The `historical` and `nonIso` Boolean flags are independent. Current ISO entries
+are always included. Defaults are `historical: false` and `nonIso: true`.
+The same flags apply to `byCode`, `byIsoCode` and `byCurrencyName`. The existing
+`includeHistorical` argument remains a compatibility alias and takes precedence
+when supplied. Both browser examples expose matching switches; searches respect
+the selected visibility options.

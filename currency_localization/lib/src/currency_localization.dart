@@ -24,7 +24,8 @@ class CurrencyLocalization {
   /// Finds a name in the requested locale or its parents only.
   /// Returns null if no translation exists, without applying fallback locales.
   String? lookup(String isoCode, {required String locale}) {
-    final code = isoCode.trim().toUpperCase();
+    final normalized = isoCode.trim().toUpperCase();
+    final code = currencyShortCodeAliases[normalized] ?? normalized;
     for (final candidate in _parents(locale)) {
       final name = localizedCurrencyNames[candidate]?[code];
       if (name != null) return name;

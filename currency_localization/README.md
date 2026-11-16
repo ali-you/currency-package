@@ -41,14 +41,13 @@ dart test
 
 To add a locale, add its JSON file and regenerate. Runtime uses generated const
 maps and performs no file reads. CI validates generated output against project
-data. The maps cover 166 codes from root `currency.json`: 155 current and 11
-selected historical codes. Translation coverage varies; unsupported or missing
+data. The maps cover 175 codes from root `data/currencies/currency.json`: 155 current, 11 historical and 9 custom entries. Translation coverage varies; unsupported or missing
 names fall back rather than being invented.
 
 ## Lookup and fallback
 
-Names are keyed by ISO code. To use a CurrencyModel from currency_dart or
-currency_flutter, call `names.name(currency.isoCode, locale: 'fa')`.
+Names are keyed by the general currency code. To use a CurrencyModel from currency_dart or
+currency_flutter, call `names.name(currency.code, locale: 'fa')`.
 The existing model's `currencyName` stays unchanged.
 
 Resolution is requested locale, its parents, configured fallback and its parents,
@@ -63,7 +62,7 @@ names.name('USD', locale: 'zz'); // دولار أمريكي
 names.lookup('USD', locale: 'zz'); // null (no fallback locale applied)
 names.supportsLocale('fa_IR'); // true
 names.supportedLocales; // immutable lowercase locale tags
-names.supportedCurrencyCodes; // immutable ISO code set
+names.supportedCurrencyCodes; // immutable currency code set
 names.names(['USD', 'EUR'], locale: 'fa'); // immutable normalized code/name map
 ```
 
@@ -90,3 +89,17 @@ notice in `third_party/UNICODE_LICENSE.txt`; preserve both notices when redistri
 
 The source-specific `cldrVersion` getter has been removed. Read the package
 version for release identification. Generated coverage is now `data_coverage.json`.
+
+## Custom identifiers
+
+All nine custom entries have status `nonIso`. Their `isoCode` field contains a
+three-letter project code, such as `IRT` for toman; these are not registered
+ISO 4217 codes. Check status before treating any code as an ISO identifier.
+`byIsoCode('IRT')` and `byCode('IRT')` resolve the same record as
+`byCode('TOMAN')`. Descriptive `code` identifiers remain stable.
+
+Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
+`تومان ایران`. `supportedCurrencyCodes` lists the short identifiers used in the JSON files;
+descriptive identifiers are accepted as backward-compatible aliases. Numeric ISO codes remain null for nonIso.
+English, Persian and Arabic names are provided; other locales use fallback.
+Historical entries remain opt-in. Conversion rules are not supplied.

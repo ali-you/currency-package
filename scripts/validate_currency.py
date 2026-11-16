@@ -28,11 +28,18 @@ def validate(data, annotations, schema):
         "$ref": "#/$defs/annotations", "$defs": schema["$defs"],
     }
     Draft202012Validator(annotation_schema, format_checker=FormatChecker()).validate(annotations)
+    short_codes = set()
     for code, row in data.items():
+        short = row["isoCode"]
+        if short in short_codes or (short in data and short != code):
+            raise ValueError(f"{code}: duplicate or colliding short code")
+        short_codes.add(short)
         if code in EXCLUDED_CODES:
             raise ValueError(f"{code}: non-currency code is excluded")
-        if code != row["isoCode"]:
-            raise ValueError(f"{code}: key does not match isoCode")
+        if row["status"] != "nonIso" and row["isoCode"] != code:
+            raise ValueError(f"{code}: ISO identifier must match code")
+        if code != row["code"]:
+            raise ValueError(f"{code}: key does not match code")
         if row["territory"] != (", ".join(row["territories"]) or None):
             raise ValueError(f"{code}: territory must match territories")
         if row["fractionalUnit"] == row["currencyName"]:
@@ -52,6 +59,6 @@ def validate(data, annotations, schema):
 
 
 if __name__ == "__main__":
-    validate(load(ROOT / "currency.json"), load(ROOT / "currency.annotations.json"),
-             load(ROOT / "currency.schema.json"))
+    validate(load(ROOT / "data/currencies/currency.json"), load(ROOT / "data/currencies/currency.annotations.json"),
+             load(ROOT / "data/currencies/currency.schema.json"))
     print("Currency schema, provenance, and cross-field checks passed.")

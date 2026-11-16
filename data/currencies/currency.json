@@ -1,5 +1,6 @@
 {
   "AED": {
+    "code": "AED",
     "isoCode": "AED",
     "currencyName": "United Arab Emirates dirham",
     "officialName": "UAE Dirham",
@@ -17,6 +18,7 @@
     "withdrawalDate": null
   },
   "AFN": {
+    "code": "AFN",
     "isoCode": "AFN",
     "currencyName": "Afghan afghani",
     "officialName": "Afghani",
@@ -34,6 +36,7 @@
     "withdrawalDate": null
   },
   "ALL": {
+    "code": "ALL",
     "isoCode": "ALL",
     "currencyName": "Albanian lek",
     "officialName": "Lek",
@@ -51,6 +54,7 @@
     "withdrawalDate": null
   },
   "AMD": {
+    "code": "AMD",
     "isoCode": "AMD",
     "currencyName": "Armenian dram",
     "officialName": "Armenian Dram",
@@ -68,6 +72,7 @@
     "withdrawalDate": null
   },
   "ANG": {
+    "code": "ANG",
     "isoCode": "ANG",
     "currencyName": "Netherlands Antillean guilder",
     "officialName": "Netherlands Antillean Guilder",
@@ -87,6 +92,7 @@
     "withdrawalDate": "2025-03"
   },
   "AOA": {
+    "code": "AOA",
     "isoCode": "AOA",
     "currencyName": "Angolan kwanza",
     "officialName": "Kwanza",
@@ -104,6 +110,7 @@
     "withdrawalDate": null
   },
   "ARS": {
+    "code": "ARS",
     "isoCode": "ARS",
     "currencyName": "Argentine peso",
     "officialName": "Argentine Peso",
@@ -121,6 +128,7 @@
     "withdrawalDate": null
   },
   "AUD": {
+    "code": "AUD",
     "isoCode": "AUD",
     "currencyName": "Australian dollar",
     "officialName": "Australian Dollar",
@@ -145,6 +153,7 @@
     "withdrawalDate": null
   },
   "AWG": {
+    "code": "AWG",
     "isoCode": "AWG",
     "currencyName": "Aruban florin",
     "officialName": "Aruban Florin",
@@ -162,6 +171,7 @@
     "withdrawalDate": null
   },
   "AZN": {
+    "code": "AZN",
     "isoCode": "AZN",
     "currencyName": "Azerbaijani manat",
     "officialName": "Azerbaijan Manat",
@@ -179,6 +189,7 @@
     "withdrawalDate": null
   },
   "BAM": {
+    "code": "BAM",
     "isoCode": "BAM",
     "currencyName": "Bosnia and Herzegovina convertible mark",
     "officialName": "Convertible Mark",
@@ -196,6 +207,7 @@
     "withdrawalDate": null
   },
   "BBD": {
+    "code": "BBD",
     "isoCode": "BBD",
     "currencyName": "Barbados dollar",
     "officialName": "Barbados Dollar",
@@ -213,6 +225,7 @@
     "withdrawalDate": null
   },
   "BDT": {
+    "code": "BDT",
     "isoCode": "BDT",
     "currencyName": "Bangladeshi taka",
     "officialName": "Taka",
@@ -230,6 +243,7 @@
     "withdrawalDate": null
   },
   "BGN": {
+    "code": "BGN",
     "isoCode": "BGN",
     "currencyName": "Bulgarian lev",
     "officialName": "Bulgarian Lev",
@@ -247,6 +261,7 @@
     "withdrawalDate": "2026-01"
   },
   "BHD": {
+    "code": "BHD",
     "isoCode": "BHD",
     "currencyName": "Bahraini dinar",
     "officialName": "Bahraini Dinar",
@@ -264,6 +279,7 @@
     "withdrawalDate": null
   },
   "BIF": {
+    "code": "BIF",
     "isoCode": "BIF",
     "currencyName": "Burundian franc",
     "officialName": "Burundi Franc",
@@ -281,6 +297,7 @@
     "withdrawalDate": null
   },
   "BMD": {
+    "code": "BMD",
     "isoCode": "BMD",
     "currencyName": "Bermudian dollar",
     "officialName": "Bermudian Dollar",
@@ -300,6 +317,7 @@
     "withdrawalDate": null
   },
   "BND": {
+    "code": "BND",
     "isoCode": "BND",
     "currencyName": "Brunei dollar",
     "officialName": "Brunei Dollar",
@@ -317,6 +335,7 @@
     "withdrawalDate": null
   },
   "BOB": {
+    "code": "BOB",
     "isoCode": "BOB",
     "currencyName": "Boliviano",
     "officialName": "Boliviano",
@@ -334,6 +353,7 @@
     "withdrawalDate": null
   },
   "BRL": {
+    "code": "BRL",
     "isoCode": "BRL",
     "currencyName": "Brazilian real",
     "officialName": "Brazilian Real",
@@ -351,6 +371,7 @@
     "withdrawalDate": null
   },
   "BSD": {
+    "code": "BSD",
     "isoCode": "BSD",
     "currencyName": "Bahamian dollar",
     "officialName": "Bahamian Dollar",
@@ -368,6 +389,7 @@
     "withdrawalDate": null
   },
   "BTN": {
+    "code": "BTN",
     "isoCode": "BTN",
     "currencyName": "Bhutanese ngultrum",
     "officialName": "Ngultrum",
@@ -385,6 +407,7 @@
     "withdrawalDate": null
   },
   "BWP": {
+    "code": "BWP",
     "isoCode": "BWP",
     "currencyName": "Botswana pula",
     "officialName": "Pula",
@@ -402,6 +425,7 @@
     "withdrawalDate": null
   },
   "BYN": {
+    "code": "BYN",
     "isoCode": "BYN",
     "currencyName": "Belarusian Ruble",
     "officialName": "Belarusian Ruble",
@@ -419,6 +443,7 @@
     "withdrawalDate": null
   },
   "BYR": {
+    "code": "BYR",
     "isoCode": "BYR",
     "currencyName": "Belarusian ruble",
     "officialName": "Belarusian Ruble",
@@ -436,6 +461,7 @@
     "withdrawalDate": "2017-01"
   },
   "BZD": {
+    "code": "BZD",
     "isoCode": "BZD",
     "currencyName": "Belize dollar",
     "officialName": "Belize Dollar",
@@ -453,6 +479,7 @@
     "withdrawalDate": null
   },
   "CAD": {
+    "code": "CAD",
     "isoCode": "CAD",
     "currencyName": "Canadian dollar",
     "officialName": "Canadian Dollar",
@@ -470,6 +497,7 @@
     "withdrawalDate": null
   },
   "CDF": {
+    "code": "CDF",
     "isoCode": "CDF",
     "currencyName": "Congolese franc",
     "officialName": "Congolese Franc",
@@ -487,6 +515,7 @@
     "withdrawalDate": null
   },
   "CHF": {
+    "code": "CHF",
     "isoCode": "CHF",
     "currencyName": "Swiss franc",
     "officialName": "Swiss Franc",
@@ -504,7 +533,26 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "CHIEMGAUER": {
+    "code": "CHIEMGAUER",
+    "isoCode": "CHI",
+    "currencyName": "Chiemgauer",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Chiemgau, Germany",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Chiemgau, Germany"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "CLP": {
+    "code": "CLP",
     "isoCode": "CLP",
     "currencyName": "Chilean peso",
     "officialName": "Chilean Peso",
@@ -522,6 +570,7 @@
     "withdrawalDate": null
   },
   "CNY": {
+    "code": "CNY",
     "isoCode": "CNY",
     "currencyName": "Chinese yuan",
     "officialName": "Yuan Renminbi",
@@ -539,6 +588,7 @@
     "withdrawalDate": null
   },
   "COP": {
+    "code": "COP",
     "isoCode": "COP",
     "currencyName": "Colombian peso",
     "officialName": "Colombian Peso",
@@ -556,6 +606,7 @@
     "withdrawalDate": null
   },
   "CRC": {
+    "code": "CRC",
     "isoCode": "CRC",
     "currencyName": "Costa Rican colon",
     "officialName": "Costa Rican Colon",
@@ -573,6 +624,7 @@
     "withdrawalDate": null
   },
   "CUC": {
+    "code": "CUC",
     "isoCode": "CUC",
     "currencyName": "Cuban convertible peso",
     "officialName": "Peso Convertible",
@@ -590,6 +642,7 @@
     "withdrawalDate": "2021-06"
   },
   "CUP": {
+    "code": "CUP",
     "isoCode": "CUP",
     "currencyName": "Cuban peso",
     "officialName": "Cuban Peso",
@@ -607,6 +660,7 @@
     "withdrawalDate": null
   },
   "CVE": {
+    "code": "CVE",
     "isoCode": "CVE",
     "currencyName": "Cape Verde escudo",
     "officialName": "Cabo Verde Escudo",
@@ -624,6 +678,7 @@
     "withdrawalDate": null
   },
   "CZK": {
+    "code": "CZK",
     "isoCode": "CZK",
     "currencyName": "Czech koruna",
     "officialName": "Czech Koruna",
@@ -641,6 +696,7 @@
     "withdrawalDate": null
   },
   "DJF": {
+    "code": "DJF",
     "isoCode": "DJF",
     "currencyName": "Djiboutian franc",
     "officialName": "Djibouti Franc",
@@ -658,6 +714,7 @@
     "withdrawalDate": null
   },
   "DKK": {
+    "code": "DKK",
     "isoCode": "DKK",
     "currencyName": "Danish krone",
     "officialName": "Danish Krone",
@@ -677,6 +734,7 @@
     "withdrawalDate": null
   },
   "DOP": {
+    "code": "DOP",
     "isoCode": "DOP",
     "currencyName": "Dominican peso",
     "officialName": "Dominican Peso",
@@ -694,6 +752,7 @@
     "withdrawalDate": null
   },
   "DZD": {
+    "code": "DZD",
     "isoCode": "DZD",
     "currencyName": "Algerian dinar",
     "officialName": "Algerian Dinar",
@@ -711,6 +770,7 @@
     "withdrawalDate": null
   },
   "EGP": {
+    "code": "EGP",
     "isoCode": "EGP",
     "currencyName": "Egyptian pound",
     "officialName": "Egyptian Pound",
@@ -728,6 +788,7 @@
     "withdrawalDate": null
   },
   "ERN": {
+    "code": "ERN",
     "isoCode": "ERN",
     "currencyName": "Eritrean nakfa",
     "officialName": "Nakfa",
@@ -745,6 +806,7 @@
     "withdrawalDate": null
   },
   "ETB": {
+    "code": "ETB",
     "isoCode": "ETB",
     "currencyName": "Ethiopian birr",
     "officialName": "Ethiopian Birr",
@@ -762,6 +824,7 @@
     "withdrawalDate": null
   },
   "EUR": {
+    "code": "EUR",
     "isoCode": "EUR",
     "currencyName": "Euro",
     "officialName": "Euro",
@@ -814,7 +877,44 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "EUSKO": {
+    "code": "EUSKO",
+    "isoCode": "EUS",
+    "currencyName": "Eusko",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "French Basque Country",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "French Basque Country"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
+  "FAROESE_KRONA": {
+    "code": "FAROESE_KRONA",
+    "isoCode": "FOK",
+    "currencyName": "Faroese króna",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Faroe Islands",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Faroe Islands"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "FJD": {
+    "code": "FJD",
     "isoCode": "FJD",
     "currencyName": "Fiji dollar",
     "officialName": "Fiji Dollar",
@@ -832,6 +932,7 @@
     "withdrawalDate": null
   },
   "FKP": {
+    "code": "FKP",
     "isoCode": "FKP",
     "currencyName": "Falkland Islands pound",
     "officialName": "Falkland Islands Pound",
@@ -849,6 +950,7 @@
     "withdrawalDate": null
   },
   "GBP": {
+    "code": "GBP",
     "isoCode": "GBP",
     "currencyName": "Pound sterling",
     "officialName": "Pound Sterling",
@@ -869,6 +971,7 @@
     "withdrawalDate": null
   },
   "GEL": {
+    "code": "GEL",
     "isoCode": "GEL",
     "currencyName": "Georgian lari",
     "officialName": "Lari",
@@ -886,6 +989,7 @@
     "withdrawalDate": null
   },
   "GHS": {
+    "code": "GHS",
     "isoCode": "GHS",
     "currencyName": "Ghanaian cedi",
     "officialName": "Ghana Cedi",
@@ -903,6 +1007,7 @@
     "withdrawalDate": null
   },
   "GIP": {
+    "code": "GIP",
     "isoCode": "GIP",
     "currencyName": "Gibraltar pound",
     "officialName": "Gibraltar Pound",
@@ -920,6 +1025,7 @@
     "withdrawalDate": null
   },
   "GMD": {
+    "code": "GMD",
     "isoCode": "GMD",
     "currencyName": "Gambian dalasi",
     "officialName": "Dalasi",
@@ -937,6 +1043,7 @@
     "withdrawalDate": null
   },
   "GNF": {
+    "code": "GNF",
     "isoCode": "GNF",
     "currencyName": "Guinean franc",
     "officialName": "Guinean Franc",
@@ -954,6 +1061,7 @@
     "withdrawalDate": null
   },
   "GTQ": {
+    "code": "GTQ",
     "isoCode": "GTQ",
     "currencyName": "Guatemalan quetzal",
     "officialName": "Quetzal",
@@ -970,7 +1078,26 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "GUERNSEY_POUND": {
+    "code": "GUERNSEY_POUND",
+    "isoCode": "GGP",
+    "currencyName": "Guernsey pound",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Guernsey",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Guernsey"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "GYD": {
+    "code": "GYD",
     "isoCode": "GYD",
     "currencyName": "Guyanese dollar",
     "officialName": "Guyana Dollar",
@@ -988,6 +1115,7 @@
     "withdrawalDate": null
   },
   "HKD": {
+    "code": "HKD",
     "isoCode": "HKD",
     "currencyName": "Hong Kong dollar",
     "officialName": "Hong Kong Dollar",
@@ -1005,6 +1133,7 @@
     "withdrawalDate": null
   },
   "HNL": {
+    "code": "HNL",
     "isoCode": "HNL",
     "currencyName": "Honduran lempira",
     "officialName": "Lempira",
@@ -1022,6 +1151,7 @@
     "withdrawalDate": null
   },
   "HRK": {
+    "code": "HRK",
     "isoCode": "HRK",
     "currencyName": "Croatian kuna",
     "officialName": "Croatian Kuna",
@@ -1039,6 +1169,7 @@
     "withdrawalDate": "2023-01"
   },
   "HTG": {
+    "code": "HTG",
     "isoCode": "HTG",
     "currencyName": "Haitian gourde",
     "officialName": "Gourde",
@@ -1056,6 +1187,7 @@
     "withdrawalDate": null
   },
   "HUF": {
+    "code": "HUF",
     "isoCode": "HUF",
     "currencyName": "Hungarian forint",
     "officialName": "Forint",
@@ -1073,6 +1205,7 @@
     "withdrawalDate": null
   },
   "IDR": {
+    "code": "IDR",
     "isoCode": "IDR",
     "currencyName": "Indonesian rupiah",
     "officialName": "Rupiah",
@@ -1090,6 +1223,7 @@
     "withdrawalDate": null
   },
   "ILS": {
+    "code": "ILS",
     "isoCode": "ILS",
     "currencyName": "Israeli new shekel",
     "officialName": "New Israeli Sheqel",
@@ -1107,6 +1241,7 @@
     "withdrawalDate": null
   },
   "INR": {
+    "code": "INR",
     "isoCode": "INR",
     "currencyName": "Indian rupee",
     "officialName": "Indian Rupee",
@@ -1125,6 +1260,7 @@
     "withdrawalDate": null
   },
   "IQD": {
+    "code": "IQD",
     "isoCode": "IQD",
     "currencyName": "Iraqi dinar",
     "officialName": "Iraqi Dinar",
@@ -1142,6 +1278,7 @@
     "withdrawalDate": null
   },
   "IRR": {
+    "code": "IRR",
     "isoCode": "IRR",
     "currencyName": "Iranian rial",
     "officialName": "Iranian Rial",
@@ -1159,6 +1296,7 @@
     "withdrawalDate": null
   },
   "ISK": {
+    "code": "ISK",
     "isoCode": "ISK",
     "currencyName": "Icelandic króna",
     "officialName": "Iceland Krona",
@@ -1175,7 +1313,26 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "JERSEY_POUND": {
+    "code": "JERSEY_POUND",
+    "isoCode": "JEP",
+    "currencyName": "Jersey pound",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Jersey",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Jersey"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "JMD": {
+    "code": "JMD",
     "isoCode": "JMD",
     "currencyName": "Jamaican dollar",
     "officialName": "Jamaican Dollar",
@@ -1193,6 +1350,7 @@
     "withdrawalDate": null
   },
   "JOD": {
+    "code": "JOD",
     "isoCode": "JOD",
     "currencyName": "Jordanian dinar",
     "officialName": "Jordanian Dinar",
@@ -1210,6 +1368,7 @@
     "withdrawalDate": null
   },
   "JPY": {
+    "code": "JPY",
     "isoCode": "JPY",
     "currencyName": "Japanese yen",
     "officialName": "Yen",
@@ -1227,6 +1386,7 @@
     "withdrawalDate": null
   },
   "KES": {
+    "code": "KES",
     "isoCode": "KES",
     "currencyName": "Kenyan shilling",
     "officialName": "Kenyan Shilling",
@@ -1244,6 +1404,7 @@
     "withdrawalDate": null
   },
   "KGS": {
+    "code": "KGS",
     "isoCode": "KGS",
     "currencyName": "Kyrgyzstani som",
     "officialName": "Som",
@@ -1261,6 +1422,7 @@
     "withdrawalDate": null
   },
   "KHR": {
+    "code": "KHR",
     "isoCode": "KHR",
     "currencyName": "Cambodian riel",
     "officialName": "Riel",
@@ -1278,6 +1440,7 @@
     "withdrawalDate": null
   },
   "KMF": {
+    "code": "KMF",
     "isoCode": "KMF",
     "currencyName": "Comoro franc",
     "officialName": "Comorian Franc ",
@@ -1295,6 +1458,7 @@
     "withdrawalDate": null
   },
   "KPW": {
+    "code": "KPW",
     "isoCode": "KPW",
     "currencyName": "North Korean won",
     "officialName": "North Korean Won",
@@ -1312,6 +1476,7 @@
     "withdrawalDate": null
   },
   "KRW": {
+    "code": "KRW",
     "isoCode": "KRW",
     "currencyName": "South Korean won",
     "officialName": "Won",
@@ -1329,6 +1494,7 @@
     "withdrawalDate": null
   },
   "KWD": {
+    "code": "KWD",
     "isoCode": "KWD",
     "currencyName": "Kuwaiti dinar",
     "officialName": "Kuwaiti Dinar",
@@ -1346,6 +1512,7 @@
     "withdrawalDate": null
   },
   "KYD": {
+    "code": "KYD",
     "isoCode": "KYD",
     "currencyName": "Cayman Islands dollar",
     "officialName": "Cayman Islands Dollar",
@@ -1363,6 +1530,7 @@
     "withdrawalDate": null
   },
   "KZT": {
+    "code": "KZT",
     "isoCode": "KZT",
     "currencyName": "Kazakhstani tenge",
     "officialName": "Tenge",
@@ -1380,6 +1548,7 @@
     "withdrawalDate": null
   },
   "LAK": {
+    "code": "LAK",
     "isoCode": "LAK",
     "currencyName": "Lao kip",
     "officialName": "Lao Kip",
@@ -1397,6 +1566,7 @@
     "withdrawalDate": null
   },
   "LBP": {
+    "code": "LBP",
     "isoCode": "LBP",
     "currencyName": "Lebanese pound",
     "officialName": "Lebanese Pound",
@@ -1414,6 +1584,7 @@
     "withdrawalDate": null
   },
   "LKR": {
+    "code": "LKR",
     "isoCode": "LKR",
     "currencyName": "Sri Lankan rupee",
     "officialName": "Sri Lanka Rupee",
@@ -1431,6 +1602,7 @@
     "withdrawalDate": null
   },
   "LRD": {
+    "code": "LRD",
     "isoCode": "LRD",
     "currencyName": "Liberian dollar",
     "officialName": "Liberian Dollar",
@@ -1448,6 +1620,7 @@
     "withdrawalDate": null
   },
   "LSL": {
+    "code": "LSL",
     "isoCode": "LSL",
     "currencyName": "Lesotho loti",
     "officialName": "Loti",
@@ -1465,6 +1638,7 @@
     "withdrawalDate": null
   },
   "LTL": {
+    "code": "LTL",
     "isoCode": "LTL",
     "currencyName": "Lithuanian litas",
     "officialName": "Lithuanian Litas",
@@ -1482,6 +1656,7 @@
     "withdrawalDate": "2014-12"
   },
   "LVL": {
+    "code": "LVL",
     "isoCode": "LVL",
     "currencyName": "Latvian lats",
     "officialName": "Latvian Lats",
@@ -1499,6 +1674,7 @@
     "withdrawalDate": "2014-01"
   },
   "LYD": {
+    "code": "LYD",
     "isoCode": "LYD",
     "currencyName": "Libyan dinar",
     "officialName": "Libyan Dinar",
@@ -1516,6 +1692,7 @@
     "withdrawalDate": null
   },
   "MAD": {
+    "code": "MAD",
     "isoCode": "MAD",
     "currencyName": "Moroccan dirham",
     "officialName": "Moroccan Dirham",
@@ -1533,7 +1710,26 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "MANX_POUND": {
+    "code": "MANX_POUND",
+    "isoCode": "IMP",
+    "currencyName": "Manx pound",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Isle of Man",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Isle of Man"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "MDL": {
+    "code": "MDL",
     "isoCode": "MDL",
     "currencyName": "Moldovan leu",
     "officialName": "Moldovan Leu",
@@ -1551,6 +1747,7 @@
     "withdrawalDate": null
   },
   "MGA": {
+    "code": "MGA",
     "isoCode": "MGA",
     "currencyName": "Malagasy ariary",
     "officialName": "Malagasy Ariary",
@@ -1568,6 +1765,7 @@
     "withdrawalDate": null
   },
   "MKD": {
+    "code": "MKD",
     "isoCode": "MKD",
     "currencyName": "Macedonian denar",
     "officialName": "Denar",
@@ -1585,6 +1783,7 @@
     "withdrawalDate": null
   },
   "MMK": {
+    "code": "MMK",
     "isoCode": "MMK",
     "currencyName": "Myanma kyat",
     "officialName": "Kyat",
@@ -1602,6 +1801,7 @@
     "withdrawalDate": null
   },
   "MNT": {
+    "code": "MNT",
     "isoCode": "MNT",
     "currencyName": "Mongolian tugrik",
     "officialName": "Tugrik",
@@ -1619,6 +1819,7 @@
     "withdrawalDate": null
   },
   "MOP": {
+    "code": "MOP",
     "isoCode": "MOP",
     "currencyName": "Macanese pataca",
     "officialName": "Pataca",
@@ -1636,6 +1837,7 @@
     "withdrawalDate": null
   },
   "MRO": {
+    "code": "MRO",
     "isoCode": "MRO",
     "currencyName": "Mauritanian ouguiya",
     "officialName": "Ouguiya",
@@ -1653,6 +1855,7 @@
     "withdrawalDate": "2017-12"
   },
   "MRU": {
+    "code": "MRU",
     "isoCode": "MRU",
     "currencyName": "Ouguiya",
     "officialName": "Ouguiya",
@@ -1670,6 +1873,7 @@
     "withdrawalDate": null
   },
   "MUR": {
+    "code": "MUR",
     "isoCode": "MUR",
     "currencyName": "Mauritian rupee",
     "officialName": "Mauritius Rupee",
@@ -1687,6 +1891,7 @@
     "withdrawalDate": null
   },
   "MVR": {
+    "code": "MVR",
     "isoCode": "MVR",
     "currencyName": "Maldivian rufiyaa",
     "officialName": "Rufiyaa",
@@ -1704,6 +1909,7 @@
     "withdrawalDate": null
   },
   "MWK": {
+    "code": "MWK",
     "isoCode": "MWK",
     "currencyName": "Malawian kwacha",
     "officialName": "Malawi Kwacha",
@@ -1721,6 +1927,7 @@
     "withdrawalDate": null
   },
   "MXN": {
+    "code": "MXN",
     "isoCode": "MXN",
     "currencyName": "Mexican peso",
     "officialName": "Mexican Peso",
@@ -1738,6 +1945,7 @@
     "withdrawalDate": null
   },
   "MYR": {
+    "code": "MYR",
     "isoCode": "MYR",
     "currencyName": "Malaysian ringgit",
     "officialName": "Malaysian Ringgit",
@@ -1755,6 +1963,7 @@
     "withdrawalDate": null
   },
   "MZN": {
+    "code": "MZN",
     "isoCode": "MZN",
     "currencyName": "Mozambican metical",
     "officialName": "Mozambique Metical",
@@ -1772,6 +1981,7 @@
     "withdrawalDate": null
   },
   "NAD": {
+    "code": "NAD",
     "isoCode": "NAD",
     "currencyName": "Namibian dollar",
     "officialName": "Namibia Dollar",
@@ -1789,6 +1999,7 @@
     "withdrawalDate": null
   },
   "NGN": {
+    "code": "NGN",
     "isoCode": "NGN",
     "currencyName": "Nigerian naira",
     "officialName": "Naira",
@@ -1806,6 +2017,7 @@
     "withdrawalDate": null
   },
   "NIO": {
+    "code": "NIO",
     "isoCode": "NIO",
     "currencyName": "Nicaraguan córdoba",
     "officialName": "Cordoba Oro",
@@ -1823,6 +2035,7 @@
     "withdrawalDate": null
   },
   "NOK": {
+    "code": "NOK",
     "isoCode": "NOK",
     "currencyName": "Norwegian krone",
     "officialName": "Norwegian Krone",
@@ -1842,6 +2055,7 @@
     "withdrawalDate": null
   },
   "NPR": {
+    "code": "NPR",
     "isoCode": "NPR",
     "currencyName": "Nepalese rupee",
     "officialName": "Nepalese Rupee",
@@ -1859,6 +2073,7 @@
     "withdrawalDate": null
   },
   "NZD": {
+    "code": "NZD",
     "isoCode": "NZD",
     "currencyName": "New Zealand dollar",
     "officialName": "New Zealand Dollar",
@@ -1880,6 +2095,7 @@
     "withdrawalDate": null
   },
   "OMR": {
+    "code": "OMR",
     "isoCode": "OMR",
     "currencyName": "Omani rial",
     "officialName": "Rial Omani",
@@ -1897,6 +2113,7 @@
     "withdrawalDate": null
   },
   "PAB": {
+    "code": "PAB",
     "isoCode": "PAB",
     "currencyName": "Panamanian balboa",
     "officialName": "Balboa",
@@ -1914,6 +2131,7 @@
     "withdrawalDate": null
   },
   "PEN": {
+    "code": "PEN",
     "isoCode": "PEN",
     "currencyName": "Peruvian sol",
     "officialName": "Sol",
@@ -1933,6 +2151,7 @@
     "withdrawalDate": null
   },
   "PGK": {
+    "code": "PGK",
     "isoCode": "PGK",
     "currencyName": "Papua New Guinean kina",
     "officialName": "Kina",
@@ -1950,6 +2169,7 @@
     "withdrawalDate": null
   },
   "PHP": {
+    "code": "PHP",
     "isoCode": "PHP",
     "currencyName": "Philippine peso",
     "officialName": "Philippine Peso",
@@ -1967,6 +2187,7 @@
     "withdrawalDate": null
   },
   "PKR": {
+    "code": "PKR",
     "isoCode": "PKR",
     "currencyName": "Pakistani rupee",
     "officialName": "Pakistan Rupee",
@@ -1984,6 +2205,7 @@
     "withdrawalDate": null
   },
   "PLN": {
+    "code": "PLN",
     "isoCode": "PLN",
     "currencyName": "Polish złoty",
     "officialName": "Zloty",
@@ -2001,6 +2223,7 @@
     "withdrawalDate": null
   },
   "PYG": {
+    "code": "PYG",
     "isoCode": "PYG",
     "currencyName": "Paraguayan guaraní",
     "officialName": "Guarani",
@@ -2018,6 +2241,7 @@
     "withdrawalDate": null
   },
   "QAR": {
+    "code": "QAR",
     "isoCode": "QAR",
     "currencyName": "Qatari riyal",
     "officialName": "Qatari Rial",
@@ -2035,6 +2259,7 @@
     "withdrawalDate": null
   },
   "RON": {
+    "code": "RON",
     "isoCode": "RON",
     "currencyName": "Romanian new leu",
     "officialName": "Romanian Leu",
@@ -2052,6 +2277,7 @@
     "withdrawalDate": null
   },
   "RSD": {
+    "code": "RSD",
     "isoCode": "RSD",
     "currencyName": "Serbian dinar",
     "officialName": "Serbian Dinar",
@@ -2069,6 +2295,7 @@
     "withdrawalDate": null
   },
   "RUB": {
+    "code": "RUB",
     "isoCode": "RUB",
     "currencyName": "Russian rouble",
     "officialName": "Russian Ruble",
@@ -2086,6 +2313,7 @@
     "withdrawalDate": null
   },
   "RWF": {
+    "code": "RWF",
     "isoCode": "RWF",
     "currencyName": "Rwandan franc",
     "officialName": "Rwanda Franc",
@@ -2103,6 +2331,7 @@
     "withdrawalDate": null
   },
   "SAR": {
+    "code": "SAR",
     "isoCode": "SAR",
     "currencyName": "Saudi riyal",
     "officialName": "Saudi Riyal",
@@ -2120,6 +2349,7 @@
     "withdrawalDate": null
   },
   "SBD": {
+    "code": "SBD",
     "isoCode": "SBD",
     "currencyName": "Solomon Islands dollar",
     "officialName": "Solomon Islands Dollar",
@@ -2137,6 +2367,7 @@
     "withdrawalDate": null
   },
   "SCR": {
+    "code": "SCR",
     "isoCode": "SCR",
     "currencyName": "Seychelles rupee",
     "officialName": "Seychelles Rupee",
@@ -2154,6 +2385,7 @@
     "withdrawalDate": null
   },
   "SDG": {
+    "code": "SDG",
     "isoCode": "SDG",
     "currencyName": "Sudanese pound",
     "officialName": "Sudanese Pound",
@@ -2171,6 +2403,7 @@
     "withdrawalDate": null
   },
   "SEK": {
+    "code": "SEK",
     "isoCode": "SEK",
     "currencyName": "Swedish krona/kronor",
     "officialName": "Swedish Krona",
@@ -2188,6 +2421,7 @@
     "withdrawalDate": null
   },
   "SGD": {
+    "code": "SGD",
     "isoCode": "SGD",
     "currencyName": "Singapore dollar",
     "officialName": "Singapore Dollar",
@@ -2205,6 +2439,7 @@
     "withdrawalDate": null
   },
   "SHP": {
+    "code": "SHP",
     "isoCode": "SHP",
     "currencyName": "Saint Helena pound",
     "officialName": "Saint Helena Pound",
@@ -2222,6 +2457,7 @@
     "withdrawalDate": null
   },
   "SLE": {
+    "code": "SLE",
     "isoCode": "SLE",
     "currencyName": "Leone",
     "officialName": "Leone",
@@ -2239,6 +2475,7 @@
     "withdrawalDate": null
   },
   "SLL": {
+    "code": "SLL",
     "isoCode": "SLL",
     "currencyName": "Sierra Leonean leone",
     "officialName": "Leone",
@@ -2255,7 +2492,26 @@
     "status": "historical",
     "withdrawalDate": "2023-12"
   },
+  "SOMALILAND_SHILLING": {
+    "code": "SOMALILAND_SHILLING",
+    "isoCode": "SLS",
+    "currencyName": "Somaliland shilling",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Somaliland",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Somaliland"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "SOS": {
+    "code": "SOS",
     "isoCode": "SOS",
     "currencyName": "Somali shilling",
     "officialName": "Somali Shilling",
@@ -2273,6 +2529,7 @@
     "withdrawalDate": null
   },
   "SRD": {
+    "code": "SRD",
     "isoCode": "SRD",
     "currencyName": "Surinamese dollar",
     "officialName": "Surinam Dollar",
@@ -2290,6 +2547,7 @@
     "withdrawalDate": null
   },
   "SSP": {
+    "code": "SSP",
     "isoCode": "SSP",
     "currencyName": "South Sudanese pound",
     "officialName": "South Sudanese Pound",
@@ -2307,6 +2565,7 @@
     "withdrawalDate": null
   },
   "STD": {
+    "code": "STD",
     "isoCode": "STD",
     "currencyName": "São Tomé and Príncipe dobra",
     "officialName": "Dobra",
@@ -2324,6 +2583,7 @@
     "withdrawalDate": "2017-12"
   },
   "STN": {
+    "code": "STN",
     "isoCode": "STN",
     "currencyName": "Dobra",
     "officialName": "Dobra",
@@ -2341,6 +2601,7 @@
     "withdrawalDate": null
   },
   "SVC": {
+    "code": "SVC",
     "isoCode": "SVC",
     "currencyName": "El Salvador Colon",
     "officialName": "El Salvador Colon",
@@ -2358,6 +2619,7 @@
     "withdrawalDate": null
   },
   "SYP": {
+    "code": "SYP",
     "isoCode": "SYP",
     "currencyName": "Syrian pound",
     "officialName": "Syrian Pound",
@@ -2375,6 +2637,7 @@
     "withdrawalDate": null
   },
   "SZL": {
+    "code": "SZL",
     "isoCode": "SZL",
     "currencyName": "Swazi lilangeni",
     "officialName": "Lilangeni",
@@ -2392,6 +2655,7 @@
     "withdrawalDate": null
   },
   "THB": {
+    "code": "THB",
     "isoCode": "THB",
     "currencyName": "Thai baht",
     "officialName": "Baht",
@@ -2409,6 +2673,7 @@
     "withdrawalDate": null
   },
   "TJS": {
+    "code": "TJS",
     "isoCode": "TJS",
     "currencyName": "Tajikistani somoni",
     "officialName": "Somoni",
@@ -2426,6 +2691,7 @@
     "withdrawalDate": null
   },
   "TMT": {
+    "code": "TMT",
     "isoCode": "TMT",
     "currencyName": "Turkmenistani manat",
     "officialName": "Turkmenistan New Manat",
@@ -2443,6 +2709,7 @@
     "withdrawalDate": null
   },
   "TND": {
+    "code": "TND",
     "isoCode": "TND",
     "currencyName": "Tunisian dinar",
     "officialName": "Tunisian Dinar",
@@ -2459,7 +2726,29 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "TOMAN": {
+    "code": "TOMAN",
+    "isoCode": "IRT",
+    "currencyName": "Iranian toman",
+    "officialName": null,
+    "aliases": [
+      "Toman",
+      "تومان"
+    ],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Iran",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Iran"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "TOP": {
+    "code": "TOP",
     "isoCode": "TOP",
     "currencyName": "Tongan paʻanga",
     "officialName": "Pa’anga",
@@ -2476,7 +2765,26 @@
     "status": "current",
     "withdrawalDate": null
   },
+  "TRANSNISTRIAN_RUBLE": {
+    "code": "TRANSNISTRIAN_RUBLE",
+    "isoCode": "RUP",
+    "currencyName": "Transnistrian ruble",
+    "officialName": null,
+    "aliases": [],
+    "numericCode": null,
+    "currencySymbol": null,
+    "territory": "Transnistria",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "Transnistria"
+    ],
+    "minorUnit": null,
+    "status": "nonIso",
+    "withdrawalDate": null
+  },
   "TRY": {
+    "code": "TRY",
     "isoCode": "TRY",
     "currencyName": "Turkish lira",
     "officialName": "Turkish Lira",
@@ -2494,6 +2802,7 @@
     "withdrawalDate": null
   },
   "TTD": {
+    "code": "TTD",
     "isoCode": "TTD",
     "currencyName": "Trinidad and Tobago dollar",
     "officialName": "Trinidad and Tobago Dollar",
@@ -2511,6 +2820,7 @@
     "withdrawalDate": null
   },
   "TWD": {
+    "code": "TWD",
     "isoCode": "TWD",
     "currencyName": "New Taiwan dollar",
     "officialName": "New Taiwan Dollar",
@@ -2528,6 +2838,7 @@
     "withdrawalDate": null
   },
   "TZS": {
+    "code": "TZS",
     "isoCode": "TZS",
     "currencyName": "Tanzanian shilling",
     "officialName": "Tanzanian Shilling",
@@ -2545,6 +2856,7 @@
     "withdrawalDate": null
   },
   "UAH": {
+    "code": "UAH",
     "isoCode": "UAH",
     "currencyName": "Ukrainian hryvnia",
     "officialName": "Hryvnia",
@@ -2562,6 +2874,7 @@
     "withdrawalDate": null
   },
   "UGX": {
+    "code": "UGX",
     "isoCode": "UGX",
     "currencyName": "Ugandan shilling",
     "officialName": "Uganda Shilling",
@@ -2579,6 +2892,7 @@
     "withdrawalDate": null
   },
   "USD": {
+    "code": "USD",
     "isoCode": "USD",
     "currencyName": "United States dollar",
     "officialName": "US Dollar",
@@ -2614,6 +2928,7 @@
     "withdrawalDate": null
   },
   "UYU": {
+    "code": "UYU",
     "isoCode": "UYU",
     "currencyName": "Uruguayan peso",
     "officialName": "Peso Uruguayo",
@@ -2631,6 +2946,7 @@
     "withdrawalDate": null
   },
   "UZS": {
+    "code": "UZS",
     "isoCode": "UZS",
     "currencyName": "Uzbekistan som",
     "officialName": "Uzbekistan Sum",
@@ -2648,6 +2964,7 @@
     "withdrawalDate": null
   },
   "VED": {
+    "code": "VED",
     "isoCode": "VED",
     "currencyName": "Bolívar Soberano",
     "officialName": "Bolívar Soberano",
@@ -2665,6 +2982,7 @@
     "withdrawalDate": null
   },
   "VEF": {
+    "code": "VEF",
     "isoCode": "VEF",
     "currencyName": "Venezuelan bolívar fuerte",
     "officialName": "Bolivar Fuerte",
@@ -2683,6 +3001,7 @@
     "withdrawalDate": "2018-08"
   },
   "VES": {
+    "code": "VES",
     "isoCode": "VES",
     "currencyName": "Bolívar Soberano",
     "officialName": "Bolívar Soberano",
@@ -2700,6 +3019,7 @@
     "withdrawalDate": null
   },
   "VND": {
+    "code": "VND",
     "isoCode": "VND",
     "currencyName": "Vietnamese dong",
     "officialName": "Dong",
@@ -2717,6 +3037,7 @@
     "withdrawalDate": null
   },
   "VUV": {
+    "code": "VUV",
     "isoCode": "VUV",
     "currencyName": "Vanuatu vatu",
     "officialName": "Vatu",
@@ -2734,6 +3055,7 @@
     "withdrawalDate": null
   },
   "WST": {
+    "code": "WST",
     "isoCode": "WST",
     "currencyName": "Samoan tala",
     "officialName": "Tala",
@@ -2751,6 +3073,7 @@
     "withdrawalDate": null
   },
   "XAF": {
+    "code": "XAF",
     "isoCode": "XAF",
     "currencyName": "CFA franc BEAC",
     "officialName": "CFA Franc BEAC",
@@ -2773,6 +3096,7 @@
     "withdrawalDate": null
   },
   "XCD": {
+    "code": "XCD",
     "isoCode": "XCD",
     "currencyName": "East Caribbean dollar",
     "officialName": "East Caribbean Dollar",
@@ -2797,6 +3121,7 @@
     "withdrawalDate": null
   },
   "XCG": {
+    "code": "XCG",
     "isoCode": "XCG",
     "currencyName": "Caribbean Guilder",
     "officialName": "Caribbean Guilder",
@@ -2815,6 +3140,7 @@
     "withdrawalDate": null
   },
   "XOF": {
+    "code": "XOF",
     "isoCode": "XOF",
     "currencyName": "CFA franc BCEAO",
     "officialName": "CFA Franc BCEAO",
@@ -2839,6 +3165,7 @@
     "withdrawalDate": null
   },
   "XPF": {
+    "code": "XPF",
     "isoCode": "XPF",
     "currencyName": "CFP franc",
     "officialName": "CFP Franc",
@@ -2858,6 +3185,7 @@
     "withdrawalDate": null
   },
   "YER": {
+    "code": "YER",
     "isoCode": "YER",
     "currencyName": "Yemeni rial",
     "officialName": "Yemeni Rial",
@@ -2875,6 +3203,7 @@
     "withdrawalDate": null
   },
   "ZAR": {
+    "code": "ZAR",
     "isoCode": "ZAR",
     "currencyName": "South African rand",
     "officialName": "Rand",
@@ -2894,6 +3223,7 @@
     "withdrawalDate": null
   },
   "ZMW": {
+    "code": "ZMW",
     "isoCode": "ZMW",
     "currencyName": "Zambian kwacha",
     "officialName": "Zambian Kwacha",
@@ -2911,6 +3241,7 @@
     "withdrawalDate": null
   },
   "ZWG": {
+    "code": "ZWG",
     "isoCode": "ZWG",
     "currencyName": "Zimbabwe Gold",
     "officialName": "Zimbabwe Gold",

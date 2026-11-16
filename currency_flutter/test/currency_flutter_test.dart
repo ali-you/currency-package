@@ -3,6 +3,16 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  testWidgets(
+      'custom currency labels use the general code rather than null ISO',
+      (tester) async {
+    final toman = Currency().byCode('TOMAN')!;
+    await tester.pumpWidget(Directionality(
+      textDirection: TextDirection.ltr,
+      child: CurrencyLabel(currency: toman),
+    ));
+    expect(find.text('TOMAN — Iranian toman'), findsOneWidget);
+  });
   test('public library exports the shared metadata API', () {
     expect(Currency().byIsoCode(' xcg ')!.status, CurrencyStatus.current);
     expect(Currency().byCurrencyName('missing'), isNull);

@@ -1,8 +1,8 @@
-"""Merge pinned SIX registers into currency.json; no network access required.
+"""Merge pinned SIX registers into data/currencies/currency.json; no network access required.
 
-ISO facts come from XML. Display metadata comes from currency.annotations.json,
+ISO facts come from XML. Display metadata comes from data/currencies/currency.annotations.json,
 which distinguishes verified annotations from inherited, unverified values.
-Historical coverage intentionally retains only codes already in currency.json.
+Historical coverage intentionally retains only codes already in data/currencies/currency.json.
 """
 
 import argparse
@@ -40,16 +40,19 @@ def is_currency(code, entries):
 
 
 def build():
-    previous = json.loads((ROOT / "currency.json").read_text(encoding="utf-8"))
-    annotations = json.loads((ROOT / "currency.annotations.json").read_text(encoding="utf-8"))
+    previous = json.loads((ROOT / "data/currencies/currency.json").read_text(encoding="utf-8"))
+    annotations = json.loads((ROOT / "data/currencies/currency.annotations.json").read_text(encoding="utf-8"))
     current_path = ROOT / "data/sources/currencies/list-one.xml"
     historical_path = ROOT / "data/sources/currencies/list-three.xml"
     current = ET.parse(current_path).getroot()
     historical = ET.parse(historical_path).getroot()
     current_groups = group_entries(current, "CcyTbl", "CcyNtry")
     historical_groups = group_entries(historical, "HstrcCcyTbl", "HstrcCcyNtry")
+    custom = json.loads((ROOT / "data/currencies/custom_currencies.json").read_text(encoding="utf-8"))
     result = {}
     for code in sorted(set(current_groups) | set(previous)):
+        if code in custom:
+            continue
         old = previous.get(code, {})
         annotation = annotations.get(code, {"fields": {}, "aliases": []})
         fields = {key: item["value"] for key, item in annotation["fields"].items()}
@@ -77,6 +80,7 @@ def build():
         minor_unit = entries[0].findtext("CcyMnrUnts")
         number = next(iter(numbers))
         result[code] = {
+            "code": code,
             "isoCode": code,
             "currencyName": fields.get("currencyName") or entries[0].findtext("CcyNm"),
             "officialName": entries[0].findtext("CcyNm"),
@@ -93,6 +97,10 @@ def build():
                 e.findtext("WthdrwlDt") for e in entries
             ),
         }
+    if set(custom) & set(result):
+        raise ValueError("Custom code collides with ISO code")
+    result.update(custom)
+    result = dict(sorted(result.items()))
     sources = [
         {"url": SIX + p.name, "published": tree.get("Pblshd"),
          "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
@@ -100,12 +108,14 @@ def build():
     ]
     metadata = {
         "sources": sources,
-        "coverage": "Ordinary currencies from the current ISO register plus selected historical currencies. Funds, metals and special-purpose codes are excluded.",
+        "coverage": "Ordinary currencies from the current ISO register plus selected historical currencies. Funds, metals and special-purpose codes are excluded. Nine curated non-ISO entries are included with explicit statuses.",
+        "customCount": len(custom),
+        "customSources": "data/currencies/custom_currency_sources.json",
         "currentCount": sum(row["status"] == "current" for row in result.values()),
         "historicalCount": sum(row["status"] == "historical" for row in result.values()),
-        "annotations": "Display metadata and field-level sources are maintained in currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive.",
+        "annotations": "Display metadata and field-level sources are maintained in data/currencies/currency.annotations.json. Inherited annotations are explicitly unverified. Null means unknown or not applicable; historical minor units are unavailable in List Three. Flags are representative, not exhaustive.",
     }
-    return {"currency.json": result, "currency.metadata.json": metadata}
+    return {"data/currencies/currency.json": result, "data/currencies/currency.metadata.json": metadata}
 
 
 def main():

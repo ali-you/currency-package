@@ -3,11 +3,35 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  testWidgets('historical and non-ISO switches independently filter currencies',
+      (tester) async {
+    await tester.pumpWidget(const MyApp());
+    expect(find.text('Currencies (164)'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('nonIso-filter')));
+    await tester.pumpAndSettle();
+    expect(find.text('Currencies (155)'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('historical-filter')));
+    await tester.pumpAndSettle();
+    expect(find.text('Currencies (166)'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('nonIso-filter')));
+    await tester.pumpAndSettle();
+    expect(find.text('Currencies (175)'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('historical-filter')));
+    await tester.pumpAndSettle();
+    expect(find.text('Currencies (164)'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('currency searches normalize input and handle missing results',
       (tester) async {
     await tester.pumpWidget(const MyApp());
-    expect(find.text('Current currencies'), findsOneWidget);
-    for (final query in [' usd ', ' United States DOLLAR ', 'unknown']) {
+    expect(find.text('Currencies (164)'), findsOneWidget);
+    for (final query in [
+      ' usd ',
+      ' United States DOLLAR ',
+      'TOMAN',
+      'unknown'
+    ]) {
       await tester.enterText(find.byType(TextField), query);
       await tester.tap(find.byTooltip('Search currencies'));
       await tester.pumpAndSettle();
@@ -15,7 +39,9 @@ void main() {
       expect(
           find.text(query == 'unknown'
               ? 'Currency not found'
-              : 'United States dollar'),
+              : query == 'TOMAN'
+                  ? 'Iranian toman'
+                  : 'United States dollar'),
           findsWidgets);
       expect(tester.takeException(), isNull);
       await tester.tap(find.text('Close'));

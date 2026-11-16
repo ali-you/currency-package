@@ -4,6 +4,51 @@ import 'package:test/test.dart';
 void main() {
   const names = CurrencyLocalization();
 
+  test(
+      'project short codes resolve to the same translations as descriptive codes',
+      () {
+    const aliases = {
+      'IRT': 'TOMAN',
+      'SLS': 'SOMALILAND_SHILLING',
+      'RUP': 'TRANSNISTRIAN_RUBLE',
+      'IMP': 'MANX_POUND',
+      'JEP': 'JERSEY_POUND',
+      'GGP': 'GUERNSEY_POUND',
+      'FOK': 'FAROESE_KRONA',
+      'EUS': 'EUSKO',
+      'CHI': 'CHIEMGAUER'
+    };
+    for (final entry in aliases.entries) {
+      for (final locale in ['en', 'fa', 'ar', 'zz']) {
+        expect(names.name(' ${entry.key.toLowerCase()} ', locale: locale),
+            names.name(entry.value, locale: locale));
+      }
+    }
+  });
+
+  test('custom currency names are localized with safe fallback', () {
+    expect(names.supportedCurrencyCodes, contains('IRT'));
+    expect(names.supportedCurrencyCodes, isNot(contains('TOMAN')));
+    expect(names.name('TOMAN', locale: 'fa'), 'تومان ایران');
+    expect(names.name('TOMAN', locale: 'ar'), 'تومان إيراني');
+    for (final code in [
+      'TOMAN',
+      'SOMALILAND_SHILLING',
+      'TRANSNISTRIAN_RUBLE',
+      'MANX_POUND',
+      'JERSEY_POUND',
+      'GUERNSEY_POUND',
+      'FAROESE_KRONA',
+      'EUSKO',
+      'CHIEMGAUER'
+    ]) {
+      expect(names.lookup(code, locale: 'en'), isNotNull);
+      expect(names.lookup(code, locale: 'fa'), isNotNull);
+      expect(names.lookup(code, locale: 'ar'), isNotNull);
+      expect(names.name(code, locale: 'zz'), names.lookup(code, locale: 'en'));
+    }
+  });
+
   test('additional languages and regional datasets are available', () {
     expect(names.name('USD', locale: 'de'), 'US-Dollar');
     expect(names.name('USD', locale: 'fr'), 'dollar des États-Unis');
