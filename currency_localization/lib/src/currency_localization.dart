@@ -10,7 +10,7 @@ class CurrencyLocalization {
   /// Fallback after the requested locale's parents, before English and ISO code.
   final String fallbackLocale;
 
-  /// Exact locale datasets bundled with this release, without regional variants.
+  /// Exact locale datasets bundled with this release, including regional and script variants (normalized lowercase tags).
   Set<String> get supportedLocales => currencyNameLocales;
 
   /// Codes covered by the package's pinned currency metadata snapshot.
@@ -65,9 +65,18 @@ class CurrencyLocalization {
     // Unicode extensions and private-use suffixes do not select currency names.
     final extension = parts.indexWhere((part) => part.length == 1);
     if (extension >= 0) parts.removeRange(extension, parts.length);
-    while (parts.isNotEmpty) {
-      yield parts.join('-');
-      parts.removeLast();
+    var candidate = parts.join('-');
+    final visited = <String>{};
+    while (
+        candidate.isNotEmpty && candidate != 'root' && visited.add(candidate)) {
+      yield candidate;
+      final explicit = currencyLocaleParents[candidate];
+      if (explicit != null) {
+        candidate = explicit;
+      } else {
+        final separator = candidate.lastIndexOf('-');
+        candidate = separator < 0 ? '' : candidate.substring(0, separator);
+      }
     }
   }
 }

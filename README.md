@@ -8,7 +8,7 @@ when building a currency picker.
 
 - `currency_dart`: pure Dart lookups and immutable metadata, with no Flutter dependency.
 - `currency_flutter`: the same public API plus the `CurrencyLabel` widget.
-- `currency_localization`: offline CLDR names in English, Persian and Arabic,
+- `currency_localization`: offline currency names for all 657 CLDR locales,
   keyed by ISO code, with locale fallback and no Flutter dependency.
 - `currency.json`: canonical metadata used to generate the Dart repository.
 - `currency.metadata.json`: source URLs, publication dates, hashes and coverage.

@@ -4,6 +4,23 @@ import 'package:test/test.dart';
 void main() {
   const names = CurrencyLocalization();
 
+  test('additional languages and regional datasets are available', () {
+    expect(names.name('USD', locale: 'de'), 'US-Dollar');
+    expect(names.name('USD', locale: 'fr'), 'dollar des États-Unis');
+    expect(names.name('USD', locale: 'ja'), '米ドル');
+    expect(
+        names.name('USD', locale: 'pt-AO'), names.name('USD', locale: 'pt-PT'));
+    expect(names.name('USD', locale: 'hi-Latn-XX'),
+        names.name('USD', locale: 'hi-Latn'));
+  });
+
+  test('explicit script parents prevent falling into the wrong script', () {
+    expect(names.lookup('UYW', locale: 'zh'), isNotNull);
+    expect(names.lookup('UYW', locale: 'zh-Hant'), isNull);
+    expect(
+        names.name('UYW', locale: 'zh-Hant'), names.name('UYW', locale: 'en'));
+  });
+
   test('returns CLDR display names in English, Persian and Arabic', () {
     expect(names.name('USD'), 'US Dollar');
     expect(names.name('USD', locale: 'fa'), 'دلار آمریکا');
@@ -21,7 +38,7 @@ void main() {
   });
 
   test('unsupported and malformed locales fall back to English', () {
-    for (final locale in ['de-DE', '', 'fa--IR', '@fa', 'x-private']) {
+    for (final locale in ['zz-ZZ', '', 'fa--IR', '@fa', 'x-private']) {
       expect(names.name('USD', locale: locale), 'US Dollar');
       expect(names.lookup('USD', locale: locale), isNull);
     }
@@ -35,11 +52,11 @@ void main() {
 
   test('configured fallback precedes English but follows requested locale', () {
     const arabicFallback = CurrencyLocalization(fallbackLocale: 'ar-EG');
-    expect(arabicFallback.name('USD', locale: 'de'), 'دولار أمريكي');
+    expect(arabicFallback.name('USD', locale: 'zz'), 'دولار أمريكي');
     expect(arabicFallback.name('USD', locale: 'fa'), 'دلار آمریکا');
     expect(
         const CurrencyLocalization(fallbackLocale: 'unknown')
-            .name('USD', locale: 'de'),
+            .name('USD', locale: 'zz'),
         'US Dollar');
   });
 
@@ -53,9 +70,11 @@ void main() {
   });
 
   test('supported locales describe bundled data, not fallback success', () {
-    expect(names.supportedLocales, {'en', 'fa', 'ar'});
+    expect(names.supportedLocales.length, 657);
+    expect(names.supportedLocales,
+        containsAll(['en', 'fa', 'ar', 'de', 'fr', 'zh-hant']));
     expect(names.supportsLocale('FA_IR'), isTrue);
-    expect(names.supportsLocale('de'), isFalse);
+    expect(names.supportsLocale('zz'), isFalse);
     expect(names.supportsLocale(''), isFalse);
     expect(names.cldrVersion, '49.0.0');
   });
@@ -66,7 +85,7 @@ void main() {
     expect(result, {'USD': 'دلار آمریکا', 'EUR': 'یورو', 'ZZZ': 'ZZZ'});
     expect(names.names([]), isEmpty);
     expect(() => result.clear(), throwsUnsupportedError);
-    expect(() => names.supportedLocales.add('de'), throwsUnsupportedError);
+    expect(() => names.supportedLocales.add('zz'), throwsUnsupportedError);
     expect(() => names.supportedCurrencyCodes.clear(), throwsUnsupportedError);
   });
 

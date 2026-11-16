@@ -1,12 +1,11 @@
 # currency_localization
 
-Offline currency display names for **English (`en`), Persian (`fa`) and Arabic
-(`ar`)**, generated from Unicode CLDR 49. Pure Dart, with no Flutter requirement,
+Offline currency display names for **all 657 locale datasets in CLDR 49**, including language, script and regional variants, generated from Unicode CLDR 49. Pure Dart, with no Flutter requirement,
 runtime dependencies, network requests or asset initialization.
 
 ```yaml
 dependencies:
-  currency_localization: ^0.1.0
+  currency_localization: ^0.2.0
 ```
 
 ```dart
@@ -17,7 +16,7 @@ const names = CurrencyLocalization();
 names.name('USD', locale: 'fa'); // دلار آمریکا
 names.name('EUR', locale: 'ar'); // يورو
 names.name(' usd ', locale: 'FA_ir'); // دلار آمریکا
-names.name('USD', locale: 'de'); // US Dollar (English fallback)
+names.name('USD', locale: 'de'); // US-Dollar
 names.name('ZZZ', locale: 'fa'); // ZZZ (unknown code)
 names.name('XAD', locale: 'fa'); // XAD (no bundled CLDR translation)
 ```
@@ -47,21 +46,21 @@ Flutter libraries. Rendering direction and fonts remain the application's job.
 
 ## Fallback and coverage
 
-`name` searches the requested locale, successively shorter parent tags, the
-configured `fallbackLocale` and its parents, English, then the normalized code.
-For example, `fa-Arab-IR → fa-Arab → fa → en → ISO code`. With only the three
-base datasets bundled, regional variants use the base-language translation;
-this is simple tag fallback, not full CLDR locale inheritance or language matching.
-Locale tags ignore case, accept `_` or `-`, and ignore extension/private-use
-suffixes. Unrecognized or malformed input uses the same fallback policy.
+`name` searches the requested locale, its CLDR parent chain, the configured
+`fallbackLocale` and its parents, English, then the normalized code. Regional
+and script-specific names are preserved. Explicit CLDR parents take precedence
+over truncation, including `root` boundaries that prevent falling into the wrong
+script. Unknown tags use progressive truncation. Locale tags ignore case, accept
+`_` or `-`, and ignore extension/private-use suffixes. This does not implement
+language negotiation or canonicalization of deprecated locale aliases.
 
 ```dart
 const names = CurrencyLocalization(fallbackLocale: 'ar');
-names.name('USD', locale: 'de'); // دولار أمريكي
-names.lookup('USD', locale: 'de'); // null: no configured or English fallback
+names.name('USD', locale: 'zz'); // دولار أمريكي
+names.lookup('USD', locale: 'zz'); // null: no configured or English fallback
 names.supportsLocale('fa_IR'); // true (base fa is bundled)
-names.supportsLocale('de'); // false, even though name() can return English
-names.supportedLocales; // immutable set: ar, en, fa
+names.supportsLocale('zz'); // false, even though name() can return English
+names.supportedLocales; // immutable set of 657 normalized lowercase locale tags
 names.supportedCurrencyCodes; // immutable set of 191 snapshot codes
 names.names(['USD', 'EUR'], locale: 'fa'); // immutable ISO-code → name map
 ```
@@ -76,11 +75,10 @@ The 191 codes match the repository currency snapshot: 178 current codes and
 13 selected historical codes. Historical names can include dates to distinguish
 them. They remain historical even though this package can display their names.
 
-| Locale | Direct CLDR names | Missing before fallback |
-|---|---:|---:|
-| English | 190 | 1 |
-| Persian | 172 | 19 |
-| Arabic | 180 | 11 |
+All locales distributed in the pinned `cldr-numbers-full` package are bundled.
+This covers CLDR languages, not every language spoken worldwide. Translation
+coverage varies by locale and currency; missing names use the documented fallback
+rather than fabricated translations.
 
 `data_provenance.json` lists source URLs, SHA-256 hashes and every missing code.
 Names are the CLDR `displayName` values for labels/pickers. This release does
@@ -90,7 +88,7 @@ provide exchange rates. All lookups work offline.
 ## Data generation and maintenance
 
 Unmodified CLDR JSON snapshots live in the repository under
-`tool/data/cldr/49.0.0/{ar,en,fa}.json`. Runtime code contains generated const
+`tool/data/cldr/49.0.0/<locale>.json`. Runtime code contains generated const
 maps and does not read those files. To check a repository checkout:
 
 ```sh
@@ -102,12 +100,11 @@ dart test
 dart run example/currency_localization_example.dart
 ```
 
-To add a language, download its `currencies.json` from the same pinned CLDR
-release into that source directory, add the locale to `tool/generate.dart`,
-regenerate with `dart run tool/generate.dart`, and review translations, coverage,
-provenance, tests and documentation. The generator takes supported codes from
-the root `currency.json`. To update CLDR, change the pinned version, download
-all source files and the matching Unicode license, then regenerate and review.
+The generator discovers every currency snapshot in the version directory. To
+update CLDR, download the pinned `cldr-numbers-full` npm archive, extract every
+`main/<locale>/currencies.json` to that directory, and also download matching
+`cldr-core/supplemental/parentLocales.json` and the Unicode license. Regenerate
+with `dart run tool/generate.dart` and review locale coverage and provenance.
 CI checks the generated data, source hashes, analysis, formatting and tests.
 
 ## License
