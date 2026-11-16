@@ -1,38 +1,52 @@
-import 'package:currency_dart/src/currency_repo.dart';
-
 import 'currency_model.dart';
+import 'currency_repo.dart';
 
+/// Offline lookups of ISO 4217 currencies, funds, and special-purpose codes.
 class Currency {
-  List<CurrencyModel> getAllCurrencies() {
-    List<CurrencyModel> currencyModelFromJson(
-            List<Map<String, dynamic>> jsonList) =>
-        List<CurrencyModel>.from(
-            jsonList.map((x) => CurrencyModel.fromJson(x)));
-    return currencyModelFromJson(CurrencyRepo.currencies.values.toList());
+  static final List<CurrencyModel> _all = List.unmodifiable(
+    CurrencyRepo.currencies.values.map(CurrencyModel.fromJson),
+  );
+  static final Map<String, CurrencyModel> _byCode = Map.unmodifiable({
+    for (final currency in _all) currency.isoCode: currency,
+  });
+  static final List<CurrencyModel> _current = List.unmodifiable(
+    _all.where((currency) => currency.status == CurrencyStatus.current),
+  );
+
+  /// Returns an immutable list, optionally including historical codes.
+  List<CurrencyModel> getAllCurrencies({
+    bool includeHistorical = false,
+    CurrencyCategory? category,
+  }) {
+    final currencies = includeHistorical ? _all : _current;
+    return category == null
+        ? currencies
+        : List.unmodifiable(currencies.where((c) => c.category == category));
   }
 
-  CurrencyModel? byIsoCode(String isoCode) {
-    CurrencyModel? res;
-    try {
-      Map<String, dynamic>? search =
-          CurrencyRepo.currencies[isoCode.toUpperCase()];
-      if (search != null) res = CurrencyModel.fromJson(search);
-    } catch (e) {
-      rethrow;
-    }
-    return res;
+  /// Ignores surrounding whitespace and case. Unknown/excluded codes return null.
+  CurrencyModel? byIsoCode(String isoCode, {bool includeHistorical = false}) {
+    final currency = _byCode[isoCode.trim().toUpperCase()];
+    return currency != null &&
+            (includeHistorical || currency.status == CurrencyStatus.current)
+        ? currency
+        : null;
   }
 
-  CurrencyModel? byCurrencyName(String currencyName) {
-    CurrencyModel? res;
-    try {
-      Map<String, dynamic>? search = CurrencyRepo.currencies.values
-          .where((element) => element["currencyName"] == currencyName)
-          .single;
-      res = CurrencyModel.fromJson(search);
-    } catch (e) {
-      rethrow;
+  /// Exact display-name lookup, ignoring surrounding whitespace and case.
+  /// Missing or ambiguous names return null; prefer ISO codes for ambiguity.
+  CurrencyModel? byCurrencyName(
+    String currencyName, {
+    bool includeHistorical = false,
+  }) {
+    final name = currencyName.trim().toLowerCase();
+    CurrencyModel? match;
+    for (final currency in includeHistorical ? _all : _current) {
+      if (currency.currencyName.toLowerCase() == name) {
+        if (match != null) return null;
+        match = currency;
+      }
     }
-    return res;
+    return match;
   }
 }

@@ -1,0 +1,4 @@
+# Local development only; pub excludes this file from published packages.
+dependency_overrides:
+  currency_dart:
+    path: ../currency_dart

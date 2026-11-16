@@ -1,1496 +1,3138 @@
 {
-    "AED": {
-        "isoCode": "AED",
-        "currencyName": "United Arab Emirates dirham",
-        "numericCode": 784,
-        "currencySymbol": "د.إ",
-        "territory": "United Arab Emirates",
-        "fractionalUnit": "Fils",
-        "flag": "🇦🇪"
-    },
-    "AFN": {
-        "isoCode": "AFN",
-        "currencyName": "Afghan afghani",
-        "numericCode": 971,
-        "currencySymbol": "؋",
-        "territory": "Afghanistan",
-        "fractionalUnit": "Pul",
-        "flag": "🇦🇫"
-    },
-    "ALL": {
-        "isoCode": "ALL",
-        "currencyName": "Albanian lek",
-        "numericCode": 8,
-        "currencySymbol": "L",
-        "territory": "Albania",
-        "fractionalUnit": "Qindarka",
-        "flag": "🇦🇱"
-    },
-    "AMD": {
-        "isoCode": "AMD",
-        "currencyName": "Armenian dram",
-        "numericCode": 51,
-        "currencySymbol": "֏",
-        "territory": "Armenia",
-        "fractionalUnit": "Luma",
-        "flag": "🇦🇲"
-    },
-    "ANG": {
-        "isoCode": "ANG",
-        "currencyName": "Netherlands Antillean guilder",
-        "numericCode": 532,
-        "currencySymbol": "ƒ",
-        "territory": "Curaçao and Sint Maarten",
-        "fractionalUnit": "Cent",
-        "flag": "🇨🇼"
-    },
-    "AOA": {
-        "isoCode": "AOA",
-        "currencyName": "Angolan kwanza",
-        "numericCode": 973,
-        "currencySymbol": "Kz",
-        "territory": "Angola",
-        "fractionalUnit": "Cêntimo",
-        "flag": "🇦🇴"
-    },
-    "ARS": {
-        "isoCode": "ARS",
-        "currencyName": "Argentine peso",
-        "numericCode": 32,
-        "currencySymbol": "$",
-        "territory": "Argentina",
-        "fractionalUnit": "Centavo",
-        "flag": "🇦🇷"
-    },
-    "AUD": {
-        "isoCode": "AUD",
-        "currencyName": "Australian dollar",
-        "numericCode": 36,
-        "currencySymbol": "$",
-        "territory": "Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu",
-        "fractionalUnit": "Cent",
-        "flag": "🇦🇺"
-    },
-    "AWG": {
-        "isoCode": "AWG",
-        "currencyName": "Aruban florin",
-        "numericCode": 533,
-        "currencySymbol": "ƒ",
-        "territory": "Aruba",
-        "fractionalUnit": "Cent",
-        "flag": "🇦🇼"
-    },
-    "AZN": {
-        "isoCode": "AZN",
-        "currencyName": "Azerbaijani manat",
-        "numericCode": 944,
-        "currencySymbol": "₼",
-        "territory": "Azerbaijan",
-        "fractionalUnit": "Qəpik",
-        "flag": "🇦🇿"
-    },
-    "BAM": {
-        "isoCode": "BAM",
-        "currencyName": "Bosnia and Herzegovina convertible mark",
-        "numericCode": 977,
-        "currencySymbol": "КМ",
-        "territory": "Bosnia and Herzegovina",
-        "fractionalUnit": "Fening",
-        "flag": "🇧🇦"
-    },
-    "BBD": {
-        "isoCode": "BBD",
-        "currencyName": "Barbados dollar",
-        "numericCode": 52,
-        "currencySymbol": "$",
-        "territory": "Barbados",
-        "fractionalUnit": "Cent",
-        "flag": "🇧🇧"
-    },
-    "BDT": {
-        "isoCode": "BDT",
-        "currencyName": "Bangladeshi taka",
-        "numericCode": 50,
-        "currencySymbol": "৳",
-        "territory": "Bangladesh",
-        "fractionalUnit": "Poisha",
-        "flag": "🇧🇩"
-    },
-    "BGN": {
-        "isoCode": "BGN",
-        "currencyName": "Bulgarian lev",
-        "numericCode": 975,
-        "currencySymbol": "лв.",
-        "territory": "Bulgaria",
-        "fractionalUnit": "Stotinka",
-        "flag": "🇧🇬"
-    },
-    "BHD": {
-        "isoCode": "BHD",
-        "currencyName": "Bahraini dinar",
-        "numericCode": 48,
-        "currencySymbol": "ب.د",
-        "territory": "Bahrain",
-        "fractionalUnit": "Fils",
-        "flag": "🇧🇭"
-    },
-    "BIF": {
-        "isoCode": "BIF",
-        "currencyName": "Burundian franc",
-        "numericCode": 108,
-        "currencySymbol": "FBu",
-        "territory": "Burundi",
-        "flag": "🇧🇮"
-    },
-    "BMD": {
-        "isoCode": "BMD",
-        "currencyName": "Bermudian dollar (customarily known as Bermuda dollar)",
-        "numericCode": 60,
-        "currencySymbol": "$",
-        "territory": "Bermuda",
-        "fractionalUnit": "Cent",
-        "flag": "🇧🇲"
-    },
-    "BND": {
-        "isoCode": "BND",
-        "currencyName": "Brunei dollar",
-        "numericCode": 96,
-        "currencySymbol": "$",
-        "territory": "Brunei, Singapore",
-        "fractionalUnit": "Sen",
-        "flag": "🇧🇳"
-    },
-    "BOB": {
-        "isoCode": "BOB",
-        "currencyName": "Boliviano",
-        "numericCode": 68,
-        "currencySymbol": "Bs.",
-        "territory": "Bolivia",
-        "fractionalUnit": "Centavo",
-        "flag": "🇧🇴"
-    },
-    "BOV": {
-        "isoCode": "BOV",
-        "currencyName": "Bolivian Mvdol (funds code)",
-        "numericCode": 984,
-        "currencySymbol": "Bs.",
-        "territory": "Bolivia",
-        "fractionalUnit": "Centavo",
-        "flag": "🇧🇴"
-    },
-    "BRL": {
-        "isoCode": "BRL",
-        "currencyName": "Brazilian real",
-        "numericCode": 986,
-        "currencySymbol": "R$",
-        "territory": "Brazil",
-        "fractionalUnit": "Centavo",
-        "flag": "🇧🇷"
-    },
-    "BSD": {
-        "isoCode": "BSD",
-        "currencyName": "Bahamian dollar",
-        "numericCode": 44,
-        "currencySymbol": "$",
-        "territory": "The Bahamas",
-        "fractionalUnit": "Cent",
-        "flag": "🇧🇸"
-    },
-    "BTN": {
-        "isoCode": "BTN",
-        "currencyName": "Bhutanese ngultrum",
-        "numericCode": 64,
-        "currencySymbol": "Nu.",
-        "territory": "Bhutan",
-        "fractionalUnit": "Chertrum",
-        "flag": "🇧🇹"
-    },
-    "BWP": {
-        "isoCode": "BWP",
-        "currencyName": "Botswana pula",
-        "numericCode": 72,
-        "currencySymbol": "P",
-        "territory": "Botswana",
-        "fractionalUnit": "Thebe",
-        "flag": "🇧🇼"
-    },
-    "BYR": {
-        "isoCode": "BYR",
-        "currencyName": "Belarusian ruble",
-        "numericCode": 974,
-        "currencySymbol": "Br",
-        "territory": "Belarus",
-        "flag": "🇧🇾"
-    },
-    "BZD": {
-        "isoCode": "BZD",
-        "currencyName": "Belize dollar",
-        "numericCode": 84,
-        "currencySymbol": "BZ$",
-        "territory": "Belize",
-        "fractionalUnit": "Cent",
-        "flag": "🇧🇿"
-    },
-    "CAD": {
-        "isoCode": "CAD",
-        "currencyName": "Canadian dollar",
-        "numericCode": 124,
-        "currencySymbol": "$",
-        "territory": "Canada",
-        "flag": "🇨🇦"
-    },
-    "CDF": {
-        "isoCode": "CDF",
-        "currencyName": "Congolese franc",
-        "numericCode": 976,
-        "currencySymbol": "FC",
-        "territory": "Democratic Republic of the Congo",
-        "fractionalUnit": "Centime",
-        "flag": "🇨🇩"
-    },
-    "CHE": {
-        "isoCode": "CHE",
-        "currencyName": "WIR Euro (complementary currency)",
-        "numericCode": 947,
-        "currencySymbol": "CHE",
-        "flag": ""
-    },
-    "CHF": {
-        "isoCode": "CHF",
-        "currencyName": "Swiss franc",
-        "numericCode": 756,
-        "currencySymbol": "CHF",
-        "territory": "Switzerland, Liechtenstein",
-        "fractionalUnit": "Rappen",
-        "flag": "🇨🇭"
-    },
-    "CHW": {
-        "isoCode": "CHW",
-        "currencyName": "WIR Franc (complementary currency)",
-        "numericCode": 948,
-        "currencySymbol": "CHW",
-        "flag": ""
-    },
-    "CLF": {
-        "isoCode": "CLF",
-        "currencyName": "Unidad de Fomento (funds code)",
-        "numericCode": 990,
-        "currencySymbol": "CLF",
-        "territory": "Chile",
-        "flag": "🇨🇱"
-    },
-    "CLP": {
-        "isoCode": "CLP",
-        "currencyName": "Chilean peso",
-        "numericCode": 152,
-        "currencySymbol": "$",
-        "territory": "Chile",
-        "flag": "🇨🇱"
-    },
-    "CNY": {
-        "isoCode": "CNY",
-        "currencyName": "Chinese yuan",
-        "numericCode": 156,
-        "currencySymbol": "¥",
-        "territory": "China",
-        "fractionalUnit": "Jiao",
-        "flag": "🇨🇳"
-    },
-    "COP": {
-        "isoCode": "COP",
-        "currencyName": "Colombian peso",
-        "numericCode": 170,
-        "currencySymbol": "$",
-        "territory": "Colombia",
-        "flag": "🇨🇴"
-    },
-    "COU": {
-        "isoCode": "COU",
-        "currencyName": "Unidad de Valor Real",
-        "numericCode": 970,
-        "currencySymbol": "COU",
-        "territory": "Colombia",
-        "flag": "🇨🇴"
-    },
-    "CRC": {
-        "isoCode": "CRC",
-        "currencyName": "Costa Rican colon",
-        "numericCode": 188,
-        "currencySymbol": "₡",
-        "territory": "Costa Rica",
-        "flag": "🇨🇷"
-    },
-    "CUC": {
-        "isoCode": "CUC",
-        "currencyName": "Cuban convertible peso",
-        "numericCode": 931,
-        "currencySymbol": "CUC",
-        "territory": "Cuba",
-        "flag": "🇨🇺"
-    },
-    "CUP": {
-        "isoCode": "CUP",
-        "currencyName": "Cuban peso",
-        "numericCode": 192,
-        "currencySymbol": "CUP",
-        "territory": "Cuba",
-        "flag": "🇨🇺"
-    },
-    "CVE": {
-        "isoCode": "CVE",
-        "currencyName": "Cape Verde escudo",
-        "numericCode": 132,
-        "currencySymbol": "Esc",
-        "territory": "Cape Verde",
-        "flag": "🇨🇻"
-    },
-    "CZK": {
-        "isoCode": "CZK",
-        "currencyName": "Czech koruna",
-        "numericCode": 203,
-        "currencySymbol": "Kč",
-        "territory": "Czech Republic",
-        "flag": "🇨🇿"
-    },
-    "DJF": {
-        "isoCode": "DJF",
-        "currencyName": "Djiboutian franc",
-        "numericCode": 262,
-        "currencySymbol": "Fdj",
-        "territory": "Djibouti",
-        "flag": "🇩🇯"
-    },
-    "DKK": {
-        "isoCode": "DKK",
-        "currencyName": "Danish krone",
-        "numericCode": 208,
-        "currencySymbol": "kr",
-        "territory": "Denmark, Faroe Islands, Greenland",
-        "flag": "🇩🇰"
-    },
-    "DOP": {
-        "isoCode": "DOP",
-        "currencyName": "Dominican peso",
-        "numericCode": 214,
-        "currencySymbol": "RD$",
-        "territory": "Dominican Republic",
-        "flag": "🇩🇴"
-    },
-    "DZD": {
-        "isoCode": "DZD",
-        "currencyName": "Algerian dinar",
-        "numericCode": 12,
-        "currencySymbol": "د.ج",
-        "territory": "Algeria",
-        "flag": "🇩🇿"
-    },
-    "EGP": {
-        "isoCode": "EGP",
-        "currencyName": "Egyptian pound",
-        "numericCode": 818,
-        "currencySymbol": "E£",
-        "territory": "Egypt",
-        "flag": "🇪🇬"
-    },
-    "ERN": {
-        "isoCode": "ERN",
-        "currencyName": "Eritrean nakfa",
-        "numericCode": 232,
-        "currencySymbol": "Nfk",
-        "territory": "Eritrea",
-        "flag": "🇪🇷"
-    },
-    "ETB": {
-        "isoCode": "ETB",
-        "currencyName": "Ethiopian birr",
-        "numericCode": 230,
-        "currencySymbol": "Br",
-        "territory": "Ethiopia",
-        "flag": "🇪🇹"
-    },
-    "EUR": {
-        "isoCode": "EUR",
-        "currencyName": "Euro",
-        "numericCode": 978,
-        "currencySymbol": "€",
-        "territory": "Eurozone, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican City",
-        "flag": "🇪🇺"
-    },
-    "FJD": {
-        "isoCode": "FJD",
-        "currencyName": "Fiji dollar",
-        "numericCode": 242,
-        "currencySymbol": "FJ$",
-        "territory": "Fiji",
-        "flag": "🇫🇯"
-    },
-    "FKP": {
-        "isoCode": "FKP",
-        "currencyName": "Falkland Islands pound",
-        "numericCode": 238,
-        "currencySymbol": "FK£",
-        "territory": "Falkland Islands",
-        "flag": "🇫🇰"
-    },
-    "GBP": {
-        "isoCode": "GBP",
-        "currencyName": "Pound sterling",
-        "numericCode": 826,
-        "currencySymbol": "£",
-        "territory": "United Kingdom",
-        "fractionalUnit": "Penny",
-        "flag": "🇬🇧"
-    },
-    "GEL": {
-        "isoCode": "GEL",
-        "currencyName": "Georgian lari",
-        "numericCode": 981,
-        "currencySymbol": "₾",
-        "territory": "Georgia",
-        "fractionalUnit": "Tetri",
-        "flag": "🇬🇪"
-    },
-    "GHS": {
-        "isoCode": "GHS",
-        "currencyName": "Ghanaian cedi",
-        "numericCode": 936,
-        "currencySymbol": "₵",
-        "territory": "Ghana",
-        "fractionalUnit": "Pesewa",
-        "flag": "🇬🇭"
-    },
-    "GIP": {
-        "isoCode": "GIP",
-        "currencyName": "Gibraltar pound",
-        "numericCode": 292,
-        "currencySymbol": "£",
-        "territory": "Gibraltar",
-        "fractionalUnit": "Penny",
-        "flag": "🇬🇮"
-    },
-    "GMD": {
-        "isoCode": "GMD",
-        "currencyName": "Gambian dalasi",
-        "numericCode": 270,
-        "currencySymbol": "D",
-        "territory": "The Gambia",
-        "fractionalUnit": "Butut",
-        "flag": "🇬🇲"
-    },
-    "GNF": {
-        "isoCode": "GNF",
-        "currencyName": "Guinean franc",
-        "numericCode": 324,
-        "currencySymbol": "FG",
-        "territory": "Guinea",
-        "flag": "🇬🇳"
-    },
-    "GTQ": {
-        "isoCode": "GTQ",
-        "currencyName": "Guatemalan quetzal",
-        "numericCode": 320,
-        "currencySymbol": "Q",
-        "territory": "Guatemala",
-        "fractionalUnit": "Centavo",
-        "flag": "🇬🇹"
-    },
-    "GYD": {
-        "isoCode": "GYD",
-        "currencyName": "Guyanese dollar",
-        "numericCode": 328,
-        "currencySymbol": "G$",
-        "territory": "Guyana",
-        "fractionalUnit": "Cent",
-        "flag": "🇬🇾"
-    },
-    "HKD": {
-        "isoCode": "HKD",
-        "currencyName": "Hong Kong dollar",
-        "numericCode": 344,
-        "currencySymbol": "HK$",
-        "territory": "Hong Kong",
-        "flag": "🇭🇰"
-    },
-    "HNL": {
-        "isoCode": "HNL",
-        "currencyName": "Honduran lempira",
-        "numericCode": 340,
-        "currencySymbol": "L",
-        "territory": "Honduras",
-        "fractionalUnit": "Centavo",
-        "flag": "🇭🇳"
-    },
-    "HRK": {
-        "isoCode": "HRK",
-        "currencyName": "Croatian kuna",
-        "numericCode": 191,
-        "currencySymbol": "kn",
-        "territory": "Croatia",
-        "flag": "🇭🇷"
-    },
-    "HTG": {
-        "isoCode": "HTG",
-        "currencyName": "Haitian gourde",
-        "numericCode": 332,
-        "currencySymbol": "G",
-        "territory": "Haiti",
-        "flag": "🇭🇹"
-    },
-    "HUF": {
-        "isoCode": "HUF",
-        "currencyName": "Hungarian forint",
-        "numericCode": 348,
-        "currencySymbol": "Ft",
-        "territory": "Hungary",
-        "flag": "🇭🇺"
-    },
-    "IDR": {
-        "isoCode": "IDR",
-        "currencyName": "Indonesian rupiah",
-        "numericCode": 360,
-        "currencySymbol": "Rp",
-        "territory": "Indonesia",
-        "flag": "🇮🇩"
-    },
-    "ILS": {
-        "isoCode": "ILS",
-        "currencyName": "Israeli new shekel",
-        "numericCode": 376,
-        "currencySymbol": "₪",
-        "territory": "Israel",
-        "fractionalUnit": "Agora",
-        "flag": "🇮🇱"
-    },
-    "INR": {
-        "isoCode": "INR",
-        "currencyName": "Indian rupee",
-        "numericCode": 356,
-        "currencySymbol": "₹",
-        "territory": "India",
-        "fractionalUnit": "Paisa",
-        "flag": "🇮🇳"
-    },
-    "IQD": {
-        "isoCode": "IQD",
-        "currencyName": "Iraqi dinar",
-        "numericCode": 368,
-        "currencySymbol": "د.ع",
-        "territory": "Iraq",
-        "flag": "🇮🇶"
-    },
-    "IRR": {
-        "isoCode": "IRR",
-        "currencyName": "Iranian rial",
-        "numericCode": 364,
-        "currencySymbol": "﷼",
-        "territory": "Iran",
-        "flag": "🇮🇷"
-    },
-    "ISK": {
-        "isoCode": "ISK",
-        "currencyName": "Icelandic króna",
-        "numericCode": 352,
-        "currencySymbol": "kr",
-        "territory": "Iceland",
-        "flag": "🇮🇸"
-    },
-    "JMD": {
-        "isoCode": "JMD",
-        "currencyName": "Jamaican dollar",
-        "numericCode": 388,
-        "currencySymbol": "J$",
-        "territory": "Jamaica",
-        "flag": "🇯🇲"
-    },
-    "JOD": {
-        "isoCode": "JOD",
-        "currencyName": "Jordanian dinar",
-        "numericCode": 400,
-        "currencySymbol": "د.ا",
-        "territory": "Jordan",
-        "flag": "🇯🇴"
-    },
-    "JPY": {
-        "isoCode": "JPY",
-        "currencyName": "Japanese yen",
-        "numericCode": 392,
-        "currencySymbol": "¥",
-        "territory": "Japan",
-        "flag": "🇯🇵"
-    },
-    "KES": {
-        "isoCode": "KES",
-        "currencyName": "Kenyan shilling",
-        "numericCode": 404,
-        "currencySymbol": "KSh",
-        "territory": "Kenya",
-        "flag": "🇰🇪"
-    },
-    "KGS": {
-        "isoCode": "KGS",
-        "currencyName": "Kyrgyzstani som",
-        "numericCode": 417,
-        "currencySymbol": "с",
-        "territory": "Kyrgyzstan",
-        "flag": "🇰🇬"
-    },
-    "KHR": {
-        "isoCode": "KHR",
-        "currencyName": "Cambodian riel",
-        "numericCode": 116,
-        "currencySymbol": "៛",
-        "territory": "Cambodia",
-        "flag": "🇰🇭"
-    },
-    "KMF": {
-        "isoCode": "KMF",
-        "currencyName": "Comoro franc",
-        "numericCode": 174,
-        "currencySymbol": "CF",
-        "territory": "Comoros",
-        "flag": "🇰🇲"
-    },
-    "KPW": {
-        "isoCode": "KPW",
-        "currencyName": "North Korean won",
-        "numericCode": 408,
-        "currencySymbol": "₩",
-        "territory": "North Korea",
-        "flag": "🇰🇵"
-    },
-    "KRW": {
-        "isoCode": "KRW",
-        "currencyName": "South Korean won",
-        "numericCode": 410,
-        "currencySymbol": "₩",
-        "territory": "South Korea",
-        "flag": "🇰🇷"
-    },
-    "KWD": {
-        "isoCode": "KWD",
-        "currencyName": "Kuwaiti dinar",
-        "numericCode": 414,
-        "currencySymbol": "د.ك",
-        "territory": "Kuwait",
-        "flag": "🇰🇼"
-    },
-    "KYD": {
-        "isoCode": "KYD",
-        "currencyName": "Cayman Islands dollar",
-        "numericCode": 136,
-        "currencySymbol": "CI$",
-        "territory": "Cayman Islands",
-        "flag": "🇰🇾"
-    },
-    "KZT": {
-        "isoCode": "KZT",
-        "currencyName": "Kazakhstani tenge",
-        "numericCode": 398,
-        "currencySymbol": "₸",
-        "territory": "Kazakhstan",
-        "flag": "🇰🇿"
-    },
-    "LAK": {
-        "isoCode": "LAK",
-        "currencyName": "Lao kip",
-        "numericCode": 418,
-        "currencySymbol": "₭",
-        "territory": "Laos",
-        "flag": "🇱🇦"
-    },
-    "LBP": {
-        "isoCode": "LBP",
-        "currencyName": "Lebanese pound",
-        "numericCode": 422,
-        "currencySymbol": "ل.ل",
-        "territory": "Lebanon",
-        "flag": "🇱🇧"
-    },
-    "LKR": {
-        "isoCode": "LKR",
-        "currencyName": "Sri Lankan rupee",
-        "numericCode": 144,
-        "currencySymbol": "රු",
-        "territory": "Sri Lanka",
-        "flag": "🇱🇰"
-    },
-    "LRD": {
-        "isoCode": "LRD",
-        "currencyName": "Liberian dollar",
-        "numericCode": 430,
-        "currencySymbol": "L$",
-        "territory": "Liberia",
-        "fractionalUnit": "Cent",
-        "flag": "🇱🇷"
-    },
-    "LSL": {
-        "isoCode": "LSL",
-        "currencyName": "Lesotho loti",
-        "numericCode": 426,
-        "currencySymbol": "L",
-        "territory": "Lesotho",
-        "fractionalUnit": "Sente",
-        "flag": "🇱🇸"
-    },
-    "LTL": {
-        "isoCode": "LTL",
-        "currencyName": "Lithuanian litas",
-        "numericCode": 440,
-        "currencySymbol": "Lt",
-        "territory": "Lithuania",
-        "fractionalUnit": "Centas",
-        "flag": "🇱🇹"
-    },
-    "LVL": {
-        "isoCode": "LVL",
-        "currencyName": "Latvian lats",
-        "numericCode": 428,
-        "currencySymbol": "Ls",
-        "territory": "Latvia",
-        "fractionalUnit": "Santims",
-        "flag": "🇱🇻"
-    },
-    "LYD": {
-        "isoCode": "LYD",
-        "currencyName": "Libyan dinar",
-        "numericCode": 434,
-        "currencySymbol": "ل.د",
-        "territory": "Libya",
-        "flag": "🇱🇾"
-    },
-    "MAD": {
-        "isoCode": "MAD",
-        "currencyName": "Moroccan dirham",
-        "numericCode": 504,
-        "currencySymbol": "د.م.",
-        "territory": "Morocco",
-        "flag": "🇲🇦"
-    },
-    "MDL": {
-        "isoCode": "MDL",
-        "currencyName": "Moldovan leu",
-        "numericCode": 498,
-        "currencySymbol": "L",
-        "territory": "Moldova",
-        "fractionalUnit": "Ban",
-        "flag": "🇲🇩"
-    },
-    "MGA": {
-        "isoCode": "MGA",
-        "currencyName": "Malagasy ariary",
-        "numericCode": 969,
-        "currencySymbol": "Ar",
-        "territory": "Madagascar",
-        "flag": "🇲🇬"
-    },
-    "MKD": {
-        "isoCode": "MKD",
-        "currencyName": "Macedonian denar",
-        "numericCode": 807,
-        "currencySymbol": "ден",
-        "territory": "North Macedonia",
-        "flag": "🇲🇰"
-    },
-    "MMK": {
-        "isoCode": "MMK",
-        "currencyName": "Myanma kyat",
-        "numericCode": 104,
-        "currencySymbol": "Ks",
-        "territory": "Myanmar",
-        "flag": "🇲🇲"
-    },
-    "MNT": {
-        "isoCode": "MNT",
-        "currencyName": "Mongolian tugrik",
-        "numericCode": 496,
-        "currencySymbol": "₮",
-        "territory": "Mongolia",
-        "flag": "🇲🇳"
-    },
-    "MOP": {
-        "isoCode": "MOP",
-        "currencyName": "Macanese pataca",
-        "numericCode": 446,
-        "currencySymbol": "MOP$",
-        "territory": "Macau",
-        "flag": "🇲🇴"
-    },
-    "MRO": {
-        "isoCode": "MRO",
-        "currencyName": "Mauritanian ouguiya",
-        "numericCode": 478,
-        "currencySymbol": "UM",
-        "territory": "Mauritania",
-        "flag": "🇲🇷"
-    },
-    "MUR": {
-        "isoCode": "MUR",
-        "currencyName": "Mauritian rupee",
-        "numericCode": 480,
-        "currencySymbol": "₨",
-        "territory": "Mauritius",
-        "flag": "🇲🇺"
-    },
-    "MVR": {
-        "isoCode": "MVR",
-        "currencyName": "Maldivian rufiyaa",
-        "numericCode": 462,
-        "currencySymbol": "ރ.",
-        "territory": "Maldives",
-        "flag": "🇲🇻"
-    },
-    "MWK": {
-        "isoCode": "MWK",
-        "currencyName": "Malawian kwacha",
-        "numericCode": 454,
-        "currencySymbol": "MK",
-        "territory": "Malawi",
-        "flag": "🇲🇼"
-    },
-    "MXN": {
-        "isoCode": "MXN",
-        "currencyName": "Mexican peso",
-        "numericCode": 484,
-        "currencySymbol": "Mex$",
-        "territory": "Mexico",
-        "flag": "🇲🇽"
-    },
-    "MXV": {
-        "isoCode": "MXV",
-        "currencyName": "Mexican Unidad de Inversion (UDI) (funds code)",
-        "numericCode": 979,
-        "currencySymbol": "UDI",
-        "territory": "Mexico",
-        "flag": "🇲🇽"
-    },
-    "MYR": {
-        "isoCode": "MYR",
-        "currencyName": "Malaysian ringgit",
-        "numericCode": 458,
-        "currencySymbol": "RM",
-        "territory": "Malaysia",
-        "flag": "🇲🇾"
-    },
-    "MZN": {
-        "isoCode": "MZN",
-        "currencyName": "Mozambican metical",
-        "numericCode": 943,
-        "currencySymbol": "MT",
-        "territory": "Mozambique",
-        "flag": "🇲🇿"
-    },
-    "NAD": {
-        "isoCode": "NAD",
-        "currencyName": "Namibian dollar",
-        "numericCode": 516,
-        "currencySymbol": "N$",
-        "territory": "Namibia",
-        "flag": "🇳🇦"
-    },
-    "NGN": {
-        "isoCode": "NGN",
-        "currencyName": "Nigerian naira",
-        "numericCode": 566,
-        "currencySymbol": "₦",
-        "territory": "Nigeria",
-        "flag": "🇳🇬"
-    },
-    "NIO": {
-        "isoCode": "NIO",
-        "currencyName": "Nicaraguan córdoba",
-        "numericCode": 558,
-        "currencySymbol": "C$",
-        "territory": "Nicaragua",
-        "flag": "🇳🇮"
-    },
-    "NOK": {
-        "isoCode": "NOK",
-        "currencyName": "Norwegian krone",
-        "numericCode": 578,
-        "currencySymbol": "kr",
-        "territory": "Norway",
-        "flag": "🇳🇴"
-    },
-    "NPR": {
-        "isoCode": "NPR",
-        "currencyName": "Nepalese rupee",
-        "numericCode": 524,
-        "currencySymbol": "रू",
-        "territory": "Nepal",
-        "flag": "🇳🇵"
-    },
-    "NZD": {
-        "isoCode": "NZD",
-        "currencyName": "New Zealand dollar",
-        "numericCode": 554,
-        "currencySymbol": "NZ$",
-        "territory": "New Zealand",
-        "flag": "🇳🇿"
-    },
-    "OMR": {
-        "isoCode": "OMR",
-        "currencyName": "Omani rial",
-        "numericCode": 512,
-        "currencySymbol": "ر.ع.",
-        "territory": "Oman",
-        "flag": "🇴🇲"
-    },
-    "PAB": {
-        "isoCode": "PAB",
-        "currencyName": "Panamanian balboa",
-        "numericCode": 590,
-        "currencySymbol": "B/.",
-        "territory": "Panama",
-        "flag": "🇵🇦"
-    },
-    "PEN": {
-        "isoCode": "PEN",
-        "currencyName": "Peruvian nuevo sol",
-        "numericCode": 604,
-        "currencySymbol": "S/.",
-        "territory": "Peru",
-        "flag": "🇵🇪"
-    },
-    "PGK": {
-        "isoCode": "PGK",
-        "currencyName": "Papua New Guinean kina",
-        "numericCode": 598,
-        "currencySymbol": "K",
-        "territory": "Papua New Guinea",
-        "flag": "🇵🇬"
-    },
-    "PHP": {
-        "isoCode": "PHP",
-        "currencyName": "Philippine peso",
-        "numericCode": 608,
-        "currencySymbol": "₱",
-        "territory": "Philippines",
-        "flag": "🇵🇭"
-    },
-    "PKR": {
-        "isoCode": "PKR",
-        "currencyName": "Pakistani rupee",
-        "numericCode": 586,
-        "currencySymbol": "₨",
-        "territory": "Pakistan",
-        "flag": "🇵🇰"
-    },
-    "PLN": {
-        "isoCode": "PLN",
-        "currencyName": "Polish złoty",
-        "numericCode": 985,
-        "currencySymbol": "zł",
-        "territory": "Poland",
-        "flag": "🇵🇱"
-    },
-    "PYG": {
-        "isoCode": "PYG",
-        "currencyName": "Paraguayan guaraní",
-        "numericCode": 600,
-        "currencySymbol": "₲",
-        "territory": "Paraguay",
-        "flag": "🇵🇾"
-    },
-    "QAR": {
-        "isoCode": "QAR",
-        "currencyName": "Qatari riyal",
-        "numericCode": 634,
-        "currencySymbol": "ر.ق",
-        "territory": "Qatar",
-        "flag": "🇶🇦"
-    },
-    "RON": {
-        "isoCode": "RON",
-        "currencyName": "Romanian new leu",
-        "numericCode": 946,
-        "currencySymbol": "lei",
-        "territory": "Romania",
-        "flag": "🇷🇴"
-    },
-    "RSD": {
-        "isoCode": "RSD",
-        "currencyName": "Serbian dinar",
-        "numericCode": 941,
-        "currencySymbol": "дин",
-        "territory": "Serbia",
-        "flag": "🇷🇸"
-    },
-    "RUB": {
-        "isoCode": "RUB",
-        "currencyName": "Russian rouble",
-        "numericCode": 643,
-        "currencySymbol": "₽",
-        "territory": "Russia",
-        "flag": "🇷🇺"
-    },
-    "RWF": {
-        "isoCode": "RWF",
-        "currencyName": "Rwandan franc",
-        "numericCode": 646,
-        "currencySymbol": "FRw",
-        "territory": "Rwanda",
-        "flag": "🇷🇼"
-    },
-    "SAR": {
-        "isoCode": "SAR",
-        "currencyName": "Saudi riyal",
-        "numericCode": 682,
-        "currencySymbol": "ر.س",
-        "territory": "Saudi Arabia",
-        "flag": "🇸🇦"
-    },
-    "SBD": {
-        "isoCode": "SBD",
-        "currencyName": "Solomon Islands dollar",
-        "numericCode": 90,
-        "currencySymbol": "SI$",
-        "territory": "Solomon Islands",
-        "flag": "🇸🇧"
-    },
-    "SCR": {
-        "isoCode": "SCR",
-        "currencyName": "Seychelles rupee",
-        "numericCode": 690,
-        "currencySymbol": "₨",
-        "territory": "Seychelles",
-        "flag": "🇸🇨"
-    },
-    "SDG": {
-        "isoCode": "SDG",
-        "currencyName": "Sudanese pound",
-        "numericCode": 938,
-        "currencySymbol": "ج.س",
-        "territory": "Sudan",
-        "flag": "🇸🇩"
-    },
-    "SEK": {
-        "isoCode": "SEK",
-        "currencyName": "Swedish krona/kronor",
-        "numericCode": 752,
-        "currencySymbol": "kr",
-        "territory": "Sweden",
-        "flag": "🇸🇪"
-    },
-    "SGD": {
-        "isoCode": "SGD",
-        "currencyName": "Singapore dollar",
-        "numericCode": 702,
-        "currencySymbol": "S$",
-        "territory": "Singapore",
-        "flag": "🇸🇬"
-    },
-    "SHP": {
-        "isoCode": "SHP",
-        "currencyName": "Saint Helena pound",
-        "numericCode": 654,
-        "currencySymbol": "£",
-        "territory": "Saint Helena",
-        "flag": "🇸🇭"
-    },
-    "SLL": {
-        "isoCode": "SLL",
-        "currencyName": "Sierra Leonean leone",
-        "numericCode": 694,
-        "currencySymbol": "Le",
-        "territory": "Sierra Leone",
-        "flag": "🇸🇱"
-    },
-    "SOS": {
-        "isoCode": "SOS",
-        "currencyName": "Somali shilling",
-        "numericCode": 706,
-        "currencySymbol": "Sh.So.",
-        "territory": "Somalia",
-        "flag": "🇸🇴"
-    },
-    "SRD": {
-        "isoCode": "SRD",
-        "currencyName": "Surinamese dollar",
-        "numericCode": 968,
-        "currencySymbol": "SRD",
-        "territory": "Suriname",
-        "flag": "🇸🇷"
-    },
-    "SSP": {
-        "isoCode": "SSP",
-        "currencyName": "South Sudanese pound",
-        "numericCode": 728,
-        "currencySymbol": "SSP",
-        "territory": "South Sudan",
-        "flag": "🇸🇸"
-    },
-    "STD": {
-        "isoCode": "STD",
-        "currencyName": "São Tomé and Príncipe dobra",
-        "numericCode": 678,
-        "currencySymbol": "Db",
-        "territory": "São Tomé and Príncipe",
-        "flag": "🇸🇹"
-    },
-    "SYP": {
-        "isoCode": "SYP",
-        "currencyName": "Syrian pound",
-        "numericCode": 760,
-        "currencySymbol": "£S",
-        "territory": "Syria",
-        "flag": "🇸🇾"
-    },
-    "SZL": {
-        "isoCode": "SZL",
-        "currencyName": "Swazi lilangeni",
-        "numericCode": 748,
-        "currencySymbol": "L",
-        "territory": "Eswatini",
-        "flag": "🇸🇿"
-    },
-    "THB": {
-        "isoCode": "THB",
-        "currencyName": "Thai baht",
-        "numericCode": 764,
-        "currencySymbol": "฿",
-        "territory": "Thailand",
-        "flag": "🇹🇭"
-    },
-    "TJS": {
-        "isoCode": "TJS",
-        "currencyName": "Tajikistani somoni",
-        "numericCode": 972,
-        "currencySymbol": "ЅМ",
-        "territory": "Tajikistan",
-        "fractionalUnit": "Diram",
-        "flag": "🇹🇯"
-    },
-    "TMT": {
-        "isoCode": "TMT",
-        "currencyName": "Turkmenistani manat",
-        "numericCode": 934,
-        "currencySymbol": "T",
-        "territory": "Turkmenistan",
-        "fractionalUnit": "Tenge",
-        "flag": "🇹🇲"
-    },
-    "TND": {
-        "isoCode": "TND",
-        "currencyName": "Tunisian dinar",
-        "numericCode": 788,
-        "currencySymbol": "د.ت",
-        "territory": "Tunisia",
-        "fractionalUnit": "Millime",
-        "flag": "🇹🇳"
-    },
-    "TOP": {
-        "isoCode": "TOP",
-        "currencyName": "Tongan paʻanga",
-        "numericCode": 776,
-        "currencySymbol": "T$",
-        "territory": "Tonga",
-        "fractionalUnit": "Seniti",
-        "flag": "🇹🇴"
-    },
-    "TRY": {
-        "isoCode": "TRY",
-        "currencyName": "Turkish lira",
-        "numericCode": 949,
-        "currencySymbol": "₺",
-        "territory": "Turkey",
-        "fractionalUnit": "Kuruş",
-        "flag": "🇹🇷"
-    },
-    "TTD": {
-        "isoCode": "TTD",
-        "currencyName": "Trinidad and Tobago dollar",
-        "numericCode": 780,
-        "currencySymbol": "TT$",
-        "territory": "Trinidad and Tobago",
-        "fractionalUnit": "Cent",
-        "flag": "🇹🇹"
-    },
-    "TWD": {
-        "isoCode": "TWD",
-        "currencyName": "New Taiwan dollar",
-        "numericCode": 901,
-        "currencySymbol": "NT$",
-        "territory": "Taiwan",
-        "fractionalUnit": "Cent",
-        "flag": "🇹🇼"
-    },
-    "TZS": {
-        "isoCode": "TZS",
-        "currencyName": "Tanzanian shilling",
-        "numericCode": 834,
-        "currencySymbol": "Sh",
-        "territory": "Tanzania",
-        "fractionalUnit": "Senti",
-        "flag": "🇹🇿"
-    },
-    "UAH": {
-        "isoCode": "UAH",
-        "currencyName": "Ukrainian hryvnia",
-        "numericCode": 980,
-        "currencySymbol": "₴",
-        "territory": "Ukraine",
-        "fractionalUnit": "Kopiyka",
-        "flag": "🇺🇦"
-    },
-    "UGX": {
-        "isoCode": "UGX",
-        "currencyName": "Ugandan shilling",
-        "numericCode": 800,
-        "currencySymbol": "USh",
-        "territory": "Uganda",
-        "fractionalUnit": "Cent",
-        "flag": "🇺🇬"
-    },
-    "USD": {
-        "isoCode": "USD",
-        "currencyName": "United States dollar",
-        "numericCode": 840,
-        "currencySymbol": "$",
-        "territory": "United States",
-        "fractionalUnit": "Cent",
-        "flag": "🇺🇸"
-    },
-    "USN": {
-        "isoCode": "USN",
-        "currencyName": "United States dollar (next day) (funds code)",
-        "numericCode": 997,
-        "currencySymbol": "USN",
-        "territory": "United States",
-        "fractionalUnit": "US Dollar",
-        "flag": "🇺🇸"
-    },
-    "USS": {
-        "isoCode": "USS",
-        "currencyName": "United States dollar (same day) (funds code)",
-        "numericCode": 998,
-        "currencySymbol": "USS",
-        "territory": "United States",
-        "fractionalUnit": "US Dollar",
-        "flag": "🇺🇸"
-    },
-    "UYI": {
-        "isoCode": "UYI",
-        "currencyName": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
-        "numericCode": 940,
-        "currencySymbol": "UYI",
-        "territory": "Uruguay",
-        "fractionalUnit": "Peso",
-        "flag": "🇺🇾"
-    },
-    "UYU": {
-        "isoCode": "UYU",
-        "currencyName": "Uruguayan peso",
-        "numericCode": 858,
-        "currencySymbol": "$",
-        "territory": "Uruguay",
-        "fractionalUnit": "Centésimo",
-        "flag": "🇺🇾"
-    },
-    "UZS": {
-        "isoCode": "UZS",
-        "currencyName": "Uzbekistan som",
-        "numericCode": 860,
-        "currencySymbol": "so'm",
-        "territory": "Uzbekistan",
-        "fractionalUnit": "Tiyin",
-        "flag": "🇺🇿"
-    },
-    "VEF": {
-        "isoCode": "VEF",
-        "currencyName": "Venezuelan bolívar fuerte",
-        "numericCode": 937,
-        "currencySymbol": "Bs.S.",
-        "territory": "Venezuela",
-        "fractionalUnit": "Céntimo",
-        "flag": "🇻🇪"
-    },
-    "VND": {
-        "isoCode": "VND",
-        "currencyName": "Vietnamese dong",
-        "numericCode": 704,
-        "currencySymbol": "₫",
-        "territory": "Vietnam",
-        "fractionalUnit": "Hào",
-        "flag": "🇻🇳"
-    },
-    "VUV": {
-        "isoCode": "VUV",
-        "currencyName": "Vanuatu vatu",
-        "numericCode": 548,
-        "currencySymbol": "VT",
-        "territory": "Vanuatu",
-        "fractionalUnit": "None",
-        "flag": "🇻🇺"
-    },
-    "WST": {
-        "isoCode": "WST",
-        "currencyName": "Samoan tala",
-        "numericCode": 882,
-        "currencySymbol": "WS$",
-        "territory": "Samoa",
-        "fractionalUnit": "Sene",
-        "flag": "🇼🇸"
-    },
-    "XAF": {
-        "isoCode": "XAF",
-        "currencyName": "CFA franc BEAC",
-        "numericCode": 950,
-        "currencySymbol": "FCFA",
-        "territory": "Central African Economic and Monetary Community",
-        "fractionalUnit": "Centime",
-        "flag": "🇨🇫"
-    },
-    "XAG": {
-        "isoCode": "XAG",
-        "currencyName": "Silver (one troy ounce)",
-        "numericCode": 961,
-        "currencySymbol": "oz t",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XAU": {
-        "isoCode": "XAU",
-        "currencyName": "Gold (one troy ounce)",
-        "numericCode": 959,
-        "currencySymbol": "oz t",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XBA": {
-        "isoCode": "XBA",
-        "currencyName": "European Composite Unit (EURCO) (bond market unit)",
-        "numericCode": 955,
-        "currencySymbol": "XBA",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XBB": {
-        "isoCode": "XBB",
-        "currencyName": "European Monetary Unit (E.M.U.-6) (bond market unit)",
-        "numericCode": 956,
-        "currencySymbol": "XBB",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XBC": {
-        "isoCode": "XBC",
-        "currencyName": "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
-        "numericCode": 957,
-        "currencySymbol": "XBC",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XBD": {
-        "isoCode": "XBD",
-        "currencyName": "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
-        "numericCode": 958,
-        "currencySymbol": "XBD",
-        "territory": "None",
-        "fractionalUnit": "None",
-        "flag": "🏴"
-    },
-    "XCD": {
-        "isoCode": "XCD",
-        "currencyName": "East Caribbean dollar",
-        "numericCode": 951,
-        "currencySymbol": "$",
-        "territory": "Eastern Caribbean",
-        "flag": "🇦🇮"
-    },
-    "XDR": {
-        "isoCode": "XDR",
-        "currencyName": "Special drawing rights",
-        "numericCode": 960,
-        "currencySymbol": "XDR",
-        "territory": "International Monetary Fund",
-        "flag": "🌐"
-    },
-    "XFU": {
-        "isoCode": "XFU",
-        "currencyName": "UIC franc (special settlement currency)",
-        "numericCode": null,
-        "currencySymbol": "XFU",
-        "territory": "Universal Currency Converter",
-        "flag": "🏴"
-    },
-    "XOF": {
-        "isoCode": "XOF",
-        "currencyName": "CFA franc BCEAO",
-        "numericCode": 952,
-        "currencySymbol": "CFA",
-        "territory": "West African Economic and Monetary Union",
-        "flag": "🇧🇯"
-    },
-    "XPD": {
-        "isoCode": "XPD",
-        "currencyName": "Palladium (one troy ounce)",
-        "numericCode": null,
-        "currencySymbol": "oz t",
-        "territory": "None",
-        "flag": "🏴"
-    },
-    "XPF": {
-        "isoCode": "XPF",
-        "currencyName": "CFP franc",
-        "numericCode": 953,
-        "currencySymbol": "F",
-        "territory": "Collectivité d'outre-mer of French Polynesia",
-        "flag": "🇵🇫"
-    },
-    "XPT": {
-        "isoCode": "XPT",
-        "currencyName": "Platinum (one troy ounce)",
-        "numericCode": null,
-        "currencySymbol": "oz t",
-        "territory": "None",
-        "flag": "🏴"
-    },
-    "XTS": {
-        "isoCode": "XTS",
-        "currencyName": "Code reserved for testing purposes",
-        "numericCode": null,
-        "currencySymbol": "XTS",
-        "territory": "None",
-        "flag": "🏴"
-    },
-    "XXX": {
-        "isoCode": "XXX",
-        "currencyName": "No currency",
-        "numericCode": null,
-        "currencySymbol": "XXX",
-        "territory": "None",
-        "flag": "🏴"
-    },
-    "YER": {
-        "isoCode": "YER",
-        "currencyName": "Yemeni rial",
-        "numericCode": 886,
-        "currencySymbol": "﷼",
-        "territory": "Yemen",
-        "fractionalUnit": "Fils",
-        "flag": "🇾🇪"
-    },
-    "ZAR": {
-        "isoCode": "ZAR",
-        "currencyName": "South African rand",
-        "numericCode": 710,
-        "currencySymbol": "R",
-        "territory": "South Africa",
-        "fractionalUnit": "Cent",
-        "flag": "🇿🇦"
-    },
-    "ZMW": {
-        "isoCode": "ZMW",
-        "currencyName": "Zambian kwacha",
-        "numericCode": 967,
-        "currencySymbol": "ZK",
-        "territory": "Zambia",
-        "fractionalUnit": "Ngwee",
-        "flag": "🇿🇲"
-    }
+  "AED": {
+    "isoCode": "AED",
+    "currencyName": "United Arab Emirates dirham",
+    "numericCode": 784,
+    "currencySymbol": "د.إ",
+    "territory": "UNITED ARAB EMIRATES (THE)",
+    "fractionalUnit": "Fils",
+    "flag": "🇦🇪",
+    "territories": [
+      "UNITED ARAB EMIRATES (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "AFN": {
+    "isoCode": "AFN",
+    "currencyName": "Afghan afghani",
+    "numericCode": 971,
+    "currencySymbol": "؋",
+    "territory": "AFGHANISTAN",
+    "fractionalUnit": "Pul",
+    "flag": "🇦🇫",
+    "territories": [
+      "AFGHANISTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ALL": {
+    "isoCode": "ALL",
+    "currencyName": "Albanian lek",
+    "numericCode": 8,
+    "currencySymbol": "L",
+    "territory": "ALBANIA",
+    "fractionalUnit": "Qindarka",
+    "flag": "🇦🇱",
+    "territories": [
+      "ALBANIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "AMD": {
+    "isoCode": "AMD",
+    "currencyName": "Armenian dram",
+    "numericCode": 51,
+    "currencySymbol": "֏",
+    "territory": "ARMENIA",
+    "fractionalUnit": "Luma",
+    "flag": "🇦🇲",
+    "territories": [
+      "ARMENIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ANG": {
+    "isoCode": "ANG",
+    "currencyName": "Netherlands Antillean guilder",
+    "numericCode": 532,
+    "currencySymbol": "ƒ",
+    "territory": "CURAÇAO, NETHERLANDS ANTILLES, SINT MAARTEN (DUTCH PART)",
+    "fractionalUnit": "Cent",
+    "flag": "🇨🇼",
+    "territories": [
+      "CURAÇAO",
+      "NETHERLANDS ANTILLES",
+      "SINT MAARTEN (DUTCH PART)"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2025-03"
+  },
+  "AOA": {
+    "isoCode": "AOA",
+    "currencyName": "Angolan kwanza",
+    "numericCode": 973,
+    "currencySymbol": "Kz",
+    "territory": "ANGOLA",
+    "fractionalUnit": "Cêntimo",
+    "flag": "🇦🇴",
+    "territories": [
+      "ANGOLA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ARS": {
+    "isoCode": "ARS",
+    "currencyName": "Argentine peso",
+    "numericCode": 32,
+    "currencySymbol": "$",
+    "territory": "ARGENTINA",
+    "fractionalUnit": "Centavo",
+    "flag": "🇦🇷",
+    "territories": [
+      "ARGENTINA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "AUD": {
+    "isoCode": "AUD",
+    "currencyName": "Australian dollar",
+    "numericCode": 36,
+    "currencySymbol": "$",
+    "territory": "AUSTRALIA, CHRISTMAS ISLAND, COCOS (KEELING) ISLANDS (THE), HEARD ISLAND AND McDONALD ISLANDS, KIRIBATI, NAURU, NORFOLK ISLAND, TUVALU",
+    "fractionalUnit": "Cent",
+    "flag": "🇦🇺",
+    "territories": [
+      "AUSTRALIA",
+      "CHRISTMAS ISLAND",
+      "COCOS (KEELING) ISLANDS (THE)",
+      "HEARD ISLAND AND McDONALD ISLANDS",
+      "KIRIBATI",
+      "NAURU",
+      "NORFOLK ISLAND",
+      "TUVALU"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "AWG": {
+    "isoCode": "AWG",
+    "currencyName": "Aruban florin",
+    "numericCode": 533,
+    "currencySymbol": "ƒ",
+    "territory": "ARUBA",
+    "fractionalUnit": "Cent",
+    "flag": "🇦🇼",
+    "territories": [
+      "ARUBA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "AZN": {
+    "isoCode": "AZN",
+    "currencyName": "Azerbaijani manat",
+    "numericCode": 944,
+    "currencySymbol": "₼",
+    "territory": "AZERBAIJAN",
+    "fractionalUnit": "Qəpik",
+    "flag": "🇦🇿",
+    "territories": [
+      "AZERBAIJAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BAM": {
+    "isoCode": "BAM",
+    "currencyName": "Bosnia and Herzegovina convertible mark",
+    "numericCode": 977,
+    "currencySymbol": "КМ",
+    "territory": "BOSNIA AND HERZEGOVINA",
+    "fractionalUnit": "Fening",
+    "flag": "🇧🇦",
+    "territories": [
+      "BOSNIA AND HERZEGOVINA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BBD": {
+    "isoCode": "BBD",
+    "currencyName": "Barbados dollar",
+    "numericCode": 52,
+    "currencySymbol": "$",
+    "territory": "BARBADOS",
+    "fractionalUnit": "Cent",
+    "flag": "🇧🇧",
+    "territories": [
+      "BARBADOS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BDT": {
+    "isoCode": "BDT",
+    "currencyName": "Bangladeshi taka",
+    "numericCode": 50,
+    "currencySymbol": "৳",
+    "territory": "BANGLADESH",
+    "fractionalUnit": "Poisha",
+    "flag": "🇧🇩",
+    "territories": [
+      "BANGLADESH"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BGN": {
+    "isoCode": "BGN",
+    "currencyName": "Bulgarian lev",
+    "numericCode": 975,
+    "currencySymbol": "лв.",
+    "territory": "BULGARIA",
+    "fractionalUnit": "Stotinka",
+    "flag": "🇧🇬",
+    "territories": [
+      "BULGARIA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2026-01"
+  },
+  "BHD": {
+    "isoCode": "BHD",
+    "currencyName": "Bahraini dinar",
+    "numericCode": 48,
+    "currencySymbol": "ب.د",
+    "territory": "BAHRAIN",
+    "fractionalUnit": "Fils",
+    "flag": "🇧🇭",
+    "territories": [
+      "BAHRAIN"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BIF": {
+    "isoCode": "BIF",
+    "currencyName": "Burundian franc",
+    "numericCode": 108,
+    "currencySymbol": "FBu",
+    "territory": "BURUNDI",
+    "fractionalUnit": null,
+    "flag": "🇧🇮",
+    "territories": [
+      "BURUNDI"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BMD": {
+    "isoCode": "BMD",
+    "currencyName": "Bermudian dollar (customarily known as Bermuda dollar)",
+    "numericCode": 60,
+    "currencySymbol": "$",
+    "territory": "BERMUDA",
+    "fractionalUnit": "Cent",
+    "flag": "🇧🇲",
+    "territories": [
+      "BERMUDA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BND": {
+    "isoCode": "BND",
+    "currencyName": "Brunei dollar",
+    "numericCode": 96,
+    "currencySymbol": "$",
+    "territory": "BRUNEI DARUSSALAM",
+    "fractionalUnit": "Sen",
+    "flag": "🇧🇳",
+    "territories": [
+      "BRUNEI DARUSSALAM"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BOB": {
+    "isoCode": "BOB",
+    "currencyName": "Boliviano",
+    "numericCode": 68,
+    "currencySymbol": "Bs.",
+    "territory": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "fractionalUnit": "Centavo",
+    "flag": "🇧🇴",
+    "territories": [
+      "BOLIVIA (PLURINATIONAL STATE OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BOV": {
+    "isoCode": "BOV",
+    "currencyName": "Bolivian Mvdol (funds code)",
+    "numericCode": 984,
+    "currencySymbol": "Bs.",
+    "territory": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "fractionalUnit": "Centavo",
+    "flag": null,
+    "territories": [
+      "BOLIVIA (PLURINATIONAL STATE OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "BRL": {
+    "isoCode": "BRL",
+    "currencyName": "Brazilian real",
+    "numericCode": 986,
+    "currencySymbol": "R$",
+    "territory": "BRAZIL",
+    "fractionalUnit": "Centavo",
+    "flag": "🇧🇷",
+    "territories": [
+      "BRAZIL"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BSD": {
+    "isoCode": "BSD",
+    "currencyName": "Bahamian dollar",
+    "numericCode": 44,
+    "currencySymbol": "$",
+    "territory": "BAHAMAS (THE)",
+    "fractionalUnit": "Cent",
+    "flag": "🇧🇸",
+    "territories": [
+      "BAHAMAS (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BTN": {
+    "isoCode": "BTN",
+    "currencyName": "Bhutanese ngultrum",
+    "numericCode": 64,
+    "currencySymbol": "Nu.",
+    "territory": "BHUTAN",
+    "fractionalUnit": "Chertrum",
+    "flag": "🇧🇹",
+    "territories": [
+      "BHUTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BWP": {
+    "isoCode": "BWP",
+    "currencyName": "Botswana pula",
+    "numericCode": 72,
+    "currencySymbol": "P",
+    "territory": "BOTSWANA",
+    "fractionalUnit": "Thebe",
+    "flag": "🇧🇼",
+    "territories": [
+      "BOTSWANA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BYN": {
+    "isoCode": "BYN",
+    "currencyName": "Belarusian Ruble",
+    "numericCode": 933,
+    "currencySymbol": null,
+    "territory": "BELARUS",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "BELARUS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "BYR": {
+    "isoCode": "BYR",
+    "currencyName": "Belarusian ruble",
+    "numericCode": 974,
+    "currencySymbol": "Br",
+    "territory": "BELARUS",
+    "fractionalUnit": null,
+    "flag": "🇧🇾",
+    "territories": [
+      "BELARUS"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2017-01"
+  },
+  "BZD": {
+    "isoCode": "BZD",
+    "currencyName": "Belize dollar",
+    "numericCode": 84,
+    "currencySymbol": "BZ$",
+    "territory": "BELIZE",
+    "fractionalUnit": "Cent",
+    "flag": "🇧🇿",
+    "territories": [
+      "BELIZE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CAD": {
+    "isoCode": "CAD",
+    "currencyName": "Canadian dollar",
+    "numericCode": 124,
+    "currencySymbol": "$",
+    "territory": "CANADA",
+    "fractionalUnit": null,
+    "flag": "🇨🇦",
+    "territories": [
+      "CANADA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CDF": {
+    "isoCode": "CDF",
+    "currencyName": "Congolese franc",
+    "numericCode": 976,
+    "currencySymbol": "FC",
+    "territory": "CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
+    "fractionalUnit": "Centime",
+    "flag": "🇨🇩",
+    "territories": [
+      "CONGO (THE DEMOCRATIC REPUBLIC OF THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CHE": {
+    "isoCode": "CHE",
+    "currencyName": "WIR Euro (complementary currency)",
+    "numericCode": 947,
+    "currencySymbol": "CHE",
+    "territory": "SWITZERLAND",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "SWITZERLAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "CHF": {
+    "isoCode": "CHF",
+    "currencyName": "Swiss franc",
+    "numericCode": 756,
+    "currencySymbol": "CHF",
+    "territory": "LIECHTENSTEIN, SWITZERLAND",
+    "fractionalUnit": "Rappen",
+    "flag": "🇨🇭",
+    "territories": [
+      "LIECHTENSTEIN",
+      "SWITZERLAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CHW": {
+    "isoCode": "CHW",
+    "currencyName": "WIR Franc (complementary currency)",
+    "numericCode": 948,
+    "currencySymbol": "CHW",
+    "territory": "SWITZERLAND",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "SWITZERLAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "CLF": {
+    "isoCode": "CLF",
+    "currencyName": "Unidad de Fomento (funds code)",
+    "numericCode": 990,
+    "currencySymbol": "CLF",
+    "territory": "CHILE",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "CHILE"
+    ],
+    "minorUnit": 4,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "CLP": {
+    "isoCode": "CLP",
+    "currencyName": "Chilean peso",
+    "numericCode": 152,
+    "currencySymbol": "$",
+    "territory": "CHILE",
+    "fractionalUnit": null,
+    "flag": "🇨🇱",
+    "territories": [
+      "CHILE"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CNY": {
+    "isoCode": "CNY",
+    "currencyName": "Chinese yuan",
+    "numericCode": 156,
+    "currencySymbol": "¥",
+    "territory": "CHINA",
+    "fractionalUnit": "Jiao",
+    "flag": "🇨🇳",
+    "territories": [
+      "CHINA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "COP": {
+    "isoCode": "COP",
+    "currencyName": "Colombian peso",
+    "numericCode": 170,
+    "currencySymbol": "$",
+    "territory": "COLOMBIA",
+    "fractionalUnit": null,
+    "flag": "🇨🇴",
+    "territories": [
+      "COLOMBIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "COU": {
+    "isoCode": "COU",
+    "currencyName": "Unidad de Valor Real",
+    "numericCode": 970,
+    "currencySymbol": "COU",
+    "territory": "COLOMBIA",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "COLOMBIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "CRC": {
+    "isoCode": "CRC",
+    "currencyName": "Costa Rican colon",
+    "numericCode": 188,
+    "currencySymbol": "₡",
+    "territory": "COSTA RICA",
+    "fractionalUnit": null,
+    "flag": "🇨🇷",
+    "territories": [
+      "COSTA RICA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CUC": {
+    "isoCode": "CUC",
+    "currencyName": "Cuban convertible peso",
+    "numericCode": 931,
+    "currencySymbol": "CUC",
+    "territory": "CUBA",
+    "fractionalUnit": null,
+    "flag": "🇨🇺",
+    "territories": [
+      "CUBA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2021-06"
+  },
+  "CUP": {
+    "isoCode": "CUP",
+    "currencyName": "Cuban peso",
+    "numericCode": 192,
+    "currencySymbol": "CUP",
+    "territory": "CUBA",
+    "fractionalUnit": null,
+    "flag": "🇨🇺",
+    "territories": [
+      "CUBA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CVE": {
+    "isoCode": "CVE",
+    "currencyName": "Cape Verde escudo",
+    "numericCode": 132,
+    "currencySymbol": "Esc",
+    "territory": "CABO VERDE",
+    "fractionalUnit": null,
+    "flag": "🇨🇻",
+    "territories": [
+      "CABO VERDE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "CZK": {
+    "isoCode": "CZK",
+    "currencyName": "Czech koruna",
+    "numericCode": 203,
+    "currencySymbol": "Kč",
+    "territory": "CZECHIA",
+    "fractionalUnit": null,
+    "flag": "🇨🇿",
+    "territories": [
+      "CZECHIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "DJF": {
+    "isoCode": "DJF",
+    "currencyName": "Djiboutian franc",
+    "numericCode": 262,
+    "currencySymbol": "Fdj",
+    "territory": "DJIBOUTI",
+    "fractionalUnit": null,
+    "flag": "🇩🇯",
+    "territories": [
+      "DJIBOUTI"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "DKK": {
+    "isoCode": "DKK",
+    "currencyName": "Danish krone",
+    "numericCode": 208,
+    "currencySymbol": "kr",
+    "territory": "DENMARK, FAROE ISLANDS (THE), GREENLAND",
+    "fractionalUnit": null,
+    "flag": "🇩🇰",
+    "territories": [
+      "DENMARK",
+      "FAROE ISLANDS (THE)",
+      "GREENLAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "DOP": {
+    "isoCode": "DOP",
+    "currencyName": "Dominican peso",
+    "numericCode": 214,
+    "currencySymbol": "RD$",
+    "territory": "DOMINICAN REPUBLIC (THE)",
+    "fractionalUnit": null,
+    "flag": "🇩🇴",
+    "territories": [
+      "DOMINICAN REPUBLIC (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "DZD": {
+    "isoCode": "DZD",
+    "currencyName": "Algerian dinar",
+    "numericCode": 12,
+    "currencySymbol": "د.ج",
+    "territory": "ALGERIA",
+    "fractionalUnit": null,
+    "flag": "🇩🇿",
+    "territories": [
+      "ALGERIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "EGP": {
+    "isoCode": "EGP",
+    "currencyName": "Egyptian pound",
+    "numericCode": 818,
+    "currencySymbol": "E£",
+    "territory": "EGYPT",
+    "fractionalUnit": null,
+    "flag": "🇪🇬",
+    "territories": [
+      "EGYPT"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ERN": {
+    "isoCode": "ERN",
+    "currencyName": "Eritrean nakfa",
+    "numericCode": 232,
+    "currencySymbol": "Nfk",
+    "territory": "ERITREA",
+    "fractionalUnit": null,
+    "flag": "🇪🇷",
+    "territories": [
+      "ERITREA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ETB": {
+    "isoCode": "ETB",
+    "currencyName": "Ethiopian birr",
+    "numericCode": 230,
+    "currencySymbol": "Br",
+    "territory": "ETHIOPIA",
+    "fractionalUnit": null,
+    "flag": "🇪🇹",
+    "territories": [
+      "ETHIOPIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "EUR": {
+    "isoCode": "EUR",
+    "currencyName": "Euro",
+    "numericCode": 978,
+    "currencySymbol": "€",
+    "territory": "ANDORRA, AUSTRIA, BELGIUM, BULGARIA, CROATIA, CYPRUS, ESTONIA, EUROPEAN UNION, FINLAND, FRANCE, FRENCH GUIANA, FRENCH SOUTHERN TERRITORIES (THE), GERMANY, GREECE, GUADELOUPE, HOLY SEE (THE), IRELAND, ITALY, LATVIA, LITHUANIA, LUXEMBOURG, MALTA, MARTINIQUE, MAYOTTE, MONACO, MONTENEGRO, NETHERLANDS (THE), PORTUGAL, RÉUNION, SAINT BARTHÉLEMY, SAINT MARTIN (FRENCH PART), SAINT PIERRE AND MIQUELON, SAN MARINO, SLOVAKIA, SLOVENIA, SPAIN, ÅLAND ISLANDS",
+    "fractionalUnit": null,
+    "flag": "🇪🇺",
+    "territories": [
+      "ANDORRA",
+      "AUSTRIA",
+      "BELGIUM",
+      "BULGARIA",
+      "CROATIA",
+      "CYPRUS",
+      "ESTONIA",
+      "EUROPEAN UNION",
+      "FINLAND",
+      "FRANCE",
+      "FRENCH GUIANA",
+      "FRENCH SOUTHERN TERRITORIES (THE)",
+      "GERMANY",
+      "GREECE",
+      "GUADELOUPE",
+      "HOLY SEE (THE)",
+      "IRELAND",
+      "ITALY",
+      "LATVIA",
+      "LITHUANIA",
+      "LUXEMBOURG",
+      "MALTA",
+      "MARTINIQUE",
+      "MAYOTTE",
+      "MONACO",
+      "MONTENEGRO",
+      "NETHERLANDS (THE)",
+      "PORTUGAL",
+      "RÉUNION",
+      "SAINT BARTHÉLEMY",
+      "SAINT MARTIN (FRENCH PART)",
+      "SAINT PIERRE AND MIQUELON",
+      "SAN MARINO",
+      "SLOVAKIA",
+      "SLOVENIA",
+      "SPAIN",
+      "ÅLAND ISLANDS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "FJD": {
+    "isoCode": "FJD",
+    "currencyName": "Fiji dollar",
+    "numericCode": 242,
+    "currencySymbol": "FJ$",
+    "territory": "FIJI",
+    "fractionalUnit": null,
+    "flag": "🇫🇯",
+    "territories": [
+      "FIJI"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "FKP": {
+    "isoCode": "FKP",
+    "currencyName": "Falkland Islands pound",
+    "numericCode": 238,
+    "currencySymbol": "FK£",
+    "territory": "FALKLAND ISLANDS (THE) [MALVINAS]",
+    "fractionalUnit": null,
+    "flag": "🇫🇰",
+    "territories": [
+      "FALKLAND ISLANDS (THE) [MALVINAS]"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GBP": {
+    "isoCode": "GBP",
+    "currencyName": "Pound sterling",
+    "numericCode": 826,
+    "currencySymbol": "£",
+    "territory": "GUERNSEY, ISLE OF MAN, JERSEY, UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)",
+    "fractionalUnit": "Penny",
+    "flag": "🇬🇧",
+    "territories": [
+      "GUERNSEY",
+      "ISLE OF MAN",
+      "JERSEY",
+      "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GEL": {
+    "isoCode": "GEL",
+    "currencyName": "Georgian lari",
+    "numericCode": 981,
+    "currencySymbol": "₾",
+    "territory": "GEORGIA",
+    "fractionalUnit": "Tetri",
+    "flag": "🇬🇪",
+    "territories": [
+      "GEORGIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GHS": {
+    "isoCode": "GHS",
+    "currencyName": "Ghanaian cedi",
+    "numericCode": 936,
+    "currencySymbol": "₵",
+    "territory": "GHANA",
+    "fractionalUnit": "Pesewa",
+    "flag": "🇬🇭",
+    "territories": [
+      "GHANA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GIP": {
+    "isoCode": "GIP",
+    "currencyName": "Gibraltar pound",
+    "numericCode": 292,
+    "currencySymbol": "£",
+    "territory": "GIBRALTAR",
+    "fractionalUnit": "Penny",
+    "flag": "🇬🇮",
+    "territories": [
+      "GIBRALTAR"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GMD": {
+    "isoCode": "GMD",
+    "currencyName": "Gambian dalasi",
+    "numericCode": 270,
+    "currencySymbol": "D",
+    "territory": "GAMBIA (THE)",
+    "fractionalUnit": "Butut",
+    "flag": "🇬🇲",
+    "territories": [
+      "GAMBIA (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GNF": {
+    "isoCode": "GNF",
+    "currencyName": "Guinean franc",
+    "numericCode": 324,
+    "currencySymbol": "FG",
+    "territory": "GUINEA",
+    "fractionalUnit": null,
+    "flag": "🇬🇳",
+    "territories": [
+      "GUINEA"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GTQ": {
+    "isoCode": "GTQ",
+    "currencyName": "Guatemalan quetzal",
+    "numericCode": 320,
+    "currencySymbol": "Q",
+    "territory": "GUATEMALA",
+    "fractionalUnit": "Centavo",
+    "flag": "🇬🇹",
+    "territories": [
+      "GUATEMALA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "GYD": {
+    "isoCode": "GYD",
+    "currencyName": "Guyanese dollar",
+    "numericCode": 328,
+    "currencySymbol": "G$",
+    "territory": "GUYANA",
+    "fractionalUnit": "Cent",
+    "flag": "🇬🇾",
+    "territories": [
+      "GUYANA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "HKD": {
+    "isoCode": "HKD",
+    "currencyName": "Hong Kong dollar",
+    "numericCode": 344,
+    "currencySymbol": "HK$",
+    "territory": "HONG KONG",
+    "fractionalUnit": null,
+    "flag": "🇭🇰",
+    "territories": [
+      "HONG KONG"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "HNL": {
+    "isoCode": "HNL",
+    "currencyName": "Honduran lempira",
+    "numericCode": 340,
+    "currencySymbol": "L",
+    "territory": "HONDURAS",
+    "fractionalUnit": "Centavo",
+    "flag": "🇭🇳",
+    "territories": [
+      "HONDURAS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "HRK": {
+    "isoCode": "HRK",
+    "currencyName": "Croatian kuna",
+    "numericCode": 191,
+    "currencySymbol": "kn",
+    "territory": "CROATIA",
+    "fractionalUnit": null,
+    "flag": "🇭🇷",
+    "territories": [
+      "CROATIA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2023-01"
+  },
+  "HTG": {
+    "isoCode": "HTG",
+    "currencyName": "Haitian gourde",
+    "numericCode": 332,
+    "currencySymbol": "G",
+    "territory": "HAITI",
+    "fractionalUnit": null,
+    "flag": "🇭🇹",
+    "territories": [
+      "HAITI"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "HUF": {
+    "isoCode": "HUF",
+    "currencyName": "Hungarian forint",
+    "numericCode": 348,
+    "currencySymbol": "Ft",
+    "territory": "HUNGARY",
+    "fractionalUnit": null,
+    "flag": "🇭🇺",
+    "territories": [
+      "HUNGARY"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "IDR": {
+    "isoCode": "IDR",
+    "currencyName": "Indonesian rupiah",
+    "numericCode": 360,
+    "currencySymbol": "Rp",
+    "territory": "INDONESIA",
+    "fractionalUnit": null,
+    "flag": "🇮🇩",
+    "territories": [
+      "INDONESIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ILS": {
+    "isoCode": "ILS",
+    "currencyName": "Israeli new shekel",
+    "numericCode": 376,
+    "currencySymbol": "₪",
+    "territory": "ISRAEL",
+    "fractionalUnit": "Agora",
+    "flag": "🇮🇱",
+    "territories": [
+      "ISRAEL"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "INR": {
+    "isoCode": "INR",
+    "currencyName": "Indian rupee",
+    "numericCode": 356,
+    "currencySymbol": "₹",
+    "territory": "BHUTAN, INDIA",
+    "fractionalUnit": "Paisa",
+    "flag": "🇮🇳",
+    "territories": [
+      "BHUTAN",
+      "INDIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "IQD": {
+    "isoCode": "IQD",
+    "currencyName": "Iraqi dinar",
+    "numericCode": 368,
+    "currencySymbol": "د.ع",
+    "territory": "IRAQ",
+    "fractionalUnit": null,
+    "flag": "🇮🇶",
+    "territories": [
+      "IRAQ"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "IRR": {
+    "isoCode": "IRR",
+    "currencyName": "Iranian rial",
+    "numericCode": 364,
+    "currencySymbol": "﷼",
+    "territory": "IRAN (ISLAMIC REPUBLIC OF)",
+    "fractionalUnit": null,
+    "flag": "🇮🇷",
+    "territories": [
+      "IRAN (ISLAMIC REPUBLIC OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ISK": {
+    "isoCode": "ISK",
+    "currencyName": "Icelandic króna",
+    "numericCode": 352,
+    "currencySymbol": "kr",
+    "territory": "ICELAND",
+    "fractionalUnit": null,
+    "flag": "🇮🇸",
+    "territories": [
+      "ICELAND"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "JMD": {
+    "isoCode": "JMD",
+    "currencyName": "Jamaican dollar",
+    "numericCode": 388,
+    "currencySymbol": "J$",
+    "territory": "JAMAICA",
+    "fractionalUnit": null,
+    "flag": "🇯🇲",
+    "territories": [
+      "JAMAICA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "JOD": {
+    "isoCode": "JOD",
+    "currencyName": "Jordanian dinar",
+    "numericCode": 400,
+    "currencySymbol": "د.ا",
+    "territory": "JORDAN",
+    "fractionalUnit": null,
+    "flag": "🇯🇴",
+    "territories": [
+      "JORDAN"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "JPY": {
+    "isoCode": "JPY",
+    "currencyName": "Japanese yen",
+    "numericCode": 392,
+    "currencySymbol": "¥",
+    "territory": "JAPAN",
+    "fractionalUnit": null,
+    "flag": "🇯🇵",
+    "territories": [
+      "JAPAN"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KES": {
+    "isoCode": "KES",
+    "currencyName": "Kenyan shilling",
+    "numericCode": 404,
+    "currencySymbol": "KSh",
+    "territory": "KENYA",
+    "fractionalUnit": null,
+    "flag": "🇰🇪",
+    "territories": [
+      "KENYA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KGS": {
+    "isoCode": "KGS",
+    "currencyName": "Kyrgyzstani som",
+    "numericCode": 417,
+    "currencySymbol": "с",
+    "territory": "KYRGYZSTAN",
+    "fractionalUnit": null,
+    "flag": "🇰🇬",
+    "territories": [
+      "KYRGYZSTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KHR": {
+    "isoCode": "KHR",
+    "currencyName": "Cambodian riel",
+    "numericCode": 116,
+    "currencySymbol": "៛",
+    "territory": "CAMBODIA",
+    "fractionalUnit": null,
+    "flag": "🇰🇭",
+    "territories": [
+      "CAMBODIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KMF": {
+    "isoCode": "KMF",
+    "currencyName": "Comoro franc",
+    "numericCode": 174,
+    "currencySymbol": "CF",
+    "territory": "COMOROS (THE)",
+    "fractionalUnit": null,
+    "flag": "🇰🇲",
+    "territories": [
+      "COMOROS (THE)"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KPW": {
+    "isoCode": "KPW",
+    "currencyName": "North Korean won",
+    "numericCode": 408,
+    "currencySymbol": "₩",
+    "territory": "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)",
+    "fractionalUnit": null,
+    "flag": "🇰🇵",
+    "territories": [
+      "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KRW": {
+    "isoCode": "KRW",
+    "currencyName": "South Korean won",
+    "numericCode": 410,
+    "currencySymbol": "₩",
+    "territory": "KOREA (THE REPUBLIC OF)",
+    "fractionalUnit": null,
+    "flag": "🇰🇷",
+    "territories": [
+      "KOREA (THE REPUBLIC OF)"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KWD": {
+    "isoCode": "KWD",
+    "currencyName": "Kuwaiti dinar",
+    "numericCode": 414,
+    "currencySymbol": "د.ك",
+    "territory": "KUWAIT",
+    "fractionalUnit": null,
+    "flag": "🇰🇼",
+    "territories": [
+      "KUWAIT"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KYD": {
+    "isoCode": "KYD",
+    "currencyName": "Cayman Islands dollar",
+    "numericCode": 136,
+    "currencySymbol": "CI$",
+    "territory": "CAYMAN ISLANDS (THE)",
+    "fractionalUnit": null,
+    "flag": "🇰🇾",
+    "territories": [
+      "CAYMAN ISLANDS (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "KZT": {
+    "isoCode": "KZT",
+    "currencyName": "Kazakhstani tenge",
+    "numericCode": 398,
+    "currencySymbol": "₸",
+    "territory": "KAZAKHSTAN",
+    "fractionalUnit": null,
+    "flag": "🇰🇿",
+    "territories": [
+      "KAZAKHSTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LAK": {
+    "isoCode": "LAK",
+    "currencyName": "Lao kip",
+    "numericCode": 418,
+    "currencySymbol": "₭",
+    "territory": "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)",
+    "fractionalUnit": null,
+    "flag": "🇱🇦",
+    "territories": [
+      "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LBP": {
+    "isoCode": "LBP",
+    "currencyName": "Lebanese pound",
+    "numericCode": 422,
+    "currencySymbol": "ل.ل",
+    "territory": "LEBANON",
+    "fractionalUnit": null,
+    "flag": "🇱🇧",
+    "territories": [
+      "LEBANON"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LKR": {
+    "isoCode": "LKR",
+    "currencyName": "Sri Lankan rupee",
+    "numericCode": 144,
+    "currencySymbol": "රු",
+    "territory": "SRI LANKA",
+    "fractionalUnit": null,
+    "flag": "🇱🇰",
+    "territories": [
+      "SRI LANKA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LRD": {
+    "isoCode": "LRD",
+    "currencyName": "Liberian dollar",
+    "numericCode": 430,
+    "currencySymbol": "L$",
+    "territory": "LIBERIA",
+    "fractionalUnit": "Cent",
+    "flag": "🇱🇷",
+    "territories": [
+      "LIBERIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LSL": {
+    "isoCode": "LSL",
+    "currencyName": "Lesotho loti",
+    "numericCode": 426,
+    "currencySymbol": "L",
+    "territory": "LESOTHO",
+    "fractionalUnit": "Sente",
+    "flag": "🇱🇸",
+    "territories": [
+      "LESOTHO"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "LTL": {
+    "isoCode": "LTL",
+    "currencyName": "Lithuanian litas",
+    "numericCode": 440,
+    "currencySymbol": "Lt",
+    "territory": "LITHUANIA",
+    "fractionalUnit": "Centas",
+    "flag": "🇱🇹",
+    "territories": [
+      "LITHUANIA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2014-12"
+  },
+  "LVL": {
+    "isoCode": "LVL",
+    "currencyName": "Latvian lats",
+    "numericCode": 428,
+    "currencySymbol": "Ls",
+    "territory": "LATVIA",
+    "fractionalUnit": "Santims",
+    "flag": "🇱🇻",
+    "territories": [
+      "LATVIA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2014-01"
+  },
+  "LYD": {
+    "isoCode": "LYD",
+    "currencyName": "Libyan dinar",
+    "numericCode": 434,
+    "currencySymbol": "ل.د",
+    "territory": "LIBYA",
+    "fractionalUnit": null,
+    "flag": "🇱🇾",
+    "territories": [
+      "LIBYA"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MAD": {
+    "isoCode": "MAD",
+    "currencyName": "Moroccan dirham",
+    "numericCode": 504,
+    "currencySymbol": "د.م.",
+    "territory": "MOROCCO, WESTERN SAHARA",
+    "fractionalUnit": null,
+    "flag": "🇲🇦",
+    "territories": [
+      "MOROCCO",
+      "WESTERN SAHARA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MDL": {
+    "isoCode": "MDL",
+    "currencyName": "Moldovan leu",
+    "numericCode": 498,
+    "currencySymbol": "L",
+    "territory": "MOLDOVA (THE REPUBLIC OF)",
+    "fractionalUnit": "Ban",
+    "flag": "🇲🇩",
+    "territories": [
+      "MOLDOVA (THE REPUBLIC OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MGA": {
+    "isoCode": "MGA",
+    "currencyName": "Malagasy ariary",
+    "numericCode": 969,
+    "currencySymbol": "Ar",
+    "territory": "MADAGASCAR",
+    "fractionalUnit": null,
+    "flag": "🇲🇬",
+    "territories": [
+      "MADAGASCAR"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MKD": {
+    "isoCode": "MKD",
+    "currencyName": "Macedonian denar",
+    "numericCode": 807,
+    "currencySymbol": "ден",
+    "territory": "NORTH MACEDONIA",
+    "fractionalUnit": null,
+    "flag": "🇲🇰",
+    "territories": [
+      "NORTH MACEDONIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MMK": {
+    "isoCode": "MMK",
+    "currencyName": "Myanma kyat",
+    "numericCode": 104,
+    "currencySymbol": "Ks",
+    "territory": "MYANMAR",
+    "fractionalUnit": null,
+    "flag": "🇲🇲",
+    "territories": [
+      "MYANMAR"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MNT": {
+    "isoCode": "MNT",
+    "currencyName": "Mongolian tugrik",
+    "numericCode": 496,
+    "currencySymbol": "₮",
+    "territory": "MONGOLIA",
+    "fractionalUnit": null,
+    "flag": "🇲🇳",
+    "territories": [
+      "MONGOLIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MOP": {
+    "isoCode": "MOP",
+    "currencyName": "Macanese pataca",
+    "numericCode": 446,
+    "currencySymbol": "MOP$",
+    "territory": "MACAO",
+    "fractionalUnit": null,
+    "flag": "🇲🇴",
+    "territories": [
+      "MACAO"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MRO": {
+    "isoCode": "MRO",
+    "currencyName": "Mauritanian ouguiya",
+    "numericCode": 478,
+    "currencySymbol": "UM",
+    "territory": "MAURITANIA",
+    "fractionalUnit": null,
+    "flag": "🇲🇷",
+    "territories": [
+      "MAURITANIA"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2017-12"
+  },
+  "MRU": {
+    "isoCode": "MRU",
+    "currencyName": "Ouguiya",
+    "numericCode": 929,
+    "currencySymbol": null,
+    "territory": "MAURITANIA",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "MAURITANIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MUR": {
+    "isoCode": "MUR",
+    "currencyName": "Mauritian rupee",
+    "numericCode": 480,
+    "currencySymbol": "₨",
+    "territory": "MAURITIUS",
+    "fractionalUnit": null,
+    "flag": "🇲🇺",
+    "territories": [
+      "MAURITIUS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MVR": {
+    "isoCode": "MVR",
+    "currencyName": "Maldivian rufiyaa",
+    "numericCode": 462,
+    "currencySymbol": "ރ.",
+    "territory": "MALDIVES",
+    "fractionalUnit": null,
+    "flag": "🇲🇻",
+    "territories": [
+      "MALDIVES"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MWK": {
+    "isoCode": "MWK",
+    "currencyName": "Malawian kwacha",
+    "numericCode": 454,
+    "currencySymbol": "MK",
+    "territory": "MALAWI",
+    "fractionalUnit": null,
+    "flag": "🇲🇼",
+    "territories": [
+      "MALAWI"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MXN": {
+    "isoCode": "MXN",
+    "currencyName": "Mexican peso",
+    "numericCode": 484,
+    "currencySymbol": "Mex$",
+    "territory": "MEXICO",
+    "fractionalUnit": null,
+    "flag": "🇲🇽",
+    "territories": [
+      "MEXICO"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MXV": {
+    "isoCode": "MXV",
+    "currencyName": "Mexican Unidad de Inversion (UDI) (funds code)",
+    "numericCode": 979,
+    "currencySymbol": "UDI",
+    "territory": "MEXICO",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "MEXICO"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "MYR": {
+    "isoCode": "MYR",
+    "currencyName": "Malaysian ringgit",
+    "numericCode": 458,
+    "currencySymbol": "RM",
+    "territory": "MALAYSIA",
+    "fractionalUnit": null,
+    "flag": "🇲🇾",
+    "territories": [
+      "MALAYSIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "MZN": {
+    "isoCode": "MZN",
+    "currencyName": "Mozambican metical",
+    "numericCode": 943,
+    "currencySymbol": "MT",
+    "territory": "MOZAMBIQUE",
+    "fractionalUnit": null,
+    "flag": "🇲🇿",
+    "territories": [
+      "MOZAMBIQUE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NAD": {
+    "isoCode": "NAD",
+    "currencyName": "Namibian dollar",
+    "numericCode": 516,
+    "currencySymbol": "N$",
+    "territory": "NAMIBIA",
+    "fractionalUnit": null,
+    "flag": "🇳🇦",
+    "territories": [
+      "NAMIBIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NGN": {
+    "isoCode": "NGN",
+    "currencyName": "Nigerian naira",
+    "numericCode": 566,
+    "currencySymbol": "₦",
+    "territory": "NIGERIA",
+    "fractionalUnit": null,
+    "flag": "🇳🇬",
+    "territories": [
+      "NIGERIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NIO": {
+    "isoCode": "NIO",
+    "currencyName": "Nicaraguan córdoba",
+    "numericCode": 558,
+    "currencySymbol": "C$",
+    "territory": "NICARAGUA",
+    "fractionalUnit": null,
+    "flag": "🇳🇮",
+    "territories": [
+      "NICARAGUA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NOK": {
+    "isoCode": "NOK",
+    "currencyName": "Norwegian krone",
+    "numericCode": 578,
+    "currencySymbol": "kr",
+    "territory": "BOUVET ISLAND, NORWAY, SVALBARD AND JAN MAYEN",
+    "fractionalUnit": null,
+    "flag": "🇳🇴",
+    "territories": [
+      "BOUVET ISLAND",
+      "NORWAY",
+      "SVALBARD AND JAN MAYEN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NPR": {
+    "isoCode": "NPR",
+    "currencyName": "Nepalese rupee",
+    "numericCode": 524,
+    "currencySymbol": "रू",
+    "territory": "NEPAL",
+    "fractionalUnit": null,
+    "flag": "🇳🇵",
+    "territories": [
+      "NEPAL"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "NZD": {
+    "isoCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "numericCode": 554,
+    "currencySymbol": "NZ$",
+    "territory": "COOK ISLANDS (THE), NEW ZEALAND, NIUE, PITCAIRN, TOKELAU",
+    "fractionalUnit": null,
+    "flag": "🇳🇿",
+    "territories": [
+      "COOK ISLANDS (THE)",
+      "NEW ZEALAND",
+      "NIUE",
+      "PITCAIRN",
+      "TOKELAU"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "OMR": {
+    "isoCode": "OMR",
+    "currencyName": "Omani rial",
+    "numericCode": 512,
+    "currencySymbol": "ر.ع.",
+    "territory": "OMAN",
+    "fractionalUnit": null,
+    "flag": "🇴🇲",
+    "territories": [
+      "OMAN"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PAB": {
+    "isoCode": "PAB",
+    "currencyName": "Panamanian balboa",
+    "numericCode": 590,
+    "currencySymbol": "B/.",
+    "territory": "PANAMA",
+    "fractionalUnit": null,
+    "flag": "🇵🇦",
+    "territories": [
+      "PANAMA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PEN": {
+    "isoCode": "PEN",
+    "currencyName": "Peruvian nuevo sol",
+    "numericCode": 604,
+    "currencySymbol": "S/.",
+    "territory": "PERU",
+    "fractionalUnit": null,
+    "flag": "🇵🇪",
+    "territories": [
+      "PERU"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PGK": {
+    "isoCode": "PGK",
+    "currencyName": "Papua New Guinean kina",
+    "numericCode": 598,
+    "currencySymbol": "K",
+    "territory": "PAPUA NEW GUINEA",
+    "fractionalUnit": null,
+    "flag": "🇵🇬",
+    "territories": [
+      "PAPUA NEW GUINEA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PHP": {
+    "isoCode": "PHP",
+    "currencyName": "Philippine peso",
+    "numericCode": 608,
+    "currencySymbol": "₱",
+    "territory": "PHILIPPINES (THE)",
+    "fractionalUnit": null,
+    "flag": "🇵🇭",
+    "territories": [
+      "PHILIPPINES (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PKR": {
+    "isoCode": "PKR",
+    "currencyName": "Pakistani rupee",
+    "numericCode": 586,
+    "currencySymbol": "₨",
+    "territory": "PAKISTAN",
+    "fractionalUnit": null,
+    "flag": "🇵🇰",
+    "territories": [
+      "PAKISTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PLN": {
+    "isoCode": "PLN",
+    "currencyName": "Polish złoty",
+    "numericCode": 985,
+    "currencySymbol": "zł",
+    "territory": "POLAND",
+    "fractionalUnit": null,
+    "flag": "🇵🇱",
+    "territories": [
+      "POLAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "PYG": {
+    "isoCode": "PYG",
+    "currencyName": "Paraguayan guaraní",
+    "numericCode": 600,
+    "currencySymbol": "₲",
+    "territory": "PARAGUAY",
+    "fractionalUnit": null,
+    "flag": "🇵🇾",
+    "territories": [
+      "PARAGUAY"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "QAR": {
+    "isoCode": "QAR",
+    "currencyName": "Qatari riyal",
+    "numericCode": 634,
+    "currencySymbol": "ر.ق",
+    "territory": "QATAR",
+    "fractionalUnit": null,
+    "flag": "🇶🇦",
+    "territories": [
+      "QATAR"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "RON": {
+    "isoCode": "RON",
+    "currencyName": "Romanian new leu",
+    "numericCode": 946,
+    "currencySymbol": "lei",
+    "territory": "ROMANIA",
+    "fractionalUnit": null,
+    "flag": "🇷🇴",
+    "territories": [
+      "ROMANIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "RSD": {
+    "isoCode": "RSD",
+    "currencyName": "Serbian dinar",
+    "numericCode": 941,
+    "currencySymbol": "дин",
+    "territory": "SERBIA",
+    "fractionalUnit": null,
+    "flag": "🇷🇸",
+    "territories": [
+      "SERBIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "RUB": {
+    "isoCode": "RUB",
+    "currencyName": "Russian rouble",
+    "numericCode": 643,
+    "currencySymbol": "₽",
+    "territory": "RUSSIAN FEDERATION (THE)",
+    "fractionalUnit": null,
+    "flag": "🇷🇺",
+    "territories": [
+      "RUSSIAN FEDERATION (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "RWF": {
+    "isoCode": "RWF",
+    "currencyName": "Rwandan franc",
+    "numericCode": 646,
+    "currencySymbol": "FRw",
+    "territory": "RWANDA",
+    "fractionalUnit": null,
+    "flag": "🇷🇼",
+    "territories": [
+      "RWANDA"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SAR": {
+    "isoCode": "SAR",
+    "currencyName": "Saudi riyal",
+    "numericCode": 682,
+    "currencySymbol": "ر.س",
+    "territory": "SAUDI ARABIA",
+    "fractionalUnit": null,
+    "flag": "🇸🇦",
+    "territories": [
+      "SAUDI ARABIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SBD": {
+    "isoCode": "SBD",
+    "currencyName": "Solomon Islands dollar",
+    "numericCode": 90,
+    "currencySymbol": "SI$",
+    "territory": "SOLOMON ISLANDS",
+    "fractionalUnit": null,
+    "flag": "🇸🇧",
+    "territories": [
+      "SOLOMON ISLANDS"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SCR": {
+    "isoCode": "SCR",
+    "currencyName": "Seychelles rupee",
+    "numericCode": 690,
+    "currencySymbol": "₨",
+    "territory": "SEYCHELLES",
+    "fractionalUnit": null,
+    "flag": "🇸🇨",
+    "territories": [
+      "SEYCHELLES"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SDG": {
+    "isoCode": "SDG",
+    "currencyName": "Sudanese pound",
+    "numericCode": 938,
+    "currencySymbol": "ج.س",
+    "territory": "SUDAN (THE)",
+    "fractionalUnit": null,
+    "flag": "🇸🇩",
+    "territories": [
+      "SUDAN (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SEK": {
+    "isoCode": "SEK",
+    "currencyName": "Swedish krona/kronor",
+    "numericCode": 752,
+    "currencySymbol": "kr",
+    "territory": "SWEDEN",
+    "fractionalUnit": null,
+    "flag": "🇸🇪",
+    "territories": [
+      "SWEDEN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SGD": {
+    "isoCode": "SGD",
+    "currencyName": "Singapore dollar",
+    "numericCode": 702,
+    "currencySymbol": "S$",
+    "territory": "SINGAPORE",
+    "fractionalUnit": null,
+    "flag": "🇸🇬",
+    "territories": [
+      "SINGAPORE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SHP": {
+    "isoCode": "SHP",
+    "currencyName": "Saint Helena pound",
+    "numericCode": 654,
+    "currencySymbol": "£",
+    "territory": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+    "fractionalUnit": null,
+    "flag": "🇸🇭",
+    "territories": [
+      "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SLE": {
+    "isoCode": "SLE",
+    "currencyName": "Leone",
+    "numericCode": 925,
+    "currencySymbol": null,
+    "territory": "SIERRA LEONE",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "SIERRA LEONE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SLL": {
+    "isoCode": "SLL",
+    "currencyName": "Sierra Leonean leone",
+    "numericCode": 694,
+    "currencySymbol": "Le",
+    "territory": "SIERRA LEONE",
+    "fractionalUnit": null,
+    "flag": "🇸🇱",
+    "territories": [
+      "SIERRA LEONE"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2023-12"
+  },
+  "SOS": {
+    "isoCode": "SOS",
+    "currencyName": "Somali shilling",
+    "numericCode": 706,
+    "currencySymbol": "Sh.So.",
+    "territory": "SOMALIA",
+    "fractionalUnit": null,
+    "flag": "🇸🇴",
+    "territories": [
+      "SOMALIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SRD": {
+    "isoCode": "SRD",
+    "currencyName": "Surinamese dollar",
+    "numericCode": 968,
+    "currencySymbol": "SRD",
+    "territory": "SURINAME",
+    "fractionalUnit": null,
+    "flag": "🇸🇷",
+    "territories": [
+      "SURINAME"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SSP": {
+    "isoCode": "SSP",
+    "currencyName": "South Sudanese pound",
+    "numericCode": 728,
+    "currencySymbol": "SSP",
+    "territory": "SOUTH SUDAN",
+    "fractionalUnit": null,
+    "flag": "🇸🇸",
+    "territories": [
+      "SOUTH SUDAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "STD": {
+    "isoCode": "STD",
+    "currencyName": "São Tomé and Príncipe dobra",
+    "numericCode": 678,
+    "currencySymbol": "Db",
+    "territory": "SAO TOME AND PRINCIPE",
+    "fractionalUnit": null,
+    "flag": "🇸🇹",
+    "territories": [
+      "SAO TOME AND PRINCIPE"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2017-12"
+  },
+  "STN": {
+    "isoCode": "STN",
+    "currencyName": "Dobra",
+    "numericCode": 930,
+    "currencySymbol": null,
+    "territory": "SAO TOME AND PRINCIPE",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "SAO TOME AND PRINCIPE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SVC": {
+    "isoCode": "SVC",
+    "currencyName": "El Salvador Colon",
+    "numericCode": 222,
+    "currencySymbol": null,
+    "territory": "EL SALVADOR",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "EL SALVADOR"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SYP": {
+    "isoCode": "SYP",
+    "currencyName": "Syrian pound",
+    "numericCode": 760,
+    "currencySymbol": "£S",
+    "territory": "SYRIAN ARAB REPUBLIC",
+    "fractionalUnit": null,
+    "flag": "🇸🇾",
+    "territories": [
+      "SYRIAN ARAB REPUBLIC"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "SZL": {
+    "isoCode": "SZL",
+    "currencyName": "Swazi lilangeni",
+    "numericCode": 748,
+    "currencySymbol": "L",
+    "territory": "ESWATINI",
+    "fractionalUnit": null,
+    "flag": "🇸🇿",
+    "territories": [
+      "ESWATINI"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "THB": {
+    "isoCode": "THB",
+    "currencyName": "Thai baht",
+    "numericCode": 764,
+    "currencySymbol": "฿",
+    "territory": "THAILAND",
+    "fractionalUnit": null,
+    "flag": "🇹🇭",
+    "territories": [
+      "THAILAND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TJS": {
+    "isoCode": "TJS",
+    "currencyName": "Tajikistani somoni",
+    "numericCode": 972,
+    "currencySymbol": "ЅМ",
+    "territory": "TAJIKISTAN",
+    "fractionalUnit": "Diram",
+    "flag": "🇹🇯",
+    "territories": [
+      "TAJIKISTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TMT": {
+    "isoCode": "TMT",
+    "currencyName": "Turkmenistani manat",
+    "numericCode": 934,
+    "currencySymbol": "T",
+    "territory": "TURKMENISTAN",
+    "fractionalUnit": "Tenge",
+    "flag": "🇹🇲",
+    "territories": [
+      "TURKMENISTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TND": {
+    "isoCode": "TND",
+    "currencyName": "Tunisian dinar",
+    "numericCode": 788,
+    "currencySymbol": "د.ت",
+    "territory": "TUNISIA",
+    "fractionalUnit": "Millime",
+    "flag": "🇹🇳",
+    "territories": [
+      "TUNISIA"
+    ],
+    "minorUnit": 3,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TOP": {
+    "isoCode": "TOP",
+    "currencyName": "Tongan paʻanga",
+    "numericCode": 776,
+    "currencySymbol": "T$",
+    "territory": "TONGA",
+    "fractionalUnit": "Seniti",
+    "flag": "🇹🇴",
+    "territories": [
+      "TONGA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TRY": {
+    "isoCode": "TRY",
+    "currencyName": "Turkish lira",
+    "numericCode": 949,
+    "currencySymbol": "₺",
+    "territory": "TÜRKİYE",
+    "fractionalUnit": "Kuruş",
+    "flag": "🇹🇷",
+    "territories": [
+      "TÜRKİYE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TTD": {
+    "isoCode": "TTD",
+    "currencyName": "Trinidad and Tobago dollar",
+    "numericCode": 780,
+    "currencySymbol": "TT$",
+    "territory": "TRINIDAD AND TOBAGO",
+    "fractionalUnit": "Cent",
+    "flag": "🇹🇹",
+    "territories": [
+      "TRINIDAD AND TOBAGO"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TWD": {
+    "isoCode": "TWD",
+    "currencyName": "New Taiwan dollar",
+    "numericCode": 901,
+    "currencySymbol": "NT$",
+    "territory": "TAIWAN (PROVINCE OF CHINA)",
+    "fractionalUnit": "Cent",
+    "flag": "🇹🇼",
+    "territories": [
+      "TAIWAN (PROVINCE OF CHINA)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "TZS": {
+    "isoCode": "TZS",
+    "currencyName": "Tanzanian shilling",
+    "numericCode": 834,
+    "currencySymbol": "Sh",
+    "territory": "TANZANIA, UNITED REPUBLIC OF",
+    "fractionalUnit": "Senti",
+    "flag": "🇹🇿",
+    "territories": [
+      "TANZANIA, UNITED REPUBLIC OF"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "UAH": {
+    "isoCode": "UAH",
+    "currencyName": "Ukrainian hryvnia",
+    "numericCode": 980,
+    "currencySymbol": "₴",
+    "territory": "UKRAINE",
+    "fractionalUnit": "Kopiyka",
+    "flag": "🇺🇦",
+    "territories": [
+      "UKRAINE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "UGX": {
+    "isoCode": "UGX",
+    "currencyName": "Ugandan shilling",
+    "numericCode": 800,
+    "currencySymbol": "USh",
+    "territory": "UGANDA",
+    "fractionalUnit": "Cent",
+    "flag": "🇺🇬",
+    "territories": [
+      "UGANDA"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "USD": {
+    "isoCode": "USD",
+    "currencyName": "United States dollar",
+    "numericCode": 840,
+    "currencySymbol": "$",
+    "territory": "AMERICAN SAMOA, BONAIRE, SINT EUSTATIUS AND SABA, BRITISH INDIAN OCEAN TERRITORY (THE), ECUADOR, EL SALVADOR, GUAM, HAITI, MARSHALL ISLANDS (THE), MICRONESIA (FEDERATED STATES OF), NORTHERN MARIANA ISLANDS (THE), PALAU, PANAMA, PUERTO RICO, TIMOR-LESTE, TURKS AND CAICOS ISLANDS (THE), UNITED STATES MINOR OUTLYING ISLANDS (THE), UNITED STATES OF AMERICA (THE), VIRGIN ISLANDS (BRITISH), VIRGIN ISLANDS (U.S.)",
+    "fractionalUnit": "Cent",
+    "flag": "🇺🇸",
+    "territories": [
+      "AMERICAN SAMOA",
+      "BONAIRE, SINT EUSTATIUS AND SABA",
+      "BRITISH INDIAN OCEAN TERRITORY (THE)",
+      "ECUADOR",
+      "EL SALVADOR",
+      "GUAM",
+      "HAITI",
+      "MARSHALL ISLANDS (THE)",
+      "MICRONESIA (FEDERATED STATES OF)",
+      "NORTHERN MARIANA ISLANDS (THE)",
+      "PALAU",
+      "PANAMA",
+      "PUERTO RICO",
+      "TIMOR-LESTE",
+      "TURKS AND CAICOS ISLANDS (THE)",
+      "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
+      "UNITED STATES OF AMERICA (THE)",
+      "VIRGIN ISLANDS (BRITISH)",
+      "VIRGIN ISLANDS (U.S.)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "USN": {
+    "isoCode": "USN",
+    "currencyName": "United States dollar (next day) (funds code)",
+    "numericCode": 997,
+    "currencySymbol": "USN",
+    "territory": "UNITED STATES OF AMERICA (THE)",
+    "fractionalUnit": "US Dollar",
+    "flag": null,
+    "territories": [
+      "UNITED STATES OF AMERICA (THE)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "USS": {
+    "isoCode": "USS",
+    "currencyName": "United States dollar (same day) (funds code)",
+    "numericCode": 998,
+    "currencySymbol": "USS",
+    "territory": "UNITED STATES",
+    "fractionalUnit": "US Dollar",
+    "flag": null,
+    "territories": [
+      "UNITED STATES"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "fund",
+    "withdrawalDate": "2014-03"
+  },
+  "UYI": {
+    "isoCode": "UYI",
+    "currencyName": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
+    "numericCode": 940,
+    "currencySymbol": "UYI",
+    "territory": "URUGUAY",
+    "fractionalUnit": "Peso",
+    "flag": null,
+    "territories": [
+      "URUGUAY"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "UYU": {
+    "isoCode": "UYU",
+    "currencyName": "Uruguayan peso",
+    "numericCode": 858,
+    "currencySymbol": "$",
+    "territory": "URUGUAY",
+    "fractionalUnit": "Centésimo",
+    "flag": "🇺🇾",
+    "territories": [
+      "URUGUAY"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "UYW": {
+    "isoCode": "UYW",
+    "currencyName": "Unidad Previsional",
+    "numericCode": 927,
+    "currencySymbol": null,
+    "territory": "URUGUAY",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "URUGUAY"
+    ],
+    "minorUnit": 4,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "UZS": {
+    "isoCode": "UZS",
+    "currencyName": "Uzbekistan som",
+    "numericCode": 860,
+    "currencySymbol": "so'm",
+    "territory": "UZBEKISTAN",
+    "fractionalUnit": "Tiyin",
+    "flag": "🇺🇿",
+    "territories": [
+      "UZBEKISTAN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "VED": {
+    "isoCode": "VED",
+    "currencyName": "Bolívar Soberano",
+    "numericCode": 926,
+    "currencySymbol": null,
+    "territory": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "VEF": {
+    "isoCode": "VEF",
+    "currencyName": "Venezuelan bolívar fuerte",
+    "numericCode": 937,
+    "currencySymbol": "Bs.S.",
+    "territory": "VENEZUELA, VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "fractionalUnit": "Céntimo",
+    "flag": "🇻🇪",
+    "territories": [
+      "VENEZUELA",
+      "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+    ],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "currency",
+    "withdrawalDate": "2018-08"
+  },
+  "VES": {
+    "isoCode": "VES",
+    "currencyName": "Bolívar Soberano",
+    "numericCode": 928,
+    "currencySymbol": null,
+    "territory": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "VND": {
+    "isoCode": "VND",
+    "currencyName": "Vietnamese dong",
+    "numericCode": 704,
+    "currencySymbol": "₫",
+    "territory": "VIET NAM",
+    "fractionalUnit": "Hào",
+    "flag": "🇻🇳",
+    "territories": [
+      "VIET NAM"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "VUV": {
+    "isoCode": "VUV",
+    "currencyName": "Vanuatu vatu",
+    "numericCode": 548,
+    "currencySymbol": "VT",
+    "territory": "VANUATU",
+    "fractionalUnit": "None",
+    "flag": "🇻🇺",
+    "territories": [
+      "VANUATU"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "WST": {
+    "isoCode": "WST",
+    "currencyName": "Samoan tala",
+    "numericCode": 882,
+    "currencySymbol": "WS$",
+    "territory": "SAMOA",
+    "fractionalUnit": "Sene",
+    "flag": "🇼🇸",
+    "territories": [
+      "SAMOA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XAD": {
+    "isoCode": "XAD",
+    "currencyName": "Arab Accounting Dinar",
+    "numericCode": 396,
+    "currencySymbol": null,
+    "territory": "ARAB MONETARY FUND",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "ARAB MONETARY FUND"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XAF": {
+    "isoCode": "XAF",
+    "currencyName": "CFA franc BEAC",
+    "numericCode": 950,
+    "currencySymbol": "FCFA",
+    "territory": "CAMEROON, CENTRAL AFRICAN REPUBLIC (THE), CHAD, CONGO (THE), EQUATORIAL GUINEA, GABON",
+    "fractionalUnit": "Centime",
+    "flag": "🇨🇫",
+    "territories": [
+      "CAMEROON",
+      "CENTRAL AFRICAN REPUBLIC (THE)",
+      "CHAD",
+      "CONGO (THE)",
+      "EQUATORIAL GUINEA",
+      "GABON"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XAG": {
+    "isoCode": "XAG",
+    "currencyName": "Silver (one troy ounce)",
+    "numericCode": 961,
+    "currencySymbol": "oz t",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "preciousMetal",
+    "withdrawalDate": null
+  },
+  "XAU": {
+    "isoCode": "XAU",
+    "currencyName": "Gold (one troy ounce)",
+    "numericCode": 959,
+    "currencySymbol": "oz t",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "preciousMetal",
+    "withdrawalDate": null
+  },
+  "XBA": {
+    "isoCode": "XBA",
+    "currencyName": "European Composite Unit (EURCO) (bond market unit)",
+    "numericCode": 955,
+    "currencySymbol": "XBA",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XBB": {
+    "isoCode": "XBB",
+    "currencyName": "European Monetary Unit (E.M.U.-6) (bond market unit)",
+    "numericCode": 956,
+    "currencySymbol": "XBB",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XBC": {
+    "isoCode": "XBC",
+    "currencyName": "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
+    "numericCode": 957,
+    "currencySymbol": "XBC",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XBD": {
+    "isoCode": "XBD",
+    "currencyName": "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
+    "numericCode": 958,
+    "currencySymbol": "XBD",
+    "territory": null,
+    "fractionalUnit": "None",
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XCD": {
+    "isoCode": "XCD",
+    "currencyName": "East Caribbean dollar",
+    "numericCode": 951,
+    "currencySymbol": "$",
+    "territory": "ANGUILLA, ANTIGUA AND BARBUDA, DOMINICA, GRENADA, MONTSERRAT, SAINT KITTS AND NEVIS, SAINT LUCIA, SAINT VINCENT AND THE GRENADINES",
+    "fractionalUnit": null,
+    "flag": "🇦🇮",
+    "territories": [
+      "ANGUILLA",
+      "ANTIGUA AND BARBUDA",
+      "DOMINICA",
+      "GRENADA",
+      "MONTSERRAT",
+      "SAINT KITTS AND NEVIS",
+      "SAINT LUCIA",
+      "SAINT VINCENT AND THE GRENADINES"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XCG": {
+    "isoCode": "XCG",
+    "currencyName": "Caribbean Guilder",
+    "numericCode": 532,
+    "currencySymbol": null,
+    "territory": "CURAÇAO, SINT MAARTEN (DUTCH PART)",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "CURAÇAO",
+      "SINT MAARTEN (DUTCH PART)"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XDR": {
+    "isoCode": "XDR",
+    "currencyName": "Special drawing rights",
+    "numericCode": 960,
+    "currencySymbol": "XDR",
+    "territory": "INTERNATIONAL MONETARY FUND (IMF)",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "INTERNATIONAL MONETARY FUND (IMF)"
+    ],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XFU": {
+    "isoCode": "XFU",
+    "currencyName": "UIC franc (special settlement currency)",
+    "numericCode": null,
+    "currencySymbol": "XFU",
+    "territory": null,
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "historical",
+    "category": "fund",
+    "withdrawalDate": "2013-11"
+  },
+  "XOF": {
+    "isoCode": "XOF",
+    "currencyName": "CFA franc BCEAO",
+    "numericCode": 952,
+    "currencySymbol": "CFA",
+    "territory": "BENIN, BURKINA FASO, CÔTE D'IVOIRE, GUINEA-BISSAU, MALI, NIGER (THE), SENEGAL, TOGO",
+    "fractionalUnit": null,
+    "flag": "🇧🇯",
+    "territories": [
+      "BENIN",
+      "BURKINA FASO",
+      "CÔTE D'IVOIRE",
+      "GUINEA-BISSAU",
+      "MALI",
+      "NIGER (THE)",
+      "SENEGAL",
+      "TOGO"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XPD": {
+    "isoCode": "XPD",
+    "currencyName": "Palladium (one troy ounce)",
+    "numericCode": 964,
+    "currencySymbol": "oz t",
+    "territory": null,
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "preciousMetal",
+    "withdrawalDate": null
+  },
+  "XPF": {
+    "isoCode": "XPF",
+    "currencyName": "CFP franc",
+    "numericCode": 953,
+    "currencySymbol": "F",
+    "territory": "FRENCH POLYNESIA, NEW CALEDONIA, WALLIS AND FUTUNA",
+    "fractionalUnit": null,
+    "flag": "🇵🇫",
+    "territories": [
+      "FRENCH POLYNESIA",
+      "NEW CALEDONIA",
+      "WALLIS AND FUTUNA"
+    ],
+    "minorUnit": 0,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "XPT": {
+    "isoCode": "XPT",
+    "currencyName": "Platinum (one troy ounce)",
+    "numericCode": 962,
+    "currencySymbol": "oz t",
+    "territory": null,
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "preciousMetal",
+    "withdrawalDate": null
+  },
+  "XSU": {
+    "isoCode": "XSU",
+    "currencyName": "Sucre",
+    "numericCode": 994,
+    "currencySymbol": null,
+    "territory": "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\"",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\""
+    ],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XTS": {
+    "isoCode": "XTS",
+    "currencyName": "Code reserved for testing purposes",
+    "numericCode": 963,
+    "currencySymbol": "XTS",
+    "territory": null,
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "special",
+    "withdrawalDate": null
+  },
+  "XUA": {
+    "isoCode": "XUA",
+    "currencyName": "ADB Unit of Account",
+    "numericCode": 965,
+    "currencySymbol": null,
+    "territory": "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP"
+    ],
+    "minorUnit": null,
+    "status": "current",
+    "category": "fund",
+    "withdrawalDate": null
+  },
+  "XXX": {
+    "isoCode": "XXX",
+    "currencyName": "No currency",
+    "numericCode": 999,
+    "currencySymbol": "XXX",
+    "territory": null,
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [],
+    "minorUnit": null,
+    "status": "current",
+    "category": "special",
+    "withdrawalDate": null
+  },
+  "YER": {
+    "isoCode": "YER",
+    "currencyName": "Yemeni rial",
+    "numericCode": 886,
+    "currencySymbol": "﷼",
+    "territory": "YEMEN",
+    "fractionalUnit": "Fils",
+    "flag": "🇾🇪",
+    "territories": [
+      "YEMEN"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ZAR": {
+    "isoCode": "ZAR",
+    "currencyName": "South African rand",
+    "numericCode": 710,
+    "currencySymbol": "R",
+    "territory": "LESOTHO, NAMIBIA, SOUTH AFRICA",
+    "fractionalUnit": "Cent",
+    "flag": "🇿🇦",
+    "territories": [
+      "LESOTHO",
+      "NAMIBIA",
+      "SOUTH AFRICA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ZMW": {
+    "isoCode": "ZMW",
+    "currencyName": "Zambian kwacha",
+    "numericCode": 967,
+    "currencySymbol": "ZK",
+    "territory": "ZAMBIA",
+    "fractionalUnit": "Ngwee",
+    "flag": "🇿🇲",
+    "territories": [
+      "ZAMBIA"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  },
+  "ZWG": {
+    "isoCode": "ZWG",
+    "currencyName": "Zimbabwe Gold",
+    "numericCode": 924,
+    "currencySymbol": null,
+    "territory": "ZIMBABWE",
+    "fractionalUnit": null,
+    "flag": null,
+    "territories": [
+      "ZIMBABWE"
+    ],
+    "minorUnit": 2,
+    "status": "current",
+    "category": "currency",
+    "withdrawalDate": null
+  }
 }

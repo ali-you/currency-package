@@ -1,16 +1,6 @@
-# example
+# Currency browser example
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run `flutter pub get` and `flutter run` in this directory. Search for a current
+ISO code or an exact currency name; surrounding whitespace and case are ignored.
+The list shows current ordinary currencies. Missing or ambiguous searches show
+a message instead of throwing. Run `flutter test` for search and layout checks.

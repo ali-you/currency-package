@@ -1,0 +1,3 @@
+dependency_overrides:
+  currency_dart:
+    path: ../../currency_dart

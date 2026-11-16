@@ -1,15 +1,15 @@
 name: example
-description: "A new Flutter project."
-
+description: An offline currency browser with normalized code and name searches.
+publish_to: none
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.6
   currency_dart:
     path: ../
@@ -17,7 +17,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^3.0.0
 
 flutter:

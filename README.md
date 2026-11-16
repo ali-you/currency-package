@@ -1,41 +1,89 @@
 # World Currency Information
 
-This repository contains information about world currencies, including their ISO codes, currency names, numeric codes, currency symbols, territories, and flags.
+Offline ISO 4217 metadata for Dart and Flutter. The dataset contains all 178
+current ISO codes in the SIX register published on 17 September 2026 and 13
+selected historical entries retained from the original package. This includes
+currencies, funds, precious metals and special-purpose codes; filter by category
+when building a currency picker.
 
-## Introduction
-
-Understanding the currencies used around the world is essential for various purposes such as international trade, travel, and finance. This repository provides structured data about different currencies to facilitate easy access and reference.
-
-## Data Format
-
-The currency information is provided in JSON format, with each entry containing the following fields:
-
-- `isoCode`: The ISO 4217 code of the currency.
-- `currencyName`: The name of the currency.
-- `numericCode`: The numeric code assigned to the currency.
-- `currencySymbol`: The symbol used to represent the currency.
-- `territory`: The territory or country where the currency is used.
-- `flag`: The flag emoji Unicode of the territory or country.
+- `currency_dart`: pure Dart lookups and immutable metadata, with no Flutter dependency.
+- `currency_flutter`: the same public API plus the `CurrencyLabel` widget.
+- `currency.json`: canonical metadata used to generate the Dart repository.
+- `currency.metadata.json`: source URLs, publication dates, hashes and coverage.
 
 ## Usage
 
-You can use this data for various purposes, including:
+```dart
+import 'package:currency_dart/currency_dart.dart';
 
-- Building currency conversion tools.
-- Creating educational materials about world currencies.
-- Analyzing currency usage in different regions.
-- Developing applications related to international finance and trade.
+final currencies = Currency();
+final usd = currencies.byIsoCode(' usd '); // USD
+final found = currencies.byCurrencyName(' United States DOLLAR ');
+final missing = currencies.byCurrencyName('unknown'); // null
+final current = currencies.getAllCurrencies(category: CurrencyCategory.currency);
+final historical = currencies.byIsoCode('BGN', includeHistorical: true);
+```
 
-## Contributing
+Lookups trim surrounding whitespace and ignore case. Name matching is otherwise
+exact; ambiguous names return null. ISO codes are the reliable identifiers.
+Historical codes require `includeHistorical: true` in lookups and lists.
+Returned lists and territory lists are immutable.
 
-Contributions to this repository are welcome! If you have additional currency information or spot any errors, feel free to open a pull request to update the data.
+## Data fields and provenance
 
-When contributing, please ensure the accuracy of the information and follow the existing data format.
+The [SIX ISO 4217 registers](https://www.six-group.com/en/products-services/financial-information/market-reference-data/data-standards.html)
+provide ISO codes, numeric codes, entity names, minor-unit exponents and historical
+withdrawal dates. The unmodified source snapshots are in `tool/data`; their
+publication dates differ and are recorded separately. Categories are package
+classifications. The historical subset is not a complete historical archive.
 
-## License
+| Field | Meaning |
+|---|---|
+| `isoCode` | Three-letter ISO code |
+| `currencyName` | Display name; existing package names are preserved |
+| `numericCode` | Integer ISO number; use `numericCodeString` for padded values such as `008` |
+| `territories` | Structured entity names from ISO; names can contain commas |
+| `territory` | Joined display label for compatibility |
+| `minorUnit` | Decimal exponent, for example JPY 0, USD 2, KWD 3 |
+| `status` | `current` or `historical` |
+| `category` | `currency`, `fund`, `preciousMetal` or `special` |
+| `withdrawalDate` | Source withdrawal date, preserving year/month precision |
+| `currencySymbol`, `fractionalUnit`, `flag` | Optional supplemental display annotations |
 
-This repository is licensed under the [MIT License](LICENSE).
+Null means unknown or not applicable. Symbols, subdivision names and representative
+flags are not verified by ISO and are incomplete. A flag does not describe every
+territory using a currency. `fractionalUnit` is a name, not a formatting precision.
+This package provides no exchange rates, money arithmetic or price formatting.
 
-## Credits
+## Development
 
-The currency information in this repository is compiled from various reliable sources, including official currency authorities and international organizations.
+With a Dart SDK:
+
+```sh
+cd currency_dart
+dart pub get --no-example
+dart analyze
+dart test
+dart run tool/generate.dart --check
+```
+
+The `--no-example` flag keeps core development independent of Flutter. For the
+Flutter package or either example, run `flutter pub get`, `flutter analyze` and
+`flutter test` in its directory. Checked-in `pubspec_overrides.yaml` files resolve
+the sibling Dart package locally; the release manifest uses a hosted dependency.
+Publish `currency_dart` 0.1.0 before publishing `currency_flutter` 0.1.0. Published
+artifacts exclude dependency overrides.
+
+Update the pinned SIX XML snapshots, run `python tool/refresh_data.py` from the
+repository root, then run `dart run tool/generate.dart` from `currency_dart`.
+Review data changes and run the tests. Both scripts accept `--check`; CI validates
+register/data consistency, generated output, analysis, formatting and tests.
+See `tool/data/README.md` for the source and annotation policy.
+
+## License and attribution
+
+Package code is distributed under the existing [MIT License](LICENSE). Existing
+Wen Du and CFUG Team notices have been preserved; their inclusion does not claim
+those authors verified the currency data. SIX is the upstream register source.
+Supplemental annotations predate this refresh and have no record-level citations;
+verify them before relying on display conventions in a particular jurisdiction.

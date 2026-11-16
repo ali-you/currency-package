@@ -1,0 +1,5 @@
+# Preserve downloaded source bytes so provenance hashes survive checkout.
+tool/data/*.xml -text
+
+# Generated Dart is compared byte-for-byte by the generator check.
+currency_dart/lib/src/currency_repo.dart text eol=lf

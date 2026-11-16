@@ -1,0 +1,58 @@
+name: Package checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dart:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        sdk: ['3.4.4', '3.13.5']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: ${{ matrix.sdk }}
+      - run: dart pub get --no-example
+        working-directory: currency_dart
+      - run: dart analyze --fatal-infos
+        working-directory: currency_dart
+      - run: dart test
+        working-directory: currency_dart
+      - run: python3 tool/refresh_data.py --check
+      - if: matrix.sdk == '3.13.5'
+        run: dart run tool/generate.dart --check
+        working-directory: currency_dart
+      - if: matrix.sdk == '3.13.5'
+        run: dart format --output=none --set-exit-if-changed lib test tool
+        working-directory: currency_dart
+
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.6'
+          cache: true
+      - run: flutter pub get
+        working-directory: currency_flutter
+      - run: flutter analyze --fatal-infos
+        working-directory: currency_flutter
+      - run: flutter test
+        working-directory: currency_flutter
+      - run: flutter pub get
+        working-directory: currency_dart/example
+      - run: flutter analyze --fatal-infos
+        working-directory: currency_dart/example
+      - run: flutter test
+        working-directory: currency_dart/example
+      - run: flutter pub get
+        working-directory: currency_flutter/example
+      - run: flutter analyze --fatal-infos
+        working-directory: currency_flutter/example
+      - run: flutter test
+        working-directory: currency_flutter/example
+      - run: dart format --output=none --set-exit-if-changed currency_flutter/lib currency_flutter/test currency_flutter/example/lib currency_flutter/example/test currency_dart/example/lib currency_dart/example/test
