@@ -39,7 +39,16 @@ def is_currency(code, entries):
     )
 
 
+def country_iso_code(flag):
+    """Decode the representative country flag; EU is not a country code."""
+    if not flag or len(flag) != 2 or not all(0x1F1E6 <= ord(c) <= 0x1F1FF for c in flag):
+        return None
+    code = "".join(chr(ord(c) - 0x1F1E6 + ord("A")) for c in flag)
+    return None if code == "EU" else code
+
+
 def build():
+    country_codes = json.loads((ROOT / "data/currencies/territory_country_codes.json").read_text(encoding="utf-8"))
     previous = json.loads((ROOT / "data/currencies/currency.json").read_text(encoding="utf-8"))
     annotations = json.loads((ROOT / "data/currencies/currency.annotations.json").read_text(encoding="utf-8"))
     current_path = ROOT / "data/sources/currencies/list-one.xml"
@@ -99,6 +108,10 @@ def build():
     if set(custom) & set(result):
         raise ValueError("Custom code collides with ISO code")
     result.update(custom)
+    for row in result.values():
+        row["countryIsoCode"] = country_iso_code(row.get("flag"))
+        row["countryIsoCodes"] = sorted({country for territory in row["territories"]
+                                           for country in country_codes[territory]})
     result = dict(sorted(result.items()))
     sources = [
         {"url": SIX + p.name, "published": tree.get("Pblshd"),

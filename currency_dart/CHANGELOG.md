@@ -1,3 +1,11 @@
+## 0.5.0
+
+* Breaking: rename the lookup service from Currency to CurrencyRepository and
+  the metadata model from CurrencyModel to Currency.
+* Require isoCode in the model; remove the legacy code constructor argument/getter.
+* Add representative countryIsoCode and immutable countryIsoCodes metadata.
+* Complete missing currency symbols and flags, including MRU and SLE.
+
 ## 0.4.0
 
 * Use short currency codes as record keys and isoCode as the single stored identifier.

@@ -10,7 +10,7 @@ class CurrencyLabel extends StatelessWidget {
     this.style,
   });
 
-  final CurrencyModel currency;
+  final Currency currency;
   final bool showFlag;
   final TextStyle? style;
 
@@ -19,10 +19,10 @@ class CurrencyLabel extends StatelessWidget {
     final flag = currency.flag;
     final prefix = showFlag && flag != null && flag.isNotEmpty ? '$flag ' : '';
     return Text(
-      '$prefix${currency.code} — ${currency.currencyName}',
+      '$prefix${currency.isoCode} — ${currency.currencyName}',
       style: style,
       softWrap: true,
-      semanticsLabel: '${currency.code}, ${currency.currencyName}',
+      semanticsLabel: '${currency.isoCode}, ${currency.currencyName}',
     );
   }
 }

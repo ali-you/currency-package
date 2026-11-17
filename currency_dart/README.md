@@ -6,13 +6,13 @@ No Flutter SDK or runtime dependencies are required.
 
 ```yaml
 dependencies:
-  currency_dart: ^0.3.0
+  currency_dart: ^0.5.0
 ```
 
 ```dart
 import 'package:currency_dart/currency_dart.dart';
 
-final currencies = Currency();
+final currencies = CurrencyRepository();
 final usd = currencies.byIsoCode(' usd ')!;
 print(usd.currencyName); // United States dollar
 print(usd.minorUnit); // 2
@@ -67,7 +67,7 @@ and sources are maintained in the repository's `data/currencies/currency.annotat
 
 ## Migrating to 0.2.0
 
-`CurrencyCategory`, `CurrencyModel.category` and the category lookup parameter
+`CurrencyCategory`, `Currency.category` and the category lookup parameter
 have been removed. `getAllCurrencies()` returns only ordinary currencies.
 Historical currencies still require `includeHistorical: true`.
 
@@ -77,18 +77,18 @@ All nine custom entries have status `nonIso`. Their `isoCode` field contains a
 three-letter project code, such as `IRT` for toman; these are not registered
 ISO 4217 codes. Check status before treating any code as an ISO identifier.
 `byIsoCode('IRT')` and `byCode('IRT')` resolve the same record as
-`byCode('TOMAN')`. JSON keys match isoCode. The Dart code getter is a compatibility alias for isoCode.
+`byCode('TOMAN')`. JSON keys match isoCode. Use the required isoCode field to read the identifier.
 
 Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
-`تومان ایران`. `supportedCurrencyCodes` lists canonical descriptive identifiers;
-short aliases are accepted by lookups. Numeric ISO codes remain null for nonIso.
+`تومان ایران`. `supportedCurrencyCodes` lists the three-letter identifiers;
+descriptive aliases are accepted by lookups. Numeric ISO codes remain null for nonIso.
 English, Persian and Arabic names are provided; other locales use fallback.
 Historical entries remain opt-in. Conversion rules are not supplied.
 
 ## Currency visibility
 
 ```dart
-final currencies = Currency();
+final currencies = CurrencyRepository();
 final officialCurrent = currencies.getAllCurrencies(historical: false, nonIso: false);
 final allEntries = currencies.getAllCurrencies(historical: true, nonIso: true);
 ```
@@ -101,5 +101,20 @@ when supplied. Both browser examples expose matching switches; searches respect
 the selected visibility options.
 
 Currency JSON stores only `isoCode`; each record key has the same value.
-The Dart `code` getter is computed from `isoCode` for compatibility. Project
+The Dart model requires a non-null `isoCode`. Project
 short codes remain marked `nonIso`. Localizations use the same short keys.
+
+`countryIsoCode` is a nullable representative ISO 3166-1 alpha-2 country code
+(e.g. USD → `US`), derived from the display flag. It does not enumerate all
+territories using a currency. Missing flags and the EU flag yield `null`.
+
+`countryIsoCodes` contains the mapped ISO 3166-1 alpha-2 country and territory
+codes as an immutable list (empty when unavailable). Shared currencies can have
+multiple codes. It is independent of the representative `countryIsoCode`.
+
+## Migrating to 0.5.0
+
+Use `CurrencyRepository()` for lookups (previously `Currency()`). Metadata values
+now use `Currency` (previously `CurrencyModel`). Read `isoCode` instead of `code`;
+construct models with the required `isoCode` argument. Imports from
+`src/currency_model.dart` must move to the public package library.

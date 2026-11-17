@@ -18,6 +18,15 @@ void main(List<String> arguments) {
     throw StateError('Currency short codes must be unique');
   }
   final directory = Directory('${root.path}/data/localizations');
+  final english = jsonDecode(
+    File('${directory.path}/en.json').readAsStringSync(),
+  ) as Map<String, dynamic>;
+  for (final code in codes) {
+    final name = english[code];
+    if (name is! String || name.trim().isEmpty || name == code) {
+      throw FormatException('Missing English fallback: $code');
+    }
+  }
   final locales = directory
       .listSync()
       .whereType<File>()

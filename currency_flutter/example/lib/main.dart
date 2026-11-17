@@ -22,11 +22,12 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  final _currency = Currency();
+  final _currency = CurrencyRepository();
   final _query = TextEditingController();
   bool _historical = false;
   bool _nonIso = true;
-  List<CurrencyModel> get _currencies => _currency.getAllCurrencies(
+  Currency? _selected;
+  List<Currency> get _currencies => _currency.getAllCurrencies(
         historical: _historical,
         nonIso: _nonIso,
       );
@@ -52,7 +53,7 @@ class _MainScreenState extends State<MainScreen> {
                 'Use the currency code if a name is ambiguous.')
             : SingleChildScrollView(
                 child: Text([
-                  'Currency code: ${match.code}',
+                  'Currency code: ${match.isoCode}',
                   'Numeric code: ${match.numericCodeString ?? 'Unknown'}',
                   'Minor-unit exponent: ${match.minorUnit ?? 'Not applicable'}',
                   'Symbol: ${match.currencySymbol ?? 'Unknown'}',
@@ -73,7 +74,25 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     final currencies = _currencies;
     return Scaffold(
-      appBar: AppBar(title: Text('Currencies (${currencies.length})')),
+      appBar: AppBar(
+        title: Text('Currencies (${currencies.length})'),
+        actions: [
+          TextButton.icon(
+            icon: const Icon(Icons.currency_exchange),
+            label: Text(_selected?.isoCode ?? 'Select'),
+            onPressed: () async {
+              final selected = await showCurrencyPicker(
+                context: context,
+                value: _selected,
+                historical: _historical,
+                nonIso: _nonIso,
+              );
+              if (!mounted || selected == null) return;
+              setState(() => _selected = selected);
+            },
+          ),
+        ],
+      ),
       body: SafeArea(
         child: Column(
           children: [
@@ -115,9 +134,9 @@ class _MainScreenState extends State<MainScreen> {
                 itemBuilder: (context, index) {
                   final currency = currencies[index];
                   return ListTile(
-                    leading: Text(currency.flag ?? currency.code),
+                    leading: Text(currency.flag ?? currency.isoCode),
                     title: CurrencyLabel(currency: currency, showFlag: false),
-                    subtitle: Text(currency.code),
+                    subtitle: Text(currency.isoCode),
                     trailing: Text(currency.currencySymbol ?? ''),
                   );
                 },

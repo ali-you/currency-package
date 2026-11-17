@@ -1,3 +1,11 @@
+## 0.6.1
+
+* Add 374 localized labels across 325 locale maps, including SVC and VED.
+* Complete English, Persian and Arabic coverage for all 175 supported currencies.
+* Require complete English fallback data during generation.
+* Verify display-name resolution for every currency across all 657 supported locales.
+* Preserve script boundaries and configured fallback for untranslated names.
+
 ## 0.6.0
 
 * Use short currency codes as record keys and isoCode as the single stored identifier.

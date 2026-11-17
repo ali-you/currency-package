@@ -46,8 +46,8 @@ names fall back rather than being invented.
 
 ## Lookup and fallback
 
-Names are keyed by the general currency code. To use a CurrencyModel from currency_dart or
-currency_flutter, call `names.name(currency.code, locale: 'fa')`.
+Names are keyed by the general currency code. To use a Currency from currency_dart or
+currency_flutter, call `names.name(currency.isoCode, locale: 'fa')`.
 The existing model's `currencyName` stays unchanged.
 
 Resolution is requested locale, its parents, configured fallback and its parents,
@@ -96,7 +96,7 @@ All nine custom entries have status `nonIso`. Their `isoCode` field contains a
 three-letter project code, such as `IRT` for toman; these are not registered
 ISO 4217 codes. Check status before treating any code as an ISO identifier.
 `byIsoCode('IRT')` and `byCode('IRT')` resolve the same record as
-`byCode('TOMAN')`. JSON keys match isoCode. The Dart code getter is a compatibility alias for isoCode.
+`byCode('TOMAN')`. JSON keys match isoCode. Use the required isoCode field to read the identifier.
 
 Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
 `تومان ایران`. `supportedCurrencyCodes` lists the short identifiers used in the JSON files;
@@ -105,5 +105,5 @@ English, Persian and Arabic names are provided; other locales use fallback.
 Historical entries remain opt-in. Conversion rules are not supplied.
 
 Currency JSON stores only `isoCode`; each record key has the same value.
-The Dart `code` getter is computed from `isoCode` for compatibility. Project
+The Dart model requires a non-null `isoCode`. Project
 short codes remain marked `nonIso`. Localizations use the same short keys.

@@ -60,10 +60,10 @@ void main() {
   });
 
   test('explicit script parents prevent falling into the wrong script', () {
-    expect(names.lookup('VED', locale: 'zh'), isNotNull);
-    expect(names.lookup('VED', locale: 'zh-Hant'), isNull);
+    expect(names.lookup('VED', locale: 'az'), isNotNull);
+    expect(names.lookup('VED', locale: 'az-Cyrl'), isNull);
     expect(
-        names.name('VED', locale: 'zh-Hant'), names.name('VED', locale: 'en'));
+        names.name('VED', locale: 'az-Cyrl'), names.name('VED', locale: 'en'));
   });
 
   test('returns localized display names in English, Persian and Arabic', () {
@@ -90,9 +90,40 @@ void main() {
   });
 
   test('missing names fall back per currency rather than just per locale', () {
-    expect(names.supportsLocale('fa'), isTrue);
-    expect(names.lookup('SVC', locale: 'fa'), isNull);
-    expect(names.name('SVC', locale: 'fa'), names.lookup('SVC', locale: 'en'));
+    expect(names.supportsLocale('de'), isTrue);
+    expect(names.lookup('IRT', locale: 'de'), isNull);
+    expect(names.name('IRT', locale: 'de'), names.lookup('IRT', locale: 'en'));
+  });
+
+  test('all currencies have native names in English, Persian and Arabic', () {
+    for (final locale in ['en', 'fa', 'ar']) {
+      for (final code in names.supportedCurrencyCodes) {
+        expect(names.lookup(code, locale: locale), isNotNull,
+            reason: '$locale/$code');
+      }
+    }
+    expect(names.lookup('SVC', locale: 'fa-IR'), 'کولون السالوادور');
+    expect(names.lookup('SVC', locale: 'hi-IN'), 'साल्वाडोरन कोलोन');
+    expect(names.lookup('VED', locale: 'fa'), 'بولیوار ونزوئلا');
+    expect(names.lookup('VED', locale: 'ar'), 'بوليفار فنزويلي');
+    expect(names.lookup('VED', locale: 'zh-Hant'), isNotNull);
+  });
+
+  test('every supported locale resolves every currency to a display name', () {
+    for (final locale in names.supportedLocales) {
+      for (final code in names.supportedCurrencyCodes) {
+        expect(names.name(code, locale: locale), isNot(code),
+            reason: '$locale/$code');
+        // Unknown locales must still honor a caller's configured fallback.
+        if (names.lookup(code, locale: locale) == null) {
+          expect(
+              const CurrencyLocalization(fallbackLocale: 'fa')
+                  .name(code, locale: locale),
+              names.lookup(code, locale: 'fa'),
+              reason: '$locale/$code');
+        }
+      }
+    }
   });
 
   test('configured fallback precedes English but follows requested locale', () {

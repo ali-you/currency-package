@@ -554,8 +554,8 @@
     },
     {
       "locale": "af",
-      "sha256": "478092d628fd55341684652780669d461a8c186ffacdb3aaa8802f381dbb60ab",
-      "translatedCount": 164,
+      "sha256": "07e113992cdc2ab78f26f444953db6d5c19c0d3b496cb320875af93fd704afe9",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -565,15 +565,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "af-NA",
-      "sha256": "478092d628fd55341684652780669d461a8c186ffacdb3aaa8802f381dbb60ab",
-      "translatedCount": 164,
+      "sha256": "402f73b0283081d625490d1284da527ef2e91ab8e198e1809478ef9e26ae29b7",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -584,8 +582,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -719,8 +716,8 @@
     },
     {
       "locale": "ak",
-      "sha256": "aeaed8384f4124b5824c275d13b1adc11c7901e50f8673539b1b78a07aab897f",
-      "translatedCount": 160,
+      "sha256": "9fa8c0a3b0333dcf9aae708a954a3061d065880a09c7eb028fbd8f00a1b7c7b5",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -734,15 +731,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "am",
-      "sha256": "5e451be162d6b601a1f50e697447fe3a5047a715373ddb77bb90a90ee4b472c6",
-      "translatedCount": 164,
+      "sha256": "e856d690d8cbcfcf6ef04031f795f5c303b2d30e9e6a858ed9cad6b74f416d97",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -752,23 +747,19 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar",
-      "sha256": "9d797cc19584d772d7e9db22038a79141aecd21aaf39dd9e81892fa3889e250a",
-      "translatedCount": 174,
-      "missingCodes": [
-        "VED"
-      ]
+      "sha256": "acd9638dcff3d226192917a7937ffeeb2c6bdc6f148c669eb3636e5b1a8dec6a",
+      "translatedCount": 175,
+      "missingCodes": []
     },
     {
       "locale": "ar-AE",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -778,14 +769,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-BH",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -795,14 +785,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-DJ",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -812,14 +801,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-DZ",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -829,14 +817,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-EG",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -846,14 +833,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-EH",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -863,14 +849,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-ER",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -880,14 +865,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-IL",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -897,14 +881,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-IQ",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -914,14 +897,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-JO",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -931,14 +913,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-KM",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -948,14 +929,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-KW",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -965,14 +945,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-LB",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -982,14 +961,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-LY",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -999,14 +977,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-MA",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1016,14 +993,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-MR",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1033,14 +1009,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-OM",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1050,14 +1025,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-PS",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1067,14 +1041,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-QA",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1084,14 +1057,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-SA",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1101,14 +1073,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-SD",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1118,14 +1089,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-SO",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1135,14 +1105,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-SS",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1152,14 +1121,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-SY",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1169,14 +1137,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-TD",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1186,14 +1153,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-TN",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1203,14 +1169,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ar-YE",
-      "sha256": "b187247d0e4f58dcb7e7e1d1678c1e94a5dea2a78e94066738c25f997e8bd2a1",
-      "translatedCount": 165,
+      "sha256": "16db39be246f6b6e3edcd8c3f85ad3b2ca6aa24bbc702f09dad8db4bd51f0b3e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1220,14 +1185,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "as",
-      "sha256": "19f8ae3172ab3a7585257d1d9805786b9649f3423a5b27d87139aa8379f8ec88",
-      "translatedCount": 161,
+      "sha256": "8f8ce8d1e91071997bfeae7554b841c74cd4e7491cff238172748dee07c89183",
+      "translatedCount": 163,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -1240,9 +1204,7 @@
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -1376,8 +1338,8 @@
     },
     {
       "locale": "ast",
-      "sha256": "2de97067caa8f793cedf86ed285e47d2fa57669942c94156c9a3362aa99af624",
-      "translatedCount": 162,
+      "sha256": "dc9b89ee23bafb6c7e0b1fcf3dcb74c231e34adf0483f773978f66797fabfe23",
+      "translatedCount": 163,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1389,15 +1351,14 @@
         "RUP",
         "SLL",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "az",
-      "sha256": "cfba4060b6412d668c3da9d526f83303a1823f1e735e7bfc73c01e9ccd3679a8",
-      "translatedCount": 165,
+      "sha256": "b8ba6885410870ef54afe559e1d589cff50e9ebe3f9b1c4bb5417c15b3b080b2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1407,8 +1368,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -1595,8 +1555,8 @@
     },
     {
       "locale": "az-Latn",
-      "sha256": "cfba4060b6412d668c3da9d526f83303a1823f1e735e7bfc73c01e9ccd3679a8",
-      "translatedCount": 165,
+      "sha256": "b8ba6885410870ef54afe559e1d589cff50e9ebe3f9b1c4bb5417c15b3b080b2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1606,8 +1566,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -1628,8 +1587,8 @@
     },
     {
       "locale": "bal-Latn",
-      "sha256": "d672d09cf36b50ec1e790d4166be8dd643dcf55988225e1d1c89596879aa7a34",
-      "translatedCount": 156,
+      "sha256": "162771b2ee33ebcb099b63bbfe45e46294525bc96dd6afa9568ae88d97998ec3",
+      "translatedCount": 157,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -1646,7 +1605,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF",
         "XCG",
         "ZWG"
@@ -1783,8 +1741,8 @@
     },
     {
       "locale": "be",
-      "sha256": "5b894cb74243364a39bff6975f3458a7c77cf790a06ca7fdc5546c6aeeac0b09",
-      "translatedCount": 162,
+      "sha256": "22e3f3db31ed050009aba8e6e2cafdc5ff46505f1643bd8c8fbe38f346e49cc7",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1796,15 +1754,13 @@
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "be-tarask",
-      "sha256": "5b894cb74243364a39bff6975f3458a7c77cf790a06ca7fdc5546c6aeeac0b09",
-      "translatedCount": 162,
+      "sha256": "c047b4a042e270537805688dfa83e93298a1ab18c943e1a8f89d1a75b7ea8f9c",
+      "translatedCount": 163,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -1817,8 +1773,7 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -2134,8 +2089,8 @@
     },
     {
       "locale": "bg",
-      "sha256": "435f2f747155d6f1ec6882d11c57dbc54bf090c1928fdb2f114d1bcfca471542",
-      "translatedCount": 165,
+      "sha256": "747502911fb5e554386db83f8473c1e8823d0338372c3dfefd203790a10395b4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -2145,8 +2100,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -2515,8 +2469,8 @@
     },
     {
       "locale": "blo",
-      "sha256": "f4d2354db0a8bc20ffc1bda3e1bb905782d49f6aa38a1dd2d5e19b836b7c069f",
-      "translatedCount": 158,
+      "sha256": "522dd5767bfaa5eafdbf9c73aa8ed6f679f711d0a8b2e8ff840838dc718bb60d",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -2533,7 +2487,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -2668,8 +2621,8 @@
     },
     {
       "locale": "bn",
-      "sha256": "a6969ce1c72b7000c162ac386d81499c6cb85c3b71c6a43f89771122f4165396",
-      "translatedCount": 165,
+      "sha256": "ecab35856fb5ca5e1e9da748192a8781eb05c553c37a3155581705bbaa3bf715",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -2679,14 +2632,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "bn-IN",
-      "sha256": "d4ff08b82d9a1cd44b9088c5e1126749a839dcda659b1d6dac6ba274249186dd",
-      "translatedCount": 165,
+      "sha256": "e3a4a1180d9b1f94e3285e00cde985cd71955d8c9d1f419ab073c88c23bfeb89",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -2696,8 +2648,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -3060,8 +3011,8 @@
     },
     {
       "locale": "br",
-      "sha256": "e84536b01d666392d58cdeec200142397beae4a7c6de7a500535c3faef606074",
-      "translatedCount": 165,
+      "sha256": "816160e0866d565347d14eaa828f8304790e58d704ca8c60a26a5e8da37be7cc",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3071,14 +3022,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "brx",
-      "sha256": "006eeb37742a39b783c8d90ad224afb0291e9d305e55895e31201bcbb75e3da8",
-      "translatedCount": 163,
+      "sha256": "6f62e4793416599a11c988ff1d380fc7fb3de8704c2a4ef4e0c8d2bbc5c26a50",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3089,15 +3039,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "bs",
-      "sha256": "a402e4244c338c9050af35d0635a9bbc506ebb6de3c932d502b9629c384b41d5",
-      "translatedCount": 165,
+      "sha256": "a5d590c06e2690bb86a9129e919f9e52ffc98f486818ed2385a351a1a3e84b25",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3107,14 +3056,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "bs-Cyrl",
-      "sha256": "77356616aa84fd1ce241de0523a1b8ad0e35b687a3b539edb9358dc5ebfc116d",
-      "translatedCount": 163,
+      "sha256": "4d6df5c4ba215bb85e08cc516a270235a971eba304b5fa1282c4a558d726f380",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3125,15 +3073,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "bs-Latn",
-      "sha256": "a402e4244c338c9050af35d0635a9bbc506ebb6de3c932d502b9629c384b41d5",
-      "translatedCount": 165,
+      "sha256": "a5d590c06e2690bb86a9129e919f9e52ffc98f486818ed2385a351a1a3e84b25",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3143,8 +3090,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -3331,8 +3277,8 @@
     },
     {
       "locale": "ca",
-      "sha256": "8fb12c4934a835d5a7126764425159a85805486d3d744c5d9db8605ab0f4410e",
-      "translatedCount": 165,
+      "sha256": "5a1f7c54cc2fc1bc4b2c6584f66f8c300672e225137b665d7bfc14947d0497d8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3342,14 +3288,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ca-AD",
-      "sha256": "8fb12c4934a835d5a7126764425159a85805486d3d744c5d9db8605ab0f4410e",
-      "translatedCount": 165,
+      "sha256": "5a1f7c54cc2fc1bc4b2c6584f66f8c300672e225137b665d7bfc14947d0497d8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3359,14 +3304,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ca-ES-valencia",
-      "sha256": "8fb12c4934a835d5a7126764425159a85805486d3d744c5d9db8605ab0f4410e",
-      "translatedCount": 165,
+      "sha256": "5a1f7c54cc2fc1bc4b2c6584f66f8c300672e225137b665d7bfc14947d0497d8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3376,14 +3320,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ca-FR",
-      "sha256": "8fb12c4934a835d5a7126764425159a85805486d3d744c5d9db8605ab0f4410e",
-      "translatedCount": 165,
+      "sha256": "5a1f7c54cc2fc1bc4b2c6584f66f8c300672e225137b665d7bfc14947d0497d8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3393,14 +3336,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ca-IT",
-      "sha256": "8fb12c4934a835d5a7126764425159a85805486d3d744c5d9db8605ab0f4410e",
-      "translatedCount": 165,
+      "sha256": "5a1f7c54cc2fc1bc4b2c6584f66f8c300672e225137b665d7bfc14947d0497d8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3410,8 +3352,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -3460,8 +3401,8 @@
     },
     {
       "locale": "ce",
-      "sha256": "ac544df814cf0d10ee319a5f928741fd0c0a05c69a43ad0e2c2bf7a212b9c035",
-      "translatedCount": 159,
+      "sha256": "52d39944df09cf8c42a2eb2594af58d2c56f8eaa17d1135089deb9930272e73f",
+      "translatedCount": 161,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3475,16 +3416,14 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "ceb",
-      "sha256": "14c0a73f575a22566be5cd62be97904301cb400923083484ae1363116986e27e",
-      "translatedCount": 158,
+      "sha256": "217f9970f97e085ed6e29a3f53694e3de0a2f7b07fb13536e52bf9a6e9e7d82e",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -3500,8 +3439,6 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -3637,8 +3574,8 @@
     },
     {
       "locale": "chr",
-      "sha256": "7962577f884924e0cde82a15ce820858490e6f9ca2381603d15ecf20902aca22",
-      "translatedCount": 162,
+      "sha256": "c4480befcd74a153a0d6f88d39c2bb86efd99951dd9e3c5ceedfcef602f53cb9",
+      "translatedCount": 163,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -3651,8 +3588,7 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -4017,8 +3953,8 @@
     },
     {
       "locale": "cop",
-      "sha256": "0daf5c69236f7e04b0f636c5d3816812838d404a2523dcae2888eaed9dc337f2",
-      "translatedCount": 158,
+      "sha256": "36661d7fb30eef41a7eaf8b023e675a9bb2582ad8922d673bd133e0197c15de1",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -4035,14 +3971,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "cs",
-      "sha256": "a72db3404f8cac3c8f749366bdc25854320c7ee0842d627f0e1ff48d0e3698ab",
-      "translatedCount": 165,
+      "sha256": "efd565b52ada5247477f270d4b9dd9c08409d094c2705db2b41cc097beb755f5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4052,8 +3987,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -4255,8 +4189,8 @@
     },
     {
       "locale": "cy",
-      "sha256": "36205e5afe2bab1a6ecaf8bd04d0d40c0dd70dfc4ecfe9ef40a17c0939dc2772",
-      "translatedCount": 165,
+      "sha256": "278ce801a8b5c0c21353a055b8855ec77fa7e5f8c99ae24b49f95a5496092986",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4266,14 +4200,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "da",
-      "sha256": "4c898ea3bf57d4f446c9ce845bfce24d91217a3ee08be931f95eddafb3c4136f",
-      "translatedCount": 165,
+      "sha256": "567ed46be024991c8151e78515aad83a7e091208f172a4a1296d917c29e0c9fd",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4283,14 +4216,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "da-GL",
-      "sha256": "4c898ea3bf57d4f446c9ce845bfce24d91217a3ee08be931f95eddafb3c4136f",
-      "translatedCount": 165,
+      "sha256": "567ed46be024991c8151e78515aad83a7e091208f172a4a1296d917c29e0c9fd",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4300,8 +4232,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -4435,8 +4366,8 @@
     },
     {
       "locale": "de",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4446,14 +4377,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-AT",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4463,14 +4393,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-BE",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4480,14 +4409,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-CH",
-      "sha256": "7584c67046470056a48408a409cc75fd41a1f3e33baa107dacdfaa60f60975f6",
-      "translatedCount": 165,
+      "sha256": "6a4b66379440214cceaacb48060136be0795cbbca368b4f07b1f5525e7d0801f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4497,14 +4425,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-IT",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4514,14 +4441,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-LI",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4531,14 +4457,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "de-LU",
-      "sha256": "20086b0f9ae67ba40781c7a1c7c00946b6b68d3ef1747737777a68c7f82d9b76",
-      "translatedCount": 165,
+      "sha256": "56d81655016418c220f3eb6ad8ca59efc7d8ab11635e448bea8e0ecef5b474af",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4548,8 +4473,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -4857,8 +4781,8 @@
     },
     {
       "locale": "dsb",
-      "sha256": "46c72d71701c197d8ae0e06afa2721bd8252cca4c5d5dd49c840a00ab4b5302f",
-      "translatedCount": 165,
+      "sha256": "be44bb4836c501cfa89e0eb7fea01369fee00e363384bee57cb83da10f01e382",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -4868,8 +4792,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -5210,8 +5133,8 @@
     },
     {
       "locale": "dz",
-      "sha256": "770607dea4bab1a0a55bc83e20564a667b59f4bc1793c0b7f9d9af452a3c6fd9",
-      "translatedCount": 74,
+      "sha256": "6bc42912eea70daf81a362bb3f5a822d29f237e4ea49e2406537f6615af58973",
+      "translatedCount": 75,
       "missingCodes": [
         "ALL",
         "AMD",
@@ -5303,7 +5226,6 @@
         "TOP",
         "TTD",
         "UAH",
-        "VED",
         "VUV",
         "WST",
         "XAF",
@@ -5447,8 +5369,8 @@
     },
     {
       "locale": "ee",
-      "sha256": "b8fbe8263b29419e88981a42d500f719bc35d78f89b4c7abd5fb30d0a54fe8d0",
-      "translatedCount": 158,
+      "sha256": "12bfc0f786b032a6295ab84111155b1bde2214fd415ccb96ab7bf9576a3d3e6f",
+      "translatedCount": 159,
       "missingCodes": [
         "CHI",
         "EUR",
@@ -5464,15 +5386,14 @@
         "RUP",
         "SLS",
         "SSP",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "ee-TG",
-      "sha256": "b8fbe8263b29419e88981a42d500f719bc35d78f89b4c7abd5fb30d0a54fe8d0",
-      "translatedCount": 158,
+      "sha256": "12bfc0f786b032a6295ab84111155b1bde2214fd415ccb96ab7bf9576a3d3e6f",
+      "translatedCount": 159,
       "missingCodes": [
         "CHI",
         "EUR",
@@ -5488,15 +5409,14 @@
         "RUP",
         "SLS",
         "SSP",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "el",
-      "sha256": "2d0e70ab390b8ed83a08efa23a99d1029dd23f7ffc8da3598d475d635615ad50",
-      "translatedCount": 165,
+      "sha256": "ec0a40edb73a8adfa2fc2af54aeb98bdfca62812d0311b22fc3baf7b6c1bd210",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -5506,14 +5426,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "el-CY",
-      "sha256": "2d0e70ab390b8ed83a08efa23a99d1029dd23f7ffc8da3598d475d635615ad50",
-      "translatedCount": 165,
+      "sha256": "ec0a40edb73a8adfa2fc2af54aeb98bdfca62812d0311b22fc3baf7b6c1bd210",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -5523,14 +5442,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "el-polyton",
-      "sha256": "569eab6167a9a07abbfa20bb8e9140d66f3437dec81a3d001b4f2558c08c761a",
-      "translatedCount": 165,
+      "sha256": "29636f65001c744abc8c9c2a8ffca52243cec286318bcdc0cbfc5600e60b55a0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -5540,8 +5458,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -7520,8 +7437,8 @@
     },
     {
       "locale": "eo",
-      "sha256": "73c8ca5a36158392df68d97470e66d40c3c41a0a2aff9eb2f67480acc69b3d55",
-      "translatedCount": 158,
+      "sha256": "15138a40388a960d044cf0e54a0875a7ae506a575609a533051a591e7010fcef",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -7537,15 +7454,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "es",
-      "sha256": "cb5853e7fbab81d6bc29d33268c8c70478af360f5fb7c5b422c5c066f639a9e5",
-      "translatedCount": 165,
+      "sha256": "9fae51419e0d1d57535554d2e0c52e288391891529a0658458e15b9f837e3bd5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7555,14 +7470,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-419",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7572,14 +7486,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-AR",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7589,14 +7502,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-BO",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7606,14 +7518,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-BR",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7623,14 +7534,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-BZ",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7640,14 +7550,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-CL",
-      "sha256": "6cdd7710654e06e476c8a56047e53674e0b2561f2e157dccd4cf634aeb9d93c1",
-      "translatedCount": 165,
+      "sha256": "3d2c5ba5c7439bee2b51fb6ab77ca3d89796ad3a400358483177e7bfad946f84",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7657,14 +7566,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-CO",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7674,14 +7582,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-CR",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7691,14 +7598,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-CU",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7708,14 +7614,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-DO",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7725,14 +7630,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-EA",
-      "sha256": "cb5853e7fbab81d6bc29d33268c8c70478af360f5fb7c5b422c5c066f639a9e5",
-      "translatedCount": 165,
+      "sha256": "9fae51419e0d1d57535554d2e0c52e288391891529a0658458e15b9f837e3bd5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7742,14 +7646,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-EC",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7759,14 +7662,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-GQ",
-      "sha256": "cb5853e7fbab81d6bc29d33268c8c70478af360f5fb7c5b422c5c066f639a9e5",
-      "translatedCount": 165,
+      "sha256": "9fae51419e0d1d57535554d2e0c52e288391891529a0658458e15b9f837e3bd5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7776,14 +7678,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-GT",
-      "sha256": "5d55933edeeb911e15eda21202d1fc6c702fe249566407d81cde7a9d124fa3e0",
-      "translatedCount": 165,
+      "sha256": "66bed5d3f58a6dcd61811d0b246ba2afa4de8cba92b4d7dd68d3d13a6636c619",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7793,14 +7694,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-HN",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7810,14 +7710,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-IC",
-      "sha256": "cb5853e7fbab81d6bc29d33268c8c70478af360f5fb7c5b422c5c066f639a9e5",
-      "translatedCount": 165,
+      "sha256": "9fae51419e0d1d57535554d2e0c52e288391891529a0658458e15b9f837e3bd5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7827,14 +7726,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-MX",
-      "sha256": "207edf0b934f72e41217baf922ed714b97ebdbe2a9450879b50a939c05fcc984",
-      "translatedCount": 165,
+      "sha256": "a7e215a6cf78a901b92a462ccfcdf81b691a492aa8cdcd340fc6359382d081aa",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7844,14 +7742,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-NI",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7861,14 +7758,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-PA",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7878,14 +7774,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-PE",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7895,14 +7790,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-PH",
-      "sha256": "cb5853e7fbab81d6bc29d33268c8c70478af360f5fb7c5b422c5c066f639a9e5",
-      "translatedCount": 165,
+      "sha256": "9fae51419e0d1d57535554d2e0c52e288391891529a0658458e15b9f837e3bd5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7912,14 +7806,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-PR",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7929,14 +7822,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-PY",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7946,14 +7838,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-SV",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7963,14 +7854,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-US",
-      "sha256": "2b9c98abb88e6ffcdbe923c7148827a04a2b4eed50f5c7f9eed1902e8e804c18",
-      "translatedCount": 165,
+      "sha256": "1af0b24a0f912e29ba9b6380c7a49fd72718b65ef6a8b63e7c833989910d9506",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7980,14 +7870,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-UY",
-      "sha256": "4d9d0371ffb4a9cf3f59f3b51528c9ff44b51d8f91f41e3c7f3eb8eafe0982aa",
-      "translatedCount": 165,
+      "sha256": "baa784622ef649ecef9bdccca75591692d28c1cde2e3f03a5899cb57735159f2",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -7997,14 +7886,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "es-VE",
-      "sha256": "cbdab84ce26c6b5a3199bc15f1cdc50e166cce26d57d094320b6db2963df4458",
-      "translatedCount": 165,
+      "sha256": "5c15c4620183020286bee6c5dcf02e3935e7f54e733604b6a2ae6c1601d69872",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -8014,14 +7902,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "et",
-      "sha256": "d9d27080e61b4bb1369bcacc8c6a0437cec91d51fe069c2b5bf8c30f5b0f62d2",
-      "translatedCount": 165,
+      "sha256": "bd7f74f0f92eaf2682759c401f72a9ebafd944c67754db04ebd1867254a872c0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -8031,8 +7918,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -8182,17 +8068,14 @@
     },
     {
       "locale": "fa",
-      "sha256": "1feaf1dd0e8b65d149f7be4e236647fdcc0865c8155f2eccc1f2e2cba3a17713",
-      "translatedCount": 173,
-      "missingCodes": [
-        "SVC",
-        "VED"
-      ]
+      "sha256": "d0409ae2013d2775616e3a5bbca381c0eac62f4c5fed15379e692f0e35598421",
+      "translatedCount": 175,
+      "missingCodes": []
     },
     {
       "locale": "fa-AF",
-      "sha256": "18c5d22118c4b21bac39031ec4a0d1c74b09c79ec48426470017710a328ab3b0",
-      "translatedCount": 164,
+      "sha256": "36c5a2491f54c0404d087a25cad24abd46d47f260a3f5252000723929da19d9f",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -8203,8 +8086,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -10162,8 +10044,8 @@
     },
     {
       "locale": "fi",
-      "sha256": "484829e816dd4c9827bdb3ea82e702acf837b3fc5c187852e426487c155c069c",
-      "translatedCount": 165,
+      "sha256": "966f774d9ae426dd674eab16ddf7c3df7b7c148137c039e7dda976b2388193d7",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10173,13 +10055,28 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fil",
-      "sha256": "d7cf3c66698b0f1a10db50ca00b0e74126a06cb0e47eb0145f2579fd95e938c9",
+      "sha256": "72f885f7a490b4b51f448101605b11973b0f64ef7b1721ec37773404abf02839",
+      "translatedCount": 166,
+      "missingCodes": [
+        "CHI",
+        "EUS",
+        "FOK",
+        "GGP",
+        "IMP",
+        "IRT",
+        "JEP",
+        "RUP",
+        "SLS"
+      ]
+    },
+    {
+      "locale": "fo",
+      "sha256": "acd8a9adf28b5c13dc8aad759bb285cafaeb25b132ec70a0c55ada5555dd7858",
       "translatedCount": 164,
       "missingCodes": [
         "CHI",
@@ -10189,36 +10086,16 @@
         "IMP",
         "IRT",
         "JEP",
-        "RUP",
-        "SLS",
-        "SVC",
-        "VED"
-      ]
-    },
-    {
-      "locale": "fo",
-      "sha256": "bdba4af309a0522a59234bea8f361eb47f01636afe8b425e93d722e0552c32ba",
-      "translatedCount": 162,
-      "missingCodes": [
-        "CHI",
-        "EUS",
-        "FOK",
-        "GGP",
-        "IMP",
-        "IRT",
-        "JEP",
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fo-DK",
-      "sha256": "bdba4af309a0522a59234bea8f361eb47f01636afe8b425e93d722e0552c32ba",
-      "translatedCount": 162,
+      "sha256": "ade95c70c78fdd5b9050e76df1fce9fbffe455d4311a2012653c190943a8f1c7",
+      "translatedCount": 163,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10231,14 +10108,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "fr",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10248,14 +10124,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-BE",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10265,14 +10140,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-BF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10282,14 +10156,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-BI",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10299,14 +10172,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-BJ",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10316,14 +10188,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-BL",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10333,14 +10204,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CA",
-      "sha256": "e8362ff8c5e8ba5396e17d3086e9c780efd350064c7ddffd9b26ff181cd0685a",
-      "translatedCount": 165,
+      "sha256": "697613dc41d954708d33feabfad91976f809b49a4f9c6c8a7f501180aef305cf",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10350,14 +10220,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CD",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10367,14 +10236,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10384,14 +10252,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CG",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10401,14 +10268,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CH",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10418,14 +10284,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CI",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10435,14 +10300,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-CM",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10452,14 +10316,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-DJ",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10469,14 +10332,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-DZ",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10486,14 +10348,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-GA",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10503,14 +10364,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-GF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10520,14 +10380,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-GN",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10537,14 +10396,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-GP",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10554,14 +10412,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-GQ",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10571,14 +10428,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-HT",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10588,14 +10444,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-KM",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10605,14 +10460,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-LU",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10622,14 +10476,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MA",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10639,14 +10492,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MC",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10656,14 +10508,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10673,14 +10524,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MG",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10690,14 +10540,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-ML",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10707,14 +10556,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MQ",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10724,14 +10572,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MR",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10741,14 +10588,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-MU",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10758,14 +10604,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-NC",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10775,14 +10620,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-NE",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10792,14 +10636,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-PF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10809,14 +10652,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-PM",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10826,14 +10668,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-RE",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10843,14 +10684,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-RW",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10860,14 +10700,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-SC",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10877,14 +10716,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-SN",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10894,14 +10732,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-SY",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10911,14 +10748,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-TD",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10928,14 +10764,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-TG",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10945,14 +10780,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-TN",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10962,14 +10796,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-VU",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10979,14 +10812,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-WF",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -10996,14 +10828,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "fr-YT",
-      "sha256": "a559420724bdacc659ae300b3df76013d100368d47b4dc61a6639078762ca0b0",
-      "translatedCount": 165,
+      "sha256": "ee4eb18606d21d4a2a7a455363c7fc099cd2c0ad7308994154b0976cd3286549",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11013,8 +10844,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -11160,8 +10990,8 @@
     },
     {
       "locale": "fy",
-      "sha256": "2a7dd5dfd7a8e04cbce6bec9c4e9df7855a3578d93cf3c1a8dad955ad397287e",
-      "translatedCount": 163,
+      "sha256": "daa4c186c1817036dde6c6b025ffa25309a1f85610ee92157602c80298226a04",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11172,15 +11002,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "ga",
-      "sha256": "cc94d6c4162690f12f9402949facb686fb798b7de388e84b7ac37d5cb4bbc8fa",
-      "translatedCount": 165,
+      "sha256": "89796ffb1acefbedb069af7acff194f49145bc01128c098efa832e60de9fe910",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11190,14 +11019,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ga-GB",
-      "sha256": "cc94d6c4162690f12f9402949facb686fb798b7de388e84b7ac37d5cb4bbc8fa",
-      "translatedCount": 165,
+      "sha256": "89796ffb1acefbedb069af7acff194f49145bc01128c098efa832e60de9fe910",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11207,8 +11035,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -11411,8 +11238,8 @@
     },
     {
       "locale": "gl",
-      "sha256": "f2a1adb57baff151973b002ca8939819726240797b719e49e70f72ca9856681e",
-      "translatedCount": 165,
+      "sha256": "75b34b4a7971a9fa33897e2005b726385600247b0de966d2a58fd3261e5cd5d0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11422,14 +11249,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "gsw",
-      "sha256": "0c5b6bb6a501d457ce60bdb7f24d14e81d8cb1f655159ff20b2cae9f51b4ecf5",
-      "translatedCount": 161,
+      "sha256": "d59c331025971e23714917f70b258eefc3981ba2e36f8fdf6034479a38ee80bd",
+      "translatedCount": 162,
       "missingCodes": [
         "CHI",
         "CUC",
@@ -11442,15 +11268,14 @@
         "RUP",
         "SLS",
         "TMT",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "gsw-FR",
-      "sha256": "0c5b6bb6a501d457ce60bdb7f24d14e81d8cb1f655159ff20b2cae9f51b4ecf5",
-      "translatedCount": 161,
+      "sha256": "d59c331025971e23714917f70b258eefc3981ba2e36f8fdf6034479a38ee80bd",
+      "translatedCount": 162,
       "missingCodes": [
         "CHI",
         "CUC",
@@ -11463,15 +11288,14 @@
         "RUP",
         "SLS",
         "TMT",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "gsw-LI",
-      "sha256": "0c5b6bb6a501d457ce60bdb7f24d14e81d8cb1f655159ff20b2cae9f51b4ecf5",
-      "translatedCount": 161,
+      "sha256": "d59c331025971e23714917f70b258eefc3981ba2e36f8fdf6034479a38ee80bd",
+      "translatedCount": 162,
       "missingCodes": [
         "CHI",
         "CUC",
@@ -11484,15 +11308,14 @@
         "RUP",
         "SLS",
         "TMT",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "gu",
-      "sha256": "6b35edca770d8b223bd7051b8ee277ba75ed1401a52fef7e359a5cc1b05655ce",
-      "translatedCount": 164,
+      "sha256": "5f07b351f628d1a30fb1e8108135db8120af1ecb96d1bb3211384e72dbb2769c",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -11502,9 +11325,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -11820,8 +11641,8 @@
     },
     {
       "locale": "ha",
-      "sha256": "0f43c9212f6da8e0481bbc6b76e257163a748423e3508e64280f1effe19f570d",
-      "translatedCount": 160,
+      "sha256": "50c21833734ab8cefdd4a53f5e63e0359f7db1286d6fe88c8cf75c5d29b7263a",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -11835,15 +11656,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "ha-GH",
-      "sha256": "0f43c9212f6da8e0481bbc6b76e257163a748423e3508e64280f1effe19f570d",
-      "translatedCount": 160,
+      "sha256": "1c4f208bb14f8db56d55bff8dfef6db589b3dbe4bc5eb82cd1ff934ea558310a",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -11858,14 +11677,13 @@
         "RUP",
         "SLS",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "ha-NE",
-      "sha256": "0f43c9212f6da8e0481bbc6b76e257163a748423e3508e64280f1effe19f570d",
-      "translatedCount": 160,
+      "sha256": "1c4f208bb14f8db56d55bff8dfef6db589b3dbe4bc5eb82cd1ff934ea558310a",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -11880,7 +11698,6 @@
         "RUP",
         "SLS",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -12068,8 +11885,8 @@
     },
     {
       "locale": "he",
-      "sha256": "18100850dba41740a8522f6da30d01ea454fa109e422331ea8bffce2e0cb2410",
-      "translatedCount": 165,
+      "sha256": "dc3c9af0f0f834c37f10c61b7d9592f0c1f079223d862a29704eaabf50777235",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12079,14 +11896,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "hi",
-      "sha256": "41c6ac063022c9cf77c40aa545d3b7c9a488a8a57b98c9aef084078bb52374ce",
-      "translatedCount": 164,
+      "sha256": "d81d537d8497659e69eda9ef97b9a1a298186f334db917f3fad9a3280cd8bd4b",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12096,9 +11912,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -12119,8 +11933,8 @@
     },
     {
       "locale": "hr",
-      "sha256": "5aac459347b24f36e9df7f5c18ba7648c3b155f1ab85153af5cc094c157bdefc",
-      "translatedCount": 165,
+      "sha256": "42ac9e424f1eefe52033fdef4c60b0a34730861bc2dcefe735804218c79fe123",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12130,14 +11944,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "hr-BA",
-      "sha256": "5aac459347b24f36e9df7f5c18ba7648c3b155f1ab85153af5cc094c157bdefc",
-      "translatedCount": 165,
+      "sha256": "42ac9e424f1eefe52033fdef4c60b0a34730861bc2dcefe735804218c79fe123",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12147,14 +11960,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "hsb",
-      "sha256": "f48995c99673c70cf8641f297510e6a56af10640949f65e14d891cb30d237095",
-      "translatedCount": 165,
+      "sha256": "cd73f7f8b854dfc79b2e35caf85f1034e41c16a53c5e23ee481b8ed262f646a7",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12164,14 +11976,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "hu",
-      "sha256": "b9f79aeb28c6891e3a3d151afed40a9cf75aa648da1f257237925d54270654ee",
-      "translatedCount": 165,
+      "sha256": "383410aa10d6dcbb9ee3d9e2cadab00fae52dc566ec8109395b053913ea292fb",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12181,14 +11992,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "hy",
-      "sha256": "8f8d6214062e2ac8b465038949f791b227e1474b2f1a130df93aae75f2308e5c",
-      "translatedCount": 164,
+      "sha256": "cb9c962efb0a8a6d396d02e1b310576a7fc3a60dcca0efdefbb0ac9b0affbd23",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12198,15 +12008,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ia",
-      "sha256": "96078b9ac0ef73759aaefdb0abe489ee5489775ef62a0ba16dc5becfb7458bd6",
-      "translatedCount": 160,
+      "sha256": "ef9ac93035171fd34a09eabb42e97a42e74df6a8364258c12c212fe86f5e26ac",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -12220,15 +12028,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "STD",
-        "SVC",
-        "VED"
+        "STD"
       ]
     },
     {
       "locale": "id",
-      "sha256": "5b163e7feff17daf73a2195a0ce10032925404fe7009f23260da767bdc3cbcfe",
-      "translatedCount": 165,
+      "sha256": "0ae7a0a32aeb569b9d0b18e31836fc5c24b1f942b19180cd2e26ab20ed8acf8c",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12238,8 +12044,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -12426,8 +12231,8 @@
     },
     {
       "locale": "ig",
-      "sha256": "06c88d0b8f36cf1c2adee537e83944eb6d570a78bf8808e3df91162c3ee43cc3",
-      "translatedCount": 158,
+      "sha256": "ae430c5c4628c2e0dcc788a5c416438a90e0635f739a9de7f3347b12d8655ab5",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -12443,8 +12248,6 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -12632,8 +12435,8 @@
     },
     {
       "locale": "is",
-      "sha256": "f847a9fae7badcd56d823237a52bb1749ffe9121e7cfb5cdaacc83f939e27320",
-      "translatedCount": 165,
+      "sha256": "0b648aa1147dec725d40e13db84e34fa4ab73fafda66c72aa3eb71457cc647b4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12643,14 +12446,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "it",
-      "sha256": "db9cecddb4743663fa52e55df85907ac78cff0eda798b36cdd9ccffa08c48628",
-      "translatedCount": 165,
+      "sha256": "a21a037556e7a3c3abf3f19e3be38e4f2fa62639e32f380a86d8fefd6bb841c3",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12660,14 +12462,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "it-CH",
-      "sha256": "db9cecddb4743663fa52e55df85907ac78cff0eda798b36cdd9ccffa08c48628",
-      "translatedCount": 165,
+      "sha256": "a21a037556e7a3c3abf3f19e3be38e4f2fa62639e32f380a86d8fefd6bb841c3",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12677,14 +12478,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "it-SM",
-      "sha256": "db9cecddb4743663fa52e55df85907ac78cff0eda798b36cdd9ccffa08c48628",
-      "translatedCount": 165,
+      "sha256": "a21a037556e7a3c3abf3f19e3be38e4f2fa62639e32f380a86d8fefd6bb841c3",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12694,14 +12494,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "it-VA",
-      "sha256": "db9cecddb4743663fa52e55df85907ac78cff0eda798b36cdd9ccffa08c48628",
-      "translatedCount": 165,
+      "sha256": "a21a037556e7a3c3abf3f19e3be38e4f2fa62639e32f380a86d8fefd6bb841c3",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12711,14 +12510,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ja",
-      "sha256": "b8eaf3a4067e7cbe6a01aca2cdb65223c8d6c3aa5d766e80ad6077a78e588a1b",
-      "translatedCount": 165,
+      "sha256": "f0731c3b48f97a033eaafc57670a5d1609f89468db4a97609be19d0f8f4d2643",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -12728,8 +12526,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -13041,8 +12838,8 @@
     },
     {
       "locale": "jv",
-      "sha256": "4efa2de937c36639ae87d8086d27ed5ca9f601badf58acd3d1e579506416b611",
-      "translatedCount": 160,
+      "sha256": "6a17f62803876d5b1b75d2b253c6ce51d5841e1ea3bd2396b0072601bec06e95",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -13056,15 +12853,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "STD",
-        "SVC",
-        "VED"
+        "STD"
       ]
     },
     {
       "locale": "ka",
-      "sha256": "be3a7cc93f58a33c28d199a003a20f3ac24433c9b28437ff2fb0b8e4bd5933ed",
-      "translatedCount": 164,
+      "sha256": "7ec51affd34ec3bf027b4a2de1cda9dcb6415b806def483601395d06d68fd331",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -13074,9 +12869,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -14107,8 +13900,8 @@
     },
     {
       "locale": "kgp",
-      "sha256": "593ff50ebf462179dcce01c0ec1dc5829c49fe59d9713d2abe01026dd5d3dabb",
-      "translatedCount": 163,
+      "sha256": "ce72028eabc8bcdcb8ad9093d016f745a898c2d2060365ee71602f952fa54d13",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14119,7 +13912,6 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
@@ -14384,8 +14176,8 @@
     },
     {
       "locale": "kk",
-      "sha256": "47453b96ecf84c5e1ace7282a3d2de2ffa0588afb032df1f1ff225d395a806e6",
-      "translatedCount": 164,
+      "sha256": "4614989eced99c5ab21482db5b97461a4b5275104f2a187de377bed064276b27",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14395,15 +14187,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "kk-Arab",
-      "sha256": "916432a435e71e87f181e25cadeb36291b4d13b5fd3e3a2a6ab93d06e95b82cf",
-      "translatedCount": 158,
+      "sha256": "652e96ca321c7af89551aad7036192596393cbc2617376ef5bdf827a768cb8ed",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -14420,14 +14210,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "kk-Cyrl",
-      "sha256": "47453b96ecf84c5e1ace7282a3d2de2ffa0588afb032df1f1ff225d395a806e6",
-      "translatedCount": 164,
+      "sha256": "7548ca7ea4b896c8bf3e5e350ca328235a1677b5907350c488a516bad9342651",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14438,14 +14227,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "kk-KZ",
-      "sha256": "47453b96ecf84c5e1ace7282a3d2de2ffa0588afb032df1f1ff225d395a806e6",
-      "translatedCount": 164,
+      "sha256": "7548ca7ea4b896c8bf3e5e350ca328235a1677b5907350c488a516bad9342651",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14456,8 +14244,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -14953,8 +14740,8 @@
     },
     {
       "locale": "km",
-      "sha256": "8cd9ca559baa56e3467f31dbc0ade49b400e5605d0ac1ffde7095f833c88acf5",
-      "translatedCount": 164,
+      "sha256": "82ca8ed100112d4a9e393961321b5b9915935c2fbb95fa1444eaa44775acd095",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14964,15 +14751,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "kn",
-      "sha256": "5c2857ad6a0735d8dbcab331775b93c9a699e0967197e8cfd5518427ee9c349c",
-      "translatedCount": 164,
+      "sha256": "09bf35fdd4dcf9db29cd1b5f41806e3f7980ed137dd7c9a18f174d6d0bf99102",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -14982,15 +14767,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ko",
-      "sha256": "08fd8651b76830e06b2e757bbe34977ea2a52df123f2a75bf6db8e603637712f",
-      "translatedCount": 165,
+      "sha256": "7652b4e60fb6da8adf88eb913d3fc9bfd928dab4be9795ddd90d7abdc8e8b512",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -15000,14 +14783,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ko-CN",
-      "sha256": "08fd8651b76830e06b2e757bbe34977ea2a52df123f2a75bf6db8e603637712f",
-      "translatedCount": 165,
+      "sha256": "7652b4e60fb6da8adf88eb913d3fc9bfd928dab4be9795ddd90d7abdc8e8b512",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -15017,14 +14799,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ko-KP",
-      "sha256": "08fd8651b76830e06b2e757bbe34977ea2a52df123f2a75bf6db8e603637712f",
-      "translatedCount": 165,
+      "sha256": "7652b4e60fb6da8adf88eb913d3fc9bfd928dab4be9795ddd90d7abdc8e8b512",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -15034,14 +14815,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "kok",
-      "sha256": "acfc900cf516374e55c24a04882e23f572f6db31674be98ad9ba80c05a0d5003",
-      "translatedCount": 158,
+      "sha256": "23f3ab87adce462a61cc9209469708c355841296f8a5b3c31c505c1fbbb2a48b",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -15058,14 +14838,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "kok-Deva",
-      "sha256": "acfc900cf516374e55c24a04882e23f572f6db31674be98ad9ba80c05a0d5003",
-      "translatedCount": 158,
+      "sha256": "23f3ab87adce462a61cc9209469708c355841296f8a5b3c31c505c1fbbb2a48b",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -15082,7 +14861,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -15270,8 +15048,8 @@
     },
     {
       "locale": "ks",
-      "sha256": "fd63e9a91fa60d8e2de1d2fa01b5bda83a05f5cfa7ac3f6c5da0178e391422cd",
-      "translatedCount": 153,
+      "sha256": "6bce75a168dbc86cef2dbb6b007025efc741bb8577c4bf33016de2dd13aeac07",
+      "translatedCount": 154,
       "missingCodes": [
         "CHI",
         "CUC",
@@ -15292,15 +15070,14 @@
         "STD",
         "STN",
         "TMT",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "ks-Arab",
-      "sha256": "fd63e9a91fa60d8e2de1d2fa01b5bda83a05f5cfa7ac3f6c5da0178e391422cd",
-      "translatedCount": 153,
+      "sha256": "6bce75a168dbc86cef2dbb6b007025efc741bb8577c4bf33016de2dd13aeac07",
+      "translatedCount": 154,
       "missingCodes": [
         "CHI",
         "CUC",
@@ -15321,7 +15098,6 @@
         "STD",
         "STN",
         "TMT",
-        "VED",
         "XCG",
         "ZWG"
       ]
@@ -15760,8 +15536,8 @@
     },
     {
       "locale": "ksh",
-      "sha256": "6fb2c8b10bb6d7f4bbfc4d114a5f8403bd89480d64c27d360b18fbbd6041afe2",
-      "translatedCount": 163,
+      "sha256": "ab0ab9b60effed3cdd888d6c21c46d77c3d61923bb8fe557c7b485cc701e09c3",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -15772,7 +15548,6 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
@@ -16912,8 +16687,8 @@
     },
     {
       "locale": "ky",
-      "sha256": "150b4fd90bef633f827a56da270f589e8ad19b4b0a561e39a322763b8d17c46b",
-      "translatedCount": 164,
+      "sha256": "cf0d7eb9dbe7341255a94d21d5e020f969ca073fe5d6f926456d3293c8c985a7",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -16923,9 +16698,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -17059,8 +16832,8 @@
     },
     {
       "locale": "lb",
-      "sha256": "90d80cc0dd4625692d38d9b881e64c26c9a2763fb5ea65e23c3e340d36f024ee",
-      "translatedCount": 163,
+      "sha256": "af8bc48ae21b75df8d67efd04c36acc2515e87b4c238008b29fd60144894cc39",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -17071,7 +16844,6 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
@@ -17553,8 +17325,8 @@
     },
     {
       "locale": "lld",
-      "sha256": "42bc56e563a0a68a0ea7d2ce84f83aee24a22f4143e55ba65ca0fd3a0580d847",
-      "translatedCount": 158,
+      "sha256": "621749206deb9a85bf2d22b3bccd8399f92290162a5c5a2169006c09ae4998cb",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -17571,7 +17343,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -18275,8 +18046,8 @@
     },
     {
       "locale": "lo",
-      "sha256": "089bb2a00ac15809d9801ae69bfa4b4ba2430d3e388242efd21e699f83018eb1",
-      "translatedCount": 165,
+      "sha256": "36ae808faf75b29c137e406f7a4fabec24b9e2285332ae77a187cd48d5904920",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -18286,8 +18057,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -18642,8 +18412,8 @@
     },
     {
       "locale": "lt",
-      "sha256": "976247dfb6d2010ef5dcdd75ca64980423c253dd4aaa763c22ad0a7b8b447dd6",
-      "translatedCount": 165,
+      "sha256": "147dc463efb4d89db57fa2ebe1f37a22b77be2e601d1f9c4fd5dfdfe813844f6",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -18653,8 +18423,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -19046,8 +18815,8 @@
     },
     {
       "locale": "lv",
-      "sha256": "cda1fb0f8522a4a7e1773422ac94991f5ecffc0d18962e7066c46fc3b4e56ea6",
-      "translatedCount": 165,
+      "sha256": "c8f45f6ccf1c10c686fbefcfc9aed309e0a790d6025dcd9b7ee72a4fadc19da4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -19057,8 +18826,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -20245,8 +20013,8 @@
     },
     {
       "locale": "mi",
-      "sha256": "bd3ec6b98d6de286bcd65c6d3884e38392d8b95b39415448892ebe559493a03e",
-      "translatedCount": 158,
+      "sha256": "6f117f37f0cddd43161c476633b4f9853ef082ef619743e233cc5bf262729120",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -20262,15 +20030,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "mk",
-      "sha256": "17b830fca0a0d73e3833ce039087498f3010adaf66f80dd272929b51d52538e4",
-      "translatedCount": 165,
+      "sha256": "136ac4960a94a7b7dfa9828351f11d3d70cc06fc7e92a53f8ce5e8de8506f77c",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20280,14 +20046,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ml",
-      "sha256": "18d8bbd9238f8102dc3b83d85c18f07faf69c9a68e0ff090896affe47b4cb5dd",
-      "translatedCount": 165,
+      "sha256": "49d6f154c1d5b0b734074dc27d8c415aed9fcdf17b9c8581320145cfff32320d",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20297,14 +20062,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "mn",
-      "sha256": "86262426a679298bb1e9762f00ffb61c57875326df82c426e1282c0a9c5c6ffe",
-      "translatedCount": 164,
+      "sha256": "4f0c981a27a8c9f63d875fcd0c2b8b75bfd992778289f2f0a8ed1cca3e866ce8",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20314,9 +20078,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -20669,8 +20431,8 @@
     },
     {
       "locale": "mr",
-      "sha256": "ff530ec5de4f73689fd6ac156e8f8f64c63ccc050bc7c198813396d30bb415cc",
-      "translatedCount": 164,
+      "sha256": "820ce8bd48778207e420724ed6da06beeca489b3734d9aeed5b94eb83fb5b890",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20680,15 +20442,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ms",
-      "sha256": "7eb320c222e18bd981017864676b4659bc377b19b4bbf7f4c508f233b45b7800",
-      "translatedCount": 164,
+      "sha256": "7f748a8367efc77e3cee6809241e2822de40c546a72121ca098c50d1abae3dbc",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20698,15 +20458,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ms-BN",
-      "sha256": "7eb320c222e18bd981017864676b4659bc377b19b4bbf7f4c508f233b45b7800",
-      "translatedCount": 164,
+      "sha256": "2f3e187a8dfd150165c93e22010b47bedb53f71f39162428faacc7007219737b",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20717,14 +20475,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "ms-ID",
-      "sha256": "7eb320c222e18bd981017864676b4659bc377b19b4bbf7f4c508f233b45b7800",
-      "translatedCount": 164,
+      "sha256": "2f3e187a8dfd150165c93e22010b47bedb53f71f39162428faacc7007219737b",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20735,14 +20492,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "ms-SG",
-      "sha256": "7eb320c222e18bd981017864676b4659bc377b19b4bbf7f4c508f233b45b7800",
-      "translatedCount": 164,
+      "sha256": "2f3e187a8dfd150165c93e22010b47bedb53f71f39162428faacc7007219737b",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -20753,8 +20509,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -21069,8 +20824,8 @@
     },
     {
       "locale": "my",
-      "sha256": "02b50445a64c8f89679ef0bd1d24447c720bb9fa813fb1577bd746c3f596cb75",
-      "translatedCount": 164,
+      "sha256": "dfcd8b3e331daabc6608966cb21fadda60ba0c6419a7aa9474259a9f0ef20a32",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -21080,15 +20835,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "mzn",
-      "sha256": "a812a2e5bca38b167771fe9c958281a4ea29797d73c680d08f0b88a27364cd74",
-      "translatedCount": 150,
+      "sha256": "de92f2d37260a002f0b2f2af90f4737d722163da9248da544ff79af6babbff99",
+      "translatedCount": 151,
       "missingCodes": [
         "AUD",
         "CHI",
@@ -21109,7 +20862,6 @@
         "SLS",
         "SVC",
         "TOP",
-        "VED",
         "VUV",
         "WST",
         "XCG",
@@ -21248,8 +21000,8 @@
     },
     {
       "locale": "nb",
-      "sha256": "732d83f2f64be4bf171f56190227c4e2bfd85e1efd5137634807d4b222a36801",
-      "translatedCount": 165,
+      "sha256": "4fd2b571a50893ded8dc7f8af8c0735b652b0ba5034b64010ba9b46d3c69b9a0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -21259,14 +21011,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "nb-SJ",
-      "sha256": "732d83f2f64be4bf171f56190227c4e2bfd85e1efd5137634807d4b222a36801",
-      "translatedCount": 165,
+      "sha256": "4fd2b571a50893ded8dc7f8af8c0735b652b0ba5034b64010ba9b46d3c69b9a0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -21276,8 +21027,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -21775,8 +21525,8 @@
     },
     {
       "locale": "ne",
-      "sha256": "dd3d915c546999e5265a58b46a2b4db6c96f2f3aecc3630c0c291cc214001dcb",
-      "translatedCount": 164,
+      "sha256": "30af39cac8a835e842414c4dd7337d7eeb8254efe717378e51bbfeaadc7b0015",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -21786,15 +21536,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ne-IN",
-      "sha256": "dd3d915c546999e5265a58b46a2b4db6c96f2f3aecc3630c0c291cc214001dcb",
-      "translatedCount": 164,
+      "sha256": "226d335e0fd6c754bafe4dca8613c7cce3e200b79cc301ab3c0030da708db245",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -21805,8 +21553,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -22052,8 +21799,8 @@
     },
     {
       "locale": "nn",
-      "sha256": "2c693ca12efe6f7e739c9c5ce01f096574d3d803a99b981649f84c91085a0fd3",
-      "translatedCount": 165,
+      "sha256": "8e3d79f084fe45479505b393e276bf7a69858d56ee91ca12e65dc9caa6a8aab3",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -22063,8 +21810,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -22250,8 +21996,8 @@
     },
     {
       "locale": "no",
-      "sha256": "732d83f2f64be4bf171f56190227c4e2bfd85e1efd5137634807d4b222a36801",
-      "translatedCount": 165,
+      "sha256": "4fd2b571a50893ded8dc7f8af8c0735b652b0ba5034b64010ba9b46d3c69b9a0",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -22261,14 +22007,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "nqo",
-      "sha256": "4d883ff71e0a62de33e647c043f0feb634d463e1a39d02ae549085389582ca17",
-      "translatedCount": 157,
+      "sha256": "20e53f22f40b198a7f9375eac0afc7c72449fe6dc36be4a9d5647bfddc099a7d",
+      "translatedCount": 158,
       "missingCodes": [
         "BYR",
         "CAD",
@@ -22284,7 +22029,6 @@
         "RUP",
         "SLS",
         "SVC",
-        "VED",
         "VEF",
         "XCG",
         "ZWG"
@@ -23487,8 +23231,8 @@
     },
     {
       "locale": "or",
-      "sha256": "a5fa32ddb4b6ffe24661c055127c3bd0071f9730b4ea5c6539bf5edebc373b69",
-      "translatedCount": 161,
+      "sha256": "793b4c6ed42f7fee722adc40a2da210dd1fab58e94be60694fe369b98079ad8c",
+      "translatedCount": 163,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -23501,9 +23245,7 @@
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -23860,8 +23602,8 @@
     },
     {
       "locale": "pa",
-      "sha256": "02ce6728cec782c7905a04c46ca1ddd8c411057499c3434fb9f20f1605a5fb7a",
-      "translatedCount": 164,
+      "sha256": "8d76282cd043450efe828063e94df1963d7af37d7bde0132f9e615864231ac7b",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -23871,9 +23613,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -24057,8 +23797,8 @@
     },
     {
       "locale": "pa-Guru",
-      "sha256": "02ce6728cec782c7905a04c46ca1ddd8c411057499c3434fb9f20f1605a5fb7a",
-      "translatedCount": 164,
+      "sha256": "23b14e4140bbddb03f89c4a4b670a618a73c05ace786bbe95c2eef1c1449fea6",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24069,14 +23809,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "pcm",
-      "sha256": "d60ea627c9b263fcf49a22312583183851ade98463658bf3be8b477ebee776ea",
-      "translatedCount": 158,
+      "sha256": "92d87c48ce4c770977716efdf554f92b2816ce484550a36d5b3b03edea8214e8",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24092,15 +23831,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "pl",
-      "sha256": "979fa8ec333000a991a1f540daf078f27df1380ade40adbf56027592782b243c",
-      "translatedCount": 165,
+      "sha256": "4cecaafec2a8499d7cb8d5e2b486281bb7771c1bf2b1ec0008bf3d71fe5b075d",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24110,8 +23847,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -24480,8 +24216,8 @@
     },
     {
       "locale": "ps",
-      "sha256": "6c1f7be50d180c926b6dfab9c1aaa345ecee31676006cefc26bf5d3aa5a37de3",
-      "translatedCount": 158,
+      "sha256": "665749d713bc613b6ab95fe966844c66196d27da82f5f33e3b5950e8f6cbd4c6",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24497,15 +24233,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "ps-PK",
-      "sha256": "6c1f7be50d180c926b6dfab9c1aaa345ecee31676006cefc26bf5d3aa5a37de3",
-      "translatedCount": 158,
+      "sha256": "c51990b9f4dc4e464a3d955875646a4e85f69540276a7892ef1b058bad35c146",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24522,14 +24256,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "pt",
-      "sha256": "cdad1344b42c23c84c8ad587666b30c05e0fcd1b96250f05848c190a5947f703",
-      "translatedCount": 165,
+      "sha256": "5a012e6b6c58159851807712fa115a43d60fd98f13a74802cb01395c4a096762",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24539,14 +24272,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-AO",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24556,14 +24288,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-CH",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24573,14 +24304,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-CV",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24590,14 +24320,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-GQ",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24607,14 +24336,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-GW",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24624,14 +24352,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-LU",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24641,14 +24368,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-MO",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24658,14 +24384,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-MZ",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24675,14 +24400,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-PT",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24692,14 +24416,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-ST",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24709,14 +24432,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "pt-TL",
-      "sha256": "1f5281f65d9d2847119f6955f2bb8f3c8f36a11bb0fd57e0149efb8d48e16c49",
-      "translatedCount": 165,
+      "sha256": "6ff2cd21ddf13e9698d326a07ef828f8a9342dc3b6e9914ec7359e32c70ca37e",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -24726,14 +24448,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "qu",
-      "sha256": "e22c6d65951a0ac1c46a27686a38aeab94f07558b032e3c7b8c39e32b4cc85b9",
-      "translatedCount": 158,
+      "sha256": "0ace33bb1c02df406cd5d2aba597328f977d6ee90d278dafaafdc0108ee01d08",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24750,14 +24471,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "qu-BO",
-      "sha256": "e22c6d65951a0ac1c46a27686a38aeab94f07558b032e3c7b8c39e32b4cc85b9",
-      "translatedCount": 158,
+      "sha256": "0ace33bb1c02df406cd5d2aba597328f977d6ee90d278dafaafdc0108ee01d08",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24774,14 +24494,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "qu-EC",
-      "sha256": "e22c6d65951a0ac1c46a27686a38aeab94f07558b032e3c7b8c39e32b4cc85b9",
-      "translatedCount": 158,
+      "sha256": "0ace33bb1c02df406cd5d2aba597328f977d6ee90d278dafaafdc0108ee01d08",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -24798,7 +24517,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -25168,8 +24886,8 @@
     },
     {
       "locale": "rm",
-      "sha256": "4852659795fa9dfb6c9cbc94f2f18aa2eadc19f8a3bf0ac64d04e0c896e11d55",
-      "translatedCount": 165,
+      "sha256": "50bb9b86b814d736616d4a35bfeff6875dfa2a2926b6a8b4dfb30dbc9ee1b20f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25179,8 +24897,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -25316,8 +25033,8 @@
     },
     {
       "locale": "ro",
-      "sha256": "f21b8e823f11616422baaffc8258b7798b7485cf5f19d97361483044f6acca93",
-      "translatedCount": 165,
+      "sha256": "ad1c534167c5cd32f618dd9b8bcfc146112f24d762c474da0cfdb80a4d72f38b",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25327,14 +25044,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ro-MD",
-      "sha256": "f21b8e823f11616422baaffc8258b7798b7485cf5f19d97361483044f6acca93",
-      "translatedCount": 165,
+      "sha256": "ad1c534167c5cd32f618dd9b8bcfc146112f24d762c474da0cfdb80a4d72f38b",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25344,8 +25060,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -25479,8 +25194,8 @@
     },
     {
       "locale": "ru",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25490,14 +25205,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ru-BY",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25507,14 +25221,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ru-KG",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25524,14 +25237,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ru-KZ",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25541,14 +25253,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ru-MD",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25558,14 +25269,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ru-UA",
-      "sha256": "62ee52d075ca56c6e695d85bd0369576615405f2dc07f8b75cc439f57c180838",
-      "translatedCount": 165,
+      "sha256": "124ebb4db9f019be5d925d5d3dda066c9784d54eee8e4c56b59be9c415e9f448",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -25575,8 +25285,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -26869,8 +26578,8 @@
     },
     {
       "locale": "scn",
-      "sha256": "30335a510a6c5dd6cf776fe7137d3acbe80e25642b6c0622c75fcc6aadb9b242",
-      "translatedCount": 158,
+      "sha256": "4e15c463b7e69fc8895e185764c5112b77ffa5a085b9272bb07027bfe7a6687f",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -26887,14 +26596,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "sd",
-      "sha256": "36da0c6aaaea1d509c55c3909686947070e062f4240fd6f77d122ea2f1abc40c",
-      "translatedCount": 161,
+      "sha256": "acaadcbf4c2a1f8ed25dec3b45b626e816a3b4fa579e4c34d9ae241dd1f4c35b",
+      "translatedCount": 163,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -26907,15 +26615,13 @@
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sd-Arab",
-      "sha256": "36da0c6aaaea1d509c55c3909686947070e062f4240fd6f77d122ea2f1abc40c",
-      "translatedCount": 161,
+      "sha256": "4253e659d4ce2c0a3464b551ea0894e61dca72c9d4302c88c37273ccd2c0b927",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -26929,8 +26635,7 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -28451,8 +28156,8 @@
     },
     {
       "locale": "si",
-      "sha256": "c736c82f7c87b16d3e0dc093bef5ad4fc6b0cda04693da1b8980c933a0b4b33b",
-      "translatedCount": 164,
+      "sha256": "ffaf397f6b8ddf2d8a993f825312a88daeee00bbb0aa7235b610d5d95066f338",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28462,15 +28167,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sk",
-      "sha256": "ea061c499614e0d4feb7984aa248b5fe659e29563b78d1a6f229fc30a82e5374",
-      "translatedCount": 165,
+      "sha256": "130daa6f6536db7c75b1a458ccf79ba20bf5bf75bf8f79203167b9f7deaf0e98",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28480,14 +28183,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sl",
-      "sha256": "975c6c27adaf696a61b2d410255fc6a82f4cf99a2106999f93bba4c525a2cbbd",
-      "translatedCount": 165,
+      "sha256": "4b9c12072506a2bbf72740b0b138e9d51735e9f1eae35e3c24c4e35fddbb409c",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28497,8 +28199,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -28809,8 +28510,8 @@
     },
     {
       "locale": "so",
-      "sha256": "e4393d0f6e738929a3f415f8aa4e9465951e61737224a933e6d8a4678280001e",
-      "translatedCount": 160,
+      "sha256": "30c25f3d7a2e28775c4495be9fe20e3bdc1ff53003518a6ef19fcf3636493230",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -28824,15 +28525,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "STD",
-        "SVC",
-        "VED"
+        "STD"
       ]
     },
     {
       "locale": "so-DJ",
-      "sha256": "e4393d0f6e738929a3f415f8aa4e9465951e61737224a933e6d8a4678280001e",
-      "translatedCount": 160,
+      "sha256": "3cfb3857e9e2edfe5bf7f5f05c019b763a14f777c23c072a25a379be707f2edf",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -28847,14 +28546,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "so-ET",
-      "sha256": "e4393d0f6e738929a3f415f8aa4e9465951e61737224a933e6d8a4678280001e",
-      "translatedCount": 160,
+      "sha256": "3cfb3857e9e2edfe5bf7f5f05c019b763a14f777c23c072a25a379be707f2edf",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -28869,14 +28567,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "so-KE",
-      "sha256": "e4393d0f6e738929a3f415f8aa4e9465951e61737224a933e6d8a4678280001e",
-      "translatedCount": 160,
+      "sha256": "3cfb3857e9e2edfe5bf7f5f05c019b763a14f777c23c072a25a379be707f2edf",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -28891,14 +28588,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "sq",
-      "sha256": "c1c420c219d0bcc241bc5ee2b645a6289b0252868a784d30598c8cf1c036f71c",
-      "translatedCount": 164,
+      "sha256": "38de366725d768a8de28d48decd9244161f9b0428c8e6dbd1835b93dd368b515",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28908,15 +28604,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sq-MK",
-      "sha256": "c1c420c219d0bcc241bc5ee2b645a6289b0252868a784d30598c8cf1c036f71c",
-      "translatedCount": 164,
+      "sha256": "d313651005faba15c7d44a04b1fade470f4b35affd4b807b0101c7cebdc9e926",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28927,14 +28621,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "sq-XK",
-      "sha256": "c1c420c219d0bcc241bc5ee2b645a6289b0252868a784d30598c8cf1c036f71c",
-      "translatedCount": 164,
+      "sha256": "d313651005faba15c7d44a04b1fade470f4b35affd4b807b0101c7cebdc9e926",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28945,14 +28638,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "sr",
-      "sha256": "5805946f8043c435c0738beaf1f9900b883ae64b154f8c66a62b19a858bae0da",
-      "translatedCount": 165,
+      "sha256": "1fcec865adb65a46ee2fd9b0f5ee1ef1018235a5bf1cac1d88206e14df1987e4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28962,14 +28654,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Cyrl",
-      "sha256": "5805946f8043c435c0738beaf1f9900b883ae64b154f8c66a62b19a858bae0da",
-      "translatedCount": 165,
+      "sha256": "1fcec865adb65a46ee2fd9b0f5ee1ef1018235a5bf1cac1d88206e14df1987e4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28979,14 +28670,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Cyrl-BA",
-      "sha256": "1dfe1065ff9cac87512a7e00df8e0df6c539d81a0c880e9dbcb388ee87bd820e",
-      "translatedCount": 165,
+      "sha256": "2065a196839e00de50d8ad16919980756526444ed7c2734e279932ade6307d9a",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -28996,14 +28686,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Cyrl-ME",
-      "sha256": "5805946f8043c435c0738beaf1f9900b883ae64b154f8c66a62b19a858bae0da",
-      "translatedCount": 165,
+      "sha256": "1fcec865adb65a46ee2fd9b0f5ee1ef1018235a5bf1cac1d88206e14df1987e4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29013,14 +28702,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Cyrl-XK",
-      "sha256": "5805946f8043c435c0738beaf1f9900b883ae64b154f8c66a62b19a858bae0da",
-      "translatedCount": 165,
+      "sha256": "1fcec865adb65a46ee2fd9b0f5ee1ef1018235a5bf1cac1d88206e14df1987e4",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29030,14 +28718,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Latn",
-      "sha256": "cc3daf539630af14cdcf8dfc7cf9cb494ea9ec8a6058d0f359b74a2c34877312",
-      "translatedCount": 165,
+      "sha256": "f3d0109af2f7f7b3d22ab4ed795760c222f74dd0be3cf353aa9115df4fe8f16d",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29047,14 +28734,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Latn-BA",
-      "sha256": "db71c498babbff18567e328ae09ab076867c17f5990113e1871d64b804a0f62d",
-      "translatedCount": 165,
+      "sha256": "50b9b9c53164ea664b1dc4782f4dc7c5675ccfbf393f1cf90c72dfb351186a38",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29064,14 +28750,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Latn-ME",
-      "sha256": "cc3daf539630af14cdcf8dfc7cf9cb494ea9ec8a6058d0f359b74a2c34877312",
-      "translatedCount": 165,
+      "sha256": "f3d0109af2f7f7b3d22ab4ed795760c222f74dd0be3cf353aa9115df4fe8f16d",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29081,14 +28766,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sr-Latn-XK",
-      "sha256": "cc3daf539630af14cdcf8dfc7cf9cb494ea9ec8a6058d0f359b74a2c34877312",
-      "translatedCount": 165,
+      "sha256": "f3d0109af2f7f7b3d22ab4ed795760c222f74dd0be3cf353aa9115df4fe8f16d",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -29098,8 +28782,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -29996,8 +29679,8 @@
     },
     {
       "locale": "sv",
-      "sha256": "823bf24b71c5015905f747877d59608baccbad4686de1d7a49bc007029f55177",
-      "translatedCount": 165,
+      "sha256": "1731409a952ac2a1aa889f2c96f9823b1d868ed8d011469fe7c5bdb33120ea6f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30007,14 +29690,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sv-AX",
-      "sha256": "823bf24b71c5015905f747877d59608baccbad4686de1d7a49bc007029f55177",
-      "translatedCount": 165,
+      "sha256": "1731409a952ac2a1aa889f2c96f9823b1d868ed8d011469fe7c5bdb33120ea6f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30024,13 +29706,44 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "sv-FI",
-      "sha256": "823bf24b71c5015905f747877d59608baccbad4686de1d7a49bc007029f55177",
+      "sha256": "1731409a952ac2a1aa889f2c96f9823b1d868ed8d011469fe7c5bdb33120ea6f",
+      "translatedCount": 166,
+      "missingCodes": [
+        "CHI",
+        "EUS",
+        "FOK",
+        "GGP",
+        "IMP",
+        "IRT",
+        "JEP",
+        "RUP",
+        "SLS"
+      ]
+    },
+    {
+      "locale": "sw",
+      "sha256": "88a76b7bebc5bfb1f118b68e6ee2984b8c009443dc87a4faff393995b4c6f67f",
+      "translatedCount": 166,
+      "missingCodes": [
+        "CHI",
+        "EUS",
+        "FOK",
+        "GGP",
+        "IMP",
+        "IRT",
+        "JEP",
+        "RUP",
+        "SLS"
+      ]
+    },
+    {
+      "locale": "sw-CD",
+      "sha256": "d24a730511420a23ab6896a5bd9db79227c7e57f8fd287636dbc396c88d5c3ee",
       "translatedCount": 165,
       "missingCodes": [
         "CHI",
@@ -30042,49 +29755,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED"
-      ]
-    },
-    {
-      "locale": "sw",
-      "sha256": "2f34da8cc5712120788e87a17db58e9050776cced576d325e07d9170bf504c28",
-      "translatedCount": 164,
-      "missingCodes": [
-        "CHI",
-        "EUS",
-        "FOK",
-        "GGP",
-        "IMP",
-        "IRT",
-        "JEP",
-        "RUP",
-        "SLS",
-        "SVC",
-        "VED"
-      ]
-    },
-    {
-      "locale": "sw-CD",
-      "sha256": "56b4bd990fd23e35a13f65f587e602887ec58c45ba7b327c3707da15c03a1370",
-      "translatedCount": 164,
-      "missingCodes": [
-        "CHI",
-        "EUS",
-        "FOK",
-        "GGP",
-        "IMP",
-        "IRT",
-        "JEP",
-        "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "sw-KE",
-      "sha256": "ddd0d0ba7060885508987cac23cd372ad6ce3b91f07a8ecb34bcd745437f4721",
-      "translatedCount": 164,
+      "sha256": "4b22b52afe32a466833e411e3c6b61f14bc67dc1757ccbcc74cdd16c00e215f5",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30095,14 +29772,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "sw-UG",
-      "sha256": "2f34da8cc5712120788e87a17db58e9050776cced576d325e07d9170bf504c28",
-      "translatedCount": 164,
+      "sha256": "63da2ad578dc19db167b92bce4ee023ff98715828857aefbed1af9272dbd9fd8",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30113,8 +29789,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -30549,8 +30224,8 @@
     },
     {
       "locale": "ta",
-      "sha256": "ce5150844c5834b98ecacfd79af322800c293c4a6b1335490f6666478967060d",
-      "translatedCount": 164,
+      "sha256": "6b0572f6009d53625e43718e2c8eb15e7f0e4d944052804a01bc9dc92c183139",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30560,15 +30235,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ta-LK",
-      "sha256": "ce5150844c5834b98ecacfd79af322800c293c4a6b1335490f6666478967060d",
-      "translatedCount": 164,
+      "sha256": "cf712871b2852110663e7565bec3e7517e8d0cb611a82abcc6694fbf68ef3ef5",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30579,14 +30252,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "ta-MY",
-      "sha256": "ce5150844c5834b98ecacfd79af322800c293c4a6b1335490f6666478967060d",
-      "translatedCount": 164,
+      "sha256": "cf712871b2852110663e7565bec3e7517e8d0cb611a82abcc6694fbf68ef3ef5",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30597,14 +30269,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "ta-SG",
-      "sha256": "ce5150844c5834b98ecacfd79af322800c293c4a6b1335490f6666478967060d",
-      "translatedCount": 164,
+      "sha256": "cf712871b2852110663e7565bec3e7517e8d0cb611a82abcc6694fbf68ef3ef5",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30615,14 +30286,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "te",
-      "sha256": "147bcae4acd89a189cf5081464db693c71681d73e85690209e8ad01f2dbabcc9",
-      "translatedCount": 164,
+      "sha256": "914e50c9b9f66b3c325c88b903b2c7f67ba402621ea8bd2f7fd1e5f120b7b2fc",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30632,9 +30302,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -30897,8 +30565,8 @@
     },
     {
       "locale": "tg",
-      "sha256": "1b243253492405d24b1979e4298f6932410d9f2ac0e7196809dc84bbd1b1cc5c",
-      "translatedCount": 158,
+      "sha256": "a26a92ebd1cc5e2d84b3cae37fb7976e65428ea6bf5e3c2a1488afd2ae582c8f",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -30914,15 +30582,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "th",
-      "sha256": "5bd4d3a0a4a83937a37df9db6234b4b5fcbe1cf71b680faaa603f222f73d78d5",
-      "translatedCount": 165,
+      "sha256": "d195f0935c2e52b8ad8c3dc2d622ff35a9c94fb383d4467361c490d37745f624",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30932,14 +30598,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ti",
-      "sha256": "334c118796a8e5a29993f22dac9f6c6b194873703ba6126e2ffdd1adc0715ccf",
-      "translatedCount": 159,
+      "sha256": "cb30d6ecffbc31325da4ce298ea09a5bbc2ea4a5b181cbf0d68dd631e8c4ecaf",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -30955,14 +30620,13 @@
         "RUP",
         "SLS",
         "STD",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "ti-ER",
-      "sha256": "334c118796a8e5a29993f22dac9f6c6b194873703ba6126e2ffdd1adc0715ccf",
-      "translatedCount": 159,
+      "sha256": "cb30d6ecffbc31325da4ce298ea09a5bbc2ea4a5b181cbf0d68dd631e8c4ecaf",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -30978,14 +30642,13 @@
         "RUP",
         "SLS",
         "STD",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "tk",
-      "sha256": "00ce402430a37eec0dd006c816292abda14e05557abe790983b285d7752101f3",
-      "translatedCount": 162,
+      "sha256": "dc56d859024f37f97b1253ed9c2854a6c25e5e8fae09665288b3accf3bbf3ae6",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -30997,9 +30660,7 @@
         "LTL",
         "LVL",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -31722,8 +31383,8 @@
     },
     {
       "locale": "tr",
-      "sha256": "82c30d360f87035f7b6da95c66de730b39f2cecdc23c783fcd620dc8b94f24c6",
-      "translatedCount": 165,
+      "sha256": "ec4bb3c5b0f6cc1248a1473238d547d1a0bb5133022554633df4a864a2e14ff7",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -31733,14 +31394,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "tr-CY",
-      "sha256": "82c30d360f87035f7b6da95c66de730b39f2cecdc23c783fcd620dc8b94f24c6",
-      "translatedCount": 165,
+      "sha256": "ec4bb3c5b0f6cc1248a1473238d547d1a0bb5133022554633df4a864a2e14ff7",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -31750,14 +31410,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "tt",
-      "sha256": "3764af560d538fabd834968bf4782cb1c7d16d06c7ce31df0d2f22eac5b2e56f",
-      "translatedCount": 158,
+      "sha256": "1198815f8ea6307f1dac6bd5578467a32f42a1b1813a821ff35f3cb84e0aa399",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -31773,8 +31432,6 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
@@ -32220,8 +31877,8 @@
     },
     {
       "locale": "ug",
-      "sha256": "8d9b46ca76e3beabed726e1097edc021150c3507cefd614ad2cd28ac7afbea7d",
-      "translatedCount": 163,
+      "sha256": "64c4321208258a23b709ae3892560d04f18a9b5e4f42a4ed86bb229b882d4a89",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32232,15 +31889,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "uk",
-      "sha256": "513e38a2514b97ec45edd154cccbd63226cc6505ee546b82e850b965e7e8cc9e",
-      "translatedCount": 165,
+      "sha256": "0f9c04a721eed33fd73fbf57d95b0c2e2c3080f6e958effc1aaee78c1d57d956",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32250,8 +31906,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -32438,8 +32093,8 @@
     },
     {
       "locale": "ur",
-      "sha256": "96b3fe5df0f4118d3348ca1035093aeabf5c39c39e35963f6117da43446e86d7",
-      "translatedCount": 164,
+      "sha256": "32f35a3424097cbc2a7967e75114168ed4d12c8e6af5c333d0270d8d15766d50",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32449,15 +32104,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "ur-IN",
-      "sha256": "f4ef7d718396f3b9215c243548cce9a771e422ddfc36a62cd06fe9e517a20d80",
-      "translatedCount": 164,
+      "sha256": "dc3bb15d5e9d1be26b25ea0d222ff4a9645a2c7abedbc24f6ffb2e7190a468e0",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32468,14 +32121,13 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
       "locale": "uz",
-      "sha256": "29a17ac0bbd8cd3f03a00c5d575a3b543bedb131caaa6a97538277e67124e748",
-      "translatedCount": 164,
+      "sha256": "7e31d8f153c101922a9a8d0f436ad1fd84c8e1069a44e7c19807caf3718d10f5",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32485,9 +32137,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -32673,8 +32323,8 @@
     },
     {
       "locale": "uz-Cyrl",
-      "sha256": "1cd4eba00d0c3c57ef9acd34e8ed2d8b5d632efd8469bc15cd4505b8fe0b192e",
-      "translatedCount": 46,
+      "sha256": "08b99d3f42820546be9f93daf710a940644afd1ce0353e88cdde9e6b23ef44d3",
+      "translatedCount": 47,
       "missingCodes": [
         "AED",
         "AFN",
@@ -32793,7 +32443,6 @@
         "TZS",
         "UAH",
         "UGX",
-        "VED",
         "VND",
         "VUV",
         "WST",
@@ -32809,8 +32458,8 @@
     },
     {
       "locale": "uz-Latn",
-      "sha256": "29a17ac0bbd8cd3f03a00c5d575a3b543bedb131caaa6a97538277e67124e748",
-      "translatedCount": 164,
+      "sha256": "efeaf400b5981ecd93e7b70a39b714f749f9ab8e28e4031f4a3ffa54d7a934d6",
+      "translatedCount": 165,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -32821,8 +32470,7 @@
         "JEP",
         "RUP",
         "SLS",
-        "SVC",
-        "VED"
+        "SVC"
       ]
     },
     {
@@ -33219,8 +32867,8 @@
     },
     {
       "locale": "vec",
-      "sha256": "65b16952f4e0b9561fc5b51f73bf64502a77b380938f29d81e950c05e4a361c5",
-      "translatedCount": 158,
+      "sha256": "256b97077d894dfa4edf5238d0787c928b179fbe8f84742086cfd93dd32a7a91",
+      "translatedCount": 159,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -33237,14 +32885,13 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "vi",
-      "sha256": "ec1151e4f384a9455ce5efb707617e393396b346e0beb663c2cc67beef929515",
-      "translatedCount": 165,
+      "sha256": "4befa65a612478e598a39301260343109f7cc9a17f89c4bd838df4450343af88",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -33254,8 +32901,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -33745,8 +33391,8 @@
     },
     {
       "locale": "wo",
-      "sha256": "5f6c0c5d07af3fb3d809f2ce039d393c18c97bb5cc657151641229f85edc7dea",
-      "translatedCount": 158,
+      "sha256": "0ca8ae11c78ca308d91e101f2430e20af65a9668d10f01f02c3711f9dd0639af",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -33762,15 +33408,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "xh",
-      "sha256": "057a833e1a2b24c32f2d27d2ce5f1f40c34de865a36fef8b314ad03ad7be7ae9",
-      "translatedCount": 158,
+      "sha256": "db9855150af4215343a0611f00f0301c2b3654aae99836278c02dc2a9b3854d4",
+      "translatedCount": 160,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -33786,15 +33430,13 @@
         "RUP",
         "SLS",
         "STD",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "xnr",
-      "sha256": "41b5ac40a2b535630bc407f54edfe3d5fae90a259db1fa2e4c9875cf444df89c",
-      "translatedCount": 155,
+      "sha256": "3e74714f4b0e06819cb2640fb5682c3af8eca90d0e7c9bc453632f6a4a76ccc9",
+      "translatedCount": 156,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -33812,7 +33454,6 @@
         "SLS",
         "STD",
         "SVC",
-        "VED",
         "VEF",
         "XCG",
         "ZWG"
@@ -34282,8 +33923,8 @@
     },
     {
       "locale": "yo",
-      "sha256": "69eb3b27cb71ef7dce81b8e48890946c70b54fb1a17f0945026016f198a03b34",
-      "translatedCount": 160,
+      "sha256": "d599065baf33f193b6bd77e350c39a447b466f8e8303d1fc0f51771f128dc6a4",
+      "translatedCount": 162,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -34297,15 +33938,13 @@
         "LVL",
         "RUP",
         "SLS",
-        "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "yo-BJ",
-      "sha256": "7c58a58b677ac34ed79ee2d1a4b72ef055ab33a4077d7fda971489c6f666df32",
-      "translatedCount": 160,
+      "sha256": "b70af747edd17fc1c9be1760fcf5ef4bf44e8dfb2f768f6821e39134501f482d",
+      "translatedCount": 161,
       "missingCodes": [
         "BYR",
         "CHI",
@@ -34320,14 +33959,13 @@
         "RUP",
         "SLS",
         "SVC",
-        "VED",
         "VEF"
       ]
     },
     {
       "locale": "yrl",
-      "sha256": "b82d9e4e522a66cbde46a26058403cac649a7dc3f7e2b2d0842adf2d47220a77",
-      "translatedCount": 163,
+      "sha256": "e118bbcb32d7abc39f0c19ad61879c209505bf22c845773735569ef8451228d7",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34338,15 +33976,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "yrl-CO",
-      "sha256": "b82d9e4e522a66cbde46a26058403cac649a7dc3f7e2b2d0842adf2d47220a77",
-      "translatedCount": 163,
+      "sha256": "e118bbcb32d7abc39f0c19ad61879c209505bf22c845773735569ef8451228d7",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34357,15 +33994,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "yrl-VE",
-      "sha256": "b82d9e4e522a66cbde46a26058403cac649a7dc3f7e2b2d0842adf2d47220a77",
-      "translatedCount": 163,
+      "sha256": "e118bbcb32d7abc39f0c19ad61879c209505bf22c845773735569ef8451228d7",
+      "translatedCount": 164,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34376,15 +34012,14 @@
         "JEP",
         "RUP",
         "SLS",
-        "VED",
         "XCG",
         "ZWG"
       ]
     },
     {
       "locale": "yue",
-      "sha256": "95f2b4273f1095ab82cd698bd5bb8df819204366c88e5e6deaf7421d2a061a21",
-      "translatedCount": 165,
+      "sha256": "d21de90b97cd3e5187caa4484f4cfe0e4a5a71b91f75ee6bad917982a7eda96f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34394,14 +34029,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "yue-Hans",
-      "sha256": "440768763718a6a0b8c53df8702ff2769696ff606953c93c3680557b16628b99",
-      "translatedCount": 165,
+      "sha256": "72df07e41204f6cf69ac9874f008c32b87ae87f8247b05c28fbfa0b436325da6",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34411,14 +34045,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "yue-Hant",
-      "sha256": "95f2b4273f1095ab82cd698bd5bb8df819204366c88e5e6deaf7421d2a061a21",
-      "translatedCount": 165,
+      "sha256": "d21de90b97cd3e5187caa4484f4cfe0e4a5a71b91f75ee6bad917982a7eda96f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34428,14 +34061,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "yue-Hant-CN",
-      "sha256": "95f2b4273f1095ab82cd698bd5bb8df819204366c88e5e6deaf7421d2a061a21",
-      "translatedCount": 165,
+      "sha256": "d21de90b97cd3e5187caa4484f4cfe0e4a5a71b91f75ee6bad917982a7eda96f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34445,14 +34077,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "yue-Hant-MO",
-      "sha256": "95f2b4273f1095ab82cd698bd5bb8df819204366c88e5e6deaf7421d2a061a21",
-      "translatedCount": 165,
+      "sha256": "d21de90b97cd3e5187caa4484f4cfe0e4a5a71b91f75ee6bad917982a7eda96f",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34462,8 +34093,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
@@ -34873,8 +34503,8 @@
     },
     {
       "locale": "zh-Hant",
-      "sha256": "94b8b709f3ca4fa92adfa954f83aa9530cfc7d7f068bdce1a154a184bb786033",
-      "translatedCount": 165,
+      "sha256": "7f03d8eea5891faeded0680633ed166e5080b8134afcf7c4deaf23d5d4d10050",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34884,14 +34514,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "zh-Hant-HK",
-      "sha256": "a0b19de533659cb931b3048d0e903a396caaa35a363e1de35d6aa7bfd4a3795a",
-      "translatedCount": 165,
+      "sha256": "0cf73fdba695be3f47812ed7c194a1d09a79236281b120252c1547ab751324cd",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34901,14 +34530,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "zh-Hant-MO",
-      "sha256": "a0b19de533659cb931b3048d0e903a396caaa35a363e1de35d6aa7bfd4a3795a",
-      "translatedCount": 165,
+      "sha256": "0cf73fdba695be3f47812ed7c194a1d09a79236281b120252c1547ab751324cd",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34918,14 +34546,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "zh-Hant-MY",
-      "sha256": "94b8b709f3ca4fa92adfa954f83aa9530cfc7d7f068bdce1a154a184bb786033",
-      "translatedCount": 165,
+      "sha256": "7f03d8eea5891faeded0680633ed166e5080b8134afcf7c4deaf23d5d4d10050",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34935,14 +34562,13 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "VED"
+        "SLS"
       ]
     },
     {
       "locale": "zu",
-      "sha256": "ffc59edc33d4ecbf52548193f016ac63b51b84fa3353ee20884e32dee420a2b9",
-      "translatedCount": 164,
+      "sha256": "c7d99565c265ef25bfc304607592588c68f7be2f082b5727c8624225235514e6",
+      "translatedCount": 166,
       "missingCodes": [
         "CHI",
         "EUS",
@@ -34952,9 +34578,7 @@
         "IRT",
         "JEP",
         "RUP",
-        "SLS",
-        "SVC",
-        "VED"
+        "SLS"
       ]
     }
   ]

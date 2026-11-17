@@ -6,7 +6,7 @@ void main() {
   testWidgets(
       'custom currency labels use the general code rather than null ISO',
       (tester) async {
-    final toman = Currency().byCode('TOMAN')!;
+    final toman = CurrencyRepository().byCode('TOMAN')!;
     await tester.pumpWidget(Directionality(
       textDirection: TextDirection.ltr,
       child: CurrencyLabel(currency: toman),
@@ -14,13 +14,14 @@ void main() {
     expect(find.text('🇮🇷 IRT — Iranian toman'), findsOneWidget);
   });
   test('public library exports the shared metadata API', () {
-    expect(Currency().byIsoCode(' xcg ')!.status, CurrencyStatus.current);
-    expect(Currency().byCurrencyName('missing'), isNull);
+    expect(CurrencyRepository().byIsoCode(' xcg ')!.status,
+        CurrencyStatus.current);
+    expect(CurrencyRepository().byCurrencyName('missing'), isNull);
   });
 
   testWidgets('label displays currency and a representative flag',
       (tester) async {
-    final currency = Currency().byIsoCode('USD')!;
+    final currency = CurrencyRepository().byIsoCode('USD')!;
     await tester.pumpWidget(Directionality(
       textDirection: TextDirection.ltr,
       child: CurrencyLabel(currency: currency),
@@ -33,8 +34,8 @@ void main() {
 
   testWidgets('label supports omitted or unknown flags', (tester) async {
     for (final currency in [
-      Currency().byIsoCode('USD')!,
-      Currency().byIsoCode('ZWG')!
+      CurrencyRepository().byIsoCode('USD')!,
+      CurrencyRepository().byIsoCode('ZWG')!
     ]) {
       await tester.pumpWidget(Directionality(
         textDirection: TextDirection.ltr,

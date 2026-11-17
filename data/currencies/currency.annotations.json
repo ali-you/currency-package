@@ -669,6 +669,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Br",
+        "verification": "verified",
+        "sources": [
+          "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-numbers-full/main/be/currencies.json"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇧🇾",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -2404,6 +2420,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "UM",
+        "verification": "verified",
+        "sources": [
+          "https://www.msgg.gov.mr/sites/default/files/2020-11/JO%201402%20BIS%20FR%2027%2012%202017.pdf"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇲🇷",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3157,6 +3189,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "NLe",
+        "verification": "verified",
+        "sources": [
+          "https://www.elibrary.imf.org/view/journals/002/2026/168/article-A001-en.xml"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇸🇱",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3283,6 +3331,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Db",
+        "verification": "verified",
+        "sources": [
+          "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-numbers-full/main/en/currencies.json"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇸🇹",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3294,6 +3358,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "₡",
+        "verification": "verified",
+        "sources": [
+          "https://ssf.gob.sv/wp-content/uploads/2023/02/Ley-Organica-del-Banco-Central-de-Reserva.pdf"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇸🇻",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3751,6 +3831,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Bs.",
+        "verification": "verified",
+        "sources": [
+          "https://dhqr.me/wp-content/uploads/2021/08/BCV-Lineamientos-Redondeo-y-Tecnolo%CC%81gicos-Nueva-Reconversion-1-octubre-2021.pdf"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇻🇪",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3791,6 +3887,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "Bs.",
+        "verification": "verified",
+        "sources": [
+          "https://dhqr.me/wp-content/uploads/2021/08/BCV-Lineamientos-Redondeo-y-Tecnolo%CC%81gicos-Nueva-Reconversion-1-octubre-2021.pdf"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇻🇪",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -3951,6 +4063,14 @@
           "https://www.centralbank.cw/index.php/functions/banknotes-coins/caribbean-guilder/frequently-asked-questions"
         ],
         "verifiedAt": "2026-11-16"
+      },
+      "flag": {
+        "value": "🇨🇼",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []
@@ -4095,6 +4215,22 @@
         "verification": "legacyUnverified",
         "sources": [],
         "verifiedAt": null
+      },
+      "currencySymbol": {
+        "value": "ZiG",
+        "verification": "verified",
+        "sources": [
+          "https://www.rbz.co.zw/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      "flag": {
+        "value": "🇿🇼",
+        "verification": "verified",
+        "sources": [
+          "https://unicode.org/emoji/charts/full-emoji-list.html"
+        ],
+        "verifiedAt": "2026-11-17"
       }
     },
     "aliases": []

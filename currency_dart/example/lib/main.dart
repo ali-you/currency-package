@@ -22,11 +22,11 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  final _currency = Currency();
+  final _currency = CurrencyRepository();
   final _query = TextEditingController();
   bool _historical = false;
   bool _nonIso = true;
-  List<CurrencyModel> get _currencies => _currency.getAllCurrencies(
+  List<Currency> get _currencies => _currency.getAllCurrencies(
         historical: _historical,
         nonIso: _nonIso,
       );
@@ -52,7 +52,7 @@ class _MainScreenState extends State<MainScreen> {
                 'Use the currency code if a name is ambiguous.')
             : SingleChildScrollView(
                 child: Text([
-                  'Currency code: ${match.code}',
+                  'Currency code: ${match.isoCode}',
                   'Numeric code: ${match.numericCodeString ?? 'Unknown'}',
                   'Minor-unit exponent: ${match.minorUnit ?? 'Not applicable'}',
                   'Symbol: ${match.currencySymbol ?? 'Unknown'}',
@@ -115,9 +115,9 @@ class _MainScreenState extends State<MainScreen> {
                 itemBuilder: (context, index) {
                   final currency = currencies[index];
                   return ListTile(
-                    leading: Text(currency.flag ?? currency.code),
+                    leading: Text(currency.flag ?? currency.isoCode),
                     title: Text(currency.currencyName),
-                    subtitle: Text(currency.code),
+                    subtitle: Text(currency.isoCode),
                     trailing: Text(currency.currencySymbol ?? ''),
                   );
                 },

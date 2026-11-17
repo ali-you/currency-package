@@ -6,7 +6,7 @@ import 'package:currency_dart/src/currency_repo.dart';
 import 'package:test/test.dart';
 
 void main() {
-  final currency = Currency();
+  final currency = CurrencyRepository();
 
   test('history and non-ISO flags independently control lists and searches',
       () {
@@ -15,9 +15,9 @@ void main() {
         final results =
             currency.getAllCurrencies(historical: historical, nonIso: nonIso);
         expect(results.length, 155 + (historical ? 11 : 0) + (nonIso ? 9 : 0));
-        expect(results.any((c) => c.code == 'BGN'), historical);
-        expect(results.any((c) => c.code == 'IRT'), nonIso);
-        expect(results.any((c) => c.code == 'USD'), isTrue);
+        expect(results.any((c) => c.isoCode == 'BGN'), historical);
+        expect(results.any((c) => c.isoCode == 'IRT'), nonIso);
+        expect(results.any((c) => c.isoCode == 'USD'), isTrue);
         expect(
             currency.byCode('IRT', historical: historical, nonIso: nonIso) !=
                 null,
@@ -55,12 +55,11 @@ void main() {
       final model = currency.byCode(' ${entry.key.toLowerCase()} ')!;
       expect(model.status, entry.value);
       expect(model.isoCode, matches(RegExp(r"^[A-Z]{3}$")));
-      expect(currency.byIsoCode(model.isoCode!), model);
-      expect(currency.byCode(model.isoCode!), model);
+      expect(currency.byIsoCode(model.isoCode), model);
+      expect(currency.byCode(model.isoCode), model);
       expect(model.numericCode, isNull);
       expect(currency.byIsoCode(entry.key), isNull);
-      expect(currency.byIsoCode(model.code), model);
-      expect(model.code, model.isoCode);
+      expect(currency.byIsoCode(model.isoCode), model);
       expect(model.flag, isNotNull);
       expect(model.currencySymbol, isNotNull);
       expect(currency.byCurrencyName(model.currencyName), model);
@@ -142,6 +141,31 @@ void main() {
     expect(currency.byIsoCode('EUR')!.territories, contains('BULGARIA'));
   });
 
+  test('current currencies have symbols and representative flags', () {
+    for (final model in currency.getAllCurrencies(nonIso: false)) {
+      expect(model.currencySymbol, isNotEmpty, reason: model.isoCode);
+      expect(model.flag, isNotEmpty, reason: model.isoCode);
+    }
+    final corrected = {
+      'BYN': ['Br', '🇧🇾', 'BY'],
+      'MRU': ['UM', '🇲🇷', 'MR'],
+      'SLE': ['NLe', '🇸🇱', 'SL'],
+      'STN': ['Db', '🇸🇹', 'ST'],
+      'SVC': ['₡', '🇸🇻', 'SV'],
+      'VED': ['Bs.', '🇻🇪', 'VE'],
+      'VES': ['Bs.', '🇻🇪', 'VE'],
+      'XCG': ['Cg', '🇨🇼', 'CW'],
+      'ZWG': ['ZiG', '🇿🇼', 'ZW'],
+    };
+    for (final entry in corrected.entries) {
+      final model = currency.byIsoCode(entry.key)!;
+      expect(model.currencySymbol, entry.value[0], reason: entry.key);
+      expect(model.flag, entry.value[1], reason: entry.key);
+      expect(model.countryIsoCode, entry.value[2], reason: entry.key);
+    }
+    expect(currency.byIsoCode('XCG')!.countryIsoCodes, ['CW', 'SX']);
+  });
+
   test('only currencies are exposed, including shared X-prefixed currencies',
       () {
     for (final code in [
@@ -189,12 +213,12 @@ void main() {
         metadata['currentCount'] + metadata['customCount']);
     expect(all.length - currency.getAllCurrencies().length,
         metadata['historicalCount']);
-    expect(all.map((c) => c.code).toSet().length, all.length);
+    expect(all.map((c) => c.isoCode).toSet().length, all.length);
     for (final entry in source.entries) {
       final actual =
           currency.byCode(entry.key as String, includeHistorical: true)!;
       expect(actual.toJson(), entry.value, reason: entry.key as String);
-      expect(actual.code, entry.key);
+      expect(actual.isoCode, entry.key);
       if (actual.status == CurrencyStatus.current) {
         expect(actual.numericCode, isNotNull);
       }

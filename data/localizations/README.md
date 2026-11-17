@@ -27,3 +27,11 @@ Persian and Arabic project translations; other languages use fallback.
 Locale maps use the three-letter isoCode field as their key, including project
 codes such as IRT for nonIso records. Descriptive identifiers are resolved as
 compatibility aliases by the package and are not duplicated in JSON.
+
+English, Persian and Arabic cover every supported currency. VED uses the
+existing localized bolívar name in every map that has a VES translation;
+the two currency codes remain distinct. Additional Salvadoran colón (SVC)
+translations are maintained in the language maps and inherited by regional
+locales. Other gaps retain normal locale and English fallback; an English
+fallback is not recorded as a native translation. The generator requires a
+complete English map so supported currencies never fall back to a bare code.

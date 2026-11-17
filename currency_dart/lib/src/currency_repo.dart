@@ -18,6 +18,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AE",
+      "countryIsoCodes": [
+        "AE",
+      ],
     },
     "AFN": {
       "isoCode": "AFN",
@@ -35,6 +39,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AF",
+      "countryIsoCodes": [
+        "AF",
+      ],
     },
     "ALL": {
       "isoCode": "ALL",
@@ -52,6 +60,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AL",
+      "countryIsoCodes": [
+        "AL",
+      ],
     },
     "AMD": {
       "isoCode": "AMD",
@@ -69,6 +81,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AM",
+      "countryIsoCodes": [
+        "AM",
+      ],
     },
     "ANG": {
       "isoCode": "ANG",
@@ -88,6 +104,11 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2025-03",
+      "countryIsoCode": "CW",
+      "countryIsoCodes": [
+        "CW",
+        "SX",
+      ],
     },
     "AOA": {
       "isoCode": "AOA",
@@ -105,6 +126,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AO",
+      "countryIsoCodes": [
+        "AO",
+      ],
     },
     "ARS": {
       "isoCode": "ARS",
@@ -122,6 +147,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AR",
+      "countryIsoCodes": [
+        "AR",
+      ],
     },
     "AUD": {
       "isoCode": "AUD",
@@ -147,6 +176,17 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AU",
+      "countryIsoCodes": [
+        "AU",
+        "CC",
+        "CX",
+        "HM",
+        "KI",
+        "NF",
+        "NR",
+        "TV",
+      ],
     },
     "AWG": {
       "isoCode": "AWG",
@@ -164,6 +204,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AW",
+      "countryIsoCodes": [
+        "AW",
+      ],
     },
     "AZN": {
       "isoCode": "AZN",
@@ -181,6 +225,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AZ",
+      "countryIsoCodes": [
+        "AZ",
+      ],
     },
     "BAM": {
       "isoCode": "BAM",
@@ -198,6 +246,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BA",
+      "countryIsoCodes": [
+        "BA",
+      ],
     },
     "BBD": {
       "isoCode": "BBD",
@@ -215,6 +267,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BB",
+      "countryIsoCodes": [
+        "BB",
+      ],
     },
     "BDT": {
       "isoCode": "BDT",
@@ -232,6 +288,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BD",
+      "countryIsoCodes": [
+        "BD",
+      ],
     },
     "BGN": {
       "isoCode": "BGN",
@@ -249,6 +309,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2026-01",
+      "countryIsoCode": "BG",
+      "countryIsoCodes": [
+        "BG",
+      ],
     },
     "BHD": {
       "isoCode": "BHD",
@@ -266,6 +330,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BH",
+      "countryIsoCodes": [
+        "BH",
+      ],
     },
     "BIF": {
       "isoCode": "BIF",
@@ -283,6 +351,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BI",
+      "countryIsoCodes": [
+        "BI",
+      ],
     },
     "BMD": {
       "isoCode": "BMD",
@@ -302,6 +374,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BM",
+      "countryIsoCodes": [
+        "BM",
+      ],
     },
     "BND": {
       "isoCode": "BND",
@@ -319,6 +395,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BN",
+      "countryIsoCodes": [
+        "BN",
+      ],
     },
     "BOB": {
       "isoCode": "BOB",
@@ -336,6 +416,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BO",
+      "countryIsoCodes": [
+        "BO",
+      ],
     },
     "BRL": {
       "isoCode": "BRL",
@@ -353,6 +437,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BR",
+      "countryIsoCodes": [
+        "BR",
+      ],
     },
     "BSD": {
       "isoCode": "BSD",
@@ -370,6 +458,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BS",
+      "countryIsoCodes": [
+        "BS",
+      ],
     },
     "BTN": {
       "isoCode": "BTN",
@@ -387,6 +479,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BT",
+      "countryIsoCodes": [
+        "BT",
+      ],
     },
     "BWP": {
       "isoCode": "BWP",
@@ -404,6 +500,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BW",
+      "countryIsoCodes": [
+        "BW",
+      ],
     },
     "BYN": {
       "isoCode": "BYN",
@@ -411,16 +511,20 @@ class CurrencyRepo {
       "officialName": "Belarusian Ruble",
       "aliases": [],
       "numericCode": 933,
-      "currencySymbol": null,
+      "currencySymbol": "Br",
       "territory": "BELARUS",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇧🇾",
       "territories": [
         "BELARUS",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BY",
+      "countryIsoCodes": [
+        "BY",
+      ],
     },
     "BYR": {
       "isoCode": "BYR",
@@ -438,6 +542,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2017-01",
+      "countryIsoCode": "BY",
+      "countryIsoCodes": [
+        "BY",
+      ],
     },
     "BZD": {
       "isoCode": "BZD",
@@ -455,6 +563,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BZ",
+      "countryIsoCodes": [
+        "BZ",
+      ],
     },
     "CAD": {
       "isoCode": "CAD",
@@ -472,6 +584,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CA",
+      "countryIsoCodes": [
+        "CA",
+      ],
     },
     "CDF": {
       "isoCode": "CDF",
@@ -489,6 +605,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CD",
+      "countryIsoCodes": [
+        "CD",
+      ],
     },
     "CHF": {
       "isoCode": "CHF",
@@ -507,6 +627,11 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CH",
+      "countryIsoCodes": [
+        "CH",
+        "LI",
+      ],
     },
     "CHI": {
       "isoCode": "CHI",
@@ -526,6 +651,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "DE",
+      "countryIsoCodes": [
+        "DE",
+      ],
     },
     "CLP": {
       "isoCode": "CLP",
@@ -543,6 +672,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CL",
+      "countryIsoCodes": [
+        "CL",
+      ],
     },
     "CNY": {
       "isoCode": "CNY",
@@ -560,6 +693,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CN",
+      "countryIsoCodes": [
+        "CN",
+      ],
     },
     "COP": {
       "isoCode": "COP",
@@ -577,6 +714,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CO",
+      "countryIsoCodes": [
+        "CO",
+      ],
     },
     "CRC": {
       "isoCode": "CRC",
@@ -594,6 +735,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CR",
+      "countryIsoCodes": [
+        "CR",
+      ],
     },
     "CUC": {
       "isoCode": "CUC",
@@ -611,6 +756,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2021-06",
+      "countryIsoCode": "CU",
+      "countryIsoCodes": [
+        "CU",
+      ],
     },
     "CUP": {
       "isoCode": "CUP",
@@ -628,6 +777,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CU",
+      "countryIsoCodes": [
+        "CU",
+      ],
     },
     "CVE": {
       "isoCode": "CVE",
@@ -645,6 +798,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CV",
+      "countryIsoCodes": [
+        "CV",
+      ],
     },
     "CZK": {
       "isoCode": "CZK",
@@ -662,6 +819,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CZ",
+      "countryIsoCodes": [
+        "CZ",
+      ],
     },
     "DJF": {
       "isoCode": "DJF",
@@ -679,6 +840,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "DJ",
+      "countryIsoCodes": [
+        "DJ",
+      ],
     },
     "DKK": {
       "isoCode": "DKK",
@@ -698,6 +863,12 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "DK",
+      "countryIsoCodes": [
+        "DK",
+        "FO",
+        "GL",
+      ],
     },
     "DOP": {
       "isoCode": "DOP",
@@ -715,6 +886,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "DO",
+      "countryIsoCodes": [
+        "DO",
+      ],
     },
     "DZD": {
       "isoCode": "DZD",
@@ -732,6 +907,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "DZ",
+      "countryIsoCodes": [
+        "DZ",
+      ],
     },
     "EGP": {
       "isoCode": "EGP",
@@ -749,6 +928,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "EG",
+      "countryIsoCodes": [
+        "EG",
+      ],
     },
     "ERN": {
       "isoCode": "ERN",
@@ -766,6 +949,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ER",
+      "countryIsoCodes": [
+        "ER",
+      ],
     },
     "ETB": {
       "isoCode": "ETB",
@@ -783,6 +970,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ET",
+      "countryIsoCodes": [
+        "ET",
+      ],
     },
     "EUR": {
       "isoCode": "EUR",
@@ -837,6 +1028,45 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": null,
+      "countryIsoCodes": [
+        "AD",
+        "AT",
+        "AX",
+        "BE",
+        "BG",
+        "BL",
+        "CY",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GF",
+        "GP",
+        "GR",
+        "HR",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "ME",
+        "MF",
+        "MQ",
+        "MT",
+        "NL",
+        "PM",
+        "PT",
+        "RE",
+        "SI",
+        "SK",
+        "SM",
+        "TF",
+        "VA",
+        "YT",
+      ],
     },
     "EUS": {
       "isoCode": "EUS",
@@ -856,6 +1086,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "FR",
+      "countryIsoCodes": [
+        "FR",
+      ],
     },
     "FJD": {
       "isoCode": "FJD",
@@ -873,6 +1107,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "FJ",
+      "countryIsoCodes": [
+        "FJ",
+      ],
     },
     "FKP": {
       "isoCode": "FKP",
@@ -890,6 +1128,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "FK",
+      "countryIsoCodes": [
+        "FK",
+      ],
     },
     "FOK": {
       "isoCode": "FOK",
@@ -909,6 +1151,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "FO",
+      "countryIsoCodes": [
+        "FO",
+      ],
     },
     "GBP": {
       "isoCode": "GBP",
@@ -930,6 +1176,13 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GB",
+      "countryIsoCodes": [
+        "GB",
+        "GG",
+        "IM",
+        "JE",
+      ],
     },
     "GEL": {
       "isoCode": "GEL",
@@ -947,6 +1200,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GE",
+      "countryIsoCodes": [
+        "GE",
+      ],
     },
     "GGP": {
       "isoCode": "GGP",
@@ -966,6 +1223,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "GG",
+      "countryIsoCodes": [
+        "GG",
+      ],
     },
     "GHS": {
       "isoCode": "GHS",
@@ -983,6 +1244,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GH",
+      "countryIsoCodes": [
+        "GH",
+      ],
     },
     "GIP": {
       "isoCode": "GIP",
@@ -1000,6 +1265,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GI",
+      "countryIsoCodes": [
+        "GI",
+      ],
     },
     "GMD": {
       "isoCode": "GMD",
@@ -1017,6 +1286,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GM",
+      "countryIsoCodes": [
+        "GM",
+      ],
     },
     "GNF": {
       "isoCode": "GNF",
@@ -1034,6 +1307,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GN",
+      "countryIsoCodes": [
+        "GN",
+      ],
     },
     "GTQ": {
       "isoCode": "GTQ",
@@ -1051,6 +1328,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GT",
+      "countryIsoCodes": [
+        "GT",
+      ],
     },
     "GYD": {
       "isoCode": "GYD",
@@ -1068,6 +1349,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "GY",
+      "countryIsoCodes": [
+        "GY",
+      ],
     },
     "HKD": {
       "isoCode": "HKD",
@@ -1085,6 +1370,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "HK",
+      "countryIsoCodes": [
+        "HK",
+      ],
     },
     "HNL": {
       "isoCode": "HNL",
@@ -1102,6 +1391,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "HN",
+      "countryIsoCodes": [
+        "HN",
+      ],
     },
     "HRK": {
       "isoCode": "HRK",
@@ -1119,6 +1412,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2023-01",
+      "countryIsoCode": "HR",
+      "countryIsoCodes": [
+        "HR",
+      ],
     },
     "HTG": {
       "isoCode": "HTG",
@@ -1136,6 +1433,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "HT",
+      "countryIsoCodes": [
+        "HT",
+      ],
     },
     "HUF": {
       "isoCode": "HUF",
@@ -1153,6 +1454,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "HU",
+      "countryIsoCodes": [
+        "HU",
+      ],
     },
     "IDR": {
       "isoCode": "IDR",
@@ -1170,6 +1475,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ID",
+      "countryIsoCodes": [
+        "ID",
+      ],
     },
     "ILS": {
       "isoCode": "ILS",
@@ -1187,6 +1496,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "IL",
+      "countryIsoCodes": [
+        "IL",
+      ],
     },
     "IMP": {
       "isoCode": "IMP",
@@ -1206,6 +1519,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "IM",
+      "countryIsoCodes": [
+        "IM",
+      ],
     },
     "INR": {
       "isoCode": "INR",
@@ -1224,6 +1541,11 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "IN",
+      "countryIsoCodes": [
+        "BT",
+        "IN",
+      ],
     },
     "IQD": {
       "isoCode": "IQD",
@@ -1241,6 +1563,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "IQ",
+      "countryIsoCodes": [
+        "IQ",
+      ],
     },
     "IRR": {
       "isoCode": "IRR",
@@ -1258,6 +1584,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "IR",
+      "countryIsoCodes": [
+        "IR",
+      ],
     },
     "IRT": {
       "isoCode": "IRT",
@@ -1278,6 +1608,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "IR",
+      "countryIsoCodes": [
+        "IR",
+      ],
     },
     "ISK": {
       "isoCode": "ISK",
@@ -1295,6 +1629,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "IS",
+      "countryIsoCodes": [
+        "IS",
+      ],
     },
     "JEP": {
       "isoCode": "JEP",
@@ -1314,6 +1652,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": "JE",
+      "countryIsoCodes": [
+        "JE",
+      ],
     },
     "JMD": {
       "isoCode": "JMD",
@@ -1331,6 +1673,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "JM",
+      "countryIsoCodes": [
+        "JM",
+      ],
     },
     "JOD": {
       "isoCode": "JOD",
@@ -1348,6 +1694,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "JO",
+      "countryIsoCodes": [
+        "JO",
+      ],
     },
     "JPY": {
       "isoCode": "JPY",
@@ -1365,6 +1715,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "JP",
+      "countryIsoCodes": [
+        "JP",
+      ],
     },
     "KES": {
       "isoCode": "KES",
@@ -1382,6 +1736,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KE",
+      "countryIsoCodes": [
+        "KE",
+      ],
     },
     "KGS": {
       "isoCode": "KGS",
@@ -1399,6 +1757,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KG",
+      "countryIsoCodes": [
+        "KG",
+      ],
     },
     "KHR": {
       "isoCode": "KHR",
@@ -1416,6 +1778,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KH",
+      "countryIsoCodes": [
+        "KH",
+      ],
     },
     "KMF": {
       "isoCode": "KMF",
@@ -1433,6 +1799,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KM",
+      "countryIsoCodes": [
+        "KM",
+      ],
     },
     "KPW": {
       "isoCode": "KPW",
@@ -1450,6 +1820,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KP",
+      "countryIsoCodes": [
+        "KP",
+      ],
     },
     "KRW": {
       "isoCode": "KRW",
@@ -1467,6 +1841,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KR",
+      "countryIsoCodes": [
+        "KR",
+      ],
     },
     "KWD": {
       "isoCode": "KWD",
@@ -1484,6 +1862,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KW",
+      "countryIsoCodes": [
+        "KW",
+      ],
     },
     "KYD": {
       "isoCode": "KYD",
@@ -1501,6 +1883,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KY",
+      "countryIsoCodes": [
+        "KY",
+      ],
     },
     "KZT": {
       "isoCode": "KZT",
@@ -1518,6 +1904,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "KZ",
+      "countryIsoCodes": [
+        "KZ",
+      ],
     },
     "LAK": {
       "isoCode": "LAK",
@@ -1535,6 +1925,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LA",
+      "countryIsoCodes": [
+        "LA",
+      ],
     },
     "LBP": {
       "isoCode": "LBP",
@@ -1552,6 +1946,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LB",
+      "countryIsoCodes": [
+        "LB",
+      ],
     },
     "LKR": {
       "isoCode": "LKR",
@@ -1569,6 +1967,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LK",
+      "countryIsoCodes": [
+        "LK",
+      ],
     },
     "LRD": {
       "isoCode": "LRD",
@@ -1586,6 +1988,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LR",
+      "countryIsoCodes": [
+        "LR",
+      ],
     },
     "LSL": {
       "isoCode": "LSL",
@@ -1603,6 +2009,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LS",
+      "countryIsoCodes": [
+        "LS",
+      ],
     },
     "LTL": {
       "isoCode": "LTL",
@@ -1620,6 +2030,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2014-12",
+      "countryIsoCode": "LT",
+      "countryIsoCodes": [
+        "LT",
+      ],
     },
     "LVL": {
       "isoCode": "LVL",
@@ -1637,6 +2051,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2014-01",
+      "countryIsoCode": "LV",
+      "countryIsoCodes": [
+        "LV",
+      ],
     },
     "LYD": {
       "isoCode": "LYD",
@@ -1654,6 +2072,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "LY",
+      "countryIsoCodes": [
+        "LY",
+      ],
     },
     "MAD": {
       "isoCode": "MAD",
@@ -1672,6 +2094,11 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MA",
+      "countryIsoCodes": [
+        "EH",
+        "MA",
+      ],
     },
     "MDL": {
       "isoCode": "MDL",
@@ -1689,6 +2116,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MD",
+      "countryIsoCodes": [
+        "MD",
+      ],
     },
     "MGA": {
       "isoCode": "MGA",
@@ -1706,6 +2137,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MG",
+      "countryIsoCodes": [
+        "MG",
+      ],
     },
     "MKD": {
       "isoCode": "MKD",
@@ -1723,6 +2158,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MK",
+      "countryIsoCodes": [
+        "MK",
+      ],
     },
     "MMK": {
       "isoCode": "MMK",
@@ -1740,6 +2179,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MM",
+      "countryIsoCodes": [
+        "MM",
+      ],
     },
     "MNT": {
       "isoCode": "MNT",
@@ -1757,6 +2200,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MN",
+      "countryIsoCodes": [
+        "MN",
+      ],
     },
     "MOP": {
       "isoCode": "MOP",
@@ -1774,6 +2221,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MO",
+      "countryIsoCodes": [
+        "MO",
+      ],
     },
     "MRO": {
       "isoCode": "MRO",
@@ -1791,6 +2242,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2017-12",
+      "countryIsoCode": "MR",
+      "countryIsoCodes": [
+        "MR",
+      ],
     },
     "MRU": {
       "isoCode": "MRU",
@@ -1798,16 +2253,20 @@ class CurrencyRepo {
       "officialName": "Ouguiya",
       "aliases": [],
       "numericCode": 929,
-      "currencySymbol": null,
+      "currencySymbol": "UM",
       "territory": "MAURITANIA",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇲🇷",
       "territories": [
         "MAURITANIA",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MR",
+      "countryIsoCodes": [
+        "MR",
+      ],
     },
     "MUR": {
       "isoCode": "MUR",
@@ -1825,6 +2284,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MU",
+      "countryIsoCodes": [
+        "MU",
+      ],
     },
     "MVR": {
       "isoCode": "MVR",
@@ -1842,6 +2305,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MV",
+      "countryIsoCodes": [
+        "MV",
+      ],
     },
     "MWK": {
       "isoCode": "MWK",
@@ -1859,6 +2326,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MW",
+      "countryIsoCodes": [
+        "MW",
+      ],
     },
     "MXN": {
       "isoCode": "MXN",
@@ -1876,6 +2347,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MX",
+      "countryIsoCodes": [
+        "MX",
+      ],
     },
     "MYR": {
       "isoCode": "MYR",
@@ -1893,6 +2368,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MY",
+      "countryIsoCodes": [
+        "MY",
+      ],
     },
     "MZN": {
       "isoCode": "MZN",
@@ -1910,6 +2389,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "MZ",
+      "countryIsoCodes": [
+        "MZ",
+      ],
     },
     "NAD": {
       "isoCode": "NAD",
@@ -1927,6 +2410,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NA",
+      "countryIsoCodes": [
+        "NA",
+      ],
     },
     "NGN": {
       "isoCode": "NGN",
@@ -1944,6 +2431,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NG",
+      "countryIsoCodes": [
+        "NG",
+      ],
     },
     "NIO": {
       "isoCode": "NIO",
@@ -1961,6 +2452,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NI",
+      "countryIsoCodes": [
+        "NI",
+      ],
     },
     "NOK": {
       "isoCode": "NOK",
@@ -1980,6 +2475,12 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NO",
+      "countryIsoCodes": [
+        "BV",
+        "NO",
+        "SJ",
+      ],
     },
     "NPR": {
       "isoCode": "NPR",
@@ -1997,6 +2498,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NP",
+      "countryIsoCodes": [
+        "NP",
+      ],
     },
     "NZD": {
       "isoCode": "NZD",
@@ -2018,6 +2523,14 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "NZ",
+      "countryIsoCodes": [
+        "CK",
+        "NU",
+        "NZ",
+        "PN",
+        "TK",
+      ],
     },
     "OMR": {
       "isoCode": "OMR",
@@ -2035,6 +2548,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "OM",
+      "countryIsoCodes": [
+        "OM",
+      ],
     },
     "PAB": {
       "isoCode": "PAB",
@@ -2052,6 +2569,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PA",
+      "countryIsoCodes": [
+        "PA",
+      ],
     },
     "PEN": {
       "isoCode": "PEN",
@@ -2071,6 +2592,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PE",
+      "countryIsoCodes": [
+        "PE",
+      ],
     },
     "PGK": {
       "isoCode": "PGK",
@@ -2088,6 +2613,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PG",
+      "countryIsoCodes": [
+        "PG",
+      ],
     },
     "PHP": {
       "isoCode": "PHP",
@@ -2105,6 +2634,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PH",
+      "countryIsoCodes": [
+        "PH",
+      ],
     },
     "PKR": {
       "isoCode": "PKR",
@@ -2122,6 +2655,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PK",
+      "countryIsoCodes": [
+        "PK",
+      ],
     },
     "PLN": {
       "isoCode": "PLN",
@@ -2139,6 +2676,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PL",
+      "countryIsoCodes": [
+        "PL",
+      ],
     },
     "PYG": {
       "isoCode": "PYG",
@@ -2156,6 +2697,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PY",
+      "countryIsoCodes": [
+        "PY",
+      ],
     },
     "QAR": {
       "isoCode": "QAR",
@@ -2173,6 +2718,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "QA",
+      "countryIsoCodes": [
+        "QA",
+      ],
     },
     "RON": {
       "isoCode": "RON",
@@ -2190,6 +2739,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "RO",
+      "countryIsoCodes": [
+        "RO",
+      ],
     },
     "RSD": {
       "isoCode": "RSD",
@@ -2207,6 +2760,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "RS",
+      "countryIsoCodes": [
+        "RS",
+      ],
     },
     "RUB": {
       "isoCode": "RUB",
@@ -2224,6 +2781,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "RU",
+      "countryIsoCodes": [
+        "RU",
+      ],
     },
     "RUP": {
       "isoCode": "RUP",
@@ -2243,6 +2804,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": null,
+      "countryIsoCodes": [
+        "MD",
+      ],
     },
     "RWF": {
       "isoCode": "RWF",
@@ -2260,6 +2825,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "RW",
+      "countryIsoCodes": [
+        "RW",
+      ],
     },
     "SAR": {
       "isoCode": "SAR",
@@ -2277,6 +2846,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SA",
+      "countryIsoCodes": [
+        "SA",
+      ],
     },
     "SBD": {
       "isoCode": "SBD",
@@ -2294,6 +2867,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SB",
+      "countryIsoCodes": [
+        "SB",
+      ],
     },
     "SCR": {
       "isoCode": "SCR",
@@ -2311,6 +2888,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SC",
+      "countryIsoCodes": [
+        "SC",
+      ],
     },
     "SDG": {
       "isoCode": "SDG",
@@ -2328,6 +2909,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SD",
+      "countryIsoCodes": [
+        "SD",
+      ],
     },
     "SEK": {
       "isoCode": "SEK",
@@ -2345,6 +2930,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SE",
+      "countryIsoCodes": [
+        "SE",
+      ],
     },
     "SGD": {
       "isoCode": "SGD",
@@ -2362,6 +2951,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SG",
+      "countryIsoCodes": [
+        "SG",
+      ],
     },
     "SHP": {
       "isoCode": "SHP",
@@ -2379,6 +2972,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SH",
+      "countryIsoCodes": [
+        "SH",
+      ],
     },
     "SLE": {
       "isoCode": "SLE",
@@ -2386,16 +2983,20 @@ class CurrencyRepo {
       "officialName": "Leone",
       "aliases": [],
       "numericCode": 925,
-      "currencySymbol": null,
+      "currencySymbol": "NLe",
       "territory": "SIERRA LEONE",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇸🇱",
       "territories": [
         "SIERRA LEONE",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SL",
+      "countryIsoCodes": [
+        "SL",
+      ],
     },
     "SLL": {
       "isoCode": "SLL",
@@ -2413,6 +3014,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2023-12",
+      "countryIsoCode": "SL",
+      "countryIsoCodes": [
+        "SL",
+      ],
     },
     "SLS": {
       "isoCode": "SLS",
@@ -2432,6 +3037,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "nonIso",
       "withdrawalDate": null,
+      "countryIsoCode": null,
+      "countryIsoCodes": [
+        "SO",
+      ],
     },
     "SOS": {
       "isoCode": "SOS",
@@ -2449,6 +3058,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SO",
+      "countryIsoCodes": [
+        "SO",
+      ],
     },
     "SRD": {
       "isoCode": "SRD",
@@ -2466,6 +3079,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SR",
+      "countryIsoCodes": [
+        "SR",
+      ],
     },
     "SSP": {
       "isoCode": "SSP",
@@ -2483,6 +3100,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SS",
+      "countryIsoCodes": [
+        "SS",
+      ],
     },
     "STD": {
       "isoCode": "STD",
@@ -2500,6 +3121,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2017-12",
+      "countryIsoCode": "ST",
+      "countryIsoCodes": [
+        "ST",
+      ],
     },
     "STN": {
       "isoCode": "STN",
@@ -2507,16 +3132,20 @@ class CurrencyRepo {
       "officialName": "Dobra",
       "aliases": [],
       "numericCode": 930,
-      "currencySymbol": null,
+      "currencySymbol": "Db",
       "territory": "SAO TOME AND PRINCIPE",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇸🇹",
       "territories": [
         "SAO TOME AND PRINCIPE",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ST",
+      "countryIsoCodes": [
+        "ST",
+      ],
     },
     "SVC": {
       "isoCode": "SVC",
@@ -2524,16 +3153,20 @@ class CurrencyRepo {
       "officialName": "El Salvador Colon",
       "aliases": [],
       "numericCode": 222,
-      "currencySymbol": null,
+      "currencySymbol": "₡",
       "territory": "EL SALVADOR",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇸🇻",
       "territories": [
         "EL SALVADOR",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SV",
+      "countryIsoCodes": [
+        "SV",
+      ],
     },
     "SYP": {
       "isoCode": "SYP",
@@ -2551,6 +3184,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SY",
+      "countryIsoCodes": [
+        "SY",
+      ],
     },
     "SZL": {
       "isoCode": "SZL",
@@ -2568,6 +3205,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "SZ",
+      "countryIsoCodes": [
+        "SZ",
+      ],
     },
     "THB": {
       "isoCode": "THB",
@@ -2585,6 +3226,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TH",
+      "countryIsoCodes": [
+        "TH",
+      ],
     },
     "TJS": {
       "isoCode": "TJS",
@@ -2602,6 +3247,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TJ",
+      "countryIsoCodes": [
+        "TJ",
+      ],
     },
     "TMT": {
       "isoCode": "TMT",
@@ -2619,6 +3268,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TM",
+      "countryIsoCodes": [
+        "TM",
+      ],
     },
     "TND": {
       "isoCode": "TND",
@@ -2636,6 +3289,10 @@ class CurrencyRepo {
       "minorUnit": 3,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TN",
+      "countryIsoCodes": [
+        "TN",
+      ],
     },
     "TOP": {
       "isoCode": "TOP",
@@ -2653,6 +3310,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TO",
+      "countryIsoCodes": [
+        "TO",
+      ],
     },
     "TRY": {
       "isoCode": "TRY",
@@ -2670,6 +3331,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TR",
+      "countryIsoCodes": [
+        "TR",
+      ],
     },
     "TTD": {
       "isoCode": "TTD",
@@ -2687,6 +3352,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TT",
+      "countryIsoCodes": [
+        "TT",
+      ],
     },
     "TWD": {
       "isoCode": "TWD",
@@ -2704,6 +3373,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TW",
+      "countryIsoCodes": [
+        "TW",
+      ],
     },
     "TZS": {
       "isoCode": "TZS",
@@ -2721,6 +3394,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "TZ",
+      "countryIsoCodes": [
+        "TZ",
+      ],
     },
     "UAH": {
       "isoCode": "UAH",
@@ -2738,6 +3415,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "UA",
+      "countryIsoCodes": [
+        "UA",
+      ],
     },
     "UGX": {
       "isoCode": "UGX",
@@ -2755,6 +3436,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "UG",
+      "countryIsoCodes": [
+        "UG",
+      ],
     },
     "USD": {
       "isoCode": "USD",
@@ -2791,6 +3476,28 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "US",
+      "countryIsoCodes": [
+        "AS",
+        "BQ",
+        "EC",
+        "FM",
+        "GU",
+        "HT",
+        "IO",
+        "MH",
+        "MP",
+        "PA",
+        "PR",
+        "PW",
+        "SV",
+        "TC",
+        "TL",
+        "UM",
+        "US",
+        "VG",
+        "VI",
+      ],
     },
     "UYU": {
       "isoCode": "UYU",
@@ -2808,6 +3515,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "UY",
+      "countryIsoCodes": [
+        "UY",
+      ],
     },
     "UZS": {
       "isoCode": "UZS",
@@ -2825,6 +3536,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "UZ",
+      "countryIsoCodes": [
+        "UZ",
+      ],
     },
     "VED": {
       "isoCode": "VED",
@@ -2832,16 +3547,20 @@ class CurrencyRepo {
       "officialName": "Bolívar Soberano",
       "aliases": [],
       "numericCode": 926,
-      "currencySymbol": null,
+      "currencySymbol": "Bs.",
       "territory": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇻🇪",
       "territories": [
         "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "VE",
+      "countryIsoCodes": [
+        "VE",
+      ],
     },
     "VEF": {
       "isoCode": "VEF",
@@ -2860,6 +3579,10 @@ class CurrencyRepo {
       "minorUnit": null,
       "status": "historical",
       "withdrawalDate": "2018-08",
+      "countryIsoCode": "VE",
+      "countryIsoCodes": [
+        "VE",
+      ],
     },
     "VES": {
       "isoCode": "VES",
@@ -2867,16 +3590,20 @@ class CurrencyRepo {
       "officialName": "Bolívar Soberano",
       "aliases": [],
       "numericCode": 928,
-      "currencySymbol": null,
+      "currencySymbol": "Bs.",
       "territory": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇻🇪",
       "territories": [
         "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "VE",
+      "countryIsoCodes": [
+        "VE",
+      ],
     },
     "VND": {
       "isoCode": "VND",
@@ -2894,6 +3621,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "VN",
+      "countryIsoCodes": [
+        "VN",
+      ],
     },
     "VUV": {
       "isoCode": "VUV",
@@ -2911,6 +3642,10 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "VU",
+      "countryIsoCodes": [
+        "VU",
+      ],
     },
     "WST": {
       "isoCode": "WST",
@@ -2928,6 +3663,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "WS",
+      "countryIsoCodes": [
+        "WS",
+      ],
     },
     "XAF": {
       "isoCode": "XAF",
@@ -2951,6 +3690,15 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CF",
+      "countryIsoCodes": [
+        "CF",
+        "CG",
+        "CM",
+        "GA",
+        "GQ",
+        "TD",
+      ],
     },
     "XCD": {
       "isoCode": "XCD",
@@ -2976,6 +3724,17 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "AI",
+      "countryIsoCodes": [
+        "AG",
+        "AI",
+        "DM",
+        "GD",
+        "KN",
+        "LC",
+        "MS",
+        "VC",
+      ],
     },
     "XCG": {
       "isoCode": "XCG",
@@ -2986,7 +3745,7 @@ class CurrencyRepo {
       "currencySymbol": "Cg",
       "territory": "CURAÇAO, SINT MAARTEN (DUTCH PART)",
       "fractionalUnit": "Cent",
-      "flag": null,
+      "flag": "🇨🇼",
       "territories": [
         "CURAÇAO",
         "SINT MAARTEN (DUTCH PART)",
@@ -2994,6 +3753,11 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "CW",
+      "countryIsoCodes": [
+        "CW",
+        "SX",
+      ],
     },
     "XOF": {
       "isoCode": "XOF",
@@ -3019,6 +3783,17 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "BJ",
+      "countryIsoCodes": [
+        "BF",
+        "BJ",
+        "CI",
+        "GW",
+        "ML",
+        "NE",
+        "SN",
+        "TG",
+      ],
     },
     "XPF": {
       "isoCode": "XPF",
@@ -3038,6 +3813,12 @@ class CurrencyRepo {
       "minorUnit": 0,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "PF",
+      "countryIsoCodes": [
+        "NC",
+        "PF",
+        "WF",
+      ],
     },
     "YER": {
       "isoCode": "YER",
@@ -3055,6 +3836,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "YE",
+      "countryIsoCodes": [
+        "YE",
+      ],
     },
     "ZAR": {
       "isoCode": "ZAR",
@@ -3074,6 +3859,12 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ZA",
+      "countryIsoCodes": [
+        "LS",
+        "NA",
+        "ZA",
+      ],
     },
     "ZMW": {
       "isoCode": "ZMW",
@@ -3091,6 +3882,10 @@ class CurrencyRepo {
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ZM",
+      "countryIsoCodes": [
+        "ZM",
+      ],
     },
     "ZWG": {
       "isoCode": "ZWG",
@@ -3098,16 +3893,20 @@ class CurrencyRepo {
       "officialName": "Zimbabwe Gold",
       "aliases": [],
       "numericCode": 924,
-      "currencySymbol": null,
+      "currencySymbol": "ZiG",
       "territory": "ZIMBABWE",
       "fractionalUnit": null,
-      "flag": null,
+      "flag": "🇿🇼",
       "territories": [
         "ZIMBABWE",
       ],
       "minorUnit": 2,
       "status": "current",
       "withdrawalDate": null,
+      "countryIsoCode": "ZW",
+      "countryIsoCodes": [
+        "ZW",
+      ],
     },
   };
 }

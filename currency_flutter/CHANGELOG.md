@@ -1,3 +1,11 @@
+## 0.5.0
+
+* Add the searchable CurrencyPicker widget and showCurrencyPicker dialog.
+* Support controlled selection, localized names, flags, historical and non-ISO filters.
+* Update the example with a picker and cover small screens with the keyboard open.
+* Breaking: use currency_dart 0.5.0 with CurrencyRepository and the Currency model.
+* Include completed symbols, flags and country-code metadata from the core package.
+
 ## 0.4.0
 
 * Use short currency codes as record keys and isoCode as the single stored identifier.
