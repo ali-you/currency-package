@@ -1,3 +1,12 @@
+## 0.6.2
+
+* Add all nine non-ISO currency names to 59 additional locale maps, including
+  Simplified/Traditional Chinese and Cantonese.
+* Resolve Chinese regional tags to the appropriate Simplified/Traditional parents.
+* Test non-ISO short and descriptive identifiers, regional inheritance and scripts.
+* Add a native-coverage audit with per-locale missing-code JSON output.
+* Reach complete non-ISO coverage in 367 supported locales after inheritance.
+
 ## 0.6.1
 
 * Add 374 localized labels across 325 locale maps, including SVC and VED.

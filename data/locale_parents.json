@@ -195,6 +195,11 @@
   "wo-Arab": "und",
   "yo-Arab": "und",
   "yue-Hans": "und",
+  "zh-CN": "zh-Hans",
+  "zh-HK": "zh-Hant-HK",
   "zh-Hant": "und",
-  "zh-Hant-MO": "zh-Hant-HK"
+  "zh-Hant-MO": "zh-Hant-HK",
+  "zh-MO": "zh-Hant-MO",
+  "zh-SG": "zh-Hans-SG",
+  "zh-TW": "zh-Hant"
 }

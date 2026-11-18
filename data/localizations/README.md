@@ -21,8 +21,10 @@ names and parent mappings. The project maintains the compact maps independently.
 The derived data's Unicode License V3 notice remains in
 `currency_localization/third_party/UNICODE_LICENSE.txt`.
 
-Custom codes use the same map structure. Nine curated entries have English,
-Persian and Arabic project translations; other languages use fallback.
+Custom codes use the same map structure. All nine curated entries have project translations in English, Persian, Arabic
+and 59 additional locale maps, including Simplified/Traditional Chinese and
+Cantonese. Regional locales inherit these names through their language/script
+parents. Untranslated languages continue to use normal fallback.
 
 Locale maps use the three-letter isoCode field as their key, including project
 codes such as IRT for nonIso records. Descriptive identifiers are resolved as
@@ -35,3 +37,19 @@ translations are maintained in the language maps and inherited by regional
 locales. Other gaps retain normal locale and English fallback; an English
 fallback is not recorded as a native translation. The generator requires a
 complete English map so supported currencies never fall back to a bare code.
+
+Chinese regional tags `zh-CN` and `zh-SG` resolve to Simplified Chinese parents;
+`zh-TW`, `zh-HK` and `zh-MO` resolve to Traditional Chinese parents.
+
+Audit effective coverage after parent-locale inheritance from `currency_localization`:
+
+```sh
+dart run tool/audit.dart
+dart run tool/audit.dart --json
+```
+
+The audit uses `lookup`, which excludes configured and English fallback. Its JSON
+output lists missing native names and missing non-ISO codes for every locale.
+Currently 367 of 657 locales resolve all nine non-ISO names without English
+fallback. Unsupported native translations remain omitted rather than being
+recorded as English translations.

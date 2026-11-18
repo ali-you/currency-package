@@ -101,9 +101,18 @@ ISO 4217 codes. Check status before treating any code as an ISO identifier.
 Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
 `تومان ایران`. `supportedCurrencyCodes` lists the short identifiers used in the JSON files;
 descriptive identifiers are accepted as backward-compatible aliases. Numeric ISO codes remain null for nonIso.
-English, Persian and Arabic names are provided; other locales use fallback.
+Non-ISO names are provided in English, Persian, Arabic, Simplified and Traditional
+Chinese, and additional language maps; untranslated locales use normal fallback.
 Historical entries remain opt-in. Conversion rules are not supplied.
 
 Currency JSON stores only `isoCode`; each record key has the same value.
 The Dart model requires a non-null `isoCode`. Project
 short codes remain marked `nonIso`. Localizations use the same short keys.
+
+## Auditing translation coverage
+
+Run `dart run tool/audit.dart` for effective coverage after locale inheritance,
+or add `--json` to list missing native currency names per locale. This excludes
+English fallback, unlike `name()`. All nine non-ISO names currently resolve in
+367 supported locales through native language/script maps; other locales retain
+normal fallback.

@@ -217,8 +217,8 @@ in default lists; historical records remain opt-in. Custom records and review
 sources are maintained in `data/currencies/custom_currencies.json` and
 `data/currencies/custom_currency_sources.json` and survive ISO refreshes. Local issuer
 status does not imply international recognition. No conversion or
-redenomination rules are supplied. English, Persian and Arabic names are
-project translations; other locales use normal fallback.
+redenomination rules are supplied. Non-ISO project translations cover English, Persian, Arabic, Simplified and
+Traditional Chinese, and additional language maps; untranslated locales use normal fallback.
 
 ## Currency visibility
 

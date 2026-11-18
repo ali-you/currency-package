@@ -19,7 +19,16 @@ void main() {
       'CHI': 'CHIEMGAUER'
     };
     for (final entry in aliases.entries) {
-      for (final locale in ['en', 'fa', 'ar', 'zz']) {
+      for (final locale in [
+        'en',
+        'fa',
+        'ar',
+        'zh',
+        'zh-Hans-SG',
+        'zh-Hant-HK',
+        'yue',
+        'zz'
+      ]) {
         expect(names.name(' ${entry.key.toLowerCase()} ', locale: locale),
             names.name(entry.value, locale: locale));
       }
@@ -59,11 +68,148 @@ void main() {
         names.name('USD', locale: 'hi-Latn'));
   });
 
+  test('non-ISO currencies have native names in expanded language maps', () {
+    const codes = [
+      'CHI',
+      'EUS',
+      'FOK',
+      'GGP',
+      'IMP',
+      'IRT',
+      'JEP',
+      'RUP',
+      'SLS'
+    ];
+    for (final locale in [
+      'zh',
+      'zh-Hans',
+      'zh-Hans-CN',
+      'zh-Hans-SG',
+      'zh-CN',
+      'zh-Hant',
+      'zh-Hant-HK',
+      'zh-Hant-MO',
+      'zh-TW',
+      'yue',
+      'yue-Hans',
+      'yue-Hant',
+      'yue-Hant-MO',
+      'de',
+      'fr',
+      'es',
+      'pt',
+      'it',
+      'ru',
+      'ja',
+      'ko',
+      'hi',
+      'tr',
+      'nl',
+      'pl',
+      'uk',
+      'id',
+      'ms',
+      'vi',
+      'bn',
+      'ur',
+      ...names.supportedLocales.where(
+          (locale) => locale.startsWith('zh') || locale.startsWith('yue')),
+    ]) {
+      for (final code in codes) {
+        expect(names.lookup(code, locale: locale), isNotNull,
+            reason: '$locale/$code should not need English fallback');
+      }
+    }
+    expect(names.name('TOMAN', locale: 'zh'), '伊朗土曼');
+    expect(names.name('IRT', locale: 'zh-Hant'), '伊朗土曼');
+    expect(names.name('GGP', locale: 'zh-Hans-SG'), '根西镑');
+    expect(names.name('GGP', locale: 'zh-Hant-HK'), '根西鎊');
+    expect(names.name('GGP', locale: 'zh_TW'), '根西鎊');
+    expect(names.name('GGP', locale: 'zh-HK'), '根西鎊');
+    expect(names.name('GGP', locale: 'zh-MO'), '根西鎊');
+    expect(names.name('GGP', locale: 'zh-CN'), '根西镑');
+    expect(names.name('GGP', locale: 'zh-SG'), '根西镑');
+    expect(names.name('RUP', locale: 'zh-Hans'), '德涅斯特河沿岸卢布');
+    expect(names.name('RUP', locale: 'zh-Hant'), '德涅斯特河沿岸盧布');
+  });
+
   test('explicit script parents prevent falling into the wrong script', () {
     expect(names.lookup('VED', locale: 'az'), isNotNull);
     expect(names.lookup('VED', locale: 'az-Cyrl'), isNull);
     expect(
         names.name('VED', locale: 'az-Cyrl'), names.name('VED', locale: 'en'));
+  });
+
+  test('additional non-ISO translations cover language and script variants',
+      () {
+    const codes = [
+      'CHI',
+      'EUS',
+      'FOK',
+      'GGP',
+      'IMP',
+      'IRT',
+      'JEP',
+      'RUP',
+      'SLS'
+    ];
+    for (final locale in [
+      'af',
+      'bg',
+      'bs',
+      'ca',
+      'cs',
+      'da',
+      'el',
+      'eo',
+      'et',
+      'fi',
+      'fil',
+      'he',
+      'hr',
+      'hu',
+      'is',
+      'lt',
+      'lv',
+      'nb',
+      'nn',
+      'no',
+      'ro',
+      'sk',
+      'sl',
+      'sq',
+      'sr',
+      'sr-Latn',
+      'sv',
+      'sw',
+      'gu',
+      'mr',
+      'ne',
+      'pa',
+      'kn',
+      'ml',
+      'ta',
+      'te',
+      'th',
+      'ca-ES-valencia',
+      'sr-Cyrl-BA',
+      'sr-Latn-ME',
+      'sw-KE',
+      'pa-Guru',
+      'nb-SJ',
+      'ta-SG',
+      'fil-PH',
+    ]) {
+      for (final code in codes) {
+        expect(names.lookup(code, locale: locale), isNotNull,
+            reason: '$locale/$code should not need English fallback');
+      }
+    }
+    expect(names.name('IRT', locale: 'sr-Cyrl'), 'Ирански томан');
+    expect(names.name('IRT', locale: 'sr-Latn'), 'Iranski toman');
+    expect(names.name('TOMAN', locale: 'fr-CA'), 'toman iranien');
+    expect(names.name('TOMAN', locale: 'es-AR'), 'tomán iraní');
+    expect(names.name('TOMAN', locale: 'pt-AO'), 'toman iraniano');
   });
 
   test('returns localized display names in English, Persian and Arabic', () {
@@ -90,9 +236,10 @@ void main() {
   });
 
   test('missing names fall back per currency rather than just per locale', () {
-    expect(names.supportsLocale('de'), isTrue);
-    expect(names.lookup('IRT', locale: 'de'), isNull);
-    expect(names.name('IRT', locale: 'de'), names.lookup('IRT', locale: 'en'));
+    expect(names.supportsLocale('az-Cyrl'), isTrue);
+    expect(names.lookup('IRT', locale: 'az-Cyrl'), isNull);
+    expect(names.name('IRT', locale: 'az-Cyrl'),
+        names.lookup('IRT', locale: 'en'));
   });
 
   test('all currencies have native names in English, Persian and Arabic', () {

@@ -82,7 +82,8 @@ ISO 4217 codes. Check status before treating any code as an ISO identifier.
 Localization accepts either form: `names.name('IRT', locale: 'fa')` displays
 `تومان ایران`. `supportedCurrencyCodes` lists the three-letter identifiers;
 descriptive aliases are accepted by lookups. Numeric ISO codes remain null for nonIso.
-English, Persian and Arabic names are provided; other locales use fallback.
+Non-ISO names are provided in English, Persian, Arabic, Simplified and Traditional
+Chinese, and additional language maps; untranslated locales use normal fallback.
 Historical entries remain opt-in. Conversion rules are not supplied.
 
 ## Currency visibility
