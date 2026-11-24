@@ -64,6 +64,28 @@ class CurrencyRepository {
     return currency?.isoCode == isoCode.trim().toUpperCase() ? currency : null;
   }
 
+  /// Returns the default display symbol for an ISO or project short code.
+  /// Uses the same case, whitespace, and visibility rules as [byIsoCode].
+  /// Returns null if the code is unknown, excluded, or has no symbol.
+  String? symbolByIsoCode(
+    String isoCode, {
+    bool historical = false,
+    bool nonIso = true,
+    bool? includeHistorical,
+  }) {
+    final record = CurrencyRepo.currencies[isoCode.trim().toUpperCase()];
+    if (record == null) return null;
+
+    final status = record['status'];
+    if (status == CurrencyStatus.historical.name &&
+        !(includeHistorical ?? historical)) {
+      return null;
+    }
+    if (status == CurrencyStatus.nonIso.name && !nonIso) return null;
+
+    return record['currencySymbol'] as String?;
+  }
+
   /// Exact display, official-name or alias lookup, ignoring whitespace and case.
   /// Missing or ambiguous names return null; prefer ISO codes for ambiguity.
   Currency? byCurrencyName(

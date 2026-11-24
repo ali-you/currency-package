@@ -1,3 +1,7 @@
+## 0.5.1
+
+* Add `CurrencyRepository.symbolByIsoCode` for direct offline symbol lookups.
+
 ## 0.5.0
 
 * Breaking: rename the lookup service from Currency to CurrencyRepository and

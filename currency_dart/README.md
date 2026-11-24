@@ -6,7 +6,7 @@ No Flutter SDK or runtime dependencies are required.
 
 ```yaml
 dependencies:
-  currency_dart: ^0.5.0
+  currency_dart: ^0.5.1
 ```
 
 ```dart
@@ -16,6 +16,7 @@ final currencies = CurrencyRepository();
 final usd = currencies.byIsoCode(' usd ')!;
 print(usd.currencyName); // United States dollar
 print(usd.minorUnit); // 2
+print(currencies.symbolByIsoCode(' usd ')); // $
 print(currencies.byCurrencyName('unknown')); // null
 print(currencies.byIsoCode('ALL')!.numericCodeString); // 008
 final current = currencies.getAllCurrencies();
@@ -39,6 +40,8 @@ exponent, or null when not applicable. `fractionalUnit` is an optional unit name
 Symbols and representative flags are optional supplemental annotations, not
 ISO-verified or exhaustive territory mappings. Null means unknown or not
 applicable. This package does not provide exchange rates or monetary formatting.
+`symbolByIsoCode` returns the default display symbol and follows the same
+visibility rules as `byIsoCode`.
 
 The data is generated from the repository's `data/currencies/currency.json`. Source snapshots,
 publication dates and hashes are tracked in the

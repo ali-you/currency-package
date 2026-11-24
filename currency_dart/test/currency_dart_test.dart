@@ -90,6 +90,24 @@ void main() {
     expect(currency.byIsoCode(''), isNull);
   });
 
+  test('symbol lookup uses normalized short codes and respects visibility', () {
+    expect(currency.symbolByIsoCode(' usd '), r'$');
+    expect(currency.symbolByIsoCode('EUR'), '€');
+    expect(currency.symbolByIsoCode('ZZZ'), isNull);
+    expect(currency.symbolByIsoCode(''), isNull);
+    expect(currency.symbolByIsoCode('TOMAN'), isNull);
+    expect(currency.symbolByIsoCode('IRT'), 'تومان');
+    expect(currency.symbolByIsoCode('IRT', nonIso: false), isNull);
+    expect(currency.symbolByIsoCode('BGN'), isNull);
+    expect(currency.symbolByIsoCode('BGN', historical: true), 'лв.');
+    expect(currency.symbolByIsoCode('BGN', includeHistorical: true), 'лв.');
+    expect(
+      currency.symbolByIsoCode('BGN',
+          historical: true, includeHistorical: false),
+      isNull,
+    );
+  });
+
   test('name lookups normalize input and handle missing and ambiguous names',
       () {
     expect(currency.byCurrencyName(' United States DOLLAR ')!.isoCode, 'USD');
